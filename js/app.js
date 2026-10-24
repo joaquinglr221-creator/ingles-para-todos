@@ -419,8 +419,12 @@ function viewExplicacion(tema) {
     </div>`;
 }
 
+// Imágenes de Canva (scripts/importar_imagenes_canva.py), por texto en inglés.
+const FOTOS = typeof IMAGENES !== "undefined" ? IMAGENES : {};
+
 function viewVocabulario(tema) {
-  const fila = (w) => `<div class="line"><div class="grow"><p class="en">${esc(w.en)}</p><p class="es">${esc(w.es)}</p></div>${speakButtons(w.en)}</div>`;
+  const foto = (w) => (FOTOS[w.en] ? `<img class="thumb" src="${esc(FOTOS[w.en])}" alt="" loading="lazy" data-zoom="${esc(w.en)}">` : "");
+  const fila = (w) => `<div class="line">${foto(w)}<div class="grow"><p class="en">${esc(w.en)}</p><p class="es">${esc(w.es)}</p></div>${speakButtons(w.en)}</div>`;
   return `
     <div class="card"><h2>Vocabulario</h2>${tema.vocabulario.map(fila).join("")}</div>
     <div class="card"><h2>Ejemplos</h2>${tema.ejemplos.map(fila).join("")}</div>`;
@@ -637,6 +641,19 @@ document.addEventListener("keydown", (e) => {
 document.addEventListener("click", (e) => {
   const speakBtn = e.target.closest("[data-speak]");
   if (speakBtn) return speak(speakBtn.dataset.speak, speakBtn.hasAttribute("data-slow"));
+
+  // Imagen en grande: se abre al tocar la miniatura y se cierra al tocar cualquier parte.
+  const zoom = e.target.closest("[data-zoom]");
+  if (zoom) {
+    const box = document.createElement("div");
+    box.className = "zoom";
+    box.innerHTML = `<img src="${esc(FOTOS[zoom.dataset.zoom])}" alt=""><p>${esc(zoom.dataset.zoom)}</p>`;
+    document.body.appendChild(box);
+    speak(zoom.dataset.zoom);
+    return;
+  }
+  const abierta = e.target.closest(".zoom");
+  if (abierta) return abierta.remove();
 
   const mc = e.target.closest("[data-mc]");
   if (mc) {

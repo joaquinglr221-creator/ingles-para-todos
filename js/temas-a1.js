@@ -1,6 +1,7 @@
 // Temas del nivel A1 (docs/plan-de-estudios.md). Los que todavía no tienen contenido solo llevan título.
 // Partes de cada tema: explicación (español e inglés), vocabulario, ejemplos, listening, lectura,
-// escritura y examen final. En las preguntas de opción múltiple la primera opción es la correcta.
+// escritura y examen final. "imagen" es la idea de qué mostrar en la imagen de Canva
+// (scripts/listas_imagenes.py). En las preguntas de opción múltiple la primera opción es la correcta.
 // En escritura y en el examen, "respuestas" son todas las formas aceptadas (sin importar mayúsculas ni puntuación).
 // Después del "=" el contenido debe ser JSON válido: scripts/generar_audios.py lo lee para grabar los audios.
 const TEMAS_A1 = [
@@ -42,34 +43,34 @@ const TEMAS_A1 = [
       ]
     },
     "vocabulario": [
-      { "en": "Hello", "es": "Hola" },
-      { "en": "Hi", "es": "Hola (informal)" },
-      { "en": "Good morning", "es": "Buenos días" },
-      { "en": "Good afternoon", "es": "Buenas tardes" },
-      { "en": "Good evening", "es": "Buenas noches (al llegar)" },
-      { "en": "Good night", "es": "Buenas noches (al despedirse)" },
-      { "en": "Goodbye", "es": "Adiós" },
-      { "en": "See you later", "es": "Hasta luego" },
-      { "en": "How are you?", "es": "¿Cómo estás?" },
-      { "en": "I'm fine, thank you", "es": "Estoy bien, gracias" },
-      { "en": "My name is…", "es": "Me llamo…" },
-      { "en": "Nice to meet you", "es": "Mucho gusto" },
-      { "en": "This is my friend", "es": "Te presento a mi amigo / amiga" },
-      { "en": "Where are you from?", "es": "¿De dónde eres?" },
-      { "en": "I'm from Mexico", "es": "Soy de México" },
-      { "en": "years old", "es": "años (de edad)" }
+      { "en": "Hello", "es": "Hola", "imagen": "Una persona sonriendo y saludando con la mano" },
+      { "en": "Hi", "es": "Hola (informal)", "imagen": "Dos amigos jóvenes saludándose con la mano de forma casual" },
+      { "en": "Good morning", "es": "Buenos días", "imagen": "Persona estirándose junto a una ventana con el sol saliendo" },
+      { "en": "Good afternoon", "es": "Buenas tardes", "imagen": "Dos vecinos saludándose en la calle a media tarde" },
+      { "en": "Good evening", "es": "Buenas noches (al llegar)", "imagen": "Persona llegando a una cena por la noche y saludando" },
+      { "en": "Good night", "es": "Buenas noches (al despedirse)", "imagen": "Niño en la cama despidiéndose antes de dormir, luna en la ventana" },
+      { "en": "Goodbye", "es": "Adiós", "imagen": "Persona en la puerta diciendo adiós con la mano" },
+      { "en": "See you later", "es": "Hasta luego", "imagen": "Dos compañeros despidiéndose al salir del trabajo" },
+      { "en": "How are you?", "es": "¿Cómo estás?", "imagen": "Dos amigos encontrándose en la calle, uno pregunta con gesto amable" },
+      { "en": "I'm fine, thank you", "es": "Estoy bien, gracias", "imagen": "Persona sonriente con el pulgar arriba" },
+      { "en": "My name is…", "es": "Me llamo…", "imagen": "Persona con un gafete de nombre, presentándose" },
+      { "en": "Nice to meet you", "es": "Mucho gusto", "imagen": "Dos personas dándose la mano al conocerse" },
+      { "en": "This is my friend", "es": "Te presento a mi amigo / amiga", "imagen": "Persona presentando a su amigo a otra persona" },
+      { "en": "Where are you from?", "es": "¿De dónde eres?", "imagen": "Personas de distintos países junto a un globo terráqueo o mapa" },
+      { "en": "I'm from Mexico", "es": "Soy de México", "imagen": "Persona sonriendo junto a la bandera de México" },
+      { "en": "years old", "es": "años (de edad)", "imagen": "Pastel de cumpleaños con velas de números" }
     ],
     "ejemplos": [
-      { "en": "Hi! I'm Sofia.", "es": "¡Hola! Soy Sofía." },
-      { "en": "I'm from Mexico.", "es": "Soy de México." },
-      { "en": "You're very kind.", "es": "Eres muy amable." },
-      { "en": "He's a doctor.", "es": "Él es doctor." },
-      { "en": "She's my sister.", "es": "Ella es mi hermana." },
-      { "en": "It's a nice day.", "es": "Es un día bonito." },
-      { "en": "We're students.", "es": "Somos estudiantes." },
-      { "en": "They're from Canada.", "es": "Son de Canadá." },
-      { "en": "I'm thirty years old.", "es": "Tengo treinta años." },
-      { "en": "We're tired today.", "es": "Hoy estamos cansados." }
+      { "en": "Hi! I'm Sofia.", "es": "¡Hola! Soy Sofía.", "imagen": "Mujer joven saludando y presentándose" },
+      { "en": "I'm from Mexico.", "es": "Soy de México.", "imagen": "Persona señalando México en un mapa" },
+      { "en": "You're very kind.", "es": "Eres muy amable.", "imagen": "Persona ayudando a otra a cargar bolsas, ambas sonriendo" },
+      { "en": "He's a doctor.", "es": "Él es doctor.", "imagen": "Hombre con bata blanca y estetoscopio" },
+      { "en": "She's my sister.", "es": "Ella es mi hermana.", "imagen": "Dos hermanas abrazadas" },
+      { "en": "It's a nice day.", "es": "Es un día bonito.", "imagen": "Parque soleado con cielo azul" },
+      { "en": "We're students.", "es": "Somos estudiantes.", "imagen": "Grupo de estudiantes con mochilas y libros" },
+      { "en": "They're from Canada.", "es": "Son de Canadá.", "imagen": "Pareja de turistas con la bandera de Canadá" },
+      { "en": "I'm thirty years old.", "es": "Tengo treinta años.", "imagen": "Persona adulta frente a un pastel con velas del número 30" },
+      { "en": "We're tired today.", "es": "Hoy estamos cansados.", "imagen": "Dos personas cansadas bostezando en un sofá" }
     ],
     "listening": [
       {

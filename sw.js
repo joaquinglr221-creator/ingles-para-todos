@@ -3,7 +3,7 @@
 //   actualizaciones lleguen en cuanto haya señal.
 // - Imágenes, audios y videos se guardan la primera vez que se usan y desde ahí salen del celular.
 // Cambiar VERSION en cada publicación para renovar lo guardado.
-const VERSION = "20261024-1638-7a4d632";
+const VERSION = "20261024-1644-7ae2d50";
 const SHELL_CACHE = `app-${VERSION}`;
 const MEDIA_CACHE = `media-${VERSION}`;
 const SHELL = [
@@ -13,6 +13,7 @@ const SHELL = [
   "css/styles.css",
   "js/ubicacion.js",
   "js/temas-a1.js",
+  "js/imagenes.js",
   "js/audio-base.js",
   "js/app.js",
   "images/app/icon-192.png",
