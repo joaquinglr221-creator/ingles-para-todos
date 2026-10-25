@@ -1,3 +1,30 @@
 // Generado por scripts/importar_imagenes_canva.py — no editar a mano.
 // Imagen de cada palabra o ejemplo, según su texto en inglés.
-const IMAGENES = {};
+const IMAGENES = {
+ "Good afternoon": "images/temas/a1-01/04-good-afternoon.jpg",
+ "Good evening": "images/temas/a1-01/05-good-evening.jpg",
+ "Good morning": "images/temas/a1-01/03-good-morning.jpg",
+ "Good night": "images/temas/a1-01/06-good-night.jpg",
+ "Goodbye": "images/temas/a1-01/07-goodbye.jpg",
+ "He's a doctor.": "images/temas/a1-01/20-he-s-a-doctor.jpg",
+ "Hello": "images/temas/a1-01/01-hello.jpg",
+ "Hi": "images/temas/a1-01/02-hi.jpg",
+ "Hi! I'm Sofia.": "images/temas/a1-01/17-hi-i-m-sofia.jpg",
+ "How are you?": "images/temas/a1-01/09-how-are-you.jpg",
+ "I'm fine, thank you": "images/temas/a1-01/10-i-m-fine-thank-you.jpg",
+ "I'm from Mexico": "images/temas/a1-01/15-i-m-from-mexico.jpg",
+ "I'm from Mexico.": "images/temas/a1-01/18-i-m-from-mexico.jpg",
+ "I'm thirty years old.": "images/temas/a1-01/25-i-m-thirty-years-old.jpg",
+ "It's a nice day.": "images/temas/a1-01/22-it-s-a-nice-day.jpg",
+ "My name is…": "images/temas/a1-01/11-my-name-is.jpg",
+ "Nice to meet you": "images/temas/a1-01/12-nice-to-meet-you.jpg",
+ "See you later": "images/temas/a1-01/08-see-you-later.jpg",
+ "She's my sister.": "images/temas/a1-01/21-she-s-my-sister.jpg",
+ "They're from Canada.": "images/temas/a1-01/24-they-re-from-canada.jpg",
+ "This is my friend": "images/temas/a1-01/13-this-is-my-friend.jpg",
+ "We're students.": "images/temas/a1-01/23-we-re-students.jpg",
+ "We're tired today.": "images/temas/a1-01/26-we-re-tired-today.jpg",
+ "Where are you from?": "images/temas/a1-01/14-where-are-you-from.jpg",
+ "You're very kind.": "images/temas/a1-01/19-you-re-very-kind.jpg",
+ "years old": "images/temas/a1-01/16-years-old.jpg"
+};
