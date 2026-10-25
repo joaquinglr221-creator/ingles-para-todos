@@ -1,6 +1,8 @@
 // Temas del nivel A1 (docs/plan-de-estudios.md). Los que todavía no tienen contenido solo llevan título.
 // Partes de cada tema: explicación (español e inglés), vocabulario, ejemplos, listening, lectura,
 // escritura y examen final. "grupos" (opcional) es vocabulario extra por temas, cada uno con su patrón de uso.
+// "frases" (opcional) son oraciones largas para practicar la pronunciación; "acepta" son otras formas
+// válidas de decir una palabra al practicar la pronunciación (p. ej. "20" para twenty).
 // "imagen" es la idea de qué mostrar en la imagen de Canva
 // (scripts/listas_imagenes.py). En las preguntas de opción múltiple la primera opción es la correcta.
 // En escritura y en el examen, "respuestas" son todas las formas aceptadas (sin importar mayúsculas ni puntuación).
@@ -329,7 +331,179 @@ const TEMAS_A1 = [
           { "en": "open", "es": "abierto", "imagen": "Tienda con la puerta abierta" },
           { "en": "closed", "es": "cerrado", "imagen": "Tienda con la cortina metálica cerrada" }
         ]
+      },
+      {
+        "id": "dias",
+        "titulo": "Días de la semana",
+        "icono": "📅",
+        "patron": ["Today is Monday.", "It's Friday!", "Is it Sunday today?"],
+        "palabras": [
+          { "en": "Monday", "es": "lunes", "imagen": "Persona con su café caminando a la oficina al empezar la semana" },
+          { "en": "Tuesday", "es": "martes", "imagen": "Persona en clase de yoga una tarde entre semana" },
+          { "en": "Wednesday", "es": "miércoles", "imagen": "Persona trabajando concentrada en su escritorio a mitad de semana" },
+          { "en": "Thursday", "es": "jueves", "imagen": "Amigos en una clase de baile por la tarde" },
+          { "en": "Friday", "es": "viernes", "imagen": "Compañeros de trabajo celebrando el fin de la semana laboral" },
+          { "en": "Saturday", "es": "sábado", "imagen": "Familia de paseo en bicicleta en el parque" },
+          { "en": "Sunday", "es": "domingo", "imagen": "Familia desayunando tranquila en casa" }
+        ]
+      },
+      {
+        "id": "meses",
+        "titulo": "Meses del año",
+        "icono": "🗓️",
+        "patron": ["It's January.", "My birthday is in May.", "Is your birthday in June?"],
+        "palabras": [
+          { "en": "January", "es": "enero", "imagen": "Fuegos artificiales de Año Nuevo en el cielo" },
+          { "en": "February", "es": "febrero", "imagen": "Pareja con globos de corazón el Día del Amor" },
+          { "en": "March", "es": "marzo", "imagen": "Árboles empezando a florecer" },
+          { "en": "April", "es": "abril", "imagen": "Personas con paraguas bajo una lluvia de primavera" },
+          { "en": "May", "es": "mayo", "imagen": "Campo lleno de flores de colores" },
+          { "en": "June", "es": "junio", "imagen": "Graduados lanzando sus birretes al aire" },
+          { "en": "July", "es": "julio", "imagen": "Familia jugando en la playa en verano" },
+          { "en": "August", "es": "agosto", "imagen": "Niños comiendo helado en un día caluroso" },
+          { "en": "September", "es": "septiembre", "imagen": "Niños regresando a la escuela con sus mochilas" },
+          { "en": "October", "es": "octubre", "imagen": "Calabazas y hojas de otoño" },
+          { "en": "November", "es": "noviembre", "imagen": "Hojas secas cayendo en un parque" },
+          { "en": "December", "es": "diciembre", "imagen": "Árbol de Navidad decorado con nieve afuera de la ventana" }
+        ]
+      },
+      {
+        "id": "estaciones",
+        "titulo": "Estaciones del año",
+        "icono": "🍂",
+        "patron": ["It's summer.", "Winter is cold.", "Spring is beautiful."],
+        "palabras": [
+          { "en": "spring", "es": "primavera", "imagen": "Parque con flores y árboles verdes en primavera" },
+          { "en": "summer", "es": "verano", "imagen": "Playa soleada con sombrillas en verano" },
+          { "en": "fall", "es": "otoño (inglés de EE. UU.)", "imagen": "Árboles con hojas naranjas y rojas en otoño" },
+          { "en": "autumn", "es": "otoño (inglés británico)", "imagen": "Camino cubierto de hojas secas de otoño" },
+          { "en": "winter", "es": "invierno", "imagen": "Paisaje nevado con personas abrigadas en invierno" }
+        ]
+      },
+      {
+        "id": "cardinales",
+        "titulo": "Números cardinales",
+        "icono": "🔢",
+        "patron": ["I'm twenty.", "We are five.", "My son is eight years old."],
+        "palabras": [
+          { "en": "zero", "es": "cero (0)", "imagen": "Número 0 grande y colorido", "acepta": ["0", "oh"] },
+          { "en": "one", "es": "uno (1)", "imagen": "Número 1 grande y colorido", "acepta": ["1"] },
+          { "en": "two", "es": "dos (2)", "imagen": "Número 2 grande y colorido", "acepta": ["2"] },
+          { "en": "three", "es": "tres (3)", "imagen": "Número 3 grande y colorido", "acepta": ["3"] },
+          { "en": "four", "es": "cuatro (4)", "imagen": "Número 4 grande y colorido", "acepta": ["4"] },
+          { "en": "five", "es": "cinco (5)", "imagen": "Número 5 grande y colorido", "acepta": ["5"] },
+          { "en": "six", "es": "seis (6)", "imagen": "Número 6 grande y colorido", "acepta": ["6"] },
+          { "en": "seven", "es": "siete (7)", "imagen": "Número 7 grande y colorido", "acepta": ["7"] },
+          { "en": "eight", "es": "ocho (8)", "imagen": "Número 8 grande y colorido", "acepta": ["8"] },
+          { "en": "nine", "es": "nueve (9)", "imagen": "Número 9 grande y colorido", "acepta": ["9"] },
+          { "en": "ten", "es": "diez (10)", "imagen": "Número 10 grande y colorido", "acepta": ["10"] },
+          { "en": "eleven", "es": "once (11)", "imagen": "Número 11 grande y colorido", "acepta": ["11"] },
+          { "en": "twelve", "es": "doce (12)", "imagen": "Número 12 grande y colorido", "acepta": ["12"] },
+          { "en": "thirteen", "es": "trece (13)", "imagen": "Número 13 grande y colorido", "acepta": ["13"] },
+          { "en": "fourteen", "es": "catorce (14)", "imagen": "Número 14 grande y colorido", "acepta": ["14"] },
+          { "en": "fifteen", "es": "quince (15)", "imagen": "Número 15 grande y colorido", "acepta": ["15"] },
+          { "en": "sixteen", "es": "dieciséis (16)", "imagen": "Número 16 grande y colorido", "acepta": ["16"] },
+          { "en": "seventeen", "es": "diecisiete (17)", "imagen": "Número 17 grande y colorido", "acepta": ["17"] },
+          { "en": "eighteen", "es": "dieciocho (18)", "imagen": "Número 18 grande y colorido", "acepta": ["18"] },
+          { "en": "nineteen", "es": "diecinueve (19)", "imagen": "Número 19 grande y colorido", "acepta": ["19"] },
+          { "en": "twenty", "es": "veinte (20)", "imagen": "Número 20 grande y colorido", "acepta": ["20"] },
+          { "en": "thirty", "es": "treinta (30)", "imagen": "Número 30 grande y colorido", "acepta": ["30"] },
+          { "en": "forty", "es": "cuarenta (40)", "imagen": "Número 40 grande y colorido", "acepta": ["40"] },
+          { "en": "fifty", "es": "cincuenta (50)", "imagen": "Número 50 grande y colorido", "acepta": ["50"] },
+          { "en": "sixty", "es": "sesenta (60)", "imagen": "Número 60 grande y colorido", "acepta": ["60"] },
+          { "en": "seventy", "es": "setenta (70)", "imagen": "Número 70 grande y colorido", "acepta": ["70"] },
+          { "en": "eighty", "es": "ochenta (80)", "imagen": "Número 80 grande y colorido", "acepta": ["80"] },
+          { "en": "ninety", "es": "noventa (90)", "imagen": "Número 90 grande y colorido", "acepta": ["90"] },
+          { "en": "one hundred", "es": "cien (100)", "imagen": "Número 100 grande y colorido", "acepta": ["100", "a hundred", "hundred"] },
+          { "en": "one thousand", "es": "mil (1,000)", "imagen": "Número 1,000 grande y colorido", "acepta": ["1000", "a thousand", "thousand"] },
+          { "en": "one million", "es": "un millón (1,000,000)", "imagen": "Número un millón con muchos ceros, grande y colorido", "acepta": ["1000000", "1 million", "a million", "million"] }
+        ]
+      },
+      {
+        "id": "ordinales",
+        "titulo": "Números ordinales",
+        "icono": "🥇",
+        "patron": ["I'm the first.", "She is second.", "My birthday is on the third of May."],
+        "palabras": [
+          { "en": "first", "es": "primero (1st)", "imagen": "Podio o fila con el lugar 1.º resaltado", "acepta": ["1st", "1th", "1"] },
+          { "en": "second", "es": "segundo (2nd)", "imagen": "Podio o fila con el lugar 2.º resaltado", "acepta": ["2nd", "2th", "2"] },
+          { "en": "third", "es": "tercero (3rd)", "imagen": "Podio o fila con el lugar 3.º resaltado", "acepta": ["3rd", "3th", "3"] },
+          { "en": "fourth", "es": "cuarto (4th)", "imagen": "Número 4th grande y colorido", "acepta": ["4th", "4th", "4"] },
+          { "en": "fifth", "es": "quinto (5th)", "imagen": "Número 5th grande y colorido", "acepta": ["5th", "5th", "5"] },
+          { "en": "sixth", "es": "sexto (6th)", "imagen": "Número 6th grande y colorido", "acepta": ["6th", "6th", "6"] },
+          { "en": "seventh", "es": "séptimo (7th)", "imagen": "Número 7th grande y colorido", "acepta": ["7th", "7th", "7"] },
+          { "en": "eighth", "es": "octavo (8th)", "imagen": "Número 8th grande y colorido", "acepta": ["8th", "8th", "8"] },
+          { "en": "ninth", "es": "noveno (9th)", "imagen": "Número 9th grande y colorido", "acepta": ["9th", "9th", "9"] },
+          { "en": "tenth", "es": "décimo (10th)", "imagen": "Número 10th grande y colorido", "acepta": ["10th", "10th", "10"] },
+          { "en": "eleventh", "es": "undécimo (11th)", "imagen": "Número 11th grande y colorido", "acepta": ["11th", "11th", "11"] },
+          { "en": "twelfth", "es": "duodécimo (12th)", "imagen": "Número 12th grande y colorido", "acepta": ["12th", "12th", "12"] },
+          { "en": "thirteenth", "es": "decimotercero (13th)", "imagen": "Número 13th grande y colorido", "acepta": ["13th", "13th", "13"] },
+          { "en": "twentieth", "es": "vigésimo (20th)", "imagen": "Número 20th grande y colorido", "acepta": ["20th", "20th", "20"] },
+          { "en": "twenty-first", "es": "vigésimo primero (21st)", "imagen": "Número 21st grande y colorido", "acepta": ["21st", "21th", "21"] },
+          { "en": "twenty-second", "es": "vigésimo segundo (22nd)", "imagen": "Número 22nd grande y colorido", "acepta": ["22nd", "22th", "22"] },
+          { "en": "twenty-third", "es": "vigésimo tercero (23rd)", "imagen": "Número 23rd grande y colorido", "acepta": ["23rd", "23th", "23"] },
+          { "en": "thirtieth", "es": "trigésimo (30th)", "imagen": "Número 30th grande y colorido", "acepta": ["30th", "30th", "30"] },
+          { "en": "thirty-first", "es": "trigésimo primero (31st)", "imagen": "Número 31st grande y colorido", "acepta": ["31st", "31th", "31"] }
+        ]
+      },
+      {
+        "id": "abecedario",
+        "titulo": "El abecedario (ABC)",
+        "icono": "🔤",
+        "patron": ["My name is Ana: A, N, A.", "How do you spell it?", "Is it B or V?"],
+        "palabras": [
+          { "en": "A", "es": "letra A · se pronuncia «ei»", "imagen": "Letra A mayúscula y minúscula, grande y colorida", "acepta": ["a", "hey", "eh", "ay"] },
+          { "en": "B", "es": "letra B · se pronuncia «bi»", "imagen": "Letra B mayúscula y minúscula, grande y colorida", "acepta": ["b", "be", "bee"] },
+          { "en": "C", "es": "letra C · se pronuncia «si»", "imagen": "Letra C mayúscula y minúscula, grande y colorida", "acepta": ["c", "see", "sea", "si"] },
+          { "en": "D", "es": "letra D · se pronuncia «di»", "imagen": "Letra D mayúscula y minúscula, grande y colorida", "acepta": ["d", "dee"] },
+          { "en": "E", "es": "letra E · se pronuncia «i»", "imagen": "Letra E mayúscula y minúscula, grande y colorida", "acepta": ["e", "ee"] },
+          { "en": "F", "es": "letra F · se pronuncia «ef»", "imagen": "Letra F mayúscula y minúscula, grande y colorida", "acepta": ["f", "ef", "eff"] },
+          { "en": "G", "es": "letra G · se pronuncia «yi»", "imagen": "Letra G mayúscula y minúscula, grande y colorida", "acepta": ["g", "gee", "ji"] },
+          { "en": "H", "es": "letra H · se pronuncia «eich»", "imagen": "Letra H mayúscula y minúscula, grande y colorida", "acepta": ["h", "age", "each", "aitch", "eight"] },
+          { "en": "I", "es": "letra I · se pronuncia «ai»", "imagen": "Letra I mayúscula y minúscula, grande y colorida", "acepta": ["i", "eye", "aye", "hi"] },
+          { "en": "J", "es": "letra J · se pronuncia «yei»", "imagen": "Letra J mayúscula y minúscula, grande y colorida", "acepta": ["j", "jay"] },
+          { "en": "K", "es": "letra K · se pronuncia «kei»", "imagen": "Letra K mayúscula y minúscula, grande y colorida", "acepta": ["k", "kay", "okay", "ok", "cay"] },
+          { "en": "L", "es": "letra L · se pronuncia «el»", "imagen": "Letra L mayúscula y minúscula, grande y colorida", "acepta": ["l", "el", "elle", "al"] },
+          { "en": "M", "es": "letra M · se pronuncia «em»", "imagen": "Letra M mayúscula y minúscula, grande y colorida", "acepta": ["m", "em", "am"] },
+          { "en": "N", "es": "letra N · se pronuncia «en»", "imagen": "Letra N mayúscula y minúscula, grande y colorida", "acepta": ["n", "en", "and", "in"] },
+          { "en": "O", "es": "letra O · se pronuncia «ou»", "imagen": "Letra O mayúscula y minúscula, grande y colorida", "acepta": ["o", "oh", "owe"] },
+          { "en": "P", "es": "letra P · se pronuncia «pi»", "imagen": "Letra P mayúscula y minúscula, grande y colorida", "acepta": ["p", "pee", "pea"] },
+          { "en": "Q", "es": "letra Q · se pronuncia «kiu»", "imagen": "Letra Q mayúscula y minúscula, grande y colorida", "acepta": ["q", "queue", "cue", "cute"] },
+          { "en": "R", "es": "letra R · se pronuncia «ar»", "imagen": "Letra R mayúscula y minúscula, grande y colorida", "acepta": ["r", "are", "our", "or"] },
+          { "en": "S", "es": "letra S · se pronuncia «es»", "imagen": "Letra S mayúscula y minúscula, grande y colorida", "acepta": ["s", "es", "yes", "ass"] },
+          { "en": "T", "es": "letra T · se pronuncia «ti»", "imagen": "Letra T mayúscula y minúscula, grande y colorida", "acepta": ["t", "tea", "tee"] },
+          { "en": "U", "es": "letra U · se pronuncia «iu»", "imagen": "Letra U mayúscula y minúscula, grande y colorida", "acepta": ["u", "you", "yu"] },
+          { "en": "V", "es": "letra V · se pronuncia «vi»", "imagen": "Letra V mayúscula y minúscula, grande y colorida", "acepta": ["v", "vee", "we"] },
+          { "en": "W", "es": "letra W · se pronuncia «dábliu»", "imagen": "Letra W mayúscula y minúscula, grande y colorida", "acepta": ["w", "double you", "double u"] },
+          { "en": "X", "es": "letra X · se pronuncia «ex»", "imagen": "Letra X mayúscula y minúscula, grande y colorida", "acepta": ["x", "ex", "eggs"] },
+          { "en": "Y", "es": "letra Y · se pronuncia «uai»", "imagen": "Letra Y mayúscula y minúscula, grande y colorida", "acepta": ["y", "why"] },
+          { "en": "Z", "es": "letra Z · se pronuncia «zi»", "imagen": "Letra Z mayúscula y minúscula, grande y colorida", "acepta": ["z", "zee", "zed", "see"] }
+        ]
       }
+    ],
+    "frases": [
+      { "en": "My sister is very happy today.", "es": "Mi hermana está muy feliz hoy." },
+      { "en": "The weather is cold and rainy.", "es": "El clima está frío y lluvioso." },
+      { "en": "My father is a doctor and he is very busy.", "es": "Mi papá es doctor y está muy ocupado." },
+      { "en": "I am tired because it is late.", "es": "Estoy cansado porque es tarde." },
+      { "en": "Our teacher is kind and patient.", "es": "Nuestro maestro es amable y paciente." },
+      { "en": "They are from Brazil and they are very friendly.", "es": "Son de Brasil y son muy amigables." },
+      { "en": "It is sunny and hot in the summer.", "es": "En verano está soleado y hace calor." },
+      { "en": "My best friend is funny and smart.", "es": "Mi mejor amigo es gracioso e inteligente." },
+      { "en": "We are nervous before the exam.", "es": "Estamos nerviosos antes del examen." },
+      { "en": "The children are hungry and thirsty.", "es": "Los niños tienen hambre y sed." },
+      { "en": "She is a nurse and she is very hardworking.", "es": "Ella es enfermera y es muy trabajadora." },
+      { "en": "Today is Monday and I am at work.", "es": "Hoy es lunes y estoy en el trabajo." },
+      { "en": "My birthday is in April.", "es": "Mi cumpleaños es en abril." },
+      { "en": "He is not sick, he is just tired.", "es": "Él no está enfermo, solo está cansado." },
+      { "en": "Are you ready? Yes, I am.", "es": "¿Estás listo? Sí." },
+      { "en": "My grandparents are old but they are healthy.", "es": "Mis abuelos son mayores pero están sanos." },
+      { "en": "The store is closed on Sundays.", "es": "La tienda está cerrada los domingos." },
+      { "en": "Is it cold in December? Yes, it is.", "es": "¿Hace frío en diciembre? Sí." },
+      { "en": "My brother is tall and handsome.", "es": "Mi hermano es alto y guapo." },
+      { "en": "I am the first in line.", "es": "Soy el primero en la fila." },
+      { "en": "My mother is Mexican and my father is Canadian.", "es": "Mi mamá es mexicana y mi papá es canadiense." },
+      { "en": "The new students are shy but very polite.", "es": "Los estudiantes nuevos son tímidos pero muy educados." }
     ],
     "listening": [
       {

@@ -319,6 +319,7 @@ const EXAMEN_MINIMO = 8; // aciertos (de 10) para aprobar el examen final del te
 const SECCIONES = [
   { id: "explicacion", nombre: "Explicación", icon: "📖" },
   { id: "vocabulario", nombre: "Vocabulario y ejemplos", icon: "🗣️" },
+  { id: "pronunciacion", nombre: "Pronunciación", icon: "🎤" },
   { id: "listening", nombre: "Listening", icon: "🎧" },
   { id: "lectura", nombre: "Lectura", icon: "📄" },
   { id: "escritura", nombre: "Escritura", icon: "✍️" },
@@ -351,7 +352,7 @@ function viewLevel(code) {
   const filas = temas
     .map((t) => {
       const listo = tieneContenido(t);
-      const estado = aprobado(t.id) ? `<span class="tag ok">✓ ${progreso[t.id].examen}/10</span>` : listo ? `<span class="muted">${partesHechas(t.id)}/6</span>` : `<span class="muted">Pronto</span>`;
+      const estado = aprobado(t.id) ? `<span class="tag ok">✓ ${progreso[t.id].examen}/10</span>` : listo ? `<span class="muted">${partesHechas(t.id)}/${SECCIONES.length}</span>` : `<span class="muted">Pronto</span>`;
       const inner = `
         <div class="level-code small">${t.num}</div>
         <div class="grow"><strong>${esc(t.titulo)}</strong><p class="muted">${esc(t.contexto)}</p></div>
@@ -605,10 +606,201 @@ function viewExamenResultado(tema) {
     <button class="btn ghost full" data-action="tex-start">Volver a presentar</button>`;
 }
 
-function viewSection(tema, sec) {
+// ---------- Pronunciación ----------
+// El alumno ve la imagen (palabras) o escucha la oración, la dice y el reconocimiento de voz del
+// navegador la compara con el texto. Si la dijo bien, pasa sola a la siguiente.
+const Reconocimiento = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+// Conjuntos para practicar: el vocabulario y cada grupo (con imagen), los ejemplos y las frases largas.
+function pronSets(tema) {
+  return [
+    { id: "vocabulario", titulo: "🗣️ Vocabulario", modo: "palabra", lista: tema.vocabulario },
+    ...(tema.grupos || []).map((g) => ({ id: g.id, titulo: `${g.icono} ${g.titulo}`, modo: "palabra", lista: g.palabras })),
+    { id: "ejemplos", titulo: "💬 Ejemplos", modo: "oracion", lista: tema.ejemplos },
+    ...(tema.frases ? [{ id: "frases", titulo: "📝 Oraciones largas con to be", modo: "oracion", lista: tema.frases }] : []),
+  ];
+}
+
+const CONTRACCIONES = {
+  "i'm": "i am", "you're": "you are", "he's": "he is", "she's": "she is", "it's": "it is", "we're": "we are",
+  "they're": "they are", "isn't": "is not", "aren't": "are not", "what's": "what is", "where's": "where is",
+  "that's": "that is", "there's": "there is", "who's": "who is", "how's": "how is", "don't": "do not",
+  "doesn't": "does not", "can't": "cannot", "i'll": "i will", "let's": "let us",
+};
+// Palabras de un texto para comparar lo que se dijo: sin mayúsculas ni signos, con las contracciones abiertas.
+const palabrasDe = (s) =>
+  s.toLowerCase().replace(/[’‘`´]/g, "'").replace(/[-–—…]/g, " ").replace(/[^a-z0-9' ]/g, " ")
+    .split(/\s+/).filter(Boolean).flatMap((w) => (CONTRACCIONES[w] || w.replace(/'/g, "")).split(" "));
+
+// Qué palabras del texto aparecen, en orden, en lo que se dijo (subsecuencia común más larga).
+function coincidencias(objetivo, dicho) {
+  const n = objetivo.length, m = dicho.length;
+  const L = Array.from({ length: n + 1 }, () => new Array(m + 1).fill(0));
+  for (let i = n - 1; i >= 0; i--)
+    for (let j = m - 1; j >= 0; j--) L[i][j] = objetivo[i] === dicho[j] ? L[i + 1][j + 1] + 1 : Math.max(L[i + 1][j], L[i][j + 1]);
+  const ok = new Array(n).fill(false);
+  for (let i = 0, j = 0; i < n && j < m; ) {
+    if (objetivo[i] === dicho[j]) { ok[i] = true; i++; j++; }
+    else if (L[i + 1][j] >= L[i][j + 1]) i++;
+    else j++;
+  }
+  return ok;
+}
+
+// Califica lo que entendió el navegador (varias alternativas) contra la palabra u oración.
+// Frases cortas (hasta 3 palabras) deben salir completas; las largas, al menos el 80 %.
+function calificar(item, modo, alternativas) {
+  let objetivo = palabrasDe(item.en);
+  if (modo === "palabra" && objetivo.length > 1 && ["a", "an", "the"].includes(objetivo[0])) objetivo = objetivo.slice(1);
+  const aceptadas = (item.acepta || []).map((a) => palabrasDe(a).join(" "));
+  let mejor = { ok: false, marcas: objetivo.map(() => false), oido: alternativas[0] || "" };
+  for (const alt of alternativas) {
+    const dicho = palabrasDe(alt);
+    if (aceptadas.includes(dicho.join(" "))) return { ok: true, marcas: objetivo.map(() => true), oido: alt };
+    const marcas = coincidencias(objetivo, dicho);
+    const parte = marcas.filter(Boolean).length / objetivo.length;
+    const ok = objetivo.length <= 3 ? parte === 1 : parte >= 0.8;
+    if (ok) return { ok, marcas, oido: alt };
+    if (marcas.filter(Boolean).length > mejor.marcas.filter(Boolean).length) mejor = { ok: false, marcas, oido: alt };
+  }
+  return mejor;
+}
+
+let pron = null; // { key, set, i, estado, intentos, primera, revelado, resultado, error }
+
+function usePron(tema, set) {
+  const key = `${tema.id}/${set.id}`;
+  if (!pron || pron.key !== key) pron = { key, i: 0, estado: "listo", intentos: 0, primera: 0, revelado: false, resultado: null, error: "" };
+  return pron;
+}
+
+function viewPronunciacion(tema) {
+  const sets = pronSets(tema)
+    .map((s) => `<a class="level" href="#/tema/${tema.id}/pronunciacion/${s.id}">
+      <div class="grow"><strong>${esc(s.titulo)}</strong><p class="muted">${s.modo === "palabra" ? "Mira la imagen y di la palabra" : "Escucha la oración y repítela"}</p></div>
+      <span class="muted">${s.lista.length}</span></a>`)
+    .join("");
+  return `
+    <div class="card tip">
+      <p>Toca 🎤 y di en voz alta la palabra o la oración en inglés. Si la pronuncias bien, pasas a la siguiente.</p>
+      ${Reconocimiento ? "" : `<p class="muted" style="margin-top:8px">Este navegador no reconoce la voz. Puedes practicar escuchando y repitiendo, y marcar tú mismo cuando te salga bien. Para que la app te califique, usa Chrome o Safari.</p>`}
+    </div>
+    <div class="levels">${sets}</div>`;
+}
+
+function viewPronPractica(tema, setId) {
+  const set = pronSets(tema).find((s) => s.id === setId);
+  if (!set) return viewPronunciacion(tema);
+  const p = usePron(tema, set);
+  const back = `<div class="row between"><a class="back" href="#/tema/${tema.id}/pronunciacion">‹ Pronunciación</a><span class="tag">${Math.min(p.i + 1, set.lista.length)} de ${set.lista.length}</span></div>`;
+  if (p.i >= set.lista.length) {
+    marcar(tema.id, "pronunciacion");
+    return `${back}
+      <div class="hero"><p>${esc(set.titulo)}</p><h1>¡Terminaste!</h1>
+        <p>${p.primera} de ${set.lista.length} bien a la primera.</p></div>
+      <button class="btn full" data-action="pron-reset">Practicar otra vez</button>
+      <a class="btn ghost full center" href="#/tema/${tema.id}/pronunciacion">Elegir otra lista</a>`;
+  }
+  const item = set.lista[p.i];
+  const foto = FOTOS[item.en];
+  const mostrarTexto = set.modo === "oracion" || p.revelado || p.estado === "bien";
+  // En las oraciones, cada palabra escrita se pinta verde si se dijo bien (todas sus partes, p. ej. I'm = i am).
+  let textoEn = `<p class="pron-text">${mostrarTexto ? esc(item.en) : "• • •"}</p>`;
+  if (p.resultado && set.modo === "oracion") {
+    let k = 0;
+    const tokens = item.en.split(/\s+/).map((t) => {
+      const n = palabrasDe(t).length;
+      const ok = p.resultado.marcas.slice(k, k + n).every(Boolean);
+      k += n;
+      return `<span class="${ok ? "w-ok" : "w-bad"}">${esc(t)}</span>`;
+    });
+    textoEn = `<p class="pron-text">${tokens.join(" ")}</p>`;
+  }
+  const figura =
+    set.modo === "palabra"
+      ? foto
+        ? `<img class="pron-img" src="${esc(foto)}" alt="">`
+        : `<div class="pron-img pron-noimg">${esc(item.es)}</div>`
+      : "";
+  const mensaje = {
+    listo: set.modo === "palabra" ? "¿Cómo se dice en inglés?" : "Escucha la oración y luego repítela.",
+    escuchando: "🎙️ Te escucho… habla ahora",
+    bien: "✓ ¡Muy bien!",
+    mal: "✗ Casi. Escucha y vuelve a intentarlo.",
+    error: p.error,
+  }[p.estado];
+  const oido = p.resultado && p.estado !== "bien" && p.resultado.oido ? `<p class="muted center">Escuché: “${esc(p.resultado.oido)}”</p>` : "";
+  const mic = Reconocimiento
+    ? `<button class="mic${p.estado === "escuchando" ? " on" : ""}" data-action="pron-mic" aria-label="Hablar" ${p.estado === "bien" ? "disabled" : ""}>🎤</button>`
+    : `<button class="btn full" data-action="pron-ok">✓ Me salió bien</button>`;
+  return `${back}
+    <div class="progress"><div style="width:${(p.i / set.lista.length) * 100}%"></div></div>
+    <div class="card center pron-card">
+      ${figura}
+      <p class="es" style="font-size:1.05rem">${esc(item.es)}</p>
+      ${textoEn}
+      <div class="row center">
+        ${speakButtons(item.en)}
+        ${set.modo === "palabra" && !mostrarTexto ? `<button class="btn ghost" data-action="pron-reveal">👀 Ver palabra</button>` : ""}
+      </div>
+    </div>
+    <p class="pron-msg ${p.estado}">${esc(mensaje)}</p>
+    ${oido}
+    <div class="center">${mic}</div>
+    <button class="btn ghost full" data-action="pron-next">${p.estado === "bien" ? "Siguiente" : "Saltar"}</button>`;
+}
+
+function pronSiguiente() {
+  Object.assign(pron, { i: pron.i + 1, estado: "listo", intentos: 0, revelado: false, resultado: null, error: "" });
+}
+
+function pronEscuchar(tema) {
+  const set = pronSets(tema).find((s) => s.id === location.hash.split("/")[4]);
+  const p = pron;
+  const item = set.lista[p.i];
+  const r = new Reconocimiento();
+  r.lang = "en-US";
+  r.interimResults = false;
+  r.maxAlternatives = 5;
+  let recibido = false;
+  r.onresult = (e) => {
+    recibido = true;
+    const alternativas = [...e.results[0]].map((a) => a.transcript);
+    p.resultado = calificar(item, set.modo, alternativas);
+    p.estado = p.resultado.ok ? "bien" : "mal";
+    if (p.resultado.ok) {
+      if (p.intentos === 0) p.primera++;
+      speak(item.en);
+      const actual = p.i;
+      setTimeout(() => {
+        if (pron === p && p.i === actual && p.estado === "bien") { pronSiguiente(); render(); }
+      }, 2200);
+    } else p.intentos++;
+    render();
+  };
+  r.onerror = (e) => {
+    recibido = true;
+    p.estado = "error";
+    p.error = e.error === "not-allowed" || e.error === "service-not-allowed"
+      ? "Permite el uso del micrófono para practicar (en la barra de direcciones o en los ajustes del navegador)."
+      : e.error === "no-speech" ? "No te escuché. Toca 🎤 y habla un poco más fuerte." : "No se pudo usar el micrófono. Inténtalo de nuevo.";
+    render();
+  };
+  r.onend = () => {
+    if (!recibido && p.estado === "escuchando") { p.estado = "error"; p.error = "No te escuché. Toca 🎤 y habla un poco más fuerte."; render(); }
+  };
+  if (currentAudio) currentAudio.pause();
+  if ("speechSynthesis" in window) speechSynthesis.cancel();
+  p.estado = "escuchando";
+  r.start();
+}
+
+function viewSection(tema, sec, sub) {
+  if (sec === "pronunciacion" && sub) return viewPronPractica(tema, sub);
   const body = {
     explicacion: viewExplicacion,
     vocabulario: viewVocabulario,
+    pronunciacion: viewPronunciacion,
     listening: viewListening,
     lectura: viewLectura,
     escritura: viewEscritura,
@@ -622,7 +814,7 @@ function viewSection(tema, sec) {
 // ---------- Navegación ----------
 function render() {
   const route = location.hash.replace(/^#\/?/, "");
-  const [a, b, c] = route.split("/");
+  const [a, b, c, d] = route.split("/");
   const tema = a === "tema" && findTema(b);
   const html =
     route === "ubicacion"
@@ -633,7 +825,7 @@ function render() {
           ? viewLevel(b)
           : tema && tieneContenido(tema)
             ? c
-              ? viewSection(tema, c)
+              ? viewSection(tema, c, d)
               : viewTopic(tema)
             : viewHome();
   $("#app").innerHTML = html;
@@ -702,6 +894,17 @@ document.addEventListener("click", (e) => {
     startExam();
     location.hash = "#/ubicacion";
     return;
+  } else if (action === "pron-mic") {
+    if (pron.estado !== "escuchando") pronEscuchar(temaActual());
+  } else if (action === "pron-reveal") {
+    pron.revelado = true;
+  } else if (action === "pron-ok") {
+    if (pron.intentos === 0 && !pron.revelado) pron.primera++;
+    pronSiguiente();
+  } else if (action === "pron-next") {
+    pronSiguiente();
+  } else if (action === "pron-reset") {
+    pron = null;
   } else if (action === "practica-reset") {
     practica = { key: null, resp: {}, orden: {} };
   } else if (action === "check-writing") {

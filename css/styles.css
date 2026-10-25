@@ -225,3 +225,22 @@ th { color: var(--muted); font-weight: 600; }
 .group-icon { font-size: 1.5rem; }
 .pattern { background: var(--accent-soft); border-radius: 10px; padding: 2px 12px 10px; margin-bottom: 4px; }
 .pattern .line { border-bottom-color: transparent; }
+
+/* Pronunciación */
+.pron-card { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+.pron-img { width: min(100%, 280px); aspect-ratio: 1; object-fit: cover; border-radius: 16px; }
+.pron-noimg { display: grid; place-items: center; padding: 16px; background: var(--accent-soft); color: var(--accent); font-size: 1.6rem; font-weight: 700; text-align: center; }
+.pron-text { font-size: 1.5rem; font-weight: 700; line-height: 1.35; }
+.w-ok { color: var(--ok); }
+.w-bad { color: var(--bad); text-decoration: underline wavy; }
+.pron-msg { text-align: center; font-weight: 600; margin: 14px 0 6px; min-height: 1.4em; }
+.pron-msg.bien { color: var(--ok); font-size: 1.2rem; }
+.pron-msg.mal, .pron-msg.error { color: var(--bad); }
+.mic {
+  width: 88px; height: 88px; border-radius: 50%; border: none;
+  background: var(--accent); color: #fff; font-size: 2.4rem; margin: 6px auto;
+  box-shadow: 0 6px 18px rgba(47, 93, 155, 0.35);
+}
+.mic.on { background: var(--bad); animation: latido 1s ease-in-out infinite; }
+.mic:disabled { opacity: 0.4; }
+@keyframes latido { 50% { transform: scale(1.08); } }
