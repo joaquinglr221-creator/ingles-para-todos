@@ -1,5 +1,5 @@
 // Generado por scripts/importar_imagenes_canva.py — no editar a mano.
-// Imagen de cada palabra o ejemplo, según su texto en inglés.
+// Imagen (.jpg) o clip (.mp4) de cada palabra o ejemplo, según su texto en inglés.
 const IMAGENES = {
  "Are you a student? Yes, I am.": "images/temas/a1-02/20-are-you-a-student-yes-i-am.jpg",
  "Are you…?": "images/temas/a1-02/14-are-you.jpg",

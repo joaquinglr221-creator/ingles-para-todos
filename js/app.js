@@ -420,11 +420,16 @@ function viewExplicacion(tema) {
     </div>`;
 }
 
-// Imágenes de Canva (scripts/importar_imagenes_canva.py), por texto en inglés.
+// Imágenes y clips de Canva (scripts/importar_imagenes_canva.py), por texto en inglés.
 const FOTOS = typeof IMAGENES !== "undefined" ? IMAGENES : {};
+// Un clip (.mp4) se reproduce solo, en silencio y en bucle, donde iría la imagen.
+const media = (src, attrs = "") =>
+  /\.mp4$/i.test(src)
+    ? `<video src="${esc(src)}" autoplay muted loop playsinline preload="metadata" ${attrs}></video>`
+    : `<img src="${esc(src)}" alt="" loading="lazy" ${attrs}>`;
 
 function viewVocabulario(tema) {
-  const foto = (w) => (FOTOS[w.en] ? `<img class="thumb" src="${esc(FOTOS[w.en])}" alt="" loading="lazy" data-zoom="${esc(w.en)}">` : "");
+  const foto = (w) => (FOTOS[w.en] ? media(FOTOS[w.en], `class="thumb" data-zoom="${esc(w.en)}"`) : "");
   const fila = (w) => `<div class="line">${foto(w)}<div class="grow"><p class="en">${esc(w.en)}</p><p class="es">${esc(w.es)}</p></div>${speakButtons(w.en)}</div>`;
   // Vocabulario extra por temas: cada grupo se abre y se cierra para no alargar la pantalla.
   const grupos = (tema.grupos || [])
@@ -716,11 +721,10 @@ function viewPronPractica(tema, setId) {
     });
     textoEn = `<p class="pron-text">${tokens.join(" ")}</p>`;
   }
-  const figura =
-    set.modo === "palabra"
-      ? foto
-        ? `<img class="pron-img" src="${esc(foto)}" alt="">`
-        : `<div class="pron-img pron-noimg">${esc(item.es)}</div>`
+  const figura = foto
+    ? media(foto, `class="pron-img${set.modo === "oracion" ? " small" : ""}"`)
+    : set.modo === "palabra"
+      ? `<div class="pron-img pron-noimg">${esc(item.es)}</div>`
       : "";
   const mensaje = {
     listo: set.modo === "palabra" ? "¿Cómo se dice en inglés?" : "Escucha la oración y luego repítela.",
@@ -850,7 +854,7 @@ document.addEventListener("click", (e) => {
   if (zoom) {
     const box = document.createElement("div");
     box.className = "zoom";
-    box.innerHTML = `<img src="${esc(FOTOS[zoom.dataset.zoom])}" alt=""><p>${esc(zoom.dataset.zoom)}</p>`;
+    box.innerHTML = `${media(FOTOS[zoom.dataset.zoom])}<p>${esc(zoom.dataset.zoom)}</p>`;
     document.body.appendChild(box);
     speak(zoom.dataset.zoom);
     return;
