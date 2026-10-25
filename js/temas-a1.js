@@ -1,6 +1,7 @@
 // Temas del nivel A1 (docs/plan-de-estudios.md). Los que todavía no tienen contenido solo llevan título.
 // Partes de cada tema: explicación (español e inglés), vocabulario, ejemplos, listening, lectura,
-// escritura y examen final. "grupos" (opcional) es vocabulario extra por temas, cada uno con su patrón de uso.
+// escritura y examen final. "grupos" (opcional) es vocabulario extra por temas, cada uno con su patrón de uso
+// ("gruposTitulo" es el encabezado de esa sección).
 // "frases" (opcional) son oraciones largas para practicar la pronunciación; "acepta" son otras formas
 // válidas de decir una palabra al practicar la pronunciación (p. ej. "20" para twenty).
 // "imagen" es la idea de qué mostrar en la imagen de Canva
@@ -13,6 +14,7 @@ const TEMAS_A1 = [
     "num": 1,
     "titulo": "Verbo to be: afirmativo",
     "contexto": "Saludos y presentaciones",
+    "gruposTitulo": "Más vocabulario con *to be*",
     "explicacion": {
       "es": [
         "El verbo **to be** significa **ser** o **estar**. En inglés es un solo verbo para las dos ideas: *I am a teacher* (soy maestro) y *I am tired* (estoy cansado).",
@@ -1555,7 +1557,248 @@ const TEMAS_A1 = [
       }
     ]
   },
-  { "id": "a1-04", "num": 4, "titulo": "Artículos a / an / the", "contexto": "Objetos de la casa y del salón de clases" },
+  {
+    "id": "a1-04",
+    "num": 4,
+    "titulo": "Artículos a / an / the",
+    "contexto": "Objetos de la casa y del salón de clases",
+    "explicacion": {
+      "es": [
+        "**A** y **an** significan **un** o **una**. Se usan con una sola cosa (singular) cuando no importa cuál es o la mencionamos por primera vez: *It's a book.*",
+        "**A** va antes de un **sonido de consonante** (*a pen, a chair*) y **an** antes de un **sonido de vocal** (*an apple, an eraser*).",
+        "**The** significa **el, la, los, las**. Se usa para algo específico, algo que ya mencionamos o algo único: *It's a book. **The** book is new.* / *the sun*.",
+        "Con plurales o cosas en general **no** se usa artículo: *Books are expensive.* / *I like coffee.*"
+      ],
+      "tabla": {
+        "columnas": ["Artículo", "Cuándo se usa", "Ejemplo"],
+        "filas": [
+          ["a", "antes de sonido de consonante", "a pen, a chair, a university"],
+          ["an", "antes de sonido de vocal", "an eraser, an apple, an hour"],
+          ["the", "algo específico o que ya mencionamos", "the book on the table"],
+          ["the", "cosas únicas", "the sun, the moon, the internet"],
+          ["(sin artículo)", "plurales o cosas en general", "Books are expensive. I like music."]
+        ]
+      },
+      "ojo": [
+        "Lo que cuenta es el **sonido**, no la letra: **an** hour (la *h* no suena), **a** university (suena «yu»).",
+        "Con las profesiones siempre va *a* o *an*: *She's **an** engineer* (no *She's engineer*).",
+        "*A* y *an* no van con plurales: *They are books* (no *They are a books*).",
+        "Para hablar en general no se usa *the*: *I like music* (no *I like the music*)."
+      ],
+      "en": [
+        "Use **a** before a consonant sound: a pen, a table, a university.",
+        "Use **an** before a vowel sound: an apple, an umbrella, an hour.",
+        "Use **the** for a specific thing or something we already know: The pen on the desk is mine.",
+        "Don't use **a** or **an** with plural nouns: books, chairs, windows."
+      ]
+    },
+    "vocabulario": [
+      { "en": "a book", "es": "un libro", "imagen": "Libro abierto sobre una mesa" },
+      { "en": "a pen", "es": "una pluma, un bolígrafo", "imagen": "Bolígrafo azul sobre una hoja" },
+      { "en": "a pencil", "es": "un lápiz", "imagen": "Lápiz amarillo con punta" },
+      { "en": "an eraser", "es": "una goma, un borrador", "imagen": "Goma de borrar junto a un dibujo a lápiz" },
+      { "en": "a notebook", "es": "un cuaderno", "imagen": "Cuaderno abierto con apuntes" },
+      { "en": "a desk", "es": "un escritorio, un pupitre", "imagen": "Escritorio de estudiante ordenado" },
+      { "en": "a chair", "es": "una silla", "imagen": "Silla de madera" },
+      { "en": "a table", "es": "una mesa", "imagen": "Mesa de comedor de madera" },
+      { "en": "a computer", "es": "una computadora", "imagen": "Computadora de escritorio encendida" },
+      { "en": "an umbrella", "es": "un paraguas", "imagen": "Paraguas rojo abierto bajo la lluvia" },
+      { "en": "a bag", "es": "una bolsa", "imagen": "Bolsa de mano sobre una silla" },
+      { "en": "a key", "es": "una llave", "imagen": "Llave de casa en la mano de una persona" },
+      { "en": "a lamp", "es": "una lámpara", "imagen": "Lámpara de mesa encendida" },
+      { "en": "a clock", "es": "un reloj (de pared)", "imagen": "Reloj redondo colgado en la pared" },
+      { "en": "a window", "es": "una ventana", "imagen": "Ventana abierta con vista a un jardín" },
+      { "en": "a door", "es": "una puerta", "imagen": "Puerta de entrada de una casa" }
+    ],
+    "grupos": [
+      {
+        "id": "salon",
+        "titulo": "El salón de clases",
+        "icono": "🏫",
+        "patron": ["It's a ruler.", "This is an eraser.", "The whiteboard is clean."],
+        "palabras": [
+          { "en": "a classroom", "es": "un salón de clases", "imagen": "Salón de clases con pupitres y pizarrón" },
+          { "en": "a whiteboard", "es": "un pizarrón blanco", "imagen": "Pizarrón blanco en un salón de clases" },
+          { "en": "a marker", "es": "un marcador, un plumón", "imagen": "Mano escribiendo con un plumón en el pizarrón" },
+          { "en": "a ruler", "es": "una regla", "imagen": "Regla sobre una hoja de cuaderno" },
+          { "en": "a backpack", "es": "una mochila", "imagen": "Mochila escolar de colores" },
+          { "en": "a pencil case", "es": "un estuche, una lapicera", "imagen": "Estuche abierto con lápices de colores" },
+          { "en": "a sharpener", "es": "un sacapuntas", "imagen": "Sacapuntas afilando un lápiz" },
+          { "en": "a dictionary", "es": "un diccionario", "imagen": "Diccionario grueso abierto" },
+          { "en": "a calculator", "es": "una calculadora", "imagen": "Calculadora sobre un escritorio" },
+          { "en": "scissors", "es": "tijeras", "imagen": "Tijeras cortando papel de colores" },
+          { "en": "glue", "es": "pegamento", "imagen": "Barra de pegamento junto a papeles recortados" },
+          { "en": "a map", "es": "un mapa", "imagen": "Mapa del mundo colgado en la pared del salón" },
+          { "en": "a projector", "es": "un proyector", "imagen": "Proyector encendido en un salón oscuro" },
+          { "en": "a laptop", "es": "una laptop, una computadora portátil", "imagen": "Laptop abierta sobre un pupitre" },
+          { "en": "a folder", "es": "una carpeta", "imagen": "Carpeta con hojas dentro" },
+          { "en": "a highlighter", "es": "un marcatextos", "imagen": "Marcatextos amarillo subrayando un libro" },
+          { "en": "a stapler", "es": "una engrapadora", "imagen": "Engrapadora sobre un escritorio" },
+          { "en": "a teacher's desk", "es": "el escritorio del maestro", "imagen": "Escritorio del maestro frente a la clase" }
+        ]
+      },
+      {
+        "id": "sala",
+        "titulo": "La sala",
+        "icono": "🛋️",
+        "patron": ["It's a comfortable sofa.", "The TV is new.", "Is it an armchair?"],
+        "palabras": [
+          { "en": "a living room", "es": "una sala", "imagen": "Sala acogedora con sofá y plantas" },
+          { "en": "a sofa", "es": "un sofá", "imagen": "Sofá gris con cojines" },
+          { "en": "an armchair", "es": "un sillón", "imagen": "Sillón individual junto a una ventana" },
+          { "en": "a TV", "es": "una televisión", "imagen": "Televisión en un mueble de la sala" },
+          { "en": "a remote control", "es": "un control remoto", "imagen": "Mano sosteniendo un control remoto" },
+          { "en": "a rug", "es": "un tapete, una alfombra", "imagen": "Tapete de colores en el piso de la sala" },
+          { "en": "a coffee table", "es": "una mesa de centro", "imagen": "Mesa de centro con revistas y una taza" },
+          { "en": "a bookshelf", "es": "un librero", "imagen": "Librero lleno de libros" },
+          { "en": "a plant", "es": "una planta", "imagen": "Planta verde en una maceta" },
+          { "en": "a picture", "es": "un cuadro", "imagen": "Cuadro colgado en la pared de la sala" },
+          { "en": "a curtain", "es": "una cortina", "imagen": "Cortinas abiertas dejando entrar el sol" },
+          { "en": "a cushion", "es": "un cojín", "imagen": "Cojines de colores sobre un sofá" },
+          { "en": "a fireplace", "es": "una chimenea", "imagen": "Chimenea encendida en la sala" },
+          { "en": "a fan", "es": "un ventilador", "imagen": "Ventilador girando en una habitación" },
+          { "en": "an air conditioner", "es": "un aire acondicionado", "imagen": "Aire acondicionado en la pared" }
+        ]
+      },
+      {
+        "id": "cocina",
+        "titulo": "La cocina",
+        "icono": "🍳",
+        "patron": ["It's an oven.", "The refrigerator is big.", "Is it a cup or a glass?"],
+        "palabras": [
+          { "en": "a kitchen", "es": "una cocina", "imagen": "Cocina moderna y luminosa" },
+          { "en": "a refrigerator", "es": "un refrigerador", "imagen": "Refrigerador abierto con comida" },
+          { "en": "a stove", "es": "una estufa", "imagen": "Estufa con una olla cocinando" },
+          { "en": "an oven", "es": "un horno", "imagen": "Pastel horneándose dentro de un horno" },
+          { "en": "a microwave", "es": "un microondas", "imagen": "Persona calentando comida en el microondas" },
+          { "en": "a sink", "es": "un fregadero", "imagen": "Fregadero con agua corriendo" },
+          { "en": "a dishwasher", "es": "un lavavajillas", "imagen": "Lavavajillas abierto con platos" },
+          { "en": "a toaster", "es": "un tostador", "imagen": "Pan saltando de un tostador" },
+          { "en": "a blender", "es": "una licuadora", "imagen": "Licuadora preparando un jugo de frutas" },
+          { "en": "a kettle", "es": "una tetera, un hervidor", "imagen": "Hervidor con vapor saliendo" },
+          { "en": "a pan", "es": "un sartén", "imagen": "Huevos friéndose en un sartén" },
+          { "en": "a pot", "es": "una olla", "imagen": "Olla con sopa en la estufa" },
+          { "en": "a plate", "es": "un plato", "imagen": "Plato blanco con comida" },
+          { "en": "a bowl", "es": "un tazón", "imagen": "Tazón de cereal con leche" },
+          { "en": "a cup", "es": "una taza", "imagen": "Taza de café humeante" },
+          { "en": "a glass", "es": "un vaso", "imagen": "Vaso de agua sobre la mesa" },
+          { "en": "a fork", "es": "un tenedor", "imagen": "Tenedor junto a un plato" },
+          { "en": "a knife", "es": "un cuchillo", "imagen": "Cuchillo cortando verduras" },
+          { "en": "a spoon", "es": "una cuchara", "imagen": "Cuchara con sopa" }
+        ]
+      },
+      {
+        "id": "recamara",
+        "titulo": "La recámara",
+        "icono": "🛏️",
+        "patron": ["It's a big bed.", "The pillow is soft.", "This is an alarm clock."],
+        "palabras": [
+          { "en": "a bedroom", "es": "una recámara, un dormitorio", "imagen": "Recámara ordenada y luminosa" },
+          { "en": "a bed", "es": "una cama", "imagen": "Cama bien tendida" },
+          { "en": "a pillow", "es": "una almohada", "imagen": "Almohadas blancas sobre la cama" },
+          { "en": "a blanket", "es": "una cobija, una manta", "imagen": "Cobija doblada a los pies de la cama" },
+          { "en": "sheets", "es": "sábanas", "imagen": "Sábanas limpias recién tendidas" },
+          { "en": "a closet", "es": "un clóset", "imagen": "Clóset abierto con ropa colgada" },
+          { "en": "a hanger", "es": "un gancho (para ropa)", "imagen": "Camisa colgada en un gancho" },
+          { "en": "a mirror", "es": "un espejo", "imagen": "Persona mirándose en un espejo de cuerpo completo" },
+          { "en": "a dresser", "es": "una cómoda, un tocador", "imagen": "Cómoda de cajones con objetos encima" },
+          { "en": "a nightstand", "es": "un buró, una mesita de noche", "imagen": "Buró con lámpara junto a la cama" },
+          { "en": "an alarm clock", "es": "un despertador", "imagen": "Despertador sonando en el buró" }
+        ]
+      },
+      {
+        "id": "bano",
+        "titulo": "El baño",
+        "icono": "🛁",
+        "patron": ["It's a towel.", "The shower is hot.", "Is it an electric toothbrush?"],
+        "palabras": [
+          { "en": "a bathroom", "es": "un baño", "imagen": "Baño limpio y moderno" },
+          { "en": "a toilet", "es": "un excusado, un inodoro", "imagen": "Inodoro blanco en un baño limpio" },
+          { "en": "a shower", "es": "una regadera", "imagen": "Agua cayendo de una regadera" },
+          { "en": "a bathtub", "es": "una tina", "imagen": "Tina con espuma" },
+          { "en": "a towel", "es": "una toalla", "imagen": "Toallas dobladas en el baño" },
+          { "en": "a toothbrush", "es": "un cepillo de dientes", "imagen": "Cepillo de dientes en un vaso" },
+          { "en": "toothpaste", "es": "pasta de dientes", "imagen": "Pasta de dientes sobre un cepillo" },
+          { "en": "soap", "es": "jabón", "imagen": "Manos lavándose con jabón" },
+          { "en": "shampoo", "es": "champú", "imagen": "Botella de champú en la regadera" },
+          { "en": "a comb", "es": "un peine", "imagen": "Peine sobre el lavabo" },
+          { "en": "a hairbrush", "es": "un cepillo para el cabello", "imagen": "Persona cepillándose el cabello" },
+          { "en": "a hair dryer", "es": "una secadora de cabello", "imagen": "Persona secándose el cabello con secadora" },
+          { "en": "toilet paper", "es": "papel de baño", "imagen": "Rollo de papel de baño" },
+          { "en": "a bathroom sink", "es": "un lavabo", "imagen": "Lavabo del baño con espejo" }
+        ]
+      }
+    ],
+    "ejemplos": [
+      { "en": "It's a book. The book is new.", "es": "Es un libro. El libro es nuevo.", "imagen": "Libro nuevo con la envoltura recién abierta" },
+      { "en": "This is an umbrella. It's red.", "es": "Este es un paraguas. Es rojo.", "imagen": "Persona con un paraguas rojo" },
+      { "en": "I'm an English student.", "es": "Soy estudiante de inglés.", "imagen": "Estudiante con un libro de inglés en clase" },
+      { "en": "The computer is on the desk.", "es": "La computadora está en el escritorio.", "imagen": "Computadora sobre un escritorio" },
+      { "en": "It's an old house.", "es": "Es una casa vieja.", "imagen": "Casa antigua de piedra" },
+      { "en": "The keys are in the bag.", "es": "Las llaves están en la bolsa.", "imagen": "Llaves dentro de una bolsa abierta" },
+      { "en": "My mother is an engineer.", "es": "Mi mamá es ingeniera.", "imagen": "Ingeniera con casco en una obra" },
+      { "en": "It's a big window.", "es": "Es una ventana grande.", "imagen": "Ventanal enorme con vista a la ciudad" },
+      { "en": "The sun is hot today.", "es": "Hoy el sol está muy fuerte.", "imagen": "Sol brillante en un cielo despejado" },
+      { "en": "Is it an apple or an orange?", "es": "¿Es una manzana o una naranja?", "imagen": "Mano sosteniendo una manzana y una naranja" }
+    ],
+    "frases": [
+      { "en": "The kitchen is small but the living room is big.", "es": "La cocina es pequeña pero la sala es grande." },
+      { "en": "The teacher is in the classroom and the students are happy.", "es": "El maestro está en el salón y los estudiantes están felices." },
+      { "en": "This is an old clock and it is very beautiful.", "es": "Este es un reloj viejo y es muy bonito." },
+      { "en": "The pencils are in the pencil case.", "es": "Los lápices están en el estuche." },
+      { "en": "My father is an architect and my mother is a nurse.", "es": "Mi papá es arquitecto y mi mamá es enfermera." },
+      { "en": "The towel is in the bathroom.", "es": "La toalla está en el baño." },
+      { "en": "It is an easy exercise.", "es": "Es un ejercicio fácil." },
+      { "en": "The book on the desk is a dictionary.", "es": "El libro que está en el escritorio es un diccionario." },
+      { "en": "The refrigerator is new and the stove is old.", "es": "El refrigerador es nuevo y la estufa es vieja." },
+      { "en": "My brother is a student at the university.", "es": "Mi hermano es estudiante en la universidad." },
+      { "en": "An hour is sixty minutes.", "es": "Una hora tiene sesenta minutos." },
+      { "en": "The moon is beautiful tonight.", "es": "La luna está hermosa esta noche." },
+      { "en": "It is a comfortable sofa.", "es": "Es un sofá cómodo." },
+      { "en": "The windows in my bedroom are very big.", "es": "Las ventanas de mi recámara son muy grandes." }
+    ],
+    "listening": [
+      { "audio": "Is this your umbrella? No, it isn't. My umbrella is blue.", "pregunta": "¿De qué color es el paraguas de quien responde?", "opciones": ["Azul", "Rojo", "Negro", "Verde"] },
+      { "audio": "The keys are on the kitchen table.", "pregunta": "¿Dónde están las llaves?", "opciones": ["En la mesa de la cocina", "En la recámara", "En la bolsa", "En el coche"] },
+      { "audio": "My sister is an architect. Her office is in the city.", "pregunta": "¿Cuál es el trabajo de la hermana?", "opciones": ["Es arquitecta", "Es abogada", "Es maestra", "Es doctora"] },
+      { "audio": "I need a pencil and an eraser, please.", "pregunta": "¿Qué necesita la persona?", "opciones": ["Un lápiz y una goma", "Una pluma y un cuaderno", "Un libro y una regla", "Una mochila y un lápiz"] },
+      { "audio": "The new computer is in the classroom.", "pregunta": "¿Dónde está la computadora nueva?", "opciones": ["En el salón de clases", "En la oficina", "En la casa", "En la biblioteca"] }
+    ],
+    "lectura": {
+      "titulo": "My bedroom",
+      "texto": "This is my bedroom. It's a small room, but it's very nice. The bed is big and the pillows are soft. My desk is near the window. A lamp and a computer are on the desk. The computer is new. On the wall is a clock. It's an old clock from my grandmother. My favorite thing is the bookshelf. It's full of books!",
+      "preguntas": [
+        { "pregunta": "¿Cómo es la recámara?", "opciones": ["Pequeña pero bonita", "Grande y moderna", "Fea y oscura", "Grande pero vieja"] },
+        { "pregunta": "¿Qué hay en el escritorio?", "opciones": ["Una lámpara y una computadora", "Un reloj y un libro", "Una almohada y una cobija", "Un librero"] },
+        { "pregunta": "¿De quién era el reloj?", "opciones": ["De su abuela", "De su mamá", "De su maestra", "De su hermana"] },
+        { "pregunta": "¿Cuál es su objeto favorito?", "opciones": ["El librero", "La cama", "La computadora", "El reloj"] }
+      ]
+    },
+    "escritura": [
+      { "instruccion": "Escribe a o an.", "pregunta": "___ apple", "respuestas": ["an", "an apple"] },
+      { "instruccion": "Escribe a o an.", "pregunta": "___ chair", "respuestas": ["a", "a chair"] },
+      { "instruccion": "Escribe a o an.", "pregunta": "___ hour", "respuestas": ["an", "an hour"] },
+      { "instruccion": "Escribe a o an.", "pregunta": "___ university", "respuestas": ["a", "a university"] },
+      { "instruccion": "Escribe a o an.", "pregunta": "___ umbrella", "respuestas": ["an", "an umbrella"] },
+      { "instruccion": "Completa con a, an o the.", "pregunta": "This is a cat. ___ cat is black.", "respuestas": ["The"] },
+      { "instruccion": "Completa con a, an o the.", "pregunta": "She's ___ engineer.", "respuestas": ["an"] },
+      { "instruccion": "Traduce al inglés.", "pregunta": "Es un libro.", "respuestas": ["It's a book", "It is a book"] },
+      { "instruccion": "Traduce al inglés.", "pregunta": "La ventana está abierta.", "respuestas": ["The window is open"] },
+      { "instruccion": "Corrige la oración.", "pregunta": "They are a students.", "respuestas": ["They are students", "They're students"] }
+    ],
+    "examen": [
+      { "tipo": "opcion", "pregunta": "My father is ___ engineer.", "opciones": ["an", "a", "the", "(nada)"] },
+      { "tipo": "opcion", "pregunta": "Elige la opción correcta.", "opciones": ["an hour", "a hour", "an house", "a apple"] },
+      { "tipo": "opcion", "pregunta": "This is a pen. ___ pen is blue.", "opciones": ["The", "A", "An", "(nada)"] },
+      { "tipo": "opcion", "pregunta": "___ moon is beautiful tonight.", "opciones": ["The", "A", "An", "(nada)"] },
+      { "tipo": "opcion", "pregunta": "They are ___.", "opciones": ["students", "a students", "an students", "a student"] },
+      { "tipo": "opcion", "pregunta": "Elige la oración correcta.", "opciones": ["She's a teacher.", "She's teacher.", "She's an teacher.", "She's the a teacher."] },
+      { "tipo": "listening", "audio": "Look! It's an elephant.", "pregunta": "¿Qué ve la persona?", "opciones": ["Un elefante", "Un león", "Un caballo", "Un perro"] },
+      { "tipo": "listening", "audio": "The remote control is on the sofa.", "pregunta": "¿Dónde está el control remoto?", "opciones": ["En el sofá", "En la mesa", "En la cama", "En el piso"] },
+      { "tipo": "escribir", "pregunta": "Escribe a o an: ___ orange", "respuestas": ["an", "an orange"] },
+      { "tipo": "escribir", "pregunta": "Traduce: Es una silla.", "respuestas": ["It's a chair", "It is a chair"] }
+    ]
+  },
   { "id": "a1-05", "num": 5, "titulo": "Plurales regulares e irregulares", "contexto": "Cosas que tengo" },
   { "id": "a1-06", "num": 6, "titulo": "Demostrativos this / that / these / those", "contexto": "De compras: ¿qué es esto?" },
   { "id": "a1-07", "num": 7, "titulo": "Adjetivos posesivos y posesivo 's", "contexto": "La familia" },

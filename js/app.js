@@ -453,7 +453,7 @@ function viewVocabulario(tema) {
     .join("");
   return `
     <div class="card"><h2>Vocabulario</h2>${tema.vocabulario.map(fila).join("")}</div>
-    ${grupos ? `<h2 style="margin:18px 0 10px">Más vocabulario con <em>to be</em></h2>${grupos}` : ""}
+    ${grupos ? `<h2 style="margin:18px 0 10px">${md(tema.gruposTitulo || "Más vocabulario")}</h2>${grupos}` : ""}
     <div class="card"><h2>Ejemplos</h2>${tema.ejemplos.map(fila).join("")}</div>`;
 }
 
@@ -632,7 +632,7 @@ function pronSets(tema) {
     { id: "vocabulario", titulo: "🗣️ Vocabulario", modo: "palabra", lista: tema.vocabulario },
     ...(tema.grupos || []).map((g) => ({ id: g.id, titulo: `${g.icono} ${g.titulo}`, modo: "palabra", lista: g.palabras })),
     { id: "ejemplos", titulo: "💬 Ejemplos", modo: "oracion", lista: tema.ejemplos },
-    ...(tema.frases ? [{ id: "frases", titulo: "📝 Oraciones largas con to be", modo: "oracion", lista: tema.frases }] : []),
+    ...(tema.frases ? [{ id: "frases", titulo: "📝 Oraciones largas", modo: "oracion", lista: tema.frases }] : []),
   ];
 }
 
