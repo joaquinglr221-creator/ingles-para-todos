@@ -939,6 +939,22 @@ window.addEventListener("hashchange", () => {
 });
 render();
 
+// Actualización automática: al abrir la app (o volver a ella) se busca una versión nueva; cuando la
+// versión nueva toma el control, la página se recarga una vez para mostrar los cambios.
 if ("serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost")) {
-  navigator.serviceWorker.register("sw.js").catch(() => {});
+  const habiaVersion = !!navigator.serviceWorker.controller;
+  let recargando = false;
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    if (!habiaVersion || recargando) return;
+    recargando = true;
+    location.reload();
+  });
+  navigator.serviceWorker
+    .register("sw.js")
+    .then((reg) => {
+      document.addEventListener("visibilitychange", () => {
+        if (document.visibilityState === "visible") reg.update().catch(() => {});
+      });
+    })
+    .catch(() => {});
 }

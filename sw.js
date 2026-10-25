@@ -2,8 +2,9 @@
 // - La app (html, css, js) se guarda al instalar y se pide primero a internet, para que las
 //   actualizaciones lleguen en cuanto haya señal.
 // - Imágenes, audios y videos se guardan la primera vez que se usan y desde ahí salen del celular.
+// - Cada versión nueva borra lo guardado de la anterior; js/app.js recarga la página cuando llega.
 // Cambiar VERSION en cada publicación para renovar lo guardado.
-const VERSION = "20261025-1238-3f62050";
+const VERSION = "20261025-1241-25faa43";
 const SHELL_CACHE = `app-${VERSION}`;
 const MEDIA_CACHE = `media-${VERSION}`;
 const SHELL = [
@@ -20,7 +21,12 @@ const SHELL = [
 ];
 
 self.addEventListener("install", (e) => {
-  e.waitUntil(caches.open(SHELL_CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
+  e.waitUntil(
+    caches
+      .open(SHELL_CACHE)
+      .then((c) => c.addAll(SHELL.map((url) => new Request(url, { cache: "reload" }))))
+      .then(() => self.skipWaiting())
+  );
 });
 
 self.addEventListener("activate", (e) => {
@@ -43,7 +49,7 @@ self.addEventListener("fetch", (e) => {
 async function shell(req) {
   const cache = await caches.open(SHELL_CACHE);
   try {
-    const res = await fetch(req);
+    const res = await fetch(req, { cache: "no-cache" }); // sin la caché del navegador: siempre la versión publicada
     if (res.ok) cache.put(req, res.clone());
     return res;
   } catch {
@@ -57,7 +63,7 @@ async function media(req) {
   let res = await cache.match(key);
   if (!res) {
     try {
-      res = await fetch(key);
+      res = await fetch(key, { cache: "no-cache" }); // una imagen reemplazada con el mismo nombre llega nueva
       if (res.ok) await cache.put(key, res.clone());
     } catch {
       return Response.error();
