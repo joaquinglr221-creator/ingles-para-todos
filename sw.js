@@ -4,9 +4,11 @@
 // - Imágenes, audios y videos se guardan la primera vez que se usan y desde ahí salen del celular.
 // - Cada versión nueva borra lo guardado de la anterior; js/app.js recarga la página cuando llega.
 // Cambiar VERSION en cada publicación para renovar lo guardado.
-const VERSION = "20261025-1413-02f25b1";
+const VERSION = "20261025-1415-13aa265";
 const SHELL_CACHE = `app-${VERSION}`;
 const MEDIA_CACHE = `media-${VERSION}`;
+// En la computadora (versión "dev", sin publicar) no se guarda nada: siempre se ven los archivos del momento.
+const DEV = VERSION === "dev";
 const SHELL = [
   "./",
   "index.html",
@@ -22,6 +24,7 @@ const SHELL = [
 ];
 
 self.addEventListener("install", (e) => {
+  if (DEV) return self.skipWaiting();
   e.waitUntil(
     caches
       .open(SHELL_CACHE)
@@ -34,7 +37,7 @@ self.addEventListener("activate", (e) => {
   e.waitUntil(
     caches
       .keys()
-      .then((keys) => Promise.all(keys.filter((k) => k !== SHELL_CACHE && k !== MEDIA_CACHE).map((k) => caches.delete(k))))
+      .then((keys) => Promise.all(keys.filter((k) => DEV || (k !== SHELL_CACHE && k !== MEDIA_CACHE)).map((k) => caches.delete(k))))
       .then(() => self.clients.claim())
   );
 });
@@ -43,6 +46,7 @@ self.addEventListener("fetch", (e) => {
   const req = e.request;
   const url = new URL(req.url);
   if (req.method !== "GET" || url.origin !== location.origin) return;
+  if (DEV) return e.respondWith(fetch(req, { cache: "no-store" }));
   if (/\/(audio|images|videos)\//.test(url.pathname)) e.respondWith(media(req));
   else e.respondWith(shell(req));
 });
