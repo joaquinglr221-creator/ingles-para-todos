@@ -502,14 +502,17 @@ const TEMAS_A1 = [
         "pregunta": "Are you married? — No, ___.",
         "respuestas": [
           "I'm not",
-          "I am not"
+          "I am not",
+          "No, I'm not",
+          "No, I am not"
         ]
       },
       {
         "instruccion": "Completa la respuesta corta.",
         "pregunta": "Is she your sister? — Yes, ___.",
         "respuestas": [
-          "she is"
+          "she is",
+          "Yes, she is"
         ]
       },
       {
