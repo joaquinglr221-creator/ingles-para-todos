@@ -425,8 +425,19 @@ const FOTOS = typeof IMAGENES !== "undefined" ? IMAGENES : {};
 function viewVocabulario(tema) {
   const foto = (w) => (FOTOS[w.en] ? `<img class="thumb" src="${esc(FOTOS[w.en])}" alt="" loading="lazy" data-zoom="${esc(w.en)}">` : "");
   const fila = (w) => `<div class="line">${foto(w)}<div class="grow"><p class="en">${esc(w.en)}</p><p class="es">${esc(w.es)}</p></div>${speakButtons(w.en)}</div>`;
+  // Vocabulario extra por temas: cada grupo se abre y se cierra para no alargar la pantalla.
+  const grupos = (tema.grupos || [])
+    .map(
+      (g) => `<details class="card group">
+        <summary><span class="group-icon">${g.icono}</span><strong class="grow">${esc(g.titulo)}</strong><span class="muted">${g.palabras.length}</span></summary>
+        <div class="pattern">${g.patron.map((p) => `<div class="line"><p class="grow en">${esc(p)}</p>${speakButtons(p)}</div>`).join("")}</div>
+        ${g.palabras.map(fila).join("")}
+      </details>`
+    )
+    .join("");
   return `
     <div class="card"><h2>Vocabulario</h2>${tema.vocabulario.map(fila).join("")}</div>
+    ${grupos ? `<h2 style="margin:18px 0 10px">Más vocabulario con <em>to be</em></h2>${grupos}` : ""}
     <div class="card"><h2>Ejemplos</h2>${tema.ejemplos.map(fila).join("")}</div>`;
 }
 
