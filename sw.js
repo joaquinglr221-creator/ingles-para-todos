@@ -4,7 +4,7 @@
 // - Imágenes, audios y videos se guardan la primera vez que se usan y desde ahí salen del celular.
 // - Cada versión nueva borra lo guardado de la anterior; js/app.js recarga la página cuando llega.
 // Cambiar VERSION en cada publicación para renovar lo guardado.
-const VERSION = "20261025-1407-a9b5aea";
+const VERSION = "20261025-1411-591594e";
 const SHELL_CACHE = `app-${VERSION}`;
 const MEDIA_CACHE = `media-${VERSION}`;
 const SHELL = [
@@ -18,6 +18,7 @@ const SHELL = [
   "js/audio-base.js",
   "js/app.js",
   "images/app/icon-192.png",
+  "images/app/portada.jpg",
 ];
 
 self.addEventListener("install", (e) => {

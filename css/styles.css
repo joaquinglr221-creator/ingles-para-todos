@@ -123,29 +123,22 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .home-hero {
   position: relative;
   overflow: hidden;
-  display: flex; align-items: center; gap: 12px;
-  background: var(--grad);
+  display: flex; align-items: flex-end; gap: 12px;
+  min-height: 250px;
+  /* Banderas de EE. UU. y Reino Unido (scripts/generar_portada.py) con un velo morado para leer el texto. */
+  background:
+    linear-gradient(100deg, rgba(38, 26, 120, 0.82) 0%, rgba(91, 76, 240, 0.45) 50%, rgba(139, 92, 246, 0) 100%),
+    url("../images/app/portada.jpg") 40% center / cover;
   color: #fff;
   border-radius: 28px;
   padding: 28px 22px;
   margin: 4px 0 18px;
   box-shadow: var(--shadow-lg);
+  text-shadow: 0 1px 12px rgba(20, 12, 70, 0.45);
 }
-.home-hero::before, .home-hero::after {
-  content: ""; position: absolute; border-radius: 50%; background: rgba(255, 255, 255, 0.12); pointer-events: none;
-}
-.home-hero::before { width: 240px; height: 240px; right: -80px; top: -110px; }
-.home-hero::after { width: 140px; height: 140px; left: -50px; bottom: -70px; }
 .home-hero h1 { font-size: 2.1rem; margin: 0 0 6px; color: #fff; }
 .home-hero p { opacity: 0.92; }
-.home-hero-text { flex: 1; position: relative; z-index: 1; }
-.home-hero-art {
-  position: relative; z-index: 1; flex-shrink: 0;
-  width: 84px; height: 84px; display: grid; place-items: center;
-  font-size: 2.6rem; border-radius: 24px;
-  background: rgba(255, 255, 255, 0.18); backdrop-filter: blur(6px);
-  transform: rotate(-8deg);
-}
+.home-hero-text { flex: 1; position: relative; z-index: 1; max-width: 330px; }
 
 .feature { display: flex; gap: 14px; align-items: center; margin-bottom: 0; }
 .feature h2 { margin: 0 0 2px; }

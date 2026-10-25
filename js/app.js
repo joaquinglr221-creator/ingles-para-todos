@@ -158,7 +158,6 @@ function viewHome() {
         <h1>Inglés para todos</h1>
         <p>Aprende a tu ritmo con audio, imágenes, pronunciación y exámenes.</p>
       </div>
-      <div class="home-hero-art" aria-hidden="true">💬</div>
     </header>
     ${examen}
     <h2 class="section-title">Niveles</h2>
