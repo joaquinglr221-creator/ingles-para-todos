@@ -20,14 +20,16 @@ const store = {
 };
 
 // ---------- Niveles (docs/plan-de-estudios.md) ----------
+// "color" y "color2" forman el degradado de cada nivel en las tarjetas y encabezados.
 const NIVELES = [
-  { code: "A1", nombre: "Principiante", temas: 24, desc: "Presentarte, hablar de tu familia, tu casa y tu rutina." },
-  { code: "A2", nombre: "Básico", temas: 24, desc: "Contar lo que hiciste, hacer planes y comparar." },
-  { code: "B1", nombre: "Intermedio", temas: 28, desc: "Experiencias, opiniones, condicionales y voz pasiva." },
-  { code: "B2", nombre: "Intermedio alto", temas: 28, desc: "Argumentar, matizar y hablar con naturalidad." },
-  { code: "C1", nombre: "Avanzado", temas: 20, desc: "Inglés formal, académico y profesional." },
-  { code: "C2", nombre: "Dominio", temas: 14, desc: "Estilo, matices y lectura crítica." },
+  { code: "A1", nombre: "Principiante", temas: 24, desc: "Presentarte, hablar de tu familia, tu casa y tu rutina.", color: "#10b981", color2: "#059669" },
+  { code: "A2", nombre: "Básico", temas: 24, desc: "Contar lo que hiciste, hacer planes y comparar.", color: "#06b6d4", color2: "#0891b2" },
+  { code: "B1", nombre: "Intermedio", temas: 28, desc: "Experiencias, opiniones, condicionales y voz pasiva.", color: "#3b82f6", color2: "#2563eb" },
+  { code: "B2", nombre: "Intermedio alto", temas: 28, desc: "Argumentar, matizar y hablar con naturalidad.", color: "#6366f1", color2: "#4f46e5" },
+  { code: "C1", nombre: "Avanzado", temas: 20, desc: "Inglés formal, académico y profesional.", color: "#8b5cf6", color2: "#7c3aed" },
+  { code: "C2", nombre: "Dominio", temas: 14, desc: "Estilo, matices y lectura crítica.", color: "#ec4899", color2: "#db2777" },
 ];
+const colorNivel = (n) => `--lv:${n.color};--lv2:${n.color2}`;
 
 // ---------- Voz en inglés ----------
 // Voces de efectos o muy robóticas que traen macOS/iOS; nunca se eligen solas.
@@ -118,38 +120,49 @@ const speakButtons = (text) => `
 function viewHome() {
   const res = store.get("ubicacion", null);
   const enCurso = store.get("ubicacion-en-curso", null);
+  const miNivel = res && NIVELES.find((n) => n.code === res.nivel);
   const examen = res
-    ? `<div class="card tip">
-        <h2>Tu nivel: ${res.nivel} · ${esc(NIVELES.find((n) => n.code === res.nivel).nombre)}</h2>
-        <p class="muted">Según tu examen de ubicación del ${esc(new Date(res.fecha).toLocaleDateString("es-MX"))}.</p>
-        ${TEMAS[res.nivel]?.some(tieneContenido) ? `<a class="btn full center" href="#/nivel/${res.nivel}">Ir al nivel ${res.nivel}</a>` : ""}
-        <a class="btn ghost full center" href="#/ubicacion/resultado">Ver resultado</a>
-      </div>`
-    : `<div class="card tip">
-        <h2>¿Por dónde empiezo?</h2>
-        <p>Haz el examen de ubicación y la app te dirá en qué nivel empezar.</p>
-        <a class="btn full center" href="#/ubicacion">${enCurso ? "Continuar el examen" : "Hacer el examen de ubicación"}</a>
-      </div>`;
-  const niveles = NIVELES.map((n) => {
-    const listos = (TEMAS[n.code] || []).filter(tieneContenido).length;
-    const inner = `
-        <div class="level-code">${n.code}</div>
+    ? `<div class="card feature" style="${colorNivel(miNivel)}">
+        <div class="feature-icon">🎯</div>
         <div class="grow">
-          <strong>${esc(n.nombre)}</strong> <span class="muted">· ${n.temas} temas</span>
-          <p class="muted">${esc(n.desc)}</p>
+          <p class="eyebrow">Tu nivel</p>
+          <h2>${res.nivel} · ${esc(miNivel.nombre)}</h2>
+          <p class="muted">Examen de ubicación del ${esc(new Date(res.fecha).toLocaleDateString("es-MX"))} · <a class="link" href="#/ubicacion/resultado">ver resultado</a></p>
         </div>
-        ${listos ? "" : `<span class="muted">Pronto</span>`}`;
-    const cls = `level${res && res.nivel === n.code ? " mine" : ""}`;
-    return listos ? `<a class="${cls}" href="#/nivel/${n.code}">${inner}</a>` : `<div class="${cls} off">${inner}</div>`;
+      </div>
+      ${TEMAS[res.nivel]?.some(tieneContenido) ? `<a class="btn full center" href="#/nivel/${res.nivel}">Continuar con ${res.nivel} →</a>` : ""}`
+    : `<div class="card feature">
+        <div class="feature-icon">🧭</div>
+        <div class="grow">
+          <h2>¿Por dónde empiezo?</h2>
+          <p class="muted">Haz el examen de ubicación y la app te dirá en qué nivel empezar.</p>
+        </div>
+      </div>
+      <a class="btn full center" href="#/ubicacion">${enCurso ? "Continuar el examen →" : "Hacer el examen de ubicación →"}</a>`;
+  const niveles = NIVELES.map((n) => {
+    const temas = (TEMAS[n.code] || []).filter(tieneContenido);
+    const hechos = temas.filter((t) => aprobado(t.id)).length;
+    const inner = `
+        <div class="lv-top"><span class="lv-code">${n.code}</span>${res && res.nivel === n.code ? `<span class="lv-badge">Tu nivel</span>` : ""}</div>
+        <strong class="lv-name">${esc(n.nombre)}</strong>
+        <span class="lv-meta">${temas.length ? `${hechos} de ${n.temas} temas` : "Próximamente"}</span>
+        <div class="lv-bar"><div style="width:${(hechos / n.temas) * 100}%"></div></div>`;
+    return temas.length
+      ? `<a class="lv-tile" style="${colorNivel(n)}" href="#/nivel/${n.code}">${inner}</a>`
+      : `<div class="lv-tile off" style="${colorNivel(n)}">${inner}</div>`;
   }).join("");
   return `
-    <div class="hero">
-      <h1>Inglés para todos</h1>
-      <p>De principiante (A1) a dominio (C2), a tu ritmo.</p>
-    </div>
+    <header class="home-hero">
+      <div class="home-hero-text">
+        <p class="eyebrow light">De A1 a C2</p>
+        <h1>Inglés para todos</h1>
+        <p>Aprende a tu ritmo con audio, imágenes, pronunciación y exámenes.</p>
+      </div>
+      <div class="home-hero-art" aria-hidden="true">💬</div>
+    </header>
     ${examen}
-    <h2>Niveles</h2>
-    <div class="levels">${niveles}</div>`;
+    <h2 class="section-title">Niveles</h2>
+    <div class="lv-grid">${niveles}</div>`;
 }
 
 // ---------- Examen de ubicación ----------
@@ -356,38 +369,50 @@ function viewLevel(code) {
       const listo = tieneContenido(t);
       const estado = aprobado(t.id) ? `<span class="tag ok">✓ ${progreso[t.id].examen}/10</span>` : listo ? `<span class="muted">${partesHechas(t.id)}/${SECCIONES.length}</span>` : `<span class="muted">Pronto</span>`;
       const inner = `
-        <div class="level-code small">${t.num}</div>
-        <div class="grow"><strong>${esc(t.titulo)}</strong><p class="muted">${esc(t.contexto)}</p></div>
+        <div class="level-code small${aprobado(t.id) ? " done" : ""}">${aprobado(t.id) ? "✓" : t.num}</div>
+        <div class="grow"><strong>${esc(t.titulo)}</strong><p class="muted">${esc(t.contexto)}</p>
+          ${listo && !aprobado(t.id) ? `<div class="mini-bar"><div style="width:${(partesHechas(t.id) / SECCIONES.length) * 100}%"></div></div>` : ""}</div>
         ${estado}`;
       return listo ? `<a class="level" href="#/tema/${t.id}">${inner}</a>` : `<div class="level off">${inner}</div>`;
     })
     .join("");
+  const listos = temas.filter(tieneContenido);
+  const hechos = listos.filter((t) => aprobado(t.id)).length;
   return `
     <a class="back" href="#/">‹ Inicio</a>
-    <div class="hero"><h1>${code} · ${esc(nivel.nombre)}</h1><p>${esc(nivel.desc)}</p></div>
-    <div class="levels">${filas}</div>`;
+    <div class="hero lv-hero" style="${colorNivel(nivel)}">
+      <p class="eyebrow light">Nivel ${code}</p>
+      <h1>${esc(nivel.nombre)}</h1>
+      <p>${esc(nivel.desc)}</p>
+      <div class="hero-progress"><div style="width:${(hechos / nivel.temas) * 100}%"></div></div>
+      <p class="hero-note">${hechos} de ${nivel.temas} temas aprobados</p>
+    </div>
+    <div class="levels" style="${colorNivel(nivel)}">${filas}</div>`;
 }
 
 function viewTopic(tema) {
   const code = nivelDe(tema);
+  const nivel = NIVELES.find((n) => n.code === code);
   const filas = SECCIONES.map((s) => {
     const hecho = s.id === "examen" ? aprobado(tema.id) : progreso[tema.id]?.[s.id];
-    const extra = s.id === "examen" && progreso[tema.id]?.examen != null ? `<span class="muted">${progreso[tema.id].examen}/10</span>` : "";
-    return `<a class="level" href="#/tema/${tema.id}/${s.id}">
-      <div class="level-code small">${s.icon}</div>
-      <div class="grow"><strong>${s.nombre}</strong></div>
+    const extra = s.id === "examen" && progreso[tema.id]?.examen != null ? `<span class="tile-note">${progreso[tema.id].examen}/10</span>` : "";
+    return `<a class="tile${hecho ? " done" : ""}" href="#/tema/${tema.id}/${s.id}">
+      <span class="tile-icon">${s.icon}</span>
+      <strong>${s.nombre}</strong>
       ${extra}<span class="check${hecho ? " on" : ""}">${hecho ? "✓" : ""}</span>
     </a>`;
   }).join("");
   const siguiente = SECCIONES.find((s) => !(s.id === "examen" ? aprobado(tema.id) : progreso[tema.id]?.[s.id]));
   return `
     <a class="back" href="#/nivel/${code}">‹ Nivel ${code}</a>
-    <div class="hero">
-      <p>Tema ${tema.num} · ${code}</p>
+    <div class="hero lv-hero" style="${colorNivel(nivel)}">
+      <p class="eyebrow light">Tema ${tema.num} · ${code}</p>
       <h1>${esc(tema.titulo)}</h1>
       <p>${esc(tema.contexto)}</p>
+      <div class="hero-progress"><div style="width:${(partesHechas(tema.id) / SECCIONES.length) * 100}%"></div></div>
+      <p class="hero-note">${partesHechas(tema.id)} de ${SECCIONES.length} partes</p>
     </div>
-    <div class="levels">${filas}</div>
+    <div class="tiles" style="${colorNivel(nivel)}">${filas}</div>
     ${siguiente ? `<a class="btn full center" href="#/tema/${tema.id}/${siguiente.id}">${partesHechas(tema.id) ? "Continuar" : "Empezar"}: ${siguiente.nombre}</a>` : `<p class="center muted">¡Terminaste este tema! 🎉</p>`}`;
 }
 
@@ -399,7 +424,7 @@ function sectionHeader(tema, sec) {
       <a class="back" href="#/tema/${tema.id}">‹ ${esc(tema.titulo)}</a>
       <span class="tag">${i + 1} de ${SECCIONES.length}</span>
     </div>
-    <h1>${SECCIONES[i].icon} ${SECCIONES[i].nombre}</h1>`;
+    <h1 class="page-title"><span class="title-icon">${SECCIONES[i].icon}</span>${SECCIONES[i].nombre}</h1>`;
 }
 function sectionNext(tema, sec) {
   const i = SECCIONES.findIndex((s) => s.id === sec);
