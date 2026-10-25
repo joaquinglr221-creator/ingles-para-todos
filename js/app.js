@@ -440,7 +440,7 @@ const miniatura = (src, attrs = "") =>
 
 function viewVocabulario(tema) {
   const foto = (w) => (FOTOS[w.en] ? miniatura(FOTOS[w.en], `data-zoom="${esc(w.en)}"`) : "");
-  const fila = (w) => `<div class="line">${foto(w)}<div class="grow"><p class="en">${esc(w.en)}</p><p class="es">${esc(w.es)}</p></div>${speakButtons(w.en)}</div>`;
+  const fila = (w) => `<div class="line">${foto(w)}<div class="grow"><p class="en">${esc(w.en)}</p>${w.es ? `<p class="es">${esc(w.es)}</p>` : ""}</div>${speakButtons(w.en)}</div>`;
   // Vocabulario extra por temas: cada grupo se abre y se cierra para no alargar la pantalla.
   const grupos = (tema.grupos || [])
     .map(
@@ -751,7 +751,7 @@ function viewPronPractica(tema, setId) {
     <div class="progress"><div style="width:${(p.i / set.lista.length) * 100}%"></div></div>
     <div class="card center pron-card">
       ${figura}
-      <p class="es" style="font-size:1.05rem">${esc(item.es)}</p>
+      ${item.es ? `<p class="es" style="font-size:1.05rem">${esc(item.es)}</p>` : ""}
       ${textoEn}
       <div class="row center">
         ${speakButtons(item.en)}
