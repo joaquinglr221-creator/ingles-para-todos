@@ -246,3 +246,10 @@ th { color: var(--muted); font-weight: 600; }
 @keyframes latido { 50% { transform: scale(1.08); } }
 .pron-img.small { width: min(100%, 200px); }
 video.thumb, video.pron-img { display: block; }
+.thumb-clip { position: relative; flex-shrink: 0; cursor: zoom-in; }
+.thumb-clip .play {
+  position: absolute; right: 4px; bottom: 4px;
+  width: 22px; height: 22px; border-radius: 50%;
+  display: grid; place-items: center;
+  background: rgba(0, 0, 0, 0.55); color: #fff; font-size: 0.65rem;
+}

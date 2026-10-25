@@ -82,11 +82,13 @@ function speak(text, slow = false) {
   if (RECORDED[key]) {
     currentAudio = new Audio(`audio/${RECORDED[key]}/${key}.m4a`);
     currentAudio.playbackRate = slow ? 0.7 : 1;
-    // Si falla (mala señal), se reintenta la grabación antes de recurrir a la voz del celular.
+    // Si falla (mala señal, o el celular no deja sonar audio mientras corre un clip), se pausan los
+    // clips y se reintenta la grabación antes de recurrir a la voz del celular.
     const audio = currentAudio;
     audio.play().catch(() =>
       setTimeout(() => {
         if (currentAudio !== audio) return;
+        document.querySelectorAll("video").forEach((v) => v.pause());
         audio.load();
         audio.play().catch(() => speakWithDevice(text, slow));
       }, 400)
@@ -422,14 +424,22 @@ function viewExplicacion(tema) {
 
 // Imágenes y clips de Canva (scripts/importar_imagenes_canva.py), por texto en inglés.
 const FOTOS = typeof IMAGENES !== "undefined" ? IMAGENES : {};
-// Un clip (.mp4) se reproduce solo, en silencio y en bucle, donde iría la imagen.
+// Un clip (.mp4) se reproduce solo, en silencio y en bucle, donde iría la imagen. Cada clip tiene al
+// lado su primer cuadro en .jpg (poster), que es lo que se muestra en las listas: muchos videos a la vez
+// saturan el celular y no dejan sonar los audios.
+const esClip = (src) => /\.mp4$/i.test(src);
+const poster = (src) => src.replace(/\.mp4$/i, ".jpg");
 const media = (src, attrs = "") =>
-  /\.mp4$/i.test(src)
-    ? `<video src="${esc(src)}" autoplay muted loop playsinline preload="metadata" ${attrs}></video>`
+  esClip(src)
+    ? `<video src="${esc(src)}" poster="${esc(poster(src))}" autoplay muted loop playsinline preload="metadata" ${attrs}></video>`
     : `<img src="${esc(src)}" alt="" loading="lazy" ${attrs}>`;
+const miniatura = (src, attrs = "") =>
+  esClip(src)
+    ? `<span class="thumb-clip" ${attrs}><img class="thumb" src="${esc(poster(src))}" alt="" loading="lazy"><span class="play">▶</span></span>`
+    : `<img class="thumb" src="${esc(src)}" alt="" loading="lazy" ${attrs}>`;
 
 function viewVocabulario(tema) {
-  const foto = (w) => (FOTOS[w.en] ? media(FOTOS[w.en], `class="thumb" data-zoom="${esc(w.en)}"`) : "");
+  const foto = (w) => (FOTOS[w.en] ? miniatura(FOTOS[w.en], `data-zoom="${esc(w.en)}"`) : "");
   const fila = (w) => `<div class="line">${foto(w)}<div class="grow"><p class="en">${esc(w.en)}</p><p class="es">${esc(w.es)}</p></div>${speakButtons(w.en)}</div>`;
   // Vocabulario extra por temas: cada grupo se abre y se cierra para no alargar la pantalla.
   const grupos = (tema.grupos || [])
