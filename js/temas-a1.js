@@ -144,7 +144,491 @@ const TEMAS_A1 = [
       { "tipo": "escribir", "pregunta": "Traduce: Ella es maestra.", "respuestas": ["She's a teacher", "She is a teacher"] }
     ]
   },
-  { "id": "a1-02", "num": 2, "titulo": "Verbo to be: negativo y preguntas", "contexto": "Datos personales (nombre, edad, país)" },
+  {
+    "id": "a1-02",
+    "num": 2,
+    "titulo": "Verbo to be: negativo y preguntas",
+    "contexto": "Datos personales (nombre, edad, país)",
+    "explicacion": {
+      "es": [
+        "Para hacer una oración **negativa** se agrega **not** después de *am, is, are*: *I am not tired* (no estoy cansado), *She is not from Spain* (ella no es de España).",
+        "Al hablar se usan las contracciones: **I'm not**, **isn't** (is not) y **aren't** (are not).",
+        "Para hacer una **pregunta** se cambia el orden: el verbo va **antes** del sujeto. *You are from Peru* → **Are you** from Peru?",
+        "Las **respuestas cortas** solo llevan el sujeto y el verbo: *Yes, I am.* / *No, I'm not.*"
+      ],
+      "tabla": {
+        "columnas": [
+          "Afirmativo",
+          "Negativo",
+          "Pregunta",
+          "Respuesta corta"
+        ],
+        "filas": [
+          [
+            "I am",
+            "I'm not",
+            "Am I…?",
+            "Yes, I am. / No, I'm not."
+          ],
+          [
+            "you are",
+            "you aren't",
+            "Are you…?",
+            "Yes, you are. / No, you aren't."
+          ],
+          [
+            "he is",
+            "he isn't",
+            "Is he…?",
+            "Yes, he is. / No, he isn't."
+          ],
+          [
+            "she is",
+            "she isn't",
+            "Is she…?",
+            "Yes, she is. / No, she isn't."
+          ],
+          [
+            "it is",
+            "it isn't",
+            "Is it…?",
+            "Yes, it is. / No, it isn't."
+          ],
+          [
+            "we are",
+            "we aren't",
+            "Are we…?",
+            "Yes, we are. / No, we aren't."
+          ],
+          [
+            "they are",
+            "they aren't",
+            "Are they…?",
+            "Yes, they are. / No, they aren't."
+          ]
+        ]
+      },
+      "ojo": [
+        "Con el verbo *to be* **no** se usa *do*: **Are you** a student? (no *Do you are a student?*).",
+        "En la respuesta corta afirmativa **no** hay contracción: *Yes, she is* (no *Yes, she's*).",
+        "La edad se pregunta con **How old**: *How old are you?* — *I'm 25.* (no *How many years do you have?*).",
+        "*I am not* se contrae solo como **I'm not** (no existe *I amn't*)."
+      ],
+      "en": [
+        "To make the verb **to be** negative, add **not**: I am not, he is not, they are not.",
+        "Short forms: **I'm not**, **isn't** and **aren't**.",
+        "To make a question, put the verb before the subject: **Are you** happy? **Is she** a nurse?",
+        "Short answers: Yes, I am. No, I'm not. Yes, she is. No, she isn't."
+      ]
+    },
+    "vocabulario": [
+      {
+        "en": "What's your name?",
+        "es": "¿Cómo te llamas?",
+        "imagen": "Persona llenando un formulario en una oficina mientras otra le pregunta amablemente"
+      },
+      {
+        "en": "first name",
+        "es": "nombre (de pila)",
+        "imagen": "Gafete de identificación con la foto de una persona sonriente"
+      },
+      {
+        "en": "last name",
+        "es": "apellido",
+        "imagen": "Familia de tres generaciones posando junta para una foto"
+      },
+      {
+        "en": "How old are you?",
+        "es": "¿Cuántos años tienes?",
+        "imagen": "Niño mostrando con los dedos cuántos años tiene"
+      },
+      {
+        "en": "age",
+        "es": "edad",
+        "imagen": "Tres personas de distintas edades juntas: un niño, un adulto y un anciano"
+      },
+      {
+        "en": "country",
+        "es": "país",
+        "imagen": "Globo terráqueo sobre un escritorio"
+      },
+      {
+        "en": "nationality",
+        "es": "nacionalidad",
+        "imagen": "Pasaporte junto a varias banderas pequeñas de distintos países"
+      },
+      {
+        "en": "phone number",
+        "es": "número de teléfono",
+        "imagen": "Persona dictando su número mientras otra lo guarda en su celular"
+      },
+      {
+        "en": "email address",
+        "es": "correo electrónico",
+        "imagen": "Persona escribiendo en una laptop con un sobre de correo flotando en la pantalla"
+      },
+      {
+        "en": "address",
+        "es": "dirección (domicilio)",
+        "imagen": "Fachada de una casa con buzón junto a la puerta"
+      },
+      {
+        "en": "married",
+        "es": "casado / casada",
+        "imagen": "Pareja de recién casados mostrando sus anillos"
+      },
+      {
+        "en": "single",
+        "es": "soltero / soltera",
+        "imagen": "Persona joven sola y feliz tomando café en una cafetería"
+      },
+      {
+        "en": "job",
+        "es": "trabajo, empleo",
+        "imagen": "Varias personas con uniformes de distintos trabajos"
+      },
+      {
+        "en": "Are you…?",
+        "es": "¿Eres…? / ¿Estás…?",
+        "imagen": "Persona con cara de duda haciendo una pregunta"
+      },
+      {
+        "en": "Yes, I am.",
+        "es": "Sí (lo soy / lo estoy).",
+        "imagen": "Persona asintiendo con la cabeza y sonriendo"
+      },
+      {
+        "en": "No, I'm not.",
+        "es": "No (no lo soy / no lo estoy).",
+        "imagen": "Persona negando con la cabeza y con la mano"
+      }
+    ],
+    "ejemplos": [
+      {
+        "en": "I'm not from Spain. I'm from Chile.",
+        "es": "No soy de España. Soy de Chile.",
+        "imagen": "Persona sonriente sosteniendo la bandera de Chile"
+      },
+      {
+        "en": "She isn't married. She's single.",
+        "es": "Ella no está casada. Es soltera.",
+        "imagen": "Mujer joven feliz caminando sola por la ciudad"
+      },
+      {
+        "en": "They aren't brothers. They're friends.",
+        "es": "No son hermanos. Son amigos.",
+        "imagen": "Dos amigos de aspecto muy distinto riendo juntos"
+      },
+      {
+        "en": "Are you a student? Yes, I am.",
+        "es": "¿Eres estudiante? Sí.",
+        "imagen": "Estudiante con mochila respondiendo con una sonrisa"
+      },
+      {
+        "en": "Is he your teacher? No, he isn't.",
+        "es": "¿Él es tu maestro? No.",
+        "imagen": "Hombre joven junto a un pizarrón en un salón de clases"
+      },
+      {
+        "en": "How old are you? I'm eighteen.",
+        "es": "¿Cuántos años tienes? Tengo dieciocho.",
+        "imagen": "Joven sonriendo frente a un pastel de cumpleaños"
+      },
+      {
+        "en": "What's your phone number?",
+        "es": "¿Cuál es tu número de teléfono?",
+        "imagen": "Dos personas intercambiando números con sus celulares"
+      },
+      {
+        "en": "Where are you from? I'm from Japan.",
+        "es": "¿De dónde eres? Soy de Japón.",
+        "imagen": "Persona sonriendo frente al monte Fuji"
+      },
+      {
+        "en": "It isn't cold today.",
+        "es": "Hoy no hace frío.",
+        "imagen": "Personas en manga corta paseando por un parque soleado"
+      },
+      {
+        "en": "We aren't late.",
+        "es": "No llegamos tarde.",
+        "imagen": "Dos personas llegando a tiempo y mirando el reloj tranquilas"
+      }
+    ],
+    "listening": [
+      {
+        "audio": "Are you from Brazil? No, I'm not. I'm from Portugal.",
+        "pregunta": "¿De dónde es la persona que responde?",
+        "opciones": [
+          "De Portugal",
+          "De Brasil",
+          "De España",
+          "De Argentina"
+        ]
+      },
+      {
+        "audio": "My sister isn't a teacher. She's a nurse.",
+        "pregunta": "¿Cuál es el trabajo de la hermana?",
+        "opciones": [
+          "Es enfermera",
+          "Es maestra",
+          "Es doctora",
+          "Es estudiante"
+        ]
+      },
+      {
+        "audio": "Is Peter married? Yes, he is. His wife is from Italy.",
+        "pregunta": "¿Peter está casado?",
+        "opciones": [
+          "Sí, y su esposa es de Italia",
+          "No, es soltero",
+          "Sí, y su esposa es de India",
+          "No, pero tiene novia"
+        ]
+      },
+      {
+        "audio": "How old is your son? He's seven.",
+        "pregunta": "¿Cuántos años tiene el hijo?",
+        "opciones": [
+          "7",
+          "11",
+          "17",
+          "70"
+        ]
+      },
+      {
+        "audio": "We aren't tired. We're hungry!",
+        "pregunta": "¿Cómo están?",
+        "opciones": [
+          "Tienen hambre",
+          "Están cansados",
+          "Tienen frío",
+          "Están aburridos"
+        ]
+      }
+    ],
+    "lectura": {
+      "titulo": "A new student",
+      "texto": "Hello! My name is Kenji Sato. Kenji is my first name and Sato is my last name. I'm 22 years old. I'm not from China. I'm from Japan. I'm a student at a language school in London. I'm not married. My teacher is Mrs. Brown. She's very nice. She isn't English. She's Irish!",
+      "preguntas": [
+        {
+          "pregunta": "¿Cuál es el apellido de Kenji?",
+          "opciones": [
+            "Sato",
+            "Kenji",
+            "Brown",
+            "Tanaka"
+          ]
+        },
+        {
+          "pregunta": "¿De dónde es Kenji?",
+          "opciones": [
+            "De Japón",
+            "De China",
+            "De Inglaterra",
+            "De Irlanda"
+          ]
+        },
+        {
+          "pregunta": "¿Kenji está casado?",
+          "opciones": [
+            "No, no está casado",
+            "Sí, está casado",
+            "Sí, y tiene dos hijos",
+            "El texto no lo dice"
+          ]
+        },
+        {
+          "pregunta": "¿De dónde es la maestra?",
+          "opciones": [
+            "De Irlanda",
+            "De Inglaterra",
+            "De Japón",
+            "De Escocia"
+          ]
+        }
+      ]
+    },
+    "escritura": [
+      {
+        "instruccion": "Escribe la oración en negativo.",
+        "pregunta": "She is a doctor.",
+        "respuestas": [
+          "She isn't a doctor",
+          "She is not a doctor",
+          "She's not a doctor"
+        ]
+      },
+      {
+        "instruccion": "Escribe la oración en negativo.",
+        "pregunta": "They are from Peru.",
+        "respuestas": [
+          "They aren't from Peru",
+          "They are not from Peru",
+          "They're not from Peru"
+        ]
+      },
+      {
+        "instruccion": "Escribe la oración en negativo.",
+        "pregunta": "I am tired.",
+        "respuestas": [
+          "I'm not tired",
+          "I am not tired"
+        ]
+      },
+      {
+        "instruccion": "Convierte en pregunta.",
+        "pregunta": "You are a teacher.",
+        "respuestas": [
+          "Are you a teacher"
+        ]
+      },
+      {
+        "instruccion": "Convierte en pregunta.",
+        "pregunta": "He is from Canada.",
+        "respuestas": [
+          "Is he from Canada"
+        ]
+      },
+      {
+        "instruccion": "Convierte en pregunta.",
+        "pregunta": "It is cold.",
+        "respuestas": [
+          "Is it cold"
+        ]
+      },
+      {
+        "instruccion": "Completa la respuesta corta.",
+        "pregunta": "Are you married? — No, ___.",
+        "respuestas": [
+          "I'm not",
+          "I am not"
+        ]
+      },
+      {
+        "instruccion": "Completa la respuesta corta.",
+        "pregunta": "Is she your sister? — Yes, ___.",
+        "respuestas": [
+          "she is"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "¿Cuántos años tienes?",
+        "respuestas": [
+          "How old are you"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "No somos de aquí.",
+        "respuestas": [
+          "We aren't from here",
+          "We are not from here",
+          "We're not from here"
+        ]
+      }
+    ],
+    "examen": [
+      {
+        "tipo": "opcion",
+        "pregunta": "She ___ from Spain. She's from Mexico.",
+        "opciones": [
+          "isn't",
+          "aren't",
+          "not",
+          "don't"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "___ you a student?",
+        "opciones": [
+          "Are",
+          "Is",
+          "Do",
+          "Am"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "Is he your brother? — No, he ___.",
+        "opciones": [
+          "isn't",
+          "aren't",
+          "not",
+          "doesn't"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "Are they at home? — Yes, they ___.",
+        "opciones": [
+          "are",
+          "is",
+          "'re",
+          "do"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "¿Cómo preguntas la edad de alguien?",
+        "opciones": [
+          "How old are you?",
+          "How many years do you have?",
+          "What age you have?",
+          "How years are you?"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "I ___ hungry. I'm fine, thanks.",
+        "opciones": [
+          "'m not",
+          "isn't",
+          "aren't",
+          "not"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "Is Anna from Germany? No, she isn't. She's from Austria.",
+        "pregunta": "¿De dónde es Anna?",
+        "opciones": [
+          "De Austria",
+          "De Alemania",
+          "De Australia",
+          "De Suiza"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "Are you married? No, I'm not. I'm single.",
+        "pregunta": "¿La persona que responde está casada?",
+        "opciones": [
+          "No, es soltera",
+          "Sí, está casada",
+          "Está divorciada",
+          "No lo dice"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Completa en negativo: We ___ from Canada.",
+        "respuestas": [
+          "aren't",
+          "are not"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Traduce: ¿Eres de México?",
+        "respuestas": [
+          "Are you from Mexico"
+        ]
+      }
+    ]
+  },
   { "id": "a1-03", "num": 3, "titulo": "Pronombres personales (sujeto)", "contexto": "Personas a mi alrededor" },
   { "id": "a1-04", "num": 4, "titulo": "Artículos a / an / the", "contexto": "Objetos de la casa y del salón de clases" },
   { "id": "a1-05", "num": 5, "titulo": "Plurales regulares e irregulares", "contexto": "Cosas que tengo" },
