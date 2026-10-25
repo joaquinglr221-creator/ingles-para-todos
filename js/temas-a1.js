@@ -632,7 +632,496 @@ const TEMAS_A1 = [
       }
     ]
   },
-  { "id": "a1-03", "num": 3, "titulo": "Pronombres personales (sujeto)", "contexto": "Personas a mi alrededor" },
+  {
+    "id": "a1-03",
+    "num": 3,
+    "titulo": "Pronombres personales (sujeto)",
+    "contexto": "Personas a mi alrededor",
+    "explicacion": {
+      "es": [
+        "Los **pronombres personales** reemplazan el nombre de una persona o cosa para no repetirlo: *Maria is my friend. **She** is a doctor.*",
+        "En inglés el sujeto **siempre** se dice, aunque en español lo omitamos: *Somos amigos* = **We** are friends.",
+        "**It** se usa para cosas, animales y lugares, y también para el clima y la hora: *It's cold. It's three o'clock.*",
+        "**They** es para ellos y ellas, para personas y también para cosas en plural. **You** sirve para tú, usted y ustedes."
+      ],
+      "tabla": {
+        "columnas": [
+          "Pronombre",
+          "Español",
+          "Se usa para",
+          "Ejemplo"
+        ],
+        "filas": [
+          [
+            "I",
+            "yo",
+            "quien habla",
+            "I'm a student."
+          ],
+          [
+            "you",
+            "tú / usted",
+            "la persona con quien hablas",
+            "You're my best friend."
+          ],
+          [
+            "he",
+            "él",
+            "un hombre o un niño",
+            "Carlos is my dad. He's a cook."
+          ],
+          [
+            "she",
+            "ella",
+            "una mujer o una niña",
+            "Ana is my mom. She's a nurse."
+          ],
+          [
+            "it",
+            "(eso)",
+            "una cosa, un animal, el clima o la hora",
+            "My car is old. It's blue."
+          ],
+          [
+            "we",
+            "nosotros / nosotras",
+            "yo y otras personas",
+            "My wife and I are teachers. We're at school."
+          ],
+          [
+            "you",
+            "ustedes",
+            "las personas con quienes hablas",
+            "You're all welcome."
+          ],
+          [
+            "they",
+            "ellos / ellas",
+            "varias personas o cosas",
+            "Tom and Lisa are my neighbors. They're nice."
+          ]
+        ]
+      },
+      "ojo": [
+        "**I** siempre va con mayúscula, aunque esté a mitad de la oración: *My brother and **I** are tall.*",
+        "No repitas el nombre y el pronombre juntos: *My mother is a doctor* (no *My mother she is a doctor*).",
+        "Para cosas y animales usa **it**, no *he* ni *she*: *The dog is big. **It** is friendly.*",
+        "Para el clima y la hora se usa **it**, aunque en español no haya sujeto: *Hace calor* = **It's** hot."
+      ],
+      "en": [
+        "The subject pronouns are: I, you, he, she, it, we, they.",
+        "We use them instead of a name: Maria is my friend. **She** is a doctor.",
+        "Use **it** for things, animals, the weather and the time.",
+        "Use **they** for two or more people or things."
+      ]
+    },
+    "vocabulario": [
+      {
+        "en": "friend",
+        "es": "amigo / amiga",
+        "imagen": "Dos amigas riendo juntas en un parque"
+      },
+      {
+        "en": "best friend",
+        "es": "mejor amigo / amiga",
+        "imagen": "Dos amigos chocando las manos con complicidad"
+      },
+      {
+        "en": "neighbor",
+        "es": "vecino / vecina",
+        "imagen": "Vecinos saludándose por encima de la cerca del jardín"
+      },
+      {
+        "en": "classmate",
+        "es": "compañero de clase",
+        "imagen": "Estudiantes trabajando juntos en una mesa del salón de clases"
+      },
+      {
+        "en": "coworker",
+        "es": "compañero de trabajo",
+        "imagen": "Compañeros de oficina tomando café juntos"
+      },
+      {
+        "en": "boss",
+        "es": "jefe / jefa",
+        "imagen": "Jefa explicando algo a su equipo en una reunión"
+      },
+      {
+        "en": "roommate",
+        "es": "compañero de cuarto o de departamento",
+        "imagen": "Dos jóvenes cocinando juntos en la cocina de su departamento"
+      },
+      {
+        "en": "boyfriend",
+        "es": "novio",
+        "imagen": "Joven sonriente entregando flores a su novia"
+      },
+      {
+        "en": "girlfriend",
+        "es": "novia",
+        "imagen": "Joven sonriente abrazando a su novio"
+      },
+      {
+        "en": "partner",
+        "es": "pareja",
+        "imagen": "Pareja adulta caminando de la mano"
+      },
+      {
+        "en": "people",
+        "es": "gente, personas",
+        "imagen": "Mucha gente caminando por una plaza"
+      },
+      {
+        "en": "man",
+        "es": "hombre",
+        "imagen": "Hombre adulto sonriendo"
+      },
+      {
+        "en": "woman",
+        "es": "mujer",
+        "imagen": "Mujer adulta sonriendo"
+      },
+      {
+        "en": "child",
+        "es": "niño / niña",
+        "imagen": "Niño pequeño jugando con bloques"
+      },
+      {
+        "en": "children",
+        "es": "niños / niñas",
+        "imagen": "Grupo de niños corriendo en el patio de la escuela"
+      },
+      {
+        "en": "pet",
+        "es": "mascota",
+        "imagen": "Familia acariciando a su perro en la sala"
+      }
+    ],
+    "ejemplos": [
+      {
+        "en": "This is Laura. She's my neighbor.",
+        "es": "Ella es Laura. Es mi vecina.",
+        "imagen": "Mujer saludando desde la puerta de la casa de al lado"
+      },
+      {
+        "en": "Mark is my boss. He's very nice.",
+        "es": "Mark es mi jefe. Es muy amable.",
+        "imagen": "Jefe amable sonriendo en su oficina"
+      },
+      {
+        "en": "My classmates are from Korea. They're friendly.",
+        "es": "Mis compañeros de clase son de Corea. Son amables.",
+        "imagen": "Grupo de estudiantes coreanos sonriendo en un salón de clases"
+      },
+      {
+        "en": "My roommate and I are students. We're twenty.",
+        "es": "Mi compañero de cuarto y yo somos estudiantes. Tenemos veinte años.",
+        "imagen": "Dos jóvenes estudiando con libros en su departamento"
+      },
+      {
+        "en": "Where's my phone? It's on the table.",
+        "es": "¿Dónde está mi teléfono? Está en la mesa.",
+        "imagen": "Celular sobre una mesa de madera"
+      },
+      {
+        "en": "Our dog is old. It's twelve.",
+        "es": "Nuestro perro es viejo. Tiene doce años.",
+        "imagen": "Perro viejo descansando sobre una alfombra"
+      },
+      {
+        "en": "It's hot today.",
+        "es": "Hoy hace calor.",
+        "imagen": "Persona abanicándose bajo un sol intenso"
+      },
+      {
+        "en": "Are you and Sam coworkers? Yes, we are.",
+        "es": "¿Tú y Sam son compañeros de trabajo? Sí.",
+        "imagen": "Dos compañeros con computadoras portátiles en una oficina"
+      },
+      {
+        "en": "You're my best friend!",
+        "es": "¡Eres mi mejor amigo!",
+        "imagen": "Dos amigos abrazándose felices"
+      },
+      {
+        "en": "The children are in the park. They're happy.",
+        "es": "Los niños están en el parque. Están felices.",
+        "imagen": "Niños jugando felices en un parque"
+      }
+    ],
+    "listening": [
+      {
+        "audio": "This is my friend Daniel. He's a firefighter.",
+        "pregunta": "¿Cuál es el trabajo de Daniel?",
+        "opciones": [
+          "Es bombero",
+          "Es policía",
+          "Es doctor",
+          "Es cocinero"
+        ]
+      },
+      {
+        "audio": "My neighbors are from India. They're very kind.",
+        "pregunta": "¿De dónde son los vecinos?",
+        "opciones": [
+          "De India",
+          "De Irlanda",
+          "De Indonesia",
+          "De Italia"
+        ]
+      },
+      {
+        "audio": "Lisa and I are coworkers. We're at the office now.",
+        "pregunta": "¿Dónde están Lisa y quien habla?",
+        "opciones": [
+          "En la oficina",
+          "En casa",
+          "En la escuela",
+          "En el parque"
+        ]
+      },
+      {
+        "audio": "Look at my new car! It's red.",
+        "pregunta": "¿De qué color es el coche?",
+        "opciones": [
+          "Rojo",
+          "Azul",
+          "Verde",
+          "Negro"
+        ]
+      },
+      {
+        "audio": "My boss is a woman. She's from Canada.",
+        "pregunta": "¿Quién es de Canadá?",
+        "opciones": [
+          "La jefa",
+          "El jefe",
+          "El vecino",
+          "La novia"
+        ]
+      }
+    ],
+    "lectura": {
+      "titulo": "The people in my life",
+      "texto": "Hi, I'm Lucas. I'm a student in Madrid. My roommate is Pedro. He's from Argentina and he's very funny. My classmates are great. They're from many different countries. My best friend is Yuki. She's from Japan. We're in the same class. My teacher is Mrs. Garcia. She's very patient. And this is Max, my cat. It's black and white.",
+      "preguntas": [
+        {
+          "pregunta": "¿De dónde es Pedro?",
+          "opciones": [
+            "De Argentina",
+            "De España",
+            "De Japón",
+            "De México"
+          ]
+        },
+        {
+          "pregunta": "¿Quién es Yuki?",
+          "opciones": [
+            "Su mejor amiga",
+            "Su maestra",
+            "Su compañera de cuarto",
+            "Su hermana"
+          ]
+        },
+        {
+          "pregunta": "¿Cómo es la maestra?",
+          "opciones": [
+            "Muy paciente",
+            "Muy divertida",
+            "Muy seria",
+            "Muy joven"
+          ]
+        },
+        {
+          "pregunta": "¿Qué es Max?",
+          "opciones": [
+            "Un gato",
+            "Un perro",
+            "Un compañero de clase",
+            "Un maestro"
+          ]
+        }
+      ]
+    },
+    "escritura": [
+      {
+        "instruccion": "Escribe el pronombre que reemplaza a estas palabras.",
+        "pregunta": "my mother",
+        "respuestas": [
+          "she"
+        ]
+      },
+      {
+        "instruccion": "Escribe el pronombre que reemplaza a estas palabras.",
+        "pregunta": "Tom and Lisa",
+        "respuestas": [
+          "they"
+        ]
+      },
+      {
+        "instruccion": "Escribe el pronombre que reemplaza a estas palabras.",
+        "pregunta": "the book",
+        "respuestas": [
+          "it"
+        ]
+      },
+      {
+        "instruccion": "Escribe el pronombre que reemplaza a estas palabras.",
+        "pregunta": "my brother and I",
+        "respuestas": [
+          "we"
+        ]
+      },
+      {
+        "instruccion": "Escribe el pronombre que reemplaza a estas palabras.",
+        "pregunta": "Mr. Lopez",
+        "respuestas": [
+          "he"
+        ]
+      },
+      {
+        "instruccion": "Completa con un pronombre.",
+        "pregunta": "Ana and Luis are my cousins. ___ are from Peru.",
+        "respuestas": [
+          "They"
+        ]
+      },
+      {
+        "instruccion": "Completa con un pronombre.",
+        "pregunta": "My phone is new. ___ is black.",
+        "respuestas": [
+          "It"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "Somos vecinos.",
+        "respuestas": [
+          "We're neighbors",
+          "We are neighbors",
+          "We're neighbours",
+          "We are neighbours"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "Hace frío.",
+        "respuestas": [
+          "It's cold",
+          "It is cold"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "Ella es mi jefa.",
+        "respuestas": [
+          "She's my boss",
+          "She is my boss"
+        ]
+      }
+    ],
+    "examen": [
+      {
+        "tipo": "opcion",
+        "pregunta": "My sister is a nurse. ___ is thirty.",
+        "opciones": [
+          "She",
+          "He",
+          "It",
+          "They"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "Paul and I are friends. ___ are in the same class.",
+        "opciones": [
+          "We",
+          "They",
+          "You",
+          "He"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "The books are on the desk. ___ are new.",
+        "opciones": [
+          "They",
+          "It",
+          "We",
+          "He"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "___ is very hot today.",
+        "opciones": [
+          "It",
+          "He",
+          "She",
+          "They"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "Elige la oración correcta.",
+        "opciones": [
+          "My father is a doctor.",
+          "My father he is a doctor.",
+          "Is doctor my father.",
+          "My father are a doctor."
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "Excuse me, are ___ Mrs. Taylor?",
+        "opciones": [
+          "you",
+          "she",
+          "her",
+          "it"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "This is my roommate, Ben. He's from Scotland.",
+        "pregunta": "¿Quién es Ben?",
+        "opciones": [
+          "Su compañero de cuarto",
+          "Su jefe",
+          "Su hermano",
+          "Su vecino"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "My classmates and I are at the library. We're tired!",
+        "pregunta": "¿Dónde están?",
+        "opciones": [
+          "En la biblioteca",
+          "En el salón de clases",
+          "En la cafetería",
+          "En casa"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Escribe el pronombre que reemplaza a: my grandparents",
+        "respuestas": [
+          "they"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Traduce: Él es mi vecino.",
+        "respuestas": [
+          "He's my neighbor",
+          "He is my neighbor",
+          "He's my neighbour",
+          "He is my neighbour"
+        ]
+      }
+    ]
+  },
   { "id": "a1-04", "num": 4, "titulo": "Artículos a / an / the", "contexto": "Objetos de la casa y del salón de clases" },
   { "id": "a1-05", "num": 5, "titulo": "Plurales regulares e irregulares", "contexto": "Cosas que tengo" },
   { "id": "a1-06", "num": 6, "titulo": "Demostrativos this / that / these / those", "contexto": "De compras: ¿qué es esto?" },
