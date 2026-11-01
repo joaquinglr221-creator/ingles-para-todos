@@ -842,7 +842,7 @@ function pararEscucha() {
   if (pron?.estado === "escuchando") pron.estado = "listo";
 }
 
-function pronEscuchar(tema) {
+function pronEscuchar(tema, reintento = false) {
   const set = pronSets(tema).find((s) => s.id === location.hash.split("/")[4]);
   const p = pron;
   const item = set.lista[p.i];
@@ -878,18 +878,27 @@ function pronEscuchar(tema) {
   };
   r.onerror = (e) => {
     if (reconocedor !== r) return;
+    // A veces el navegador interrumpe al arrancar: se reintenta una vez sin que el alumno haga nada.
+    if (e.error === "aborted" && !reintento) {
+      reconocedor = null;
+      setTimeout(() => {
+        if (pron === p && p.estado === "escuchando") pronEscuchar(tema, true);
+      }, 400);
+      return;
+    }
     if (e.error === "not-allowed" || e.error === "service-not-allowed")
       fallar("Permite el uso del micrófono en los ajustes del navegador. Mientras tanto, escucha, repite y marca tú mismo.", true);
     else if (e.error === "no-speech") fallar("No te escuché. Toca 🎤 y habla un poco más fuerte.");
     else if (e.error === "audio-capture") fallar("No se encontró el micrófono. Revisa que esté conectado.", true);
     else if (e.error === "network") fallar("El reconocimiento de voz necesita internet. Revisa tu conexión o marca tú mismo.", true);
-    else fallar("No se pudo usar el reconocimiento de voz. Inténtalo de nuevo o marca tú mismo.", true);
+    else fallar(`No se pudo usar el reconocimiento de voz (código: ${e.error}). Inténtalo de nuevo o marca tú mismo.`, true);
   };
   r.onend = () => {
     if (reconocedor === r) fallar("No te escuché. Toca 🎤 y habla un poco más fuerte.");
   };
   if (currentAudio) currentAudio.pause();
   if ("speechSynthesis" in window) speechSynthesis.cancel();
+  document.querySelectorAll("video").forEach((v) => v.pause()); // algunos celulares no escuchan si hay un video corriendo
   p.estado = "escuchando";
   p.resultado = null;
   p.sinVoz = false;
