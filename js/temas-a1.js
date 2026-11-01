@@ -663,82 +663,82 @@ const TEMAS_A1 = [
       {
         "en": "What's your name?",
         "es": "¿Cómo te llamas?",
-        "imagen": "Persona llenando un formulario en una oficina mientras otra le pregunta amablemente"
+        "imagen": "Persona llenando un formulario en una oficina mientras otra le pregunta amablemente", "ejemplo": ["What's your name? I'm Julia.", "¿Cómo te llamas? Soy Julia."]
       },
       {
         "en": "first name",
         "es": "nombre (de pila)",
-        "imagen": "Gafete de identificación con la foto de una persona sonriente"
+        "imagen": "Gafete de identificación con la foto de una persona sonriente", "ejemplo": ["My first name isn't Daniel. It's David.", "Mi nombre no es Daniel. Es David."]
       },
       {
         "en": "last name",
         "es": "apellido",
-        "imagen": "Familia de tres generaciones posando junta para una foto"
+        "imagen": "Familia de tres generaciones posando junta para una foto", "ejemplo": ["Is your last name Lopez? No, it isn't.", "¿Tu apellido es López? No."]
       },
       {
         "en": "How old are you?",
         "es": "¿Cuántos años tienes?",
-        "imagen": "Niño mostrando con los dedos cuántos años tiene"
+        "imagen": "Niño mostrando con los dedos cuántos años tiene", "ejemplo": ["How old are you? I'm not twenty. I'm nineteen.", "¿Cuántos años tienes? No tengo veinte. Tengo diecinueve."]
       },
       {
         "en": "age",
         "es": "edad",
-        "imagen": "Tres personas de distintas edades juntas: un niño, un adulto y un anciano"
+        "imagen": "Tres personas de distintas edades juntas: un niño, un adulto y un anciano", "ejemplo": ["What's your age? Are you eighteen?", "¿Cuál es tu edad? ¿Tienes dieciocho años?"]
       },
       {
         "en": "country",
         "es": "país",
-        "imagen": "Globo terráqueo sobre un escritorio"
+        "imagen": "Globo terráqueo sobre un escritorio", "ejemplo": ["Is Canada a big country? Yes, it is.", "¿Canadá es un país grande? Sí."]
       },
       {
         "en": "nationality",
         "es": "nacionalidad",
-        "imagen": "Pasaporte junto a varias banderas pequeñas de distintos países"
+        "imagen": "Pasaporte junto a varias banderas pequeñas de distintos países", "ejemplo": ["What's your nationality? Are you Italian?", "¿Cuál es tu nacionalidad? ¿Eres italiano?"]
       },
       {
         "en": "phone number",
         "es": "número de teléfono",
-        "imagen": "Persona dictando su número mientras otra lo guarda en su celular"
+        "imagen": "Persona dictando su número mientras otra lo guarda en su celular", "ejemplo": ["Is this your phone number? No, it isn't.", "¿Este es tu número de teléfono? No."]
       },
       {
         "en": "email address",
         "es": "correo electrónico",
-        "imagen": "Persona escribiendo en una laptop con un sobre de correo flotando en la pantalla"
+        "imagen": "Persona escribiendo en una laptop con un sobre de correo flotando en la pantalla", "ejemplo": ["Is this your email address? Yes, it is.", "¿Este es tu correo electrónico? Sí."]
       },
       {
         "en": "address",
         "es": "dirección (domicilio)",
-        "imagen": "Fachada de una casa con buzón junto a la puerta"
+        "imagen": "Fachada de una casa con buzón junto a la puerta", "ejemplo": ["This isn't my address.", "Esta no es mi dirección."]
       },
       {
         "en": "married",
         "es": "casado / casada",
-        "imagen": "Pareja de recién casados mostrando sus anillos"
+        "imagen": "Pareja de recién casados mostrando sus anillos", "ejemplo": ["Are you married? No, I'm not.", "¿Estás casado? No."]
       },
       {
         "en": "single",
         "es": "soltero / soltera",
-        "imagen": "Persona joven sola y feliz tomando café en una cafetería"
+        "imagen": "Persona joven sola y feliz tomando café en una cafetería", "ejemplo": ["She isn't married. She's single.", "Ella no está casada. Es soltera."]
       },
       {
         "en": "job",
         "es": "trabajo, empleo",
-        "imagen": "Varias personas con uniformes de distintos trabajos"
+        "imagen": "Varias personas con uniformes de distintos trabajos", "ejemplo": ["My job isn't difficult.", "Mi trabajo no es difícil."]
       },
       {
         "en": "Are you…?",
         "es": "¿Eres…? / ¿Estás…?",
-        "imagen": "Persona con cara de duda haciendo una pregunta"
+        "imagen": "Persona con cara de duda haciendo una pregunta", "ejemplo": ["Are you a teacher? Yes, I am.", "¿Eres maestro? Sí."]
       },
       {
         "en": "Yes, I am.",
         "es": "Sí (lo soy / lo estoy).",
-        "imagen": "Persona asintiendo con la cabeza y sonriendo"
+        "imagen": "Persona asintiendo con la cabeza y sonriendo", "ejemplo": ["Are you from Peru? Yes, I am.", "¿Eres de Perú? Sí."]
       },
       {
         "en": "No, I'm not.",
         "es": "No (no lo soy / no lo estoy).",
-        "imagen": "Persona negando con la cabeza y con la mano"
+        "imagen": "Persona negando con la cabeza y con la mano", "ejemplo": ["Are you tired? No, I'm not.", "¿Estás cansado? No."]
       }
     ],
     "ejemplos": [
@@ -1157,82 +1157,82 @@ const TEMAS_A1 = [
       {
         "en": "friend",
         "es": "amigo / amiga",
-        "imagen": "Dos amigas riendo juntas en un parque"
+        "imagen": "Dos amigas riendo juntas en un parque", "ejemplo": ["Lucy is my friend. She is very funny.", "Lucy es mi amiga. Es muy graciosa."]
       },
       {
         "en": "best friend",
         "es": "mejor amigo / amiga",
-        "imagen": "Dos amigos chocando las manos con complicidad"
+        "imagen": "Dos amigos chocando las manos con complicidad", "ejemplo": ["Tom is my best friend. He is from London.", "Tom es mi mejor amigo. Es de Londres."]
       },
       {
         "en": "neighbor",
         "es": "vecino / vecina",
-        "imagen": "Vecinos saludándose por encima de la cerca del jardín"
+        "imagen": "Vecinos saludándose por encima de la cerca del jardín", "ejemplo": ["Mr. Kim is my neighbor. He is very kind.", "El señor Kim es mi vecino. Es muy amable."]
       },
       {
         "en": "classmate",
         "es": "compañero de clase",
-        "imagen": "Estudiantes trabajando juntos en una mesa del salón de clases"
+        "imagen": "Estudiantes trabajando juntos en una mesa del salón de clases", "ejemplo": ["Ana is my classmate. She is from Chile.", "Ana es mi compañera de clase. Es de Chile."]
       },
       {
         "en": "coworker",
         "es": "compañero de trabajo",
-        "imagen": "Compañeros de oficina tomando café juntos"
+        "imagen": "Compañeros de oficina tomando café juntos", "ejemplo": ["Paul is my coworker. He is very busy.", "Paul es mi compañero de trabajo. Está muy ocupado."]
       },
       {
         "en": "boss",
         "es": "jefe / jefa",
-        "imagen": "Jefa explicando algo a su equipo en una reunión"
+        "imagen": "Jefa explicando algo a su equipo en una reunión", "ejemplo": ["My boss is in Japan. She is on a trip.", "Mi jefa está en Japón. Está de viaje."]
       },
       {
         "en": "roommate",
         "es": "compañero de cuarto o de departamento",
-        "imagen": "Dos jóvenes cocinando juntos en la cocina de su departamento"
+        "imagen": "Dos jóvenes cocinando juntos en la cocina de su departamento", "ejemplo": ["Sam is my roommate. He is a student.", "Sam es mi compañero de cuarto. Es estudiante."]
       },
       {
         "en": "boyfriend",
         "es": "novio",
-        "imagen": "Joven sonriente entregando flores a su novia"
+        "imagen": "Joven sonriente entregando flores a su novia", "ejemplo": ["Her boyfriend is tall. He is an engineer.", "Su novio es alto. Es ingeniero."]
       },
       {
         "en": "girlfriend",
         "es": "novia",
-        "imagen": "Joven sonriente abrazando a su novio"
+        "imagen": "Joven sonriente abrazando a su novio", "ejemplo": ["His girlfriend is a nurse. She is very nice.", "Su novia es enfermera. Es muy simpática."]
       },
       {
         "en": "partner",
         "es": "pareja",
-        "imagen": "Pareja adulta caminando de la mano"
+        "imagen": "Pareja adulta caminando de la mano", "ejemplo": ["My partner and I are happy. We are at home.", "Mi pareja y yo estamos felices. Estamos en casa."]
       },
       {
         "en": "people",
         "es": "gente, personas",
-        "imagen": "Mucha gente caminando por una plaza"
+        "imagen": "Mucha gente caminando por una plaza", "ejemplo": ["These people are friendly. They are my neighbors.", "Estas personas son amigables. Son mis vecinos."]
       },
       {
         "en": "man",
         "es": "hombre",
-        "imagen": "Hombre adulto sonriendo"
+        "imagen": "Hombre adulto sonriendo", "ejemplo": ["That man is my father. He is a doctor.", "Ese hombre es mi papá. Es doctor."]
       },
       {
         "en": "woman",
         "es": "mujer",
-        "imagen": "Mujer adulta sonriendo"
+        "imagen": "Mujer adulta sonriendo", "ejemplo": ["That woman is my aunt. She is from Cuba.", "Esa mujer es mi tía. Es de Cuba."]
       },
       {
         "en": "child",
         "es": "niño / niña",
-        "imagen": "Niño pequeño jugando con bloques"
+        "imagen": "Niño pequeño jugando con bloques", "ejemplo": ["The child is happy. He is in the park.", "El niño está feliz. Está en el parque."]
       },
       {
         "en": "children",
         "es": "niños / niñas",
-        "imagen": "Grupo de niños corriendo en el patio de la escuela"
+        "imagen": "Grupo de niños corriendo en el patio de la escuela", "ejemplo": ["The children are at school. They are in class.", "Los niños están en la escuela. Están en clase."]
       },
       {
         "en": "pet",
         "es": "mascota",
-        "imagen": "Familia acariciando a su perro en la sala"
+        "imagen": "Familia acariciando a su perro en la sala", "ejemplo": ["My pet is a cat. It is very lazy.", "Mi mascota es un gato. Es muy flojo."]
       }
     ],
     "ejemplos": [
@@ -1596,22 +1596,22 @@ const TEMAS_A1 = [
       ]
     },
     "vocabulario": [
-      { "en": "a book", "es": "un libro", "imagen": "Libro abierto sobre una mesa" },
-      { "en": "a pen", "es": "una pluma, un bolígrafo", "imagen": "Bolígrafo azul sobre una hoja" },
-      { "en": "a pencil", "es": "un lápiz", "imagen": "Lápiz amarillo con punta" },
-      { "en": "an eraser", "es": "una goma, un borrador", "imagen": "Goma de borrar junto a un dibujo a lápiz" },
-      { "en": "a notebook", "es": "un cuaderno", "imagen": "Cuaderno abierto con apuntes" },
-      { "en": "a desk", "es": "un escritorio, un pupitre", "imagen": "Escritorio de estudiante ordenado" },
-      { "en": "a chair", "es": "una silla", "imagen": "Silla de madera" },
-      { "en": "a table", "es": "una mesa", "imagen": "Mesa de comedor de madera" },
-      { "en": "a computer", "es": "una computadora", "imagen": "Computadora de escritorio encendida" },
-      { "en": "an umbrella", "es": "un paraguas", "imagen": "Paraguas rojo abierto bajo la lluvia" },
-      { "en": "a bag", "es": "una bolsa", "imagen": "Bolsa de mano sobre una silla" },
-      { "en": "a key", "es": "una llave", "imagen": "Llave de casa en la mano de una persona" },
-      { "en": "a lamp", "es": "una lámpara", "imagen": "Lámpara de mesa encendida" },
-      { "en": "a clock", "es": "un reloj (de pared)", "imagen": "Reloj redondo colgado en la pared" },
-      { "en": "a window", "es": "una ventana", "imagen": "Ventana abierta con vista a un jardín" },
-      { "en": "a door", "es": "una puerta", "imagen": "Puerta de entrada de una casa" }
+      { "en": "a book", "es": "un libro", "imagen": "Libro abierto sobre una mesa", "ejemplo": ["It's a book. The book is on the table.", "Es un libro. El libro está en la mesa."] },
+      { "en": "a pen", "es": "una pluma, un bolígrafo", "imagen": "Bolígrafo azul sobre una hoja", "ejemplo": ["This is a pen. The pen is blue.", "Esta es una pluma. La pluma es azul."] },
+      { "en": "a pencil", "es": "un lápiz", "imagen": "Lápiz amarillo con punta", "ejemplo": ["It's a pencil. The pencil is new.", "Es un lápiz. El lápiz es nuevo."] },
+      { "en": "an eraser", "es": "una goma, un borrador", "imagen": "Goma de borrar junto a un dibujo a lápiz", "ejemplo": ["This is an eraser. The eraser is small.", "Esta es una goma. La goma es pequeña."] },
+      { "en": "a notebook", "es": "un cuaderno", "imagen": "Cuaderno abierto con apuntes", "ejemplo": ["It's a notebook. The notebook is red.", "Es un cuaderno. El cuaderno es rojo."] },
+      { "en": "a desk", "es": "un escritorio, un pupitre", "imagen": "Escritorio de estudiante ordenado", "ejemplo": ["It's a desk. The desk is big.", "Es un escritorio. El escritorio es grande."] },
+      { "en": "a chair", "es": "una silla", "imagen": "Silla de madera", "ejemplo": ["This is a chair. The chair is comfortable.", "Esta es una silla. La silla es cómoda."] },
+      { "en": "a table", "es": "una mesa", "imagen": "Mesa de comedor de madera", "ejemplo": ["It's a table. The table is in the kitchen.", "Es una mesa. La mesa está en la cocina."] },
+      { "en": "a computer", "es": "una computadora", "imagen": "Computadora de escritorio encendida", "ejemplo": ["It's a computer. The computer is old.", "Es una computadora. La computadora es vieja."] },
+      { "en": "an umbrella", "es": "un paraguas", "imagen": "Paraguas rojo abierto bajo la lluvia", "ejemplo": ["It's an umbrella. The umbrella is black.", "Es un paraguas. El paraguas es negro."] },
+      { "en": "a bag", "es": "una bolsa", "imagen": "Bolsa de mano sobre una silla", "ejemplo": ["It's a bag. The bag is on the chair.", "Es una bolsa. La bolsa está en la silla."] },
+      { "en": "a key", "es": "una llave", "imagen": "Llave de casa en la mano de una persona", "ejemplo": ["It's a key. The key is in my bag.", "Es una llave. La llave está en mi bolsa."] },
+      { "en": "a lamp", "es": "una lámpara", "imagen": "Lámpara de mesa encendida", "ejemplo": ["It's a lamp. The lamp is on the desk.", "Es una lámpara. La lámpara está en el escritorio."] },
+      { "en": "a clock", "es": "un reloj (de pared)", "imagen": "Reloj redondo colgado en la pared", "ejemplo": ["It's a clock. The clock is on the wall.", "Es un reloj. El reloj está en la pared."] },
+      { "en": "a window", "es": "una ventana", "imagen": "Ventana abierta con vista a un jardín", "ejemplo": ["It's a window. The window is open.", "Es una ventana. La ventana está abierta."] },
+      { "en": "a door", "es": "una puerta", "imagen": "Puerta de entrada de una casa", "ejemplo": ["It's a door. The door is closed.", "Es una puerta. La puerta está cerrada."] }
     ],
     "grupos": [
       {
@@ -1620,24 +1620,24 @@ const TEMAS_A1 = [
         "icono": "🏫",
         "patron": ["It's a ruler.", "This is an eraser.", "The whiteboard is clean."],
         "palabras": [
-          { "en": "a classroom", "es": "un salón de clases", "imagen": "Salón de clases con pupitres y pizarrón" },
-          { "en": "a whiteboard", "es": "un pizarrón blanco", "imagen": "Pizarrón blanco en un salón de clases" },
-          { "en": "a marker", "es": "un marcador, un plumón", "imagen": "Mano escribiendo con un plumón en el pizarrón" },
-          { "en": "a ruler", "es": "una regla", "imagen": "Regla sobre una hoja de cuaderno" },
-          { "en": "a backpack", "es": "una mochila", "imagen": "Mochila escolar de colores" },
-          { "en": "a pencil case", "es": "un estuche, una lapicera", "imagen": "Estuche abierto con lápices de colores" },
-          { "en": "a sharpener", "es": "un sacapuntas", "imagen": "Sacapuntas afilando un lápiz" },
-          { "en": "a dictionary", "es": "un diccionario", "imagen": "Diccionario grueso abierto" },
-          { "en": "a calculator", "es": "una calculadora", "imagen": "Calculadora sobre un escritorio" },
-          { "en": "scissors", "es": "tijeras", "imagen": "Tijeras cortando papel de colores" },
-          { "en": "glue", "es": "pegamento", "imagen": "Barra de pegamento junto a papeles recortados" },
-          { "en": "a map", "es": "un mapa", "imagen": "Mapa del mundo colgado en la pared del salón" },
-          { "en": "a projector", "es": "un proyector", "imagen": "Proyector encendido en un salón oscuro" },
-          { "en": "a laptop", "es": "una laptop, una computadora portátil", "imagen": "Laptop abierta sobre un pupitre" },
-          { "en": "a folder", "es": "una carpeta", "imagen": "Carpeta con hojas dentro" },
-          { "en": "a highlighter", "es": "un marcatextos", "imagen": "Marcatextos amarillo subrayando un libro" },
-          { "en": "a stapler", "es": "una engrapadora", "imagen": "Engrapadora sobre un escritorio" },
-          { "en": "a teacher's desk", "es": "el escritorio del maestro", "imagen": "Escritorio del maestro frente a la clase" }
+          { "en": "a classroom", "es": "un salón de clases", "imagen": "Salón de clases con pupitres y pizarrón", "ejemplo": ["It's a classroom. The classroom is clean.", "Es un salón de clases. El salón está limpio."] },
+          { "en": "a whiteboard", "es": "un pizarrón blanco", "imagen": "Pizarrón blanco en un salón de clases", "ejemplo": ["It's a whiteboard. The whiteboard is big.", "Es un pizarrón blanco. El pizarrón es grande."] },
+          { "en": "a marker", "es": "un marcador, un plumón", "imagen": "Mano escribiendo con un plumón en el pizarrón", "ejemplo": ["It's a marker. The marker is green.", "Es un plumón. El plumón es verde."] },
+          { "en": "a ruler", "es": "una regla", "imagen": "Regla sobre una hoja de cuaderno", "ejemplo": ["It's a ruler. The ruler is on the desk.", "Es una regla. La regla está en el escritorio."] },
+          { "en": "a backpack", "es": "una mochila", "imagen": "Mochila escolar de colores", "ejemplo": ["It's a backpack. The backpack is heavy.", "Es una mochila. La mochila está pesada."] },
+          { "en": "a pencil case", "es": "un estuche, una lapicera", "imagen": "Estuche abierto con lápices de colores", "ejemplo": ["It's a pencil case. The pencil case is blue.", "Es un estuche. El estuche es azul."] },
+          { "en": "a sharpener", "es": "un sacapuntas", "imagen": "Sacapuntas afilando un lápiz", "ejemplo": ["It's a sharpener. The sharpener is small.", "Es un sacapuntas. El sacapuntas es pequeño."] },
+          { "en": "a dictionary", "es": "un diccionario", "imagen": "Diccionario grueso abierto", "ejemplo": ["It's a dictionary. The dictionary is very useful.", "Es un diccionario. El diccionario es muy útil."] },
+          { "en": "a calculator", "es": "una calculadora", "imagen": "Calculadora sobre un escritorio", "ejemplo": ["It's a calculator. The calculator is new.", "Es una calculadora. La calculadora es nueva."] },
+          { "en": "scissors", "es": "tijeras", "imagen": "Tijeras cortando papel de colores", "ejemplo": ["The scissors are on the table.", "Las tijeras están en la mesa."] },
+          { "en": "glue", "es": "pegamento", "imagen": "Barra de pegamento junto a papeles recortados", "ejemplo": ["The glue is in the pencil case.", "El pegamento está en el estuche."] },
+          { "en": "a map", "es": "un mapa", "imagen": "Mapa del mundo colgado en la pared del salón", "ejemplo": ["It's a map. The map is on the wall.", "Es un mapa. El mapa está en la pared."] },
+          { "en": "a projector", "es": "un proyector", "imagen": "Proyector encendido en un salón oscuro", "ejemplo": ["It's a projector. The projector is on.", "Es un proyector. El proyector está encendido."] },
+          { "en": "a laptop", "es": "una laptop, una computadora portátil", "imagen": "Laptop abierta sobre un pupitre", "ejemplo": ["It's a laptop. The laptop is very light.", "Es una laptop. La laptop es muy ligera."] },
+          { "en": "a folder", "es": "una carpeta", "imagen": "Carpeta con hojas dentro", "ejemplo": ["It's a folder. The folder is yellow.", "Es una carpeta. La carpeta es amarilla."] },
+          { "en": "a highlighter", "es": "un marcatextos", "imagen": "Marcatextos amarillo subrayando un libro", "ejemplo": ["It's a highlighter. The highlighter is pink.", "Es un marcatextos. El marcatextos es rosa."] },
+          { "en": "a stapler", "es": "una engrapadora", "imagen": "Engrapadora sobre un escritorio", "ejemplo": ["It's a stapler. The stapler is on the desk.", "Es una engrapadora. La engrapadora está en el escritorio."] },
+          { "en": "a teacher's desk", "es": "el escritorio del maestro", "imagen": "Escritorio del maestro frente a la clase", "ejemplo": ["It's a teacher's desk. The desk is clean.", "Es el escritorio de un maestro. El escritorio está limpio."] }
         ]
       },
       {
@@ -1646,21 +1646,21 @@ const TEMAS_A1 = [
         "icono": "🛋️",
         "patron": ["It's a comfortable sofa.", "The TV is new.", "Is it an armchair?"],
         "palabras": [
-          { "en": "a living room", "es": "una sala", "imagen": "Sala acogedora con sofá y plantas" },
-          { "en": "a sofa", "es": "un sofá", "imagen": "Sofá gris con cojines" },
-          { "en": "an armchair", "es": "un sillón", "imagen": "Sillón individual junto a una ventana" },
-          { "en": "a TV", "es": "una televisión", "imagen": "Televisión en un mueble de la sala" },
-          { "en": "a remote control", "es": "un control remoto", "imagen": "Mano sosteniendo un control remoto" },
-          { "en": "a rug", "es": "un tapete, una alfombra", "imagen": "Tapete de colores en el piso de la sala" },
-          { "en": "a coffee table", "es": "una mesa de centro", "imagen": "Mesa de centro con revistas y una taza" },
-          { "en": "a bookshelf", "es": "un librero", "imagen": "Librero lleno de libros" },
-          { "en": "a plant", "es": "una planta", "imagen": "Planta verde en una maceta" },
-          { "en": "a picture", "es": "un cuadro", "imagen": "Cuadro colgado en la pared de la sala" },
-          { "en": "a curtain", "es": "una cortina", "imagen": "Cortinas abiertas dejando entrar el sol" },
-          { "en": "a cushion", "es": "un cojín", "imagen": "Cojines de colores sobre un sofá" },
-          { "en": "a fireplace", "es": "una chimenea", "imagen": "Chimenea encendida en la sala" },
-          { "en": "a fan", "es": "un ventilador", "imagen": "Ventilador girando en una habitación" },
-          { "en": "an air conditioner", "es": "un aire acondicionado", "imagen": "Aire acondicionado en la pared" }
+          { "en": "a living room", "es": "una sala", "imagen": "Sala acogedora con sofá y plantas", "ejemplo": ["It's a living room. The living room is small.", "Es una sala. La sala es pequeña."] },
+          { "en": "a sofa", "es": "un sofá", "imagen": "Sofá gris con cojines", "ejemplo": ["It's a sofa. The sofa is very comfortable.", "Es un sofá. El sofá es muy cómodo."] },
+          { "en": "an armchair", "es": "un sillón", "imagen": "Sillón individual junto a una ventana", "ejemplo": ["It's an armchair. The armchair is old.", "Es un sillón. El sillón es viejo."] },
+          { "en": "a TV", "es": "una televisión", "imagen": "Televisión en un mueble de la sala", "ejemplo": ["It's a TV. The TV is new.", "Es una televisión. La televisión es nueva."] },
+          { "en": "a remote control", "es": "un control remoto", "imagen": "Mano sosteniendo un control remoto", "ejemplo": ["It's a remote control. The remote control is on the sofa.", "Es un control remoto. El control remoto está en el sofá."] },
+          { "en": "a rug", "es": "un tapete, una alfombra", "imagen": "Tapete de colores en el piso de la sala", "ejemplo": ["It's a rug. The rug is on the floor.", "Es un tapete. El tapete está en el piso."] },
+          { "en": "a coffee table", "es": "una mesa de centro", "imagen": "Mesa de centro con revistas y una taza", "ejemplo": ["It's a coffee table. The coffee table is round.", "Es una mesa de centro. La mesa es redonda."] },
+          { "en": "a bookshelf", "es": "un librero", "imagen": "Librero lleno de libros", "ejemplo": ["It's a bookshelf. The bookshelf is full.", "Es un librero. El librero está lleno."] },
+          { "en": "a plant", "es": "una planta", "imagen": "Planta verde en una maceta", "ejemplo": ["It's a plant. The plant is green.", "Es una planta. La planta es verde."] },
+          { "en": "a picture", "es": "un cuadro", "imagen": "Cuadro colgado en la pared de la sala", "ejemplo": ["It's a picture. The picture is beautiful.", "Es un cuadro. El cuadro es hermoso."] },
+          { "en": "a curtain", "es": "una cortina", "imagen": "Cortinas abiertas dejando entrar el sol", "ejemplo": ["It's a curtain. The curtain is white.", "Es una cortina. La cortina es blanca."] },
+          { "en": "a cushion", "es": "un cojín", "imagen": "Cojines de colores sobre un sofá", "ejemplo": ["It's a cushion. The cushion is soft.", "Es un cojín. El cojín es suave."] },
+          { "en": "a fireplace", "es": "una chimenea", "imagen": "Chimenea encendida en la sala", "ejemplo": ["It's a fireplace. The fireplace is warm.", "Es una chimenea. La chimenea está caliente."] },
+          { "en": "a fan", "es": "un ventilador", "imagen": "Ventilador girando en una habitación", "ejemplo": ["It's a fan. The fan is on.", "Es un ventilador. El ventilador está encendido."] },
+          { "en": "an air conditioner", "es": "un aire acondicionado", "imagen": "Aire acondicionado en la pared", "ejemplo": ["It's an air conditioner. The air conditioner is new.", "Es un aire acondicionado. El aire acondicionado es nuevo."] }
         ]
       },
       {
@@ -1669,25 +1669,25 @@ const TEMAS_A1 = [
         "icono": "🍳",
         "patron": ["It's an oven.", "The refrigerator is big.", "Is it a cup or a glass?"],
         "palabras": [
-          { "en": "a kitchen", "es": "una cocina", "imagen": "Cocina moderna y luminosa" },
-          { "en": "a refrigerator", "es": "un refrigerador", "imagen": "Refrigerador abierto con comida" },
-          { "en": "a stove", "es": "una estufa", "imagen": "Estufa con una olla cocinando" },
-          { "en": "an oven", "es": "un horno", "imagen": "Pastel horneándose dentro de un horno" },
-          { "en": "a microwave", "es": "un microondas", "imagen": "Persona calentando comida en el microondas" },
-          { "en": "a sink", "es": "un fregadero", "imagen": "Fregadero con agua corriendo" },
-          { "en": "a dishwasher", "es": "un lavavajillas", "imagen": "Lavavajillas abierto con platos" },
-          { "en": "a toaster", "es": "un tostador", "imagen": "Pan saltando de un tostador" },
-          { "en": "a blender", "es": "una licuadora", "imagen": "Licuadora preparando un jugo de frutas" },
-          { "en": "a kettle", "es": "una tetera, un hervidor", "imagen": "Hervidor con vapor saliendo" },
-          { "en": "a pan", "es": "un sartén", "imagen": "Huevos friéndose en un sartén" },
-          { "en": "a pot", "es": "una olla", "imagen": "Olla con sopa en la estufa" },
-          { "en": "a plate", "es": "un plato", "imagen": "Plato blanco con comida" },
-          { "en": "a bowl", "es": "un tazón", "imagen": "Tazón de cereal con leche" },
-          { "en": "a cup", "es": "una taza", "imagen": "Taza de café humeante" },
-          { "en": "a glass", "es": "un vaso", "imagen": "Vaso de agua sobre la mesa" },
-          { "en": "a fork", "es": "un tenedor", "imagen": "Tenedor junto a un plato" },
-          { "en": "a knife", "es": "un cuchillo", "imagen": "Cuchillo cortando verduras" },
-          { "en": "a spoon", "es": "una cuchara", "imagen": "Cuchara con sopa" }
+          { "en": "a kitchen", "es": "una cocina", "imagen": "Cocina moderna y luminosa", "ejemplo": ["It's a kitchen. The kitchen is clean.", "Es una cocina. La cocina está limpia."] },
+          { "en": "a refrigerator", "es": "un refrigerador", "imagen": "Refrigerador abierto con comida", "ejemplo": ["It's a refrigerator. The refrigerator is full.", "Es un refrigerador. El refrigerador está lleno."] },
+          { "en": "a stove", "es": "una estufa", "imagen": "Estufa con una olla cocinando", "ejemplo": ["It's a stove. The stove is hot.", "Es una estufa. La estufa está caliente."] },
+          { "en": "an oven", "es": "un horno", "imagen": "Pastel horneándose dentro de un horno", "ejemplo": ["It's an oven. The oven is very hot.", "Es un horno. El horno está muy caliente."] },
+          { "en": "a microwave", "es": "un microondas", "imagen": "Persona calentando comida en el microondas", "ejemplo": ["It's a microwave. The microwave is small.", "Es un microondas. El microondas es pequeño."] },
+          { "en": "a sink", "es": "un fregadero", "imagen": "Fregadero con agua corriendo", "ejemplo": ["It's a sink. The sink is full of dishes.", "Es un fregadero. El fregadero está lleno de platos."] },
+          { "en": "a dishwasher", "es": "un lavavajillas", "imagen": "Lavavajillas abierto con platos", "ejemplo": ["It's a dishwasher. The dishwasher is new.", "Es un lavavajillas. El lavavajillas es nuevo."] },
+          { "en": "a toaster", "es": "un tostador", "imagen": "Pan saltando de un tostador", "ejemplo": ["It's a toaster. The toaster is on the table.", "Es un tostador. El tostador está en la mesa."] },
+          { "en": "a blender", "es": "una licuadora", "imagen": "Licuadora preparando un jugo de frutas", "ejemplo": ["It's a blender. The blender is very loud.", "Es una licuadora. La licuadora es muy ruidosa."] },
+          { "en": "a kettle", "es": "una tetera, un hervidor", "imagen": "Hervidor con vapor saliendo", "ejemplo": ["It's a kettle. The kettle is hot.", "Es un hervidor. El hervidor está caliente."] },
+          { "en": "a pan", "es": "un sartén", "imagen": "Huevos friéndose en un sartén", "ejemplo": ["It's a pan. The pan is on the stove.", "Es un sartén. El sartén está en la estufa."] },
+          { "en": "a pot", "es": "una olla", "imagen": "Olla con sopa en la estufa", "ejemplo": ["It's a pot. The pot is big.", "Es una olla. La olla es grande."] },
+          { "en": "a plate", "es": "un plato", "imagen": "Plato blanco con comida", "ejemplo": ["It's a plate. The plate is clean.", "Es un plato. El plato está limpio."] },
+          { "en": "a bowl", "es": "un tazón", "imagen": "Tazón de cereal con leche", "ejemplo": ["It's a bowl. The bowl is empty.", "Es un tazón. El tazón está vacío."] },
+          { "en": "a cup", "es": "una taza", "imagen": "Taza de café humeante", "ejemplo": ["It's a cup. The cup is on the table.", "Es una taza. La taza está en la mesa."] },
+          { "en": "a glass", "es": "un vaso", "imagen": "Vaso de agua sobre la mesa", "ejemplo": ["It's a glass. The glass is full.", "Es un vaso. El vaso está lleno."] },
+          { "en": "a fork", "es": "un tenedor", "imagen": "Tenedor junto a un plato", "ejemplo": ["It's a fork. The fork is dirty.", "Es un tenedor. El tenedor está sucio."] },
+          { "en": "a knife", "es": "un cuchillo", "imagen": "Cuchillo cortando verduras", "ejemplo": ["It's a knife. The knife is sharp.", "Es un cuchillo. El cuchillo tiene filo."] },
+          { "en": "a spoon", "es": "una cuchara", "imagen": "Cuchara con sopa", "ejemplo": ["It's a spoon. The spoon is small.", "Es una cuchara. La cuchara es pequeña."] }
         ]
       },
       {
@@ -1696,17 +1696,17 @@ const TEMAS_A1 = [
         "icono": "🛏️",
         "patron": ["It's a big bed.", "The pillow is soft.", "This is an alarm clock."],
         "palabras": [
-          { "en": "a bedroom", "es": "una recámara, un dormitorio", "imagen": "Recámara ordenada y luminosa" },
-          { "en": "a bed", "es": "una cama", "imagen": "Cama bien tendida" },
-          { "en": "a pillow", "es": "una almohada", "imagen": "Almohadas blancas sobre la cama" },
-          { "en": "a blanket", "es": "una cobija, una manta", "imagen": "Cobija doblada a los pies de la cama" },
-          { "en": "sheets", "es": "sábanas", "imagen": "Sábanas limpias recién tendidas" },
-          { "en": "a closet", "es": "un clóset", "imagen": "Clóset abierto con ropa colgada" },
-          { "en": "a hanger", "es": "un gancho (para ropa)", "imagen": "Camisa colgada en un gancho" },
-          { "en": "a mirror", "es": "un espejo", "imagen": "Persona mirándose en un espejo de cuerpo completo" },
-          { "en": "a dresser", "es": "una cómoda, un tocador", "imagen": "Cómoda de cajones con objetos encima" },
-          { "en": "a nightstand", "es": "un buró, una mesita de noche", "imagen": "Buró con lámpara junto a la cama" },
-          { "en": "an alarm clock", "es": "un despertador", "imagen": "Despertador sonando en el buró" }
+          { "en": "a bedroom", "es": "una recámara, un dormitorio", "imagen": "Recámara ordenada y luminosa", "ejemplo": ["It's a bedroom. The bedroom is very quiet.", "Es una recámara. La recámara es muy tranquila."] },
+          { "en": "a bed", "es": "una cama", "imagen": "Cama bien tendida", "ejemplo": ["It's a bed. The bed is comfortable.", "Es una cama. La cama es cómoda."] },
+          { "en": "a pillow", "es": "una almohada", "imagen": "Almohadas blancas sobre la cama", "ejemplo": ["It's a pillow. The pillow is soft.", "Es una almohada. La almohada es suave."] },
+          { "en": "a blanket", "es": "una cobija, una manta", "imagen": "Cobija doblada a los pies de la cama", "ejemplo": ["It's a blanket. The blanket is warm.", "Es una cobija. La cobija es calientita."] },
+          { "en": "sheets", "es": "sábanas", "imagen": "Sábanas limpias recién tendidas", "ejemplo": ["The sheets are clean.", "Las sábanas están limpias."] },
+          { "en": "a closet", "es": "un clóset", "imagen": "Clóset abierto con ropa colgada", "ejemplo": ["It's a closet. The closet is full of clothes.", "Es un clóset. El clóset está lleno de ropa."] },
+          { "en": "a hanger", "es": "un gancho (para ropa)", "imagen": "Camisa colgada en un gancho", "ejemplo": ["It's a hanger. The hanger is in the closet.", "Es un gancho. El gancho está en el clóset."] },
+          { "en": "a mirror", "es": "un espejo", "imagen": "Persona mirándose en un espejo de cuerpo completo", "ejemplo": ["It's a mirror. The mirror is on the wall.", "Es un espejo. El espejo está en la pared."] },
+          { "en": "a dresser", "es": "una cómoda, un tocador", "imagen": "Cómoda de cajones con objetos encima", "ejemplo": ["It's a dresser. The dresser is old.", "Es una cómoda. La cómoda es vieja."] },
+          { "en": "a nightstand", "es": "un buró, una mesita de noche", "imagen": "Buró con lámpara junto a la cama", "ejemplo": ["It's a nightstand. The nightstand is next to the bed.", "Es un buró. El buró está junto a la cama."] },
+          { "en": "an alarm clock", "es": "un despertador", "imagen": "Despertador sonando en el buró", "ejemplo": ["It's an alarm clock. The alarm clock is loud.", "Es un despertador. El despertador suena muy fuerte."] }
         ]
       },
       {
@@ -1715,20 +1715,20 @@ const TEMAS_A1 = [
         "icono": "🛁",
         "patron": ["It's a towel.", "The shower is hot.", "Is it an electric toothbrush?"],
         "palabras": [
-          { "en": "a bathroom", "es": "un baño", "imagen": "Baño limpio y moderno" },
-          { "en": "a toilet", "es": "un excusado, un inodoro", "imagen": "Inodoro blanco en un baño limpio" },
-          { "en": "a shower", "es": "una regadera", "imagen": "Agua cayendo de una regadera" },
-          { "en": "a bathtub", "es": "una tina", "imagen": "Tina con espuma" },
-          { "en": "a towel", "es": "una toalla", "imagen": "Toallas dobladas en el baño" },
-          { "en": "a toothbrush", "es": "un cepillo de dientes", "imagen": "Cepillo de dientes en un vaso" },
-          { "en": "toothpaste", "es": "pasta de dientes", "imagen": "Pasta de dientes sobre un cepillo" },
-          { "en": "soap", "es": "jabón", "imagen": "Manos lavándose con jabón" },
-          { "en": "shampoo", "es": "champú", "imagen": "Botella de champú en la regadera" },
-          { "en": "a comb", "es": "un peine", "imagen": "Peine sobre el lavabo" },
-          { "en": "a hairbrush", "es": "un cepillo para el cabello", "imagen": "Persona cepillándose el cabello" },
-          { "en": "a hair dryer", "es": "una secadora de cabello", "imagen": "Persona secándose el cabello con secadora" },
-          { "en": "toilet paper", "es": "papel de baño", "imagen": "Rollo de papel de baño" },
-          { "en": "a bathroom sink", "es": "un lavabo", "imagen": "Lavabo del baño con espejo" }
+          { "en": "a bathroom", "es": "un baño", "imagen": "Baño limpio y moderno", "ejemplo": ["It's a bathroom. The bathroom is clean.", "Es un baño. El baño está limpio."] },
+          { "en": "a toilet", "es": "un excusado, un inodoro", "imagen": "Inodoro blanco en un baño limpio", "ejemplo": ["It's a toilet. The toilet is in the bathroom.", "Es un inodoro. El inodoro está en el baño."] },
+          { "en": "a shower", "es": "una regadera", "imagen": "Agua cayendo de una regadera", "ejemplo": ["It's a shower. The shower is hot.", "Es una regadera. La regadera está caliente."] },
+          { "en": "a bathtub", "es": "una tina", "imagen": "Tina con espuma", "ejemplo": ["It's a bathtub. The bathtub is big.", "Es una tina. La tina es grande."] },
+          { "en": "a towel", "es": "una toalla", "imagen": "Toallas dobladas en el baño", "ejemplo": ["It's a towel. The towel is wet.", "Es una toalla. La toalla está mojada."] },
+          { "en": "a toothbrush", "es": "un cepillo de dientes", "imagen": "Cepillo de dientes en un vaso", "ejemplo": ["It's a toothbrush. The toothbrush is blue.", "Es un cepillo de dientes. El cepillo es azul."] },
+          { "en": "toothpaste", "es": "pasta de dientes", "imagen": "Pasta de dientes sobre un cepillo", "ejemplo": ["The toothpaste is in the bathroom.", "La pasta de dientes está en el baño."] },
+          { "en": "soap", "es": "jabón", "imagen": "Manos lavándose con jabón", "ejemplo": ["The soap is on the sink.", "El jabón está en el lavabo."] },
+          { "en": "shampoo", "es": "champú", "imagen": "Botella de champú en la regadera", "ejemplo": ["The shampoo is in the shower.", "El champú está en la regadera."] },
+          { "en": "a comb", "es": "un peine", "imagen": "Peine sobre el lavabo", "ejemplo": ["It's a comb. The comb is black.", "Es un peine. El peine es negro."] },
+          { "en": "a hairbrush", "es": "un cepillo para el cabello", "imagen": "Persona cepillándose el cabello", "ejemplo": ["It's a hairbrush. The hairbrush is on the table.", "Es un cepillo para el cabello. El cepillo está en la mesa."] },
+          { "en": "a hair dryer", "es": "una secadora de cabello", "imagen": "Persona secándose el cabello con secadora", "ejemplo": ["It's a hair dryer. The hair dryer is hot.", "Es una secadora de cabello. La secadora está caliente."] },
+          { "en": "toilet paper", "es": "papel de baño", "imagen": "Rollo de papel de baño", "ejemplo": ["The toilet paper is in the bathroom.", "El papel de baño está en el baño."] },
+          { "en": "a bathroom sink", "es": "un lavabo", "imagen": "Lavabo del baño con espejo", "ejemplo": ["It's a bathroom sink. The sink is white.", "Es un lavabo. El lavabo es blanco."] }
         ]
       }
     ],
