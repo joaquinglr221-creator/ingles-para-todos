@@ -413,3 +413,11 @@ video.thumb, video.pron-img { display: block; }
 
 /* Video de la explicación */
 .video-tema { display: block; width: 100%; aspect-ratio: 1; background: #000; border-radius: var(--radius); margin-bottom: 14px; box-shadow: var(--shadow); }
+
+/* Palabra con su oración de ejemplo */
+.line:has(.word-top) { display: block; }
+.word-top, .word-ej { display: flex; gap: 10px; align-items: center; }
+.word-ej { margin-top: 10px; padding: 8px 12px; border-radius: var(--radius-sm); background: var(--surface-2); }
+.ej-en { font-weight: 600; font-size: 0.95rem; }
+.word-ej .es { font-size: 0.86rem; }
+.word-ej .icon-btn { width: 36px; height: 36px; font-size: 0.9rem; }

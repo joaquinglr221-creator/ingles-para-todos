@@ -468,7 +468,11 @@ const miniatura = (src, attrs = "") =>
 
 function viewVocabulario(tema) {
   const foto = (w) => (FOTOS[w.en] ? miniatura(FOTOS[w.en], `data-zoom="${esc(w.en)}"`) : "");
-  const fila = (w) => `<div class="line">${foto(w)}<div class="grow"><p class="en">${esc(w.en)}</p>${w.es ? `<p class="es">${esc(w.es)}</p>` : ""}</div>${speakButtons(w.en)}</div>`;
+  const ejemplo = (w) =>
+    w.ejemplo
+      ? `<div class="word-ej"><div class="grow"><p class="ej-en">${esc(w.ejemplo[0])}</p><p class="es">${esc(w.ejemplo[1])}</p></div>${speakButtons(w.ejemplo[0])}</div>`
+      : "";
+  const fila = (w) => `<div class="line"><div class="word-top">${foto(w)}<div class="grow"><p class="en">${esc(w.en)}</p>${w.es ? `<p class="es">${esc(w.es)}</p>` : ""}</div>${speakButtons(w.en)}</div>${ejemplo(w)}</div>`;
   // Vocabulario extra por temas: cada grupo se abre y se cierra para no alargar la pantalla.
   const grupos = (tema.grupos || [])
     .map(
