@@ -1,7 +1,6 @@
 // Temas del nivel A1 (docs/plan-de-estudios.md). Los que todavía no tienen contenido solo llevan título.
 // Partes de cada tema: explicación (español e inglés), vocabulario, ejemplos, listening, lectura,
 // escritura y examen final. "grupos" (opcional) es vocabulario extra por temas, cada uno con su patrón de uso
-// ("gruposTitulo" es el encabezado de esa sección).
 // "frases" (opcional) son oraciones largas para practicar la pronunciación; "acepta" son otras formas
 // válidas de decir una palabra al practicar la pronunciación (p. ej. "20" para twenty).
 // "explicacion.video" (opcional) es un video con la explicación narrada (scripts/generar_video_explicacion.py).
@@ -16,7 +15,6 @@ const TEMAS_A1 = [
     "num": 1,
     "titulo": "Verbo to be: afirmativo",
     "contexto": "Saludos y presentaciones",
-    "gruposTitulo": "Más vocabulario con *to be*",
     "explicacion": {
       "video": "videos/temas/a1-01-explicacion.mp4",
       "es": [

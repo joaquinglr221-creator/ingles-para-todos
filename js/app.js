@@ -466,27 +466,55 @@ const miniatura = (src, attrs = "") =>
     ? `<span class="thumb-clip" ${attrs}><img class="thumb" src="${esc(poster(src))}" alt="" loading="lazy"><span class="play">▶</span></span>`
     : `<img class="thumb" src="${esc(src)}" alt="" loading="lazy" ${attrs}>`;
 
+// Listas de vocabulario del tema; cada una es un recuadro del menú y se abre en su propia pantalla.
+function vocabListas(tema) {
+  return [
+    { id: "principal", titulo: "Vocabulario", icono: "🗣️", palabras: tema.vocabulario },
+    ...(tema.grupos || []),
+    { id: "ejemplos", titulo: "Ejemplos", icono: "💬", palabras: tema.ejemplos },
+  ];
+}
+
+// Menú en recuadros (vocabulario y pronunciación).
+const recuadros = (tema, items, ruta) => {
+  const nivel = NIVELES.find((n) => n.code === nivelDe(tema));
+  return `<div class="tiles" style="${colorNivel(nivel)}">${items
+    .map((l) => `<a class="tile" href="#/tema/${tema.id}/${ruta}/${l.id}">
+      <span class="tile-icon">${l.icono}</span>
+      <strong>${esc(l.titulo)}</strong>
+      <span class="tile-note">${l.lista.length}</span>
+    </a>`)
+    .join("")}</div>`;
+};
+
 function viewVocabulario(tema) {
+  return recuadros(tema, vocabListas(tema).map((l) => ({ ...l, lista: l.palabras })), "vocabulario");
+}
+
+function viewVocabLista(tema, id) {
+  const listas = vocabListas(tema);
+  const i = listas.findIndex((l) => l.id === id);
+  if (i < 0) return sectionHeader(tema, "vocabulario") + viewVocabulario(tema) + sectionNext(tema, "vocabulario");
+  const l = listas[i];
   const foto = (w) => (FOTOS[w.en] ? miniatura(FOTOS[w.en], `data-zoom="${esc(w.en)}"`) : "");
   const ejemplo = (w) =>
     w.ejemplo
       ? `<div class="word-ej"><div class="grow"><p class="ej-en">${esc(w.ejemplo[0])}</p><p class="es">${esc(w.ejemplo[1])}</p></div>${speakButtons(w.ejemplo[0])}</div>`
       : "";
   const fila = (w) => `<div class="line"><div class="word-top">${foto(w)}<div class="grow"><p class="en">${esc(w.en)}</p>${w.es ? `<p class="es">${esc(w.es)}</p>` : ""}</div>${speakButtons(w.en)}</div>${ejemplo(w)}</div>`;
-  // Vocabulario extra por temas: cada grupo se abre y se cierra para no alargar la pantalla.
-  const grupos = (tema.grupos || [])
-    .map(
-      (g) => `<details class="card group">
-        <summary><span class="group-icon">${g.icono}</span><strong class="grow">${esc(g.titulo)}</strong><span class="muted">${g.palabras.length}</span></summary>
-        <div class="pattern">${g.patron.map((p) => `<div class="line"><p class="grow en">${esc(p)}</p>${speakButtons(p)}</div>`).join("")}</div>
-        ${g.palabras.map(fila).join("")}
-      </details>`
-    )
-    .join("");
+  const patron = l.patron
+    ? `<div class="pattern">${l.patron.map((p) => `<div class="line"><p class="grow en">${esc(p)}</p>${speakButtons(p)}</div>`).join("")}</div>`
+    : "";
+  const sig = listas[i + 1];
   return `
-    <div class="card"><h2>Vocabulario</h2>${tema.vocabulario.map(fila).join("")}</div>
-    ${grupos ? `<h2 style="margin:18px 0 10px">${md(tema.gruposTitulo || "Más vocabulario")}</h2>${grupos}` : ""}
-    <div class="card"><h2>Ejemplos</h2>${tema.ejemplos.map(fila).join("")}</div>`;
+    <div class="row between">
+      <a class="back" href="#/tema/${tema.id}/vocabulario">‹ Vocabulario</a>
+      <span class="tag">${l.palabras.length}</span>
+    </div>
+    <h1 class="page-title"><span class="title-icon">${l.icono}</span>${esc(l.titulo)}</h1>
+    ${patron}
+    <div class="card">${l.palabras.map(fila).join("")}</div>
+    ${sig ? `<a class="btn full center" href="#/tema/${tema.id}/vocabulario/${sig.id}">Siguiente: ${esc(sig.titulo)}</a>` : `<a class="btn full center" href="#/tema/${tema.id}/vocabulario">Volver al menú</a>`}`;
 }
 
 // Práctica de opción múltiple (listening y lectura): al tocar una opción se ve si es correcta.
@@ -661,10 +689,10 @@ const Reconocimiento = window.SpeechRecognition || window.webkitSpeechRecognitio
 // Conjuntos para practicar: el vocabulario y cada grupo (con imagen), los ejemplos y las frases largas.
 function pronSets(tema) {
   return [
-    { id: "vocabulario", titulo: "🗣️ Vocabulario", modo: "palabra", lista: tema.vocabulario },
-    ...(tema.grupos || []).map((g) => ({ id: g.id, titulo: `${g.icono} ${g.titulo}`, modo: "palabra", lista: g.palabras })),
-    { id: "ejemplos", titulo: "💬 Ejemplos", modo: "oracion", lista: tema.ejemplos },
-    ...(tema.frases ? [{ id: "frases", titulo: "📝 Oraciones largas", modo: "oracion", lista: tema.frases }] : []),
+    { id: "vocabulario", titulo: "Vocabulario", icono: "🗣️", modo: "palabra", lista: tema.vocabulario },
+    ...(tema.grupos || []).map((g) => ({ id: g.id, titulo: g.titulo, icono: g.icono, modo: "palabra", lista: g.palabras })),
+    { id: "ejemplos", titulo: "Ejemplos", icono: "💬", modo: "oracion", lista: tema.ejemplos },
+    ...(tema.frases ? [{ id: "frases", titulo: "Oraciones largas", icono: "📝", modo: "oracion", lista: tema.frases }] : []),
   ];
 }
 
@@ -753,17 +781,12 @@ function usePron(tema, set) {
 }
 
 function viewPronunciacion(tema) {
-  const sets = pronSets(tema)
-    .map((s) => `<a class="level" href="#/tema/${tema.id}/pronunciacion/${s.id}">
-      <div class="grow"><strong>${esc(s.titulo)}</strong><p class="muted">${s.modo === "palabra" ? "Mira la imagen y di la palabra" : "Escucha la oración y repítela"}</p></div>
-      <span class="muted">${s.lista.length}</span></a>`)
-    .join("");
   return `
     <div class="card tip">
       <p>Toca 🎤 y di en voz alta la palabra o la oración en inglés. Si la pronuncias bien, pasas a la siguiente.</p>
       ${Reconocimiento ? "" : `<p class="muted" style="margin-top:8px">Este navegador no reconoce la voz. Puedes practicar escuchando y repitiendo, y marcar tú mismo cuando te salga bien. Para que la app te califique, usa Chrome o Safari.</p>`}
     </div>
-    <div class="levels">${sets}</div>`;
+    ${recuadros(tema, pronSets(tema), "pronunciacion")}`;
 }
 
 function viewPronPractica(tema, setId) {
@@ -774,7 +797,7 @@ function viewPronPractica(tema, setId) {
   if (p.i >= set.lista.length) {
     marcar(tema.id, "pronunciacion");
     return `${back}
-      <div class="hero"><p>${esc(set.titulo)}</p><h1>¡Terminaste!</h1>
+      <div class="hero"><p>${set.icono} ${esc(set.titulo)}</p><h1>¡Terminaste!</h1>
         <p>${p.primera} de ${set.lista.length} bien a la primera.</p></div>
       <button class="btn full" data-action="pron-reset">Practicar otra vez</button>
       <a class="btn ghost full center" href="#/tema/${tema.id}/pronunciacion">Elegir otra lista</a>`;
@@ -911,6 +934,10 @@ function pronEscuchar(tema, reintento = false) {
 
 function viewSection(tema, sec, sub) {
   if (sec === "pronunciacion" && sub) return viewPronPractica(tema, sub);
+  if (sec === "vocabulario" && sub) {
+    marcar(tema.id, sec);
+    return viewVocabLista(tema, sub);
+  }
   const body = {
     explicacion: viewExplicacion,
     vocabulario: viewVocabulario,
