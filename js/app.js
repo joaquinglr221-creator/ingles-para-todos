@@ -674,10 +674,38 @@ const CONTRACCIONES = {
   "that's": "that is", "there's": "there is", "who's": "who is", "how's": "how is", "don't": "do not",
   "doesn't": "does not", "can't": "cannot", "i'll": "i will", "let's": "let us",
 };
+// Lo que el reconocimiento de voz escribe distinto aunque se pronuncie igual: da lo mismo cuál salga.
+const MISMO_SONIDO = {
+  your: "you are", youre: "you are", their: "they are", there: "they are", were: "we are", its: "it is", his: "he is",
+  two: "to", too: "to", four: "for", won: "one", ate: "eight", okay: "ok", mister: "mr", missus: "mrs",
+};
+const UNIDADES = "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split(" ");
+const DECENAS = "x x twenty thirty forty fifty sixty seventy eighty ninety".split(" ");
+const ORDINALES = { one: "first", two: "second", three: "third", five: "fifth", eight: "eighth", nine: "ninth", twelve: "twelfth", twenty: "twentieth", thirty: "thirtieth" };
+function numeroEnPalabras(n) {
+  if (n < 20) return UNIDADES[n];
+  if (n < 100) return DECENAS[Math.floor(n / 10)] + (n % 10 ? ` ${UNIDADES[n % 10]}` : "");
+  if (n < 1000) return `${UNIDADES[Math.floor(n / 100)]} hundred` + (n % 100 ? ` ${numeroEnPalabras(n % 100)}` : "");
+  if (n < 1000000) return `${numeroEnPalabras(Math.floor(n / 1000))} thousand` + (n % 1000 ? ` ${numeroEnPalabras(n % 1000)}` : "");
+  return n === 1000000 ? "one million" : String(n);
+}
+// 18 → eighteen; 21st → twenty first: el navegador suele escribir los números con cifras.
+function cifrasEnPalabras(w) {
+  const m = w.match(/^(\d+)(st|nd|rd|th)?$/);
+  if (!m) return w;
+  const texto = numeroEnPalabras(Number(m[1]));
+  if (!m[2]) return texto;
+  const partes = texto.split(" ");
+  const ultima = partes.pop();
+  return [...partes, ORDINALES[ultima] || `${ultima}th`].join(" ");
+}
 // Palabras de un texto para comparar lo que se dijo: sin mayúsculas ni signos, con las contracciones abiertas.
 const palabrasDe = (s) =>
-  s.toLowerCase().replace(/[’‘`´]/g, "'").replace(/[-–—…]/g, " ").replace(/[^a-z0-9' ]/g, " ")
-    .split(/\s+/).filter(Boolean).flatMap((w) => (CONTRACCIONES[w] || w.replace(/'/g, "")).split(" "));
+  s.toLowerCase().replace(/[’‘`´]/g, "'").replace(/,(?=\d)/g, "").replace(/[-–—…]/g, " ").replace(/[^a-z0-9' ]/g, " ")
+    .split(/\s+/).filter(Boolean)
+    .flatMap((w) => (CONTRACCIONES[w] || w.replace(/'/g, "")).split(" "))
+    .flatMap((w) => cifrasEnPalabras(w).split(" "))
+    .flatMap((w) => (MISMO_SONIDO[w] || w).split(" "));
 
 // Qué palabras del texto aparecen, en orden, en lo que se dijo (subsecuencia común más larga).
 function coincidencias(objetivo, dicho) {
@@ -717,7 +745,10 @@ let pron = null; // { key, set, i, estado, intentos, primera, revelado, resultad
 
 function usePron(tema, set) {
   const key = `${tema.id}/${set.id}`;
-  if (!pron || pron.key !== key) pron = { key, i: 0, estado: "listo", intentos: 0, primera: 0, revelado: false, resultado: null, error: "" };
+  if (!pron || pron.key !== key) {
+    pararEscucha();
+    pron = { key, i: 0, estado: "listo", intentos: 0, primera: 0, revelado: false, resultado: null, error: "", sinVoz: false };
+  }
   return pron;
 }
 
@@ -777,7 +808,8 @@ function viewPronPractica(tema, setId) {
   }[p.estado];
   const oido = p.resultado && p.estado !== "bien" && p.resultado.oido ? `<p class="muted center">Escuché: “${esc(p.resultado.oido)}”</p>` : "";
   const mic = Reconocimiento
-    ? `<button class="mic${p.estado === "escuchando" ? " on" : ""}" data-action="pron-mic" aria-label="Hablar" ${p.estado === "bien" ? "disabled" : ""}>🎤</button>`
+    ? `<button class="mic${p.estado === "escuchando" ? " on" : ""}" data-action="pron-mic" aria-label="Hablar" ${p.estado === "bien" ? "disabled" : ""}>🎤</button>
+       ${p.sinVoz ? `<button class="btn full" data-action="pron-ok">✓ Me salió bien</button>` : ""}`
     : `<button class="btn full" data-action="pron-ok">✓ Me salió bien</button>`;
   return `${back}
     <div class="progress"><div style="width:${(p.i / set.lista.length) * 100}%"></div></div>
@@ -797,20 +829,40 @@ function viewPronPractica(tema, setId) {
 }
 
 function pronSiguiente() {
-  Object.assign(pron, { i: pron.i + 1, estado: "listo", intentos: 0, revelado: false, resultado: null, error: "" });
+  pararEscucha();
+  Object.assign(pron, { i: pron.i + 1, estado: "listo", intentos: 0, revelado: false, resultado: null, error: "", sinVoz: false });
+}
+
+// Solo un reconocimiento a la vez; lo que llegue de uno anterior se ignora (ya no es la misma palabra).
+let reconocedor = null;
+function pararEscucha() {
+  const r = reconocedor;
+  reconocedor = null;
+  if (r) r.abort();
+  if (pron?.estado === "escuchando") pron.estado = "listo";
 }
 
 function pronEscuchar(tema) {
   const set = pronSets(tema).find((s) => s.id === location.hash.split("/")[4]);
   const p = pron;
   const item = set.lista[p.i];
+  pararEscucha();
   const r = new Reconocimiento();
+  reconocedor = r;
   r.lang = "en-US";
+  r.continuous = false;
   r.interimResults = false;
   r.maxAlternatives = 5;
-  let recibido = false;
+  const fallar = (msg, sinVoz = false) => {
+    reconocedor = null;
+    p.estado = "error";
+    p.error = msg;
+    p.sinVoz = sinVoz;
+    render();
+  };
   r.onresult = (e) => {
-    recibido = true;
+    if (reconocedor !== r) return;
+    reconocedor = null;
     const alternativas = [...e.results[0]].map((a) => a.transcript);
     p.resultado = calificar(item, set.modo, alternativas);
     p.estado = p.resultado.ok ? "bien" : "mal";
@@ -825,20 +877,27 @@ function pronEscuchar(tema) {
     render();
   };
   r.onerror = (e) => {
-    recibido = true;
-    p.estado = "error";
-    p.error = e.error === "not-allowed" || e.error === "service-not-allowed"
-      ? "Permite el uso del micrófono para practicar (en la barra de direcciones o en los ajustes del navegador)."
-      : e.error === "no-speech" ? "No te escuché. Toca 🎤 y habla un poco más fuerte." : "No se pudo usar el micrófono. Inténtalo de nuevo.";
-    render();
+    if (reconocedor !== r) return;
+    if (e.error === "not-allowed" || e.error === "service-not-allowed")
+      fallar("Permite el uso del micrófono en los ajustes del navegador. Mientras tanto, escucha, repite y marca tú mismo.", true);
+    else if (e.error === "no-speech") fallar("No te escuché. Toca 🎤 y habla un poco más fuerte.");
+    else if (e.error === "audio-capture") fallar("No se encontró el micrófono. Revisa que esté conectado.", true);
+    else if (e.error === "network") fallar("El reconocimiento de voz necesita internet. Revisa tu conexión o marca tú mismo.", true);
+    else fallar("No se pudo usar el reconocimiento de voz. Inténtalo de nuevo o marca tú mismo.", true);
   };
   r.onend = () => {
-    if (!recibido && p.estado === "escuchando") { p.estado = "error"; p.error = "No te escuché. Toca 🎤 y habla un poco más fuerte."; render(); }
+    if (reconocedor === r) fallar("No te escuché. Toca 🎤 y habla un poco más fuerte.");
   };
   if (currentAudio) currentAudio.pause();
   if ("speechSynthesis" in window) speechSynthesis.cancel();
   p.estado = "escuchando";
-  r.start();
+  p.resultado = null;
+  p.sinVoz = false;
+  try {
+    r.start();
+  } catch {
+    fallar("No se pudo usar el micrófono. Inténtalo de nuevo.");
+  }
 }
 
 function viewSection(tema, sec, sub) {
@@ -889,7 +948,13 @@ document.addEventListener("keydown", (e) => {
 
 document.addEventListener("click", (e) => {
   const speakBtn = e.target.closest("[data-speak]");
-  if (speakBtn) return speak(speakBtn.dataset.speak, speakBtn.hasAttribute("data-slow"));
+  if (speakBtn) {
+    if (reconocedor) {
+      pararEscucha(); // que el micrófono no oiga la voz de la app y la tome por la del alumno
+      render();
+    }
+    return speak(speakBtn.dataset.speak, speakBtn.hasAttribute("data-slow"));
+  }
 
   // Imagen en grande: se abre al tocar la miniatura y se cierra al tocar cualquier parte.
   const zoom = e.target.closest("[data-zoom]");
@@ -941,7 +1006,8 @@ document.addEventListener("click", (e) => {
     location.hash = "#/ubicacion";
     return;
   } else if (action === "pron-mic") {
-    if (pron.estado !== "escuchando") pronEscuchar(temaActual());
+    if (pron.estado === "escuchando") reconocedor?.stop(); // segundo toque: ya terminé de hablar
+    else pronEscuchar(temaActual());
   } else if (action === "pron-reveal") {
     pron.revelado = true;
   } else if (action === "pron-ok") {
@@ -950,6 +1016,7 @@ document.addEventListener("click", (e) => {
   } else if (action === "pron-next") {
     pronSiguiente();
   } else if (action === "pron-reset") {
+    pararEscucha();
     pron = null;
   } else if (action === "practica-reset") {
     practica = { key: null, resp: {}, orden: {} };
@@ -966,6 +1033,7 @@ document.addEventListener("click", (e) => {
 });
 
 window.addEventListener("hashchange", () => {
+  pararEscucha();
   render();
   window.scrollTo(0, 0);
 });
