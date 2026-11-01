@@ -410,3 +410,6 @@ video.thumb, video.pron-img { display: block; }
 .mic.on { background: var(--bad); box-shadow: 0 0 0 10px color-mix(in srgb, var(--bad) 20%, transparent); animation: latido 1s ease-in-out infinite; }
 .mic:disabled { opacity: 0.4; box-shadow: none; }
 @keyframes latido { 50% { transform: scale(1.08); } }
+
+/* Video de la explicación */
+.video-tema { display: block; width: 100%; aspect-ratio: 1; background: #000; border-radius: var(--radius); margin-bottom: 14px; box-shadow: var(--shadow); }

@@ -4,6 +4,7 @@
 // ("gruposTitulo" es el encabezado de esa sección).
 // "frases" (opcional) son oraciones largas para practicar la pronunciación; "acepta" son otras formas
 // válidas de decir una palabra al practicar la pronunciación (p. ej. "20" para twenty).
+// "explicacion.video" (opcional) es un video con la explicación narrada (scripts/generar_video_explicacion.py).
 // "imagen" es la idea de qué mostrar en la imagen de Canva
 // (scripts/listas_imagenes.py). En las preguntas de opción múltiple la primera opción es la correcta.
 // En escritura y en el examen, "respuestas" son todas las formas aceptadas (sin importar mayúsculas ni puntuación).
@@ -16,6 +17,7 @@ const TEMAS_A1 = [
     "contexto": "Saludos y presentaciones",
     "gruposTitulo": "Más vocabulario con *to be*",
     "explicacion": {
+      "video": "videos/temas/a1-01-explicacion.mp4",
       "es": [
         "El verbo **to be** significa **ser** o **estar**. En inglés es un solo verbo para las dos ideas: *I am a teacher* (soy maestro) y *I am tired* (estoy cansado).",
         "Tiene tres formas en presente: **am** (solo con *I*), **is** (con *he, she, it*) y **are** (con *you, we, they*).",

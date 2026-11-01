@@ -437,7 +437,11 @@ function viewExplicacion(tema) {
     <thead><tr>${x.tabla.columnas.map((c) => `<th>${esc(c)}</th>`).join("")}</tr></thead>
     <tbody>${x.tabla.filas.map((f) => `<tr>${f.map((c) => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody>
   </table></div>`;
+  const video = x.video
+    ? `<video class="video-tema" src="${esc(x.video)}" poster="${esc(x.video.replace(/\.mp4$/, ".jpg"))}" controls playsinline preload="none"></video>`
+    : "";
   return `
+    ${video}
     <div class="card prose">${x.es.map((p) => `<p>${md(p)}</p>`).join("")}</div>
     <div class="card">${tabla}</div>
     <div class="card warn"><h2>¡Ojo!</h2><ul>${x.ojo.map((p) => `<li>${md(p)}</li>`).join("")}</ul></div>
