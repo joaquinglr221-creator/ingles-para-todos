@@ -475,15 +475,19 @@ function vocabListas(tema) {
   ];
 }
 
-// Menú en recuadros (vocabulario y pronunciación).
+const PORTADAS = typeof PORTADAS_MENU !== "undefined" ? PORTADAS_MENU : {};
+// Menú en recuadros (vocabulario y pronunciación); con imagen si la tiene (scripts/importar_portadas.py).
 const recuadros = (tema, items, ruta) => {
   const nivel = NIVELES.find((n) => n.code === nivelDe(tema));
   return `<div class="tiles" style="${colorNivel(nivel)}">${items
-    .map((l) => `<a class="tile" href="#/tema/${tema.id}/${ruta}/${l.id}">
-      <span class="tile-icon">${l.icono}</span>
+    .map((l) => {
+      const foto = PORTADAS[`${tema.id}/${l.id === "principal" ? "vocabulario" : l.id}`];
+      return `<a class="tile${foto ? " con-foto" : ""}" href="#/tema/${tema.id}/${ruta}/${l.id}">
+      ${foto ? `<img class="tile-foto" src="${esc(foto)}" alt="" loading="lazy">` : `<span class="tile-icon">${l.icono}</span>`}
       <strong>${esc(l.titulo)}</strong>
       <span class="tile-note">${l.lista.length}</span>
-    </a>`)
+    </a>`;
+    })
     .join("")}</div>`;
 };
 

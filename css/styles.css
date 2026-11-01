@@ -411,3 +411,10 @@ video.thumb, video.pron-img { display: block; }
 .ej-en { font-weight: 600; font-size: 0.95rem; }
 .word-ej .es { font-size: 0.86rem; }
 .word-ej .icon-btn { width: 36px; height: 36px; font-size: 0.9rem; }
+
+/* Recuadros de los menús con imagen */
+.tile.con-foto { padding: 0 0 14px; gap: 4px; overflow: hidden; }
+.tile-foto { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; margin-bottom: 8px; background: var(--border); }
+.tile.con-foto strong, .tile.con-foto .tile-note { padding: 0 14px; }
+.tiles .tile.con-foto:last-child:nth-child(odd) { flex-direction: column; align-items: stretch; }
+.tiles .tile.con-foto:last-child:nth-child(odd) .tile-foto { aspect-ratio: 8 / 3; }

@@ -1,0 +1,33 @@
+// Generado por scripts/importar_portadas.py — no editar a mano.
+// Imagen de cada recuadro de los menús, por tema y lista.
+const PORTADAS_MENU = {
+ "a1-01/vocabulario": "images/portadas/a1-01-vocabulario.jpg",
+ "a1-01/emociones": "images/portadas/a1-01-emociones.jpg",
+ "a1-01/profesiones": "images/portadas/a1-01-profesiones.jpg",
+ "a1-01/salud": "images/portadas/a1-01-salud.jpg",
+ "a1-01/clima": "images/portadas/a1-01-clima.jpg",
+ "a1-01/fisico": "images/portadas/a1-01-fisico.jpg",
+ "a1-01/personalidad": "images/portadas/a1-01-personalidad.jpg",
+ "a1-01/nacionalidades": "images/portadas/a1-01-nacionalidades.jpg",
+ "a1-01/estados": "images/portadas/a1-01-estados.jpg",
+ "a1-01/dias": "images/portadas/a1-01-dias.jpg",
+ "a1-01/meses": "images/portadas/a1-01-meses.jpg",
+ "a1-01/estaciones": "images/portadas/a1-01-estaciones.jpg",
+ "a1-01/cardinales": "images/portadas/a1-01-cardinales.jpg",
+ "a1-01/ordinales": "images/portadas/a1-01-ordinales.jpg",
+ "a1-01/abecedario": "images/portadas/a1-01-abecedario.jpg",
+ "a1-01/ejemplos": "images/portadas/a1-01-ejemplos.jpg",
+ "a1-01/frases": "images/portadas/a1-01-frases.jpg",
+ "a1-02/vocabulario": "images/portadas/a1-02-vocabulario.jpg",
+ "a1-02/ejemplos": "images/portadas/a1-02-ejemplos.jpg",
+ "a1-03/vocabulario": "images/portadas/a1-03-vocabulario.jpg",
+ "a1-03/ejemplos": "images/portadas/a1-03-ejemplos.jpg",
+ "a1-04/vocabulario": "images/portadas/a1-04-vocabulario.jpg",
+ "a1-04/salon": "images/portadas/a1-04-salon.jpg",
+ "a1-04/sala": "images/portadas/a1-04-sala.jpg",
+ "a1-04/cocina": "images/portadas/a1-04-cocina.jpg",
+ "a1-04/recamara": "images/portadas/a1-04-recamara.jpg",
+ "a1-04/bano": "images/portadas/a1-04-bano.jpg",
+ "a1-04/ejemplos": "images/portadas/a1-04-ejemplos.jpg",
+ "a1-04/frases": "images/portadas/a1-04-frases.jpg"
+};
