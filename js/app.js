@@ -155,7 +155,7 @@ function viewHome() {
     <header class="home-hero">
       <div class="home-hero-text">
         <p class="eyebrow light">De A1 a C2</p>
-        <h1>Inglés para todos</h1>
+        <h1>English for Everyone</h1>
         <p>Aprende a tu ritmo con audio, imágenes, pronunciación y exámenes.</p>
       </div>
     </header>
