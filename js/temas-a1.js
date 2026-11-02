@@ -2377,7 +2377,195 @@ const TEMAS_A1 = [
       { "tipo": "escribir", "pregunta": "Traduce: Su esposa es de Perú. (de él)", "respuestas": ["His wife is from Peru"] }
     ]
   },
-  { "id": "a1-08", "num": 8, "titulo": "Have / have got", "contexto": "Mis pertenencias y mascotas" },
+  {
+    "id": "a1-08",
+    "num": 8,
+    "titulo": "Have / have got",
+    "contexto": "Mis pertenencias y mascotas",
+    "explicacion": {
+      "es": [
+        "**Have** significa **tener**. Con *I, you, we, they* se usa **have**, y con *he, she, it* se usa **has**: *I have a dog. She has a cat.*",
+        "**Have got** significa lo mismo y es muy común al hablar: *I've got a dog. She's got a cat.* Las contracciones son **I've got** y **she's got**.",
+        "En **negativo** se dice *I don't have* o *I haven't got*; con *he, she, it*, *doesn't have* o *hasn't got*.",
+        "Para **preguntar** se dice *Do you have…?* o *Have you got…?*; con *he, she, it*, *Does she have…?* o *Has she got…?*"
+      ],
+      "tabla": { "columnas": ["Sujeto", "Have", "Have got", "Negativo"], "filas": [["I / you / we / they", "have", "have got ('ve got)", "don't have / haven't got"], ["he / she / it", "has", "has got ('s got)", "doesn't have / hasn't got"]] },
+      "ojo": [
+        "Con *he, she, it* se usa **has**: *She **has** a car* (no *She have*).",
+        "Después de *doesn't* regresa a **have**: *He doesn't **have** a car* (no *doesn't has*).",
+        "No todo «tener» se traduce con *have*. La edad, el hambre, la sed y el frío van con *to be*: *I'm 20. I'm hungry. I'm cold.*",
+        "*She's got* significa *she has got*: *She's got a dog*. Y *She's happy* significa *she is happy*.",
+        "Los dolores y enfermedades sí van con *have*: *I have a headache*."
+      ],
+      "en": [
+        "Use **have** with I, you, we and they: I have a dog.",
+        "Use **has** with he, she and it: She has a cat.",
+        "**Have got** means the same: I've got a dog. She's got a cat.",
+        "Questions: Do you have a pet? Have you got a pet?"
+      ]
+    },
+    "vocabulario": [
+      { "en": "a phone", "es": "un teléfono", "imagen": "Celulares sobre una mesa", "ejemplo": ["I have a new phone.", "Tengo un teléfono nuevo."] },
+      { "en": "a car", "es": "un coche", "imagen": "Coches estacionados", "ejemplo": ["She has a red car.", "Ella tiene un coche rojo."] },
+      { "en": "a bike", "es": "una bicicleta", "imagen": "Bicicletas estacionadas", "ejemplo": ["I've got a blue bike.", "Tengo una bicicleta azul."] },
+      { "en": "a motorcycle", "es": "una motocicleta", "imagen": "Motocicleta estacionada en la calle", "ejemplo": ["He has a big motorcycle.", "Él tiene una motocicleta grande."] },
+      { "en": "a house", "es": "una casa", "imagen": "Casa bonita con jardín al frente", "ejemplo": ["We have a small house.", "Tenemos una casa pequeña."] },
+      { "en": "an apartment", "es": "un departamento", "imagen": "Edificio de departamentos con balcones", "ejemplo": ["They have an apartment in the city.", "Ellos tienen un departamento en la ciudad."] },
+      { "en": "a garden", "es": "un jardín", "imagen": "Jardín con flores y pasto verde", "ejemplo": ["My parents have a beautiful garden.", "Mis papás tienen un jardín hermoso."] },
+      { "en": "a garage", "es": "una cochera, un garaje", "imagen": "Cochera abierta con un coche dentro", "ejemplo": ["Our house has a big garage.", "Nuestra casa tiene una cochera grande."] },
+      { "en": "a camera", "es": "una cámara", "imagen": "Cámara fotográfica sobre una mesa", "ejemplo": ["My sister has a good camera.", "Mi hermana tiene una buena cámara."] },
+      { "en": "a tablet", "es": "una tableta", "imagen": "Persona usando una tableta en el sofá", "ejemplo": ["I've got a new tablet.", "Tengo una tableta nueva."] },
+      { "en": "a computer", "es": "una computadora", "imagen": "Computadora de escritorio", "ejemplo": ["He has a fast computer.", "Él tiene una computadora rápida."] },
+      { "en": "a laptop", "es": "una laptop", "imagen": "Laptop abierta sobre un pupitre", "ejemplo": ["She's got a new laptop.", "Ella tiene una laptop nueva."] },
+      { "en": "a wallet", "es": "una cartera", "imagen": "Cartera de piel con billetes", "ejemplo": ["I have a wallet in my bag.", "Tengo una cartera en mi bolsa."] },
+      { "en": "a key", "es": "una llave", "imagen": "Llave en la mano", "ejemplo": ["Do you have a key?", "¿Tienes una llave?"] },
+      { "en": "a watch", "es": "un reloj de pulsera", "imagen": "Relojes en una vitrina", "ejemplo": ["My father has an old watch.", "Mi papá tiene un reloj viejo."] },
+      { "en": "money", "es": "dinero", "imagen": "Billetes y monedas", "ejemplo": ["I don't have much money.", "No tengo mucho dinero."] }
+    ],
+    "grupos": [
+      {
+        "id": "mascotas",
+        "titulo": "Las mascotas",
+        "icono": "🐶",
+        "patron": ["I have a dog.", "She has two cats.", "Have you got a pet?"],
+        "palabras": [
+          { "en": "a dog", "es": "un perro", "imagen": "Perro feliz corriendo en un parque", "ejemplo": ["I have a big dog.", "Tengo un perro grande."] },
+          { "en": "a cat", "es": "un gato", "imagen": "Gatos sentados en un sofá", "ejemplo": ["She has a black cat.", "Ella tiene un gato negro."] },
+          { "en": "a puppy", "es": "un cachorro", "imagen": "Cachorro jugando con una pelota", "ejemplo": ["We've got a new puppy.", "Tenemos un cachorro nuevo."] },
+          { "en": "a kitten", "es": "un gatito", "imagen": "Gatito pequeño en una canasta", "ejemplo": ["My daughter has a little kitten.", "Mi hija tiene un gatito."] },
+          { "en": "a bird", "es": "un pájaro", "imagen": "Pájaro colorido en una rama", "ejemplo": ["My grandmother has a bird.", "Mi abuela tiene un pájaro."] },
+          { "en": "a parrot", "es": "un loro, un perico", "imagen": "Loro verde posado en la mano de una persona", "ejemplo": ["He has a funny parrot.", "Él tiene un loro gracioso."] },
+          { "en": "a rabbit", "es": "un conejo", "imagen": "Conejo blanco comiendo una zanahoria", "ejemplo": ["Our son has a white rabbit.", "Nuestro hijo tiene un conejo blanco."] },
+          { "en": "a hamster", "es": "un hámster", "imagen": "Hámster comiendo una semilla", "ejemplo": ["I've got a small hamster.", "Tengo un hámster pequeño."] },
+          { "en": "a turtle", "es": "una tortuga", "imagen": "Tortuga caminando sobre el pasto", "ejemplo": ["My brother has a turtle.", "Mi hermano tiene una tortuga."] },
+          { "en": "a goldfish", "es": "un pez dorado", "imagen": "Peces de colores en una pecera", "ejemplo": ["They have a goldfish.", "Ellos tienen un pez dorado."] },
+          { "en": "a horse", "es": "un caballo", "imagen": "Caballo café en un campo", "ejemplo": ["My uncle has a horse.", "Mi tío tiene un caballo."] },
+          { "en": "a snake", "es": "una serpiente", "imagen": "Serpiente verde en una rama", "ejemplo": ["Does he have a snake?", "¿Él tiene una serpiente?"] },
+          { "en": "a lizard", "es": "una lagartija", "imagen": "Lagartija sobre una roca", "ejemplo": ["Our neighbor has a lizard.", "Nuestro vecino tiene una lagartija."] }
+        ]
+      },
+      {
+        "id": "fisico",
+        "titulo": "Cómo es una persona",
+        "icono": "💇",
+        "patron": ["She has long hair.", "He's got a beard.", "I have brown eyes."],
+        "palabras": [
+          { "en": "long hair", "es": "cabello largo", "imagen": "Mujer con cabello muy largo", "ejemplo": ["My sister has long hair.", "Mi hermana tiene el cabello largo."] },
+          { "en": "short hair", "es": "cabello corto", "imagen": "Persona con cabello corto", "ejemplo": ["He has short hair.", "Él tiene el cabello corto."] },
+          { "en": "curly hair", "es": "cabello rizado", "imagen": "Mujer con cabello muy rizado", "ejemplo": ["Our teacher has curly hair.", "Nuestra maestra tiene el cabello rizado."] },
+          { "en": "straight hair", "es": "cabello lacio", "imagen": "Persona con cabello lacio", "ejemplo": ["She's got straight hair.", "Ella tiene el cabello lacio."] },
+          { "en": "blue eyes", "es": "ojos azules", "imagen": "Primer plano de unos ojos azules", "ejemplo": ["Your baby has blue eyes.", "Tu bebé tiene los ojos azules."] },
+          { "en": "brown eyes", "es": "ojos cafés", "imagen": "Primer plano de unos ojos cafés", "ejemplo": ["I have brown eyes.", "Tengo los ojos cafés."] },
+          { "en": "green eyes", "es": "ojos verdes", "imagen": "Primer plano de unos ojos verdes", "ejemplo": ["She has beautiful green eyes.", "Ella tiene unos ojos verdes hermosos."] },
+          { "en": "a beard", "es": "barba", "imagen": "Hombre con barba", "ejemplo": ["My father has a gray beard.", "Mi papá tiene barba gris."] },
+          { "en": "a mustache", "es": "bigote", "imagen": "Hombre con bigote", "ejemplo": ["He's got a big mustache.", "Él tiene un bigote grande."] },
+          { "en": "freckles", "es": "pecas", "imagen": "Niña sonriendo con pecas", "ejemplo": ["Her son has freckles.", "Su hijo tiene pecas."] },
+          { "en": "eyeglasses", "es": "lentes, anteojos", "imagen": "Persona con lentes leyendo", "ejemplo": ["My grandfather has eyeglasses.", "Mi abuelo tiene lentes."] }
+        ]
+      },
+      {
+        "id": "salud",
+        "titulo": "Padecimientos: have",
+        "icono": "🤧",
+        "patron": ["I have a headache.", "She has a cold.", "Do you have a fever?"],
+        "palabras": [
+          { "en": "a cold", "es": "un resfriado", "imagen": "Persona resfriada con pañuelo", "ejemplo": ["I have a bad cold.", "Tengo un resfriado fuerte."] },
+          { "en": "the flu", "es": "gripa, influenza", "imagen": "Persona con gripa en la cama", "ejemplo": ["My son has the flu.", "Mi hijo tiene gripa."] },
+          { "en": "a fever", "es": "fiebre", "imagen": "Persona con paño en la frente", "ejemplo": ["She has a high fever.", "Ella tiene fiebre alta."] },
+          { "en": "a cough", "es": "tos", "imagen": "Persona tosiendo con la mano en la boca", "ejemplo": ["He has a bad cough.", "Él tiene mucha tos."] },
+          { "en": "a headache", "es": "dolor de cabeza", "imagen": "Persona con las manos en la cabeza por el dolor", "ejemplo": ["I've got a headache.", "Tengo dolor de cabeza."] },
+          { "en": "a sore throat", "es": "dolor de garganta", "imagen": "Persona con dolor de garganta", "ejemplo": ["She has a sore throat.", "Ella tiene dolor de garganta."] },
+          { "en": "a stomachache", "es": "dolor de estómago", "imagen": "Persona con malestar de estómago", "ejemplo": ["I have a stomachache.", "Tengo dolor de estómago."] },
+          { "en": "a backache", "es": "dolor de espalda", "imagen": "Persona con dolor de espalda", "ejemplo": ["My father has a backache.", "Mi papá tiene dolor de espalda."] },
+          { "en": "a toothache", "es": "dolor de muelas", "imagen": "Persona tocándose la mejilla por el dolor", "ejemplo": ["He's got a toothache.", "Él tiene dolor de muelas."] },
+          { "en": "an earache", "es": "dolor de oído", "imagen": "Niño tocándose la oreja por el dolor", "ejemplo": ["My daughter has an earache.", "Mi hija tiene dolor de oído."] },
+          { "en": "an allergy", "es": "una alergia", "imagen": "Persona estornudando entre flores", "ejemplo": ["I have an allergy to cats.", "Tengo alergia a los gatos."] },
+          { "en": "a runny nose", "es": "escurrimiento nasal", "imagen": "Persona sonándose la nariz", "ejemplo": ["The baby has a runny nose.", "El bebé tiene escurrimiento nasal."] }
+        ]
+      },
+      {
+        "id": "expresiones",
+        "titulo": "Otras cosas que tenemos",
+        "icono": "💡",
+        "patron": ["I have a question.", "We have an exam.", "Do you have time?"],
+        "palabras": [
+          { "en": "a question", "es": "una pregunta", "imagen": "Estudiante levantando la mano en clase", "ejemplo": ["I have a question, teacher.", "Tengo una pregunta, maestra."] },
+          { "en": "an idea", "es": "una idea", "imagen": "Persona sonriendo con un foco encendido", "ejemplo": ["She has a great idea.", "Ella tiene una gran idea."] },
+          { "en": "a problem", "es": "un problema", "imagen": "Persona preocupada mirando su coche descompuesto", "ejemplo": ["We have a problem.", "Tenemos un problema."] },
+          { "en": "time", "es": "tiempo", "imagen": "Persona mirando un reloj de arena", "ejemplo": ["Do you have time today?", "¿Tienes tiempo hoy?"] },
+          { "en": "homework", "es": "tarea", "imagen": "Niño haciendo su tarea en la mesa", "ejemplo": ["I have a lot of homework.", "Tengo mucha tarea."] },
+          { "en": "a meeting", "es": "una reunión", "imagen": "Compañeros en una sala de juntas", "ejemplo": ["My boss has a meeting today.", "Mi jefe tiene una reunión hoy."] },
+          { "en": "an appointment", "es": "una cita", "imagen": "Persona en el consultorio con su doctora", "ejemplo": ["I have an appointment at three.", "Tengo una cita a las tres."] },
+          { "en": "an exam", "es": "un examen", "imagen": "Estudiantes presentando un examen", "ejemplo": ["We've got an exam on Friday.", "Tenemos un examen el viernes."] }
+        ]
+      }
+    ],
+    "ejemplos": [
+      { "en": "I have a dog and two cats.", "es": "Tengo un perro y dos gatos." },
+      { "en": "She has a new car.", "es": "Ella tiene un coche nuevo." },
+      { "en": "We've got a big house.", "es": "Tenemos una casa grande." },
+      { "en": "He's got a beard.", "es": "Él tiene barba." },
+      { "en": "They don't have a garden.", "es": "Ellos no tienen jardín." },
+      { "en": "She doesn't have a pet.", "es": "Ella no tiene mascota." },
+      { "en": "Do you have a laptop? Yes, I do.", "es": "¿Tienes una laptop? Sí." },
+      { "en": "Have you got a pen? No, I haven't.", "es": "¿Tienes una pluma? No." },
+      { "en": "I have a headache.", "es": "Tengo dolor de cabeza." },
+      { "en": "My son has the flu.", "es": "Mi hijo tiene gripa." }
+    ],
+    "frases": [
+      { "en": "My daughter has a kitten and my son has a rabbit.", "es": "Mi hija tiene un gatito y mi hijo tiene un conejo." },
+      { "en": "We have a small house but we have a big garden.", "es": "Tenemos una casa pequeña pero tenemos un jardín grande." },
+      { "en": "My brother has got a motorcycle and I have got a bike.", "es": "Mi hermano tiene una motocicleta y yo tengo una bicicleta." },
+      { "en": "She has long hair and beautiful green eyes.", "es": "Ella tiene el cabello largo y unos ojos verdes hermosos." },
+      { "en": "I don't have a car, but I have a good bike.", "es": "No tengo coche, pero tengo una buena bicicleta." },
+      { "en": "My father has a cough and a sore throat.", "es": "Mi papá tiene tos y dolor de garganta." },
+      { "en": "I have a lot of homework and an exam tomorrow.", "es": "Tengo mucha tarea y un examen mañana." },
+      { "en": "Does your sister have a pet? Yes, she has a parrot.", "es": "¿Tu hermana tiene una mascota? Sí, tiene un loro." },
+      { "en": "He hasn't got much money, but he has a lot of friends.", "es": "Él no tiene mucho dinero, pero tiene muchos amigos." },
+      { "en": "Have you got a minute? I have a question.", "es": "¿Tienes un minuto? Tengo una pregunta." }
+    ],
+    "listening": [
+      { "audio": "I have a dog. His name is Max.", "pregunta": "¿Qué mascota tiene?", "opciones": ["Un perro", "Un gato", "Un conejo", "Un pájaro"] },
+      { "audio": "My sister has two cats and a bird.", "pregunta": "¿Cuántos gatos tiene la hermana?", "opciones": ["Dos", "Uno", "Tres", "Ninguno"] },
+      { "audio": "He doesn't have a car, but he's got a motorcycle.", "pregunta": "¿Qué tiene él?", "opciones": ["Una motocicleta", "Un coche", "Una bicicleta", "Un autobús"] },
+      { "audio": "I can't go to work. I have a fever and a bad cough.", "pregunta": "¿Qué le pasa?", "opciones": ["Tiene fiebre y tos", "Tiene dolor de muelas", "Tiene hambre", "Está de vacaciones"] },
+      { "audio": "Do you have time today? No, I have a meeting.", "pregunta": "¿Por qué no tiene tiempo?", "opciones": ["Tiene una reunión", "Tiene un examen", "Tiene una cita médica", "Tiene mucha tarea"] }
+    ],
+    "lectura": {
+      "titulo": "My pets",
+      "texto": "Hi, I'm Ben. I have a small house with a big garden. I've got three pets. I have a dog, Rocky. He has short hair and brown eyes. My daughter has a white rabbit, and my son has a turtle. We don't have a cat because my wife has an allergy to cats. Rocky has a blue bowl, and he's very happy in the garden.",
+      "preguntas": [
+        { "pregunta": "¿Cuántas mascotas tiene la familia?", "opciones": ["Tres", "Dos", "Cuatro", "Una"] },
+        { "pregunta": "¿Quién tiene un conejo?", "opciones": ["La hija de Ben", "El hijo de Ben", "La esposa de Ben", "Ben"] },
+        { "pregunta": "¿Por qué no tienen gato?", "opciones": ["La esposa es alérgica", "No tienen jardín", "Rocky es peligroso", "Su casa es pequeña"] },
+        { "pregunta": "¿Cómo es Rocky?", "opciones": ["Tiene el cabello corto y ojos cafés", "Es blanco", "Tiene ojos azules", "Es muy grande"] }
+      ]
+    },
+    "escritura": [
+      { "instruccion": "Completa con have o has.", "pregunta": "I ___ a new phone.", "respuestas": ["have"] },
+      { "instruccion": "Completa con have o has.", "pregunta": "She ___ a white cat.", "respuestas": ["has"] },
+      { "instruccion": "Completa con have o has.", "pregunta": "My parents ___ a garden.", "respuestas": ["have"] },
+      { "instruccion": "Completa con have got o has got.", "pregunta": "He ___ a beard.", "respuestas": ["has got", "'s got"] },
+      { "instruccion": "Escribe en negativo.", "pregunta": "I have a car.", "respuestas": ["I don't have a car", "I do not have a car", "I haven't got a car", "I have not got a car"] },
+      { "instruccion": "Escribe en negativo.", "pregunta": "She has a dog.", "respuestas": ["She doesn't have a dog", "She does not have a dog", "She hasn't got a dog", "She has not got a dog"] },
+      { "instruccion": "Convierte en pregunta.", "pregunta": "You have a pet.", "respuestas": ["Do you have a pet", "Have you got a pet"] },
+      { "instruccion": "Traduce al inglés.", "pregunta": "Tengo dolor de cabeza.", "respuestas": ["I have a headache", "I've got a headache", "I have got a headache"] },
+      { "instruccion": "Traduce al inglés.", "pregunta": "Ella tiene el cabello largo.", "respuestas": ["She has long hair", "She's got long hair", "She has got long hair"] },
+      { "instruccion": "Corrige la oración.", "pregunta": "He have two dogs.", "respuestas": ["He has two dogs", "He's got two dogs", "He has got two dogs"] }
+    ],
+    "examen": [
+      { "tipo": "opcion", "pregunta": "My brother ___ a motorcycle.", "opciones": ["has", "have", "is", "are"] },
+      { "tipo": "opcion", "pregunta": "We ___ a small house.", "opciones": ["have", "has", "is", "am"] },
+      { "tipo": "opcion", "pregunta": "She ___ got a new laptop.", "opciones": ["has", "have", "is got", "does"] },
+      { "tipo": "opcion", "pregunta": "He doesn't ___ a pet.", "opciones": ["have", "has", "having", "got"] },
+      { "tipo": "opcion", "pregunta": "¿Cómo se dice «Tengo 20 años»?", "opciones": ["I'm 20 years old.", "I have 20 years.", "I've got 20 years.", "I has 20 years."] },
+      { "tipo": "opcion", "pregunta": "¿Cómo se dice «Tengo dolor de cabeza»?", "opciones": ["I have a headache.", "I am a headache.", "I has a headache.", "I'm headache."] },
+      { "tipo": "listening", "audio": "My daughter has a rabbit. Her friend has a hamster.", "pregunta": "¿Quién tiene un hámster?", "opciones": ["La amiga", "La hija", "La mamá", "Nadie"] },
+      { "tipo": "listening", "audio": "Have you got a pen? Sorry, I haven't.", "pregunta": "¿La persona que responde tiene pluma?", "opciones": ["No", "Sí", "Tiene dos", "No lo sabe"] },
+      { "tipo": "escribir", "pregunta": "Escribe en negativo: They have a car.", "respuestas": ["They don't have a car", "They do not have a car", "They haven't got a car", "They have not got a car"] },
+      { "tipo": "escribir", "pregunta": "Traduce: Tenemos un perro.", "respuestas": ["We have a dog", "We've got a dog", "We have got a dog"] }
+    ]
+  },
   { "id": "a1-09", "num": 9, "titulo": "Adjetivos (lugar en la oración)", "contexto": "Describir personas y cosas" },
   { "id": "a1-10", "num": 10, "titulo": "There is / there are", "contexto": "Mi casa y mi barrio" },
   { "id": "a1-11", "num": 11, "titulo": "Preposiciones de lugar", "contexto": "¿Dónde está?" },

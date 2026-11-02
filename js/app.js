@@ -705,6 +705,7 @@ const CONTRACCIONES = {
   "they're": "they are", "isn't": "is not", "aren't": "are not", "what's": "what is", "where's": "where is",
   "that's": "that is", "there's": "there is", "who's": "who is", "how's": "how is", "don't": "do not",
   "doesn't": "does not", "can't": "cannot", "i'll": "i will", "let's": "let us",
+  "i've": "i have", "you've": "you have", "we've": "we have", "they've": "they have", "haven't": "have not", "hasn't": "has not",
 };
 // Lo que el reconocimiento de voz escribe distinto aunque se pronuncie igual: da lo mismo cuál salga.
 const MISMO_SONIDO = {
