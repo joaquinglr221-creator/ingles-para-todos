@@ -44,5 +44,7 @@ const PORTADAS_MENU = {
  "a1-06/ropa": "images/portadas/a1-06-ropa.jpg",
  "a1-06/accesorios": "images/portadas/a1-06-accesorios.jpg",
  "a1-06/colores": "images/portadas/a1-06-colores.jpg",
- "a1-06/expresiones": "images/portadas/a1-06-expresiones.jpg"
+ "a1-06/expresiones": "images/portadas/a1-06-expresiones.jpg",
+ "a1-07/ejemplos": "images/temas/a1-07/02-mother.jpg",
+ "a1-07/frases": "images/temas/a1-07/vida/05-a-family-photo.jpg"
 };
