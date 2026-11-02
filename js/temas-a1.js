@@ -1800,7 +1800,212 @@ const TEMAS_A1 = [
       { "tipo": "escribir", "pregunta": "Traduce: Es una silla.", "respuestas": ["It's a chair", "It is a chair"] }
     ]
   },
-  { "id": "a1-05", "num": 5, "titulo": "Plurales regulares e irregulares", "contexto": "Cosas que tengo" },
+  {
+    "id": "a1-05",
+    "num": 5,
+    "titulo": "Plurales regulares e irregulares",
+    "contexto": "Cosas que tengo",
+    "explicacion": {
+      "es": [
+        "Para hablar de **más de una cosa**, casi siempre se agrega **-s**: *one book, two books*.",
+        "Si la palabra termina en **s, ss, sh, ch, x** o a veces **o**, se agrega **-es**: *bus → buses, box → boxes, tomato → tomatoes*.",
+        "Si termina en **consonante + y**, la *y* cambia a **-ies**: *city → cities*. Si antes de la *y* hay vocal, solo se agrega *-s*: *key → keys*.",
+        "Muchas palabras terminadas en **f** o **fe** cambian a **-ves**: *knife → knives*.",
+        "Algunas son **irregulares** y se aprenden de memoria: *man → men, child → children, foot → feet*. Otras no cambian: *sheep, fish*."
+      ],
+      "tabla": { "columnas": ["Regla", "Singular", "Plural"], "filas": [["La mayoría: -s", "book", "books"], ["s, ss, sh, ch, x: -es", "box", "boxes"], ["Algunas en o: -es", "tomato", "tomatoes"], ["Consonante + y: -ies", "city", "cities"], ["Vocal + y: -s", "key", "keys"], ["f / fe: -ves", "knife", "knives"], ["Irregulares", "man, child, foot, tooth", "men, children, feet, teeth"], ["No cambian", "sheep, fish", "sheep, fish"]] },
+      "ojo": [
+        "Los adjetivos **no** llevan plural: *red cars* (no *reds cars*).",
+        "Con plurales no se usa *a* ni *an*: *books* (no *a books*).",
+        "*People* ya es plural: *The people **are** friendly* (no *The people is*).",
+        "Algunas palabras **siempre** van en plural: *My pants **are** new* (no *My pant is new*).",
+        "Se dice *children, men, feet*, nunca *childs, mans, foots*."
+      ],
+      "en": [
+        "To make most nouns plural, add **-s**: book, books.",
+        "Add **-es** after s, ss, sh, ch and x: box, boxes.",
+        "Consonant plus y changes to **-ies**: city, cities.",
+        "Some nouns are irregular: man, men. Child, children. Foot, feet."
+      ]
+    },
+    "vocabulario": [
+      { "en": "keys", "es": "llaves (una: key)", "imagen": "Varias llaves en un llavero sobre una mesa", "ejemplo": ["My keys are in my bag.", "Mis llaves están en mi bolsa."] },
+      { "en": "shoes", "es": "zapatos (uno: shoe)", "imagen": "Par de zapatos nuevos", "ejemplo": ["My shoes are black.", "Mis zapatos son negros."] },
+      { "en": "socks", "es": "calcetines (uno: sock)", "imagen": "Calcetines de colores doblados", "ejemplo": ["My socks are clean.", "Mis calcetines están limpios."] },
+      { "en": "pens", "es": "plumas (una: pen)", "imagen": "Varias plumas de colores en un vaso", "ejemplo": ["The pens are on the desk.", "Las plumas están en el escritorio."] },
+      { "en": "books", "es": "libros (uno: book)", "imagen": "Muchos libros en un librero", "ejemplo": ["My books are on the shelf.", "Mis libros están en el estante."] },
+      { "en": "phones", "es": "teléfonos (uno: phone)", "imagen": "Varios celulares sobre una mesa", "ejemplo": ["The phones are new.", "Los teléfonos son nuevos."] },
+      { "en": "cars", "es": "coches (uno: car)", "imagen": "Fila de coches estacionados", "ejemplo": ["The cars are red.", "Los coches son rojos."] },
+      { "en": "bikes", "es": "bicicletas (una: bike)", "imagen": "Varias bicicletas estacionadas", "ejemplo": ["Our bikes are in the garden.", "Nuestras bicicletas están en el jardín."] },
+      { "en": "hats", "es": "sombreros (uno: hat)", "imagen": "Varios sombreros colgados en la pared", "ejemplo": ["These hats are big.", "Estos sombreros son grandes."] },
+      { "en": "shirts", "es": "camisas (una: shirt)", "imagen": "Camisas de colores colgadas en un clóset", "ejemplo": ["My shirts are in the closet.", "Mis camisas están en el clóset."] },
+      { "en": "jackets", "es": "chamarras (una: jacket)", "imagen": "Varias chamarras colgadas en un perchero", "ejemplo": ["Our jackets are warm.", "Nuestras chamarras son calientitas."] },
+      { "en": "coins", "es": "monedas (una: coin)", "imagen": "Monedas sobre una mesa", "ejemplo": ["The coins are old.", "Las monedas son antiguas."] },
+      { "en": "tickets", "es": "boletos (uno: ticket)", "imagen": "Dos boletos en la mano de una persona", "ejemplo": ["Our tickets are in my bag.", "Nuestros boletos están en mi bolsa."] },
+      { "en": "photos", "es": "fotos (una: photo)", "imagen": "Fotos familiares sobre una mesa", "ejemplo": ["The photos are beautiful.", "Las fotos son hermosas."] },
+      { "en": "toys", "es": "juguetes (uno: toy)", "imagen": "Juguetes de colores en el piso", "ejemplo": ["The toys are on the floor.", "Los juguetes están en el piso."] },
+      { "en": "games", "es": "juegos (uno: game)", "imagen": "Juegos de mesa apilados", "ejemplo": ["These games are fun.", "Estos juegos son divertidos."] }
+    ],
+    "grupos": [
+      {
+        "id": "es",
+        "titulo": "Plurales con -es",
+        "icono": "📦",
+        "patron": ["one box, two boxes", "The buses are late.", "My glasses are clean."],
+        "palabras": [
+          { "en": "watches", "es": "relojes de pulsera (uno: watch)", "imagen": "Varios relojes de pulsera en una vitrina", "ejemplo": ["My watches are old.", "Mis relojes son viejos."] },
+          { "en": "boxes", "es": "cajas (una: box)", "imagen": "Cajas de cartón apiladas", "ejemplo": ["The boxes are heavy.", "Las cajas están pesadas."] },
+          { "en": "dishes", "es": "platos, trastes (uno: dish)", "imagen": "Pila de platos limpios", "ejemplo": ["The dishes are clean.", "Los platos están limpios."] },
+          { "en": "glasses", "es": "vasos (uno: glass)", "imagen": "Varios vasos de agua en una charola", "ejemplo": ["The glasses are on the table.", "Los vasos están en la mesa."] },
+          { "en": "buses", "es": "autobuses (uno: bus)", "imagen": "Autobuses en una estación", "ejemplo": ["The buses are full.", "Los autobuses están llenos."] },
+          { "en": "dresses", "es": "vestidos (uno: dress)", "imagen": "Vestidos de colores colgados en una tienda", "ejemplo": ["Her dresses are beautiful.", "Sus vestidos son hermosos."] },
+          { "en": "brushes", "es": "brochas, cepillos (uno: brush)", "imagen": "Brochas de pintura en un frasco", "ejemplo": ["The brushes are wet.", "Las brochas están mojadas."] },
+          { "en": "sandwiches", "es": "sándwiches (uno: sandwich)", "imagen": "Plato con varios sándwiches", "ejemplo": ["The sandwiches are delicious.", "Los sándwiches están deliciosos."] },
+          { "en": "tomatoes", "es": "tomates (uno: tomato)", "imagen": "Tomates rojos en una canasta", "ejemplo": ["The tomatoes are red.", "Los tomates son rojos."] },
+          { "en": "potatoes", "es": "papas (una: potato)", "imagen": "Papas en un costal", "ejemplo": ["The potatoes are hot.", "Las papas están calientes."] },
+          { "en": "beaches", "es": "playas (una: beach)", "imagen": "Vista aérea de una costa con varias playas", "ejemplo": ["The beaches in Mexico are beautiful.", "Las playas de México son hermosas."] },
+          { "en": "classes", "es": "clases (una: class)", "imagen": "Salón de clases", "ejemplo": ["My classes are in the morning.", "Mis clases son en la mañana."] }
+        ]
+      },
+      {
+        "id": "ies",
+        "titulo": "Plurales con -ies",
+        "icono": "👶",
+        "patron": ["one city, two cities", "The babies are asleep.", "My parties are fun."],
+        "palabras": [
+          { "en": "babies", "es": "bebés (uno: baby)", "imagen": "Dos bebés sonriendo juntos", "ejemplo": ["The babies are asleep.", "Los bebés están dormidos."] },
+          { "en": "cities", "es": "ciudades (una: city)", "imagen": "Collage de dos ciudades con rascacielos", "ejemplo": ["The cities are big.", "Las ciudades son grandes."] },
+          { "en": "countries", "es": "países (uno: country)", "imagen": "Mapa con varios países de colores", "ejemplo": ["Canada and Mexico are countries.", "Canadá y México son países."] },
+          { "en": "families", "es": "familias (una: family)", "imagen": "Dos familias conviviendo en un parque", "ejemplo": ["Our families are at the park.", "Nuestras familias están en el parque."] },
+          { "en": "parties", "es": "fiestas (una: party)", "imagen": "Personas celebrando en una fiesta con globos", "ejemplo": ["Her parties are fun.", "Sus fiestas son divertidas."] },
+          { "en": "stories", "es": "cuentos, historias (uno: story)", "imagen": "Abuela leyendo cuentos a sus nietos", "ejemplo": ["These stories are funny.", "Estos cuentos son chistosos."] },
+          { "en": "ladies", "es": "señoras, damas (una: lady)", "imagen": "Dos señoras elegantes tomando té", "ejemplo": ["The ladies are very kind.", "Las señoras son muy amables."] },
+          { "en": "berries", "es": "moras, frutos rojos (una: berry)", "imagen": "Tazón de frutos rojos", "ejemplo": ["The berries are sweet.", "Los frutos rojos son dulces."] },
+          { "en": "butterflies", "es": "mariposas (una: butterfly)", "imagen": "Mariposas de colores en un jardín", "ejemplo": ["The butterflies are beautiful.", "Las mariposas son hermosas."] },
+          { "en": "dictionaries", "es": "diccionarios (uno: dictionary)", "imagen": "Varios diccionarios en una mesa", "ejemplo": ["The dictionaries are on the desk.", "Los diccionarios están en el escritorio."] }
+        ]
+      },
+      {
+        "id": "ves",
+        "titulo": "Plurales con -ves",
+        "icono": "🍂",
+        "patron": ["one knife, two knives", "The leaves are red.", "Our wives are friends."],
+        "palabras": [
+          { "en": "knives", "es": "cuchillos (uno: knife)", "imagen": "Juego de cuchillos en la cocina", "ejemplo": ["The knives are sharp.", "Los cuchillos tienen filo."] },
+          { "en": "wives", "es": "esposas (una: wife)", "imagen": "Dos parejas; las esposas conversan sonriendo", "ejemplo": ["Their wives are friends.", "Sus esposas son amigas."] },
+          { "en": "leaves", "es": "hojas de árbol (una: leaf)", "imagen": "Hojas de otoño cayendo", "ejemplo": ["The leaves are yellow.", "Las hojas son amarillas."] },
+          { "en": "wolves", "es": "lobos (uno: wolf)", "imagen": "Lobos en un bosque nevado", "ejemplo": ["The wolves are dangerous.", "Los lobos son peligrosos."] },
+          { "en": "loaves", "es": "hogazas de pan (una: loaf)", "imagen": "Varias hogazas de pan recién horneadas", "ejemplo": ["The loaves are hot.", "Los panes están calientes."] },
+          { "en": "shelves", "es": "estantes (uno: shelf)", "imagen": "Estantes de madera en la pared", "ejemplo": ["The shelves are full.", "Los estantes están llenos."] },
+          { "en": "thieves", "es": "ladrones (uno: thief)", "imagen": "Dos ladrones con antifaz huyendo", "ejemplo": ["The thieves are in the store.", "Los ladrones están en la tienda."] },
+          { "en": "scarves", "es": "bufandas (una: scarf)", "imagen": "Bufandas de colores en un perchero", "ejemplo": ["My scarves are warm.", "Mis bufandas son calientitas."] },
+          { "en": "halves", "es": "mitades (una: half)", "imagen": "Naranja partida en dos mitades", "ejemplo": ["The two halves are equal.", "Las dos mitades son iguales."] }
+        ]
+      },
+      {
+        "id": "irregulares",
+        "titulo": "Plurales irregulares",
+        "icono": "🦶",
+        "patron": ["one man, two men", "one child, two children", "one foot, two feet"],
+        "palabras": [
+          { "en": "men", "es": "hombres (uno: man)", "imagen": "Grupo de hombres conversando", "ejemplo": ["The men are at work.", "Los hombres están en el trabajo."] },
+          { "en": "women", "es": "mujeres (una: woman)", "imagen": "Grupo de mujeres sonriendo", "ejemplo": ["The women are doctors.", "Las mujeres son doctoras."] },
+          { "en": "children", "es": "niños (uno: child)", "imagen": "Grupo de niños corriendo", "ejemplo": ["The children are in the park.", "Los niños están en el parque."] },
+          { "en": "people", "es": "personas, gente (una: person)", "imagen": "Mucha gente en una plaza", "ejemplo": ["The people are very friendly.", "Las personas son muy amigables."] },
+          { "en": "feet", "es": "pies (uno: foot)", "imagen": "Dos pies descalzos sobre la arena", "ejemplo": ["My feet are cold.", "Tengo los pies fríos."] },
+          { "en": "teeth", "es": "dientes (uno: tooth)", "imagen": "Sonrisa con dientes blancos", "ejemplo": ["Her teeth are white.", "Sus dientes son blancos."] },
+          { "en": "mice", "es": "ratones (uno: mouse)", "imagen": "Dos ratones pequeños comiendo queso", "ejemplo": ["The mice are small.", "Los ratones son pequeños."] },
+          { "en": "geese", "es": "gansos (uno: goose)", "imagen": "Gansos caminando junto a un lago", "ejemplo": ["The geese are at the lake.", "Los gansos están en el lago."] },
+          { "en": "sheep", "es": "ovejas (igual en singular y plural)", "imagen": "Rebaño de ovejas en el campo", "ejemplo": ["The sheep are in the field.", "Las ovejas están en el campo."] },
+          { "en": "fish", "es": "peces, pescados (igual en singular y plural)", "imagen": "Peces de colores en una pecera", "ejemplo": ["The fish are orange.", "Los peces son anaranjados."] },
+          { "en": "deer", "es": "venados (igual en singular y plural)", "imagen": "Venados en un bosque", "ejemplo": ["The deer are beautiful.", "Los venados son hermosos."] }
+        ]
+      },
+      {
+        "id": "siempre",
+        "titulo": "Siempre en plural",
+        "icono": "👖",
+        "patron": ["My pants are new.", "Where are my sunglasses?", "The scissors are sharp."],
+        "palabras": [
+          { "en": "pants", "es": "pantalones", "imagen": "Pantalones doblados sobre una cama", "ejemplo": ["My pants are blue.", "Mis pantalones son azules."] },
+          { "en": "jeans", "es": "jeans, pantalones de mezclilla", "imagen": "Jeans colgados en una tienda", "ejemplo": ["Her jeans are new.", "Sus jeans son nuevos."] },
+          { "en": "shorts", "es": "pantalones cortos, shorts", "imagen": "Shorts de verano sobre una toalla", "ejemplo": ["My shorts are in the bag.", "Mis shorts están en la bolsa."] },
+          { "en": "sunglasses", "es": "lentes de sol", "imagen": "Lentes de sol sobre la arena", "ejemplo": ["My sunglasses are on the table.", "Mis lentes de sol están en la mesa."] },
+          { "en": "scissors", "es": "tijeras", "imagen": "Tijeras cortando papel de colores", "ejemplo": ["The scissors are sharp.", "Las tijeras tienen filo."] },
+          { "en": "pajamas", "es": "pijama", "imagen": "Pijama doblada sobre la cama", "ejemplo": ["My pajamas are soft.", "Mi pijama es suave."] },
+          { "en": "headphones", "es": "audífonos", "imagen": "Audífonos sobre un escritorio", "ejemplo": ["My headphones are new.", "Mis audífonos son nuevos."] },
+          { "en": "clothes", "es": "ropa", "imagen": "Ropa doblada en un clóset", "ejemplo": ["My clothes are clean.", "Mi ropa está limpia."] }
+        ]
+      }
+    ],
+    "ejemplos": [
+      { "en": "I have two cats.", "es": "Tengo dos gatos.", "imagen": "Dos gatos sentados juntos en un sofá" },
+      { "en": "My shoes are new.", "es": "Mis zapatos son nuevos." },
+      { "en": "The books are on the table.", "es": "Los libros están en la mesa." },
+      { "en": "The boxes are heavy.", "es": "Las cajas están pesadas." },
+      { "en": "The babies are asleep.", "es": "Los bebés están dormidos." },
+      { "en": "My feet are cold.", "es": "Tengo los pies fríos." },
+      { "en": "The men are at work.", "es": "Los hombres están en el trabajo." },
+      { "en": "The women are doctors.", "es": "Las mujeres son doctoras." },
+      { "en": "Her teeth are white.", "es": "Sus dientes son blancos." },
+      { "en": "The sheep are in the field.", "es": "Las ovejas están en el campo." }
+    ],
+    "frases": [
+      { "en": "The children are happy because the toys are new.", "es": "Los niños están felices porque los juguetes son nuevos." },
+      { "en": "My keys are in my bag and the phones are on the desk.", "es": "Mis llaves están en mi bolsa y los teléfonos están en el escritorio." },
+      { "en": "The tomatoes and the potatoes are in the kitchen.", "es": "Los tomates y las papas están en la cocina." },
+      { "en": "The cities in Mexico are big and beautiful.", "es": "Las ciudades de México son grandes y hermosas." },
+      { "en": "My feet are tired and my shoes are old.", "es": "Tengo los pies cansados y mis zapatos son viejos." },
+      { "en": "The knives are very sharp.", "es": "Los cuchillos tienen mucho filo." },
+      { "en": "The women are teachers and the men are doctors.", "es": "Las mujeres son maestras y los hombres son doctores." },
+      { "en": "My teeth are white and healthy.", "es": "Mis dientes son blancos y sanos." },
+      { "en": "Our families are from different countries.", "es": "Nuestras familias son de países diferentes." },
+      { "en": "The mice are small but the sheep are big.", "es": "Los ratones son pequeños pero las ovejas son grandes." },
+      { "en": "My pants and my sunglasses are on the bed.", "es": "Mis pantalones y mis lentes de sol están en la cama." },
+      { "en": "The leaves are red and yellow in the fall.", "es": "En otoño las hojas son rojas y amarillas." }
+    ],
+    "listening": [
+      { "audio": "My keys are on the table.", "pregunta": "¿Dónde están las llaves?", "opciones": ["En la mesa", "En la bolsa", "En el coche", "En la cama"] },
+      { "audio": "There are three children in the park.", "pregunta": "¿Cuántos niños hay en el parque?", "opciones": ["Tres", "Dos", "Cuatro", "Trece"] },
+      { "audio": "The tomatoes are in the kitchen.", "pregunta": "¿Qué está en la cocina?", "opciones": ["Los tomates", "Las papas", "Los platos", "Los cuchillos"] },
+      { "audio": "My feet are cold because my socks are wet.", "pregunta": "¿Por qué tiene fríos los pies?", "opciones": ["Sus calcetines están mojados", "Sus zapatos son viejos", "No tiene calcetines", "Está en la nieve"] },
+      { "audio": "The two men are doctors and the women are teachers.", "pregunta": "¿Quiénes son maestras?", "opciones": ["Las mujeres", "Los hombres", "Las niñas", "Las doctoras"] }
+    ],
+    "lectura": {
+      "titulo": "My things",
+      "texto": "Hi, I'm Marta. These are my things. My clothes are in the closet. My jeans are blue and my shirts are white. My shoes are under the bed. My books are on the shelves, and my two cats are on the books! My keys are in my bag. My photos are on the wall. They are photos of my family. The children in the photos are my brothers.",
+      "preguntas": [
+        { "pregunta": "¿De qué color son sus jeans?", "opciones": ["Azules", "Blancos", "Negros", "Rojos"] },
+        { "pregunta": "¿Dónde están sus zapatos?", "opciones": ["Debajo de la cama", "En el clóset", "En los estantes", "En la bolsa"] },
+        { "pregunta": "¿Qué está sobre los libros?", "opciones": ["Dos gatos", "Sus llaves", "Sus fotos", "Su ropa"] },
+        { "pregunta": "¿Quiénes son los niños de las fotos?", "opciones": ["Sus hermanos", "Sus hijos", "Sus amigos", "Sus primos"] }
+      ]
+    },
+    "escritura": [
+      { "instruccion": "Escribe el plural.", "pregunta": "box", "respuestas": ["boxes"] },
+      { "instruccion": "Escribe el plural.", "pregunta": "city", "respuestas": ["cities"] },
+      { "instruccion": "Escribe el plural.", "pregunta": "key", "respuestas": ["keys"] },
+      { "instruccion": "Escribe el plural.", "pregunta": "knife", "respuestas": ["knives"] },
+      { "instruccion": "Escribe el plural.", "pregunta": "man", "respuestas": ["men"] },
+      { "instruccion": "Escribe el plural.", "pregunta": "child", "respuestas": ["children"] },
+      { "instruccion": "Escribe el plural.", "pregunta": "tooth", "respuestas": ["teeth"] },
+      { "instruccion": "Corrige la oración.", "pregunta": "The peoples are friendly.", "respuestas": ["The people are friendly"] },
+      { "instruccion": "Traduce al inglés.", "pregunta": "Mis zapatos son nuevos.", "respuestas": ["My shoes are new"] },
+      { "instruccion": "Traduce al inglés.", "pregunta": "Los niños están felices.", "respuestas": ["The children are happy", "The kids are happy"] }
+    ],
+    "examen": [
+      { "tipo": "opcion", "pregunta": "one bus, two ___", "opciones": ["buses", "buss", "busies", "bus"] },
+      { "tipo": "opcion", "pregunta": "one baby, two ___", "opciones": ["babies", "babys", "babyes", "baby"] },
+      { "tipo": "opcion", "pregunta": "one foot, two ___", "opciones": ["feet", "foots", "feets", "footes"] },
+      { "tipo": "opcion", "pregunta": "one leaf, two ___", "opciones": ["leaves", "leafs", "leafes", "leaf"] },
+      { "tipo": "opcion", "pregunta": "Elige la oración correcta.", "opciones": ["The cars are red.", "The cars are reds.", "The car are red.", "A cars are red."] },
+      { "tipo": "opcion", "pregunta": "My pants ___ new.", "opciones": ["are", "is", "am", "be"] },
+      { "tipo": "listening", "audio": "My sunglasses are in the car.", "pregunta": "¿Dónde están los lentes de sol?", "opciones": ["En el coche", "En la casa", "En la bolsa", "En la playa"] },
+      { "tipo": "listening", "audio": "The women are in the kitchen and the children are in the garden.", "pregunta": "¿Dónde están los niños?", "opciones": ["En el jardín", "En la cocina", "En la escuela", "En la sala"] },
+      { "tipo": "escribir", "pregunta": "Escribe el plural de: mouse", "respuestas": ["mice"] },
+      { "tipo": "escribir", "pregunta": "Traduce: Las cajas están pesadas.", "respuestas": ["The boxes are heavy"] }
+    ]
+  },
   { "id": "a1-06", "num": 6, "titulo": "Demostrativos this / that / these / those", "contexto": "De compras: ¿qué es esto?" },
   { "id": "a1-07", "num": 7, "titulo": "Adjetivos posesivos y posesivo 's", "contexto": "La familia" },
   { "id": "a1-08", "num": 8, "titulo": "Have / have got", "contexto": "Mis pertenencias y mascotas" },
