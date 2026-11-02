@@ -53,5 +53,10 @@ const PORTADAS_MENU = {
  "a1-07/posesivos": "images/portadas/a1-07-posesivos.jpg",
  "a1-07/vida": "images/portadas/a1-07-vida.jpg",
  "a1-08/ejemplos": "images/temas/a1-08/mascotas/01-a-dog.jpg",
- "a1-08/frases": "images/temas/a1-08/05-a-house.jpg"
+ "a1-08/frases": "images/temas/a1-08/05-a-house.jpg",
+ "a1-08/vocabulario": "images/portadas/a1-08-vocabulario.jpg",
+ "a1-08/mascotas": "images/portadas/a1-08-mascotas.jpg",
+ "a1-08/fisico": "images/portadas/a1-08-fisico.jpg",
+ "a1-08/salud": "images/portadas/a1-08-salud.jpg",
+ "a1-08/expresiones": "images/portadas/a1-08-expresiones.jpg"
 };
