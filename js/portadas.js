@@ -31,5 +31,11 @@ const PORTADAS_MENU = {
  "a1-04/ejemplos": "images/portadas/a1-04-ejemplos.jpg",
  "a1-04/frases": "images/portadas/a1-04-frases.jpg",
  "a1-05/ejemplos": "images/temas/a1-05/17-i-have-two-cats.jpg",
- "a1-05/frases": "images/temas/a1-05/15-toys.jpg"
+ "a1-05/frases": "images/temas/a1-05/15-toys.jpg",
+ "a1-05/vocabulario": "images/portadas/a1-05-vocabulario.jpg",
+ "a1-05/es": "images/portadas/a1-05-es.jpg",
+ "a1-05/ies": "images/portadas/a1-05-ies.jpg",
+ "a1-05/ves": "images/portadas/a1-05-ves.jpg",
+ "a1-05/irregulares": "images/portadas/a1-05-irregulares.jpg",
+ "a1-05/siempre": "images/portadas/a1-05-siempre.jpg"
 };
