@@ -2006,7 +2006,194 @@ const TEMAS_A1 = [
       { "tipo": "escribir", "pregunta": "Traduce: Las cajas están pesadas.", "respuestas": ["The boxes are heavy"] }
     ]
   },
-  { "id": "a1-06", "num": 6, "titulo": "Demostrativos this / that / these / those", "contexto": "De compras: ¿qué es esto?" },
+  {
+    "id": "a1-06",
+    "num": 6,
+    "titulo": "Demostrativos this / that / these / those",
+    "contexto": "De compras: ¿qué es esto?",
+    "explicacion": {
+      "es": [
+        "Los **demostrativos** señalan cosas o personas. Dependen de **cuántas son** y de **qué tan cerca están**.",
+        "**This** (este, esta, esto) es para una cosa **cerca** de ti, y **these** (estos, estas) para varias cosas cerca.",
+        "**That** (ese, esa, aquel) es para una cosa **lejos** de ti, y **those** (esos, esas, aquellos) para varias cosas lejos.",
+        "Para preguntar, se usa *What is this?* o *What are those?* Se responde con **It's…** en singular y **They're…** en plural."
+      ],
+      "tabla": { "columnas": ["", "Cerca", "Lejos"], "filas": [["Una cosa", "this (este, esta)", "that (ese, esa)"], ["Varias cosas", "these (estos, estas)", "those (esos, esas)"], ["Ejemplo singular", "This shirt is new.", "That shirt is old."], ["Ejemplo plural", "These shoes are new.", "Those shoes are old."]] },
+      "ojo": [
+        "*This* y *that* van con **is**; *these* y *those* van con **are**: *These **are** my keys* (no *These is*).",
+        "*This* suena corto y *these* suena largo. Practica la diferencia: *this shirt, these shirts*.",
+        "En inglés el adjetivo y el demostrativo no se ponen en plural como en español: *these red shoes* (no *theses reds shoes*).",
+        "*Jeans, pants* y *sunglasses* son plurales: *These jeans **are** nice*.",
+        "Para no repetir la palabra se dice *this one*: *I'd like this one*."
+      ],
+      "en": [
+        "Use **this** and **these** for things near you.",
+        "Use **that** and **those** for things far from you.",
+        "This and that are singular: This is my bag.",
+        "These and those are plural: Those are my shoes."
+      ]
+    },
+    "vocabulario": [
+      { "en": "a store", "es": "una tienda", "imagen": "Fachada de una tienda con aparador", "ejemplo": ["This store is very big.", "Esta tienda es muy grande."] },
+      { "en": "a customer", "es": "un cliente", "imagen": "Cliente mirando productos en una tienda", "ejemplo": ["That customer is very happy.", "Ese cliente está muy contento."] },
+      { "en": "a cashier", "es": "un cajero", "imagen": "Cajera cobrando en el supermercado", "ejemplo": ["This cashier is very kind.", "Este cajero es muy amable."] },
+      { "en": "a price", "es": "un precio", "imagen": "Etiqueta de precio colgando de una prenda", "ejemplo": ["That price is very good.", "Ese precio es muy bueno."] },
+      { "en": "money", "es": "dinero", "imagen": "Billetes y monedas sobre una mesa", "ejemplo": ["This money is for my books.", "Este dinero es para mis libros."] },
+      { "en": "cash", "es": "efectivo", "imagen": "Mano entregando billetes en una caja", "ejemplo": ["This is my cash.", "Este es mi efectivo."] },
+      { "en": "change", "es": "cambio (dinero)", "imagen": "Monedas sobre una mesa", "ejemplo": ["This is your change.", "Este es su cambio."] },
+      { "en": "a credit card", "es": "una tarjeta de crédito", "imagen": "Mano pagando con tarjeta en una terminal", "ejemplo": ["This is my credit card.", "Esta es mi tarjeta de crédito."] },
+      { "en": "a receipt", "es": "un recibo, un ticket", "imagen": "Recibo de compra en la mano de una persona", "ejemplo": ["Is this your receipt?", "¿Este es tu recibo?"] },
+      { "en": "a shopping bag", "es": "una bolsa de compras", "imagen": "Persona cargando bolsas de compras", "ejemplo": ["That shopping bag is heavy.", "Esa bolsa de compras está pesada."] },
+      { "en": "a shopping cart", "es": "un carrito de compras", "imagen": "Carrito de supermercado lleno", "ejemplo": ["This shopping cart is full.", "Este carrito de compras está lleno."] },
+      { "en": "a sale", "es": "una oferta, rebajas", "imagen": "Aparador de tienda con ambiente de rebajas", "ejemplo": ["This sale is great.", "Esta oferta es excelente."] },
+      { "en": "a size", "es": "una talla", "imagen": "Cinta métrica sobre una prenda de ropa", "ejemplo": ["This size is perfect.", "Esta talla es perfecta."] },
+      { "en": "a fitting room", "es": "un probador", "imagen": "Persona frente al espejo de un probador", "ejemplo": ["That fitting room is free.", "Ese probador está libre."] },
+      { "en": "a mall", "es": "un centro comercial", "imagen": "Interior de un centro comercial con gente", "ejemplo": ["This mall is new.", "Este centro comercial es nuevo."] },
+      { "en": "a market", "es": "un mercado", "imagen": "Puestos de un mercado con frutas", "ejemplo": ["That market is very old.", "Ese mercado es muy antiguo."] }
+    ],
+    "grupos": [
+      {
+        "id": "ropa",
+        "titulo": "La ropa",
+        "icono": "👕",
+        "patron": ["This shirt is new.", "That coat is warm.", "Those shoes are nice."],
+        "palabras": [
+          { "en": "a shirt", "es": "una camisa", "imagen": "Camisas colgadas", "ejemplo": ["This shirt is white.", "Esta camisa es blanca."] },
+          { "en": "a T-shirt", "es": "una playera", "imagen": "Playera blanca doblada", "ejemplo": ["That T-shirt is cheap.", "Esa playera es barata."] },
+          { "en": "a sweater", "es": "un suéter", "imagen": "Suéter de lana doblado", "ejemplo": ["This sweater is warm.", "Este suéter es calientito."] },
+          { "en": "a jacket", "es": "una chamarra", "imagen": "Chamarras colgadas", "ejemplo": ["That jacket is black.", "Esa chamarra es negra."] },
+          { "en": "a coat", "es": "un abrigo", "imagen": "Abrigo largo en un perchero", "ejemplo": ["This coat is very long.", "Este abrigo es muy largo."] },
+          { "en": "a dress", "es": "un vestido", "imagen": "Vestidos colgados", "ejemplo": ["That dress is beautiful.", "Ese vestido es hermoso."] },
+          { "en": "a skirt", "es": "una falda", "imagen": "Falda de colores en un gancho", "ejemplo": ["This skirt is blue.", "Esta falda es azul."] },
+          { "en": "a suit", "es": "un traje", "imagen": "Traje elegante en un maniquí", "ejemplo": ["That suit is expensive.", "Ese traje es caro."] },
+          { "en": "a tie", "es": "una corbata", "imagen": "Corbata de seda enrollada", "ejemplo": ["This tie is red.", "Esta corbata es roja."] },
+          { "en": "a belt", "es": "un cinturón", "imagen": "Cinturón de piel enrollado", "ejemplo": ["That belt is brown.", "Ese cinturón es café."] },
+          { "en": "a hat", "es": "un sombrero", "imagen": "Sombreros en la pared", "ejemplo": ["This hat is too big.", "Este sombrero es demasiado grande."] },
+          { "en": "a pair of shoes", "es": "un par de zapatos", "imagen": "Par de zapatos", "ejemplo": ["These shoes are new.", "Estos zapatos son nuevos."] }
+        ]
+      },
+      {
+        "id": "accesorios",
+        "titulo": "Los accesorios",
+        "icono": "💍",
+        "patron": ["This ring is beautiful.", "These earrings are new.", "Is that your wallet?"],
+        "palabras": [
+          { "en": "a watch", "es": "un reloj de pulsera", "imagen": "Relojes en una vitrina", "ejemplo": ["This watch is very nice.", "Este reloj es muy bonito."] },
+          { "en": "a ring", "es": "un anillo", "imagen": "Anillo de oro en su estuche", "ejemplo": ["That ring is expensive.", "Ese anillo es caro."] },
+          { "en": "a necklace", "es": "un collar", "imagen": "Collar elegante sobre terciopelo", "ejemplo": ["This necklace is from Italy.", "Este collar es de Italia."] },
+          { "en": "earrings", "es": "aretes", "imagen": "Par de aretes brillantes", "ejemplo": ["These earrings are small.", "Estos aretes son pequeños."] },
+          { "en": "a bracelet", "es": "una pulsera", "imagen": "Pulsera en la muñeca de una mujer", "ejemplo": ["That bracelet is silver.", "Esa pulsera es de plata."] },
+          { "en": "a wallet", "es": "una cartera", "imagen": "Cartera de piel con billetes", "ejemplo": ["Is this your wallet?", "¿Esta es tu cartera?"] },
+          { "en": "a purse", "es": "una bolsa de mano", "imagen": "Bolsa de mano elegante", "ejemplo": ["That purse is very pretty.", "Esa bolsa de mano es muy bonita."] },
+          { "en": "a scarf", "es": "una bufanda", "imagen": "Bufandas de colores", "ejemplo": ["This scarf is soft.", "Esta bufanda es suave."] },
+          { "en": "a backpack", "es": "una mochila", "imagen": "Mochila escolar", "ejemplo": ["That backpack is heavy.", "Esa mochila está pesada."] },
+          { "en": "sunglasses", "es": "lentes de sol", "imagen": "Lentes de sol", "ejemplo": ["Those sunglasses are cool.", "Esos lentes de sol están padres."] }
+        ]
+      },
+      {
+        "id": "colores",
+        "titulo": "Los colores",
+        "icono": "🎨",
+        "patron": ["This shirt is red.", "Those shoes are black.", "What color is that?"],
+        "palabras": [
+          { "en": "red", "es": "rojo", "imagen": "Manzana roja brillante", "ejemplo": ["This dress is red.", "Este vestido es rojo."] },
+          { "en": "blue", "es": "azul", "imagen": "Cielo azul despejado", "ejemplo": ["These jeans are blue.", "Estos jeans son azules."] },
+          { "en": "green", "es": "verde", "imagen": "Hojas verdes en primer plano", "ejemplo": ["That hat is green.", "Ese sombrero es verde."] },
+          { "en": "yellow", "es": "amarillo", "imagen": "Girasol amarillo", "ejemplo": ["This T-shirt is yellow.", "Esta playera es amarilla."] },
+          { "en": "orange", "es": "anaranjado", "imagen": "Naranjas anaranjadas", "ejemplo": ["That bag is orange.", "Esa bolsa es anaranjada."] },
+          { "en": "purple", "es": "morado", "imagen": "Racimo de uvas moradas", "ejemplo": ["This skirt is purple.", "Esta falda es morada."] },
+          { "en": "pink", "es": "rosa", "imagen": "Flores rosas", "ejemplo": ["These socks are pink.", "Estos calcetines son rosas."] },
+          { "en": "brown", "es": "café", "imagen": "Granos de café", "ejemplo": ["Those shoes are brown.", "Esos zapatos son cafés."] },
+          { "en": "black", "es": "negro", "imagen": "Gato negro", "ejemplo": ["This coat is black.", "Este abrigo es negro."] },
+          { "en": "white", "es": "blanco", "imagen": "Nieve blanca", "ejemplo": ["That shirt is white.", "Esa camisa es blanca."] },
+          { "en": "gray", "es": "gris", "imagen": "Elefante gris", "ejemplo": ["This sweater is gray.", "Este suéter es gris."] }
+        ]
+      },
+      {
+        "id": "expresiones",
+        "titulo": "Frases para comprar",
+        "icono": "🛍️",
+        "patron": ["How much is this?", "How much are these?", "I'd like this one."],
+        "palabras": [
+          { "en": "How much is this?", "es": "¿Cuánto cuesta esto?", "imagen": "Cliente preguntando el precio de una prenda", "ejemplo": ["How much is this? It's ten dollars.", "¿Cuánto cuesta esto? Cuesta diez dólares."] },
+          { "en": "How much are these?", "es": "¿Cuánto cuestan estos?", "imagen": "Cliente señalando unos zapatos en la tienda", "ejemplo": ["How much are these? They're twenty dollars.", "¿Cuánto cuestan estos? Cuestan veinte dólares."] },
+          { "en": "It's expensive.", "es": "Es caro.", "imagen": "Persona sorprendida al ver una etiqueta de precio", "ejemplo": ["This watch is nice, but it's expensive.", "Este reloj es bonito, pero es caro."] },
+          { "en": "It's cheap.", "es": "Es barato.", "imagen": "Persona contenta con una prenda barata", "ejemplo": ["This T-shirt is good and it's cheap.", "Esta playera es buena y es barata."] },
+          { "en": "It's on sale.", "es": "Está en oferta.", "imagen": "Prenda con un cartel de oferta", "ejemplo": ["This jacket is new and it's on sale.", "Esta chamarra es nueva y está en oferta."] },
+          { "en": "I'd like this one.", "es": "Quisiera este.", "imagen": "Cliente señalando un producto en el aparador", "ejemplo": ["I'd like this one, please.", "Quisiera este, por favor."] },
+          { "en": "Can I try this on?", "es": "¿Me lo puedo probar?", "imagen": "Cliente mostrando una prenda a la vendedora", "ejemplo": ["Can I try this on? Yes, you can.", "¿Me lo puedo probar? Sí."] },
+          { "en": "What size is this?", "es": "¿De qué talla es esto?", "imagen": "Vendedora revisando la etiqueta de una camisa", "ejemplo": ["What size is this? It's medium.", "¿De qué talla es esto? Es mediana."] },
+          { "en": "I'll take these.", "es": "Me llevo estos.", "imagen": "Cliente entregando unos zapatos a la cajera", "ejemplo": ["They're nice. I'll take these.", "Están bonitos. Me llevo estos."] },
+          { "en": "That's all, thank you.", "es": "Es todo, gracias.", "imagen": "Cliente sonriendo en la caja al terminar su compra", "ejemplo": ["That's all, thank you. Goodbye.", "Es todo, gracias. Adiós."] }
+        ]
+      }
+    ],
+    "ejemplos": [
+      { "en": "This is my shirt.", "es": "Esta es mi camisa." },
+      { "en": "That is a big store.", "es": "Esa es una tienda grande." },
+      { "en": "These are my shoes.", "es": "Estos son mis zapatos." },
+      { "en": "Those are expensive watches.", "es": "Esos son relojes caros." },
+      { "en": "What is this? It's a wallet.", "es": "¿Qué es esto? Es una cartera." },
+      { "en": "What are those? They're earrings.", "es": "¿Qué son esos? Son aretes." },
+      { "en": "This T-shirt is cheap.", "es": "Esta playera es barata." },
+      { "en": "That dress is beautiful.", "es": "Ese vestido es hermoso." },
+      { "en": "These jeans are new.", "es": "Estos jeans son nuevos." },
+      { "en": "Those sunglasses are expensive.", "es": "Esos lentes de sol son caros." }
+    ],
+    "frases": [
+      { "en": "This shirt is cheap but that jacket is expensive.", "es": "Esta camisa es barata pero esa chamarra es cara." },
+      { "en": "These shoes are nice and they are on sale.", "es": "Estos zapatos son bonitos y están en oferta." },
+      { "en": "Those women are customers in this store.", "es": "Esas mujeres son clientas de esta tienda." },
+      { "en": "This is my credit card and that is my receipt.", "es": "Esta es mi tarjeta de crédito y ese es mi recibo." },
+      { "en": "What size is this skirt? It's small.", "es": "¿De qué talla es esta falda? Es chica." },
+      { "en": "How much are those sunglasses? They are thirty dollars.", "es": "¿Cuánto cuestan esos lentes de sol? Cuestan treinta dólares." },
+      { "en": "That mall is big and this market is small.", "es": "Ese centro comercial es grande y este mercado es pequeño." },
+      { "en": "These earrings are beautiful but that necklace is better.", "es": "Estos aretes son hermosos pero ese collar es mejor." },
+      { "en": "This wallet is brown and that purse is black.", "es": "Esta cartera es café y esa bolsa es negra." },
+      { "en": "Those are my bags and these are your bags.", "es": "Esas son mis bolsas y estas son tus bolsas." }
+    ],
+    "listening": [
+      { "audio": "This shirt is ten dollars.", "pregunta": "¿Cuánto cuesta la camisa?", "opciones": ["Diez dólares", "Doce dólares", "Veinte dólares", "Dos dólares"] },
+      { "audio": "Those shoes are very expensive.", "pregunta": "¿Cómo son esos zapatos?", "opciones": ["Muy caros", "Muy baratos", "Muy viejos", "Muy grandes"] },
+      { "audio": "What is that? It's a new store.", "pregunta": "¿Qué es eso?", "opciones": ["Una tienda nueva", "Un mercado viejo", "Una bolsa nueva", "Un centro comercial"] },
+      { "audio": "These earrings are from Italy.", "pregunta": "¿De dónde son los aretes?", "opciones": ["De Italia", "De India", "De Francia", "De México"] },
+      { "audio": "I'd like this one, please. That's all, thank you.", "pregunta": "¿Qué hace la persona?", "opciones": ["Termina una compra", "Pregunta una talla", "Busca el probador", "Devuelve un producto"] }
+    ],
+    "lectura": {
+      "titulo": "At the mall",
+      "texto": "Today Nina and Paula are at the mall. This store is new and the clothes are on sale. \"Look at this dress! It's blue and it's cheap,\" says Nina. \"And those shoes are beautiful,\" says Paula. \"How much are they?\" The shoes are fifty dollars. \"That's expensive,\" says Paula. Nina is happy with her dress, but Paula's bags are empty!",
+      "preguntas": [
+        { "pregunta": "¿Dónde están Nina y Paula?", "opciones": ["En el centro comercial", "En el mercado", "En la escuela", "En casa"] },
+        { "pregunta": "¿De qué color es el vestido?", "opciones": ["Azul", "Rojo", "Negro", "Verde"] },
+        { "pregunta": "¿Cuánto cuestan los zapatos?", "opciones": ["Cincuenta dólares", "Quince dólares", "Cinco dólares", "Quinientos dólares"] },
+        { "pregunta": "¿Qué compra Paula?", "opciones": ["Nada", "Los zapatos", "El vestido", "Una bolsa"] }
+      ]
+    },
+    "escritura": [
+      { "instruccion": "Completa con this o these.", "pregunta": "___ shirt is new.", "respuestas": ["This"] },
+      { "instruccion": "Completa con this o these.", "pregunta": "___ shoes are black.", "respuestas": ["These"] },
+      { "instruccion": "Completa con that o those.", "pregunta": "___ store is big.", "respuestas": ["That"] },
+      { "instruccion": "Completa con that o those.", "pregunta": "___ women are customers.", "respuestas": ["Those"] },
+      { "instruccion": "Completa con is o are.", "pregunta": "These jeans ___ cheap.", "respuestas": ["are"] },
+      { "instruccion": "Escribe en plural.", "pregunta": "This is my bag.", "respuestas": ["These are my bags"] },
+      { "instruccion": "Escribe en singular.", "pregunta": "Those are my keys.", "respuestas": ["That is my key", "That's my key"] },
+      { "instruccion": "Traduce al inglés.", "pregunta": "¿Cuánto cuesta esto?", "respuestas": ["How much is this"] },
+      { "instruccion": "Traduce al inglés.", "pregunta": "Estos zapatos son caros.", "respuestas": ["These shoes are expensive"] },
+      { "instruccion": "Corrige la oración.", "pregunta": "These is my wallet.", "respuestas": ["This is my wallet"] }
+    ],
+    "examen": [
+      { "tipo": "opcion", "pregunta": "___ is my bag, here in my hand.", "opciones": ["This", "These", "Those", "They"] },
+      { "tipo": "opcion", "pregunta": "___ are my shoes, over there.", "opciones": ["Those", "That", "This", "It"] },
+      { "tipo": "opcion", "pregunta": "That jacket ___ expensive.", "opciones": ["is", "are", "am", "be"] },
+      { "tipo": "opcion", "pregunta": "These sunglasses ___ new.", "opciones": ["are", "is", "am", "this"] },
+      { "tipo": "opcion", "pregunta": "What are those? ___ earrings.", "opciones": ["They're", "It's", "This is", "That is"] },
+      { "tipo": "opcion", "pregunta": "¿Cómo preguntas el precio de una camisa que tienes en la mano?", "opciones": ["How much is this?", "How much are those?", "How many is this?", "What is much this?"] },
+      { "tipo": "listening", "audio": "This skirt is on sale. It's fifteen dollars.", "pregunta": "¿Cuánto cuesta la falda?", "opciones": ["Quince dólares", "Cincuenta dólares", "Cinco dólares", "Dieciséis dólares"] },
+      { "tipo": "listening", "audio": "Is that your wallet? No, it isn't. My wallet is brown.", "pregunta": "¿De qué color es la cartera de quien responde?", "opciones": ["Café", "Negra", "Roja", "Gris"] },
+      { "tipo": "escribir", "pregunta": "Escribe en plural: This is my key.", "respuestas": ["These are my keys"] },
+      { "tipo": "escribir", "pregunta": "Traduce: Ese vestido es hermoso.", "respuestas": ["That dress is beautiful"] }
+    ]
+  },
   { "id": "a1-07", "num": 7, "titulo": "Adjetivos posesivos y posesivo 's", "contexto": "La familia" },
   { "id": "a1-08", "num": 8, "titulo": "Have / have got", "contexto": "Mis pertenencias y mascotas" },
   { "id": "a1-09", "num": 9, "titulo": "Adjetivos (lugar en la oración)", "contexto": "Describir personas y cosas" },
