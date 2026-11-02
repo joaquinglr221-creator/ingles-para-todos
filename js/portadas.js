@@ -51,5 +51,7 @@ const PORTADAS_MENU = {
  "a1-07/extendida": "images/portadas/a1-07-extendida.jpg",
  "a1-07/politica": "images/portadas/a1-07-politica.jpg",
  "a1-07/posesivos": "images/portadas/a1-07-posesivos.jpg",
- "a1-07/vida": "images/portadas/a1-07-vida.jpg"
+ "a1-07/vida": "images/portadas/a1-07-vida.jpg",
+ "a1-08/ejemplos": "images/temas/a1-08/mascotas/01-a-dog.jpg",
+ "a1-08/frases": "images/temas/a1-08/05-a-house.jpg"
 };
