@@ -2194,7 +2194,189 @@ const TEMAS_A1 = [
       { "tipo": "escribir", "pregunta": "Traduce: Ese vestido es hermoso.", "respuestas": ["That dress is beautiful"] }
     ]
   },
-  { "id": "a1-07", "num": 7, "titulo": "Adjetivos posesivos y posesivo 's", "contexto": "La familia" },
+  {
+    "id": "a1-07",
+    "num": 7,
+    "titulo": "Adjetivos posesivos y posesivo 's",
+    "contexto": "La familia",
+    "explicacion": {
+      "es": [
+        "Los **adjetivos posesivos** dicen de quién es algo: **my** (mi), **your** (tu), **his** (su, de él), **her** (su, de ella), **its** (su, de una cosa o animal), **our** (nuestro) y **their** (su, de ellos).",
+        "Van **antes** de la palabra y no cambian en plural: *my brother, my brothers*.",
+        "El **posesivo 's** se agrega a la persona dueña: *Ana's brother* (el hermano de Ana). En inglés, primero va el dueño.",
+        "Si el dueño está en plural y termina en *s*, solo se agrega el apóstrofo: *my parents' house*. Con plurales irregulares se usa *'s*: *the children's toys*."
+      ],
+      "tabla": { "columnas": ["Pronombre", "Posesivo", "Ejemplo"], "filas": [["I", "my", "My mother is a nurse."], ["you", "your", "Is this your son?"], ["he", "his", "His wife is from Peru."], ["she", "her", "Her husband is tall."], ["it", "its", "The dog is in its house."], ["we", "our", "Our baby is cute."], ["they", "their", "Their children are at school."]] },
+      "ojo": [
+        "*Su* se traduce según el **dueño**: *his* si es de él y *her* si es de ella. *Ana y **su** hermano* = Ana and **her** brother (no *his*).",
+        "No se dice *the house of my mother*, sino *my mother's house*.",
+        "*Its* es posesivo; *it's* significa *it is*: *It's a dog. **Its** name is Max.*",
+        "*'s* puede significar *is* o posesión: *Ana's happy* (Ana está feliz) y *Ana's son* (el hijo de Ana).",
+        "Los posesivos no llevan plural: *my brothers* (no *mys brothers*)."
+      ],
+      "en": [
+        "Possessive adjectives are: my, your, his, her, its, our, their.",
+        "They go before a noun: my sister, our house.",
+        "Add **'s** to show who has something: Ana's brother.",
+        "For plural nouns ending in s, add only an apostrophe: my parents' house."
+      ]
+    },
+    "vocabulario": [
+      { "en": "family", "es": "familia", "imagen": "Dos familias conviviendo", "ejemplo": ["My family is very big.", "Mi familia es muy grande."] },
+      { "en": "mother", "es": "mamá, madre", "imagen": "Mamá abrazando a su hija con ternura", "ejemplo": ["My mother is a nurse.", "Mi mamá es enfermera."] },
+      { "en": "father", "es": "papá, padre", "imagen": "Papá cargando a su hijo en hombros", "ejemplo": ["Her father is very tall.", "Su papá es muy alto."] },
+      { "en": "parents", "es": "papás, padres", "imagen": "Pareja con su hijo pequeño en medio, tomados de la mano", "ejemplo": ["Our parents are at home.", "Nuestros papás están en casa."] },
+      { "en": "sister", "es": "hermana", "imagen": "Dos hermanas abrazadas", "ejemplo": ["My sister's name is Ana.", "El nombre de mi hermana es Ana."] },
+      { "en": "brother", "es": "hermano", "imagen": "Dos hermanos jugando juntos", "ejemplo": ["His brother is a doctor.", "Su hermano es doctor."] },
+      { "en": "son", "es": "hijo", "imagen": "Papá enseñando a su hijo a andar en bicicleta", "ejemplo": ["Their son is ten years old.", "Su hijo tiene diez años."] },
+      { "en": "daughter", "es": "hija", "imagen": "Mamá peinando a su hija", "ejemplo": ["Paul's daughter is very smart.", "La hija de Paul es muy inteligente."] },
+      { "en": "husband", "es": "esposo", "imagen": "Hombre entregando flores a su esposa en casa", "ejemplo": ["Her husband is from Peru.", "Su esposo es de Perú."] },
+      { "en": "wife", "es": "esposa", "imagen": "Mujer sonriendo con su esposo en la cocina", "ejemplo": ["My wife is a teacher.", "Mi esposa es maestra."] },
+      { "en": "baby", "es": "bebé", "imagen": "Dos bebés sonriendo", "ejemplo": ["Our baby is six months old.", "Nuestro bebé tiene seis meses."] },
+      { "en": "twins", "es": "gemelos", "imagen": "Dos niños gemelos idénticos sonriendo", "ejemplo": ["Maria's twins are very cute.", "Los gemelos de María son muy tiernos."] },
+      { "en": "children", "es": "hijos, niños", "imagen": "Grupo de niños corriendo", "ejemplo": ["My children are at school.", "Mis hijos están en la escuela."] },
+      { "en": "grandmother", "es": "abuela", "imagen": "Abuela horneando galletas con su nieta", "ejemplo": ["My grandmother is seventy.", "Mi abuela tiene setenta años."] },
+      { "en": "grandfather", "es": "abuelo", "imagen": "Abuelo leyendo un cuento a su nieto", "ejemplo": ["Your grandfather is very funny.", "Tu abuelo es muy gracioso."] },
+      { "en": "grandparents", "es": "abuelos", "imagen": "Pareja de abuelos sonriendo", "ejemplo": ["Our grandparents are from Spain.", "Nuestros abuelos son de España."] }
+    ],
+    "grupos": [
+      {
+        "id": "extendida",
+        "titulo": "La familia extendida",
+        "icono": "👨‍👩‍👧‍👦",
+        "patron": ["Sara is my aunt.", "Tom is my cousin.", "Her nephew is six."],
+        "palabras": [
+          { "en": "aunt", "es": "tía", "imagen": "Tía sonriente abrazando a su sobrina", "ejemplo": ["My aunt is from Cuba.", "Mi tía es de Cuba."] },
+          { "en": "uncle", "es": "tío", "imagen": "Tío jugando futbol con su sobrino", "ejemplo": ["Her uncle is a pilot.", "Su tío es piloto."] },
+          { "en": "cousin", "es": "primo, prima", "imagen": "Dos primos jóvenes riendo juntos", "ejemplo": ["My cousin's car is red.", "El coche de mi primo es rojo."] },
+          { "en": "niece", "es": "sobrina", "imagen": "Niña en brazos de su tía", "ejemplo": ["Our niece is very pretty.", "Nuestra sobrina es muy bonita."] },
+          { "en": "nephew", "es": "sobrino", "imagen": "Niño abrazando a su tío", "ejemplo": ["His nephew is seven.", "Su sobrino tiene siete años."] },
+          { "en": "grandson", "es": "nieto", "imagen": "Abuelo pescando con su nieto", "ejemplo": ["Their grandson is a student.", "Su nieto es estudiante."] },
+          { "en": "granddaughter", "es": "nieta", "imagen": "Abuela tejiendo con su nieta", "ejemplo": ["Her granddaughter is a baby.", "Su nieta es una bebé."] },
+          { "en": "grandchildren", "es": "nietos", "imagen": "Abuelos rodeados de sus nietos", "ejemplo": ["My grandchildren are happy.", "Mis nietos están felices."] },
+          { "en": "relatives", "es": "parientes", "imagen": "Reunión grande de familiares en un jardín", "ejemplo": ["Our relatives are in Mexico.", "Nuestros parientes están en México."] },
+          { "en": "ancestors", "es": "antepasados", "imagen": "Álbum de fotos familiares antiguas", "ejemplo": ["My ancestors are from Italy.", "Mis antepasados son de Italia."] }
+        ]
+      },
+      {
+        "id": "politica",
+        "titulo": "La familia política",
+        "icono": "💍",
+        "patron": ["Lisa is my sister-in-law.", "He's my stepfather.", "Her mother-in-law is kind."],
+        "palabras": [
+          { "en": "mother-in-law", "es": "suegra", "imagen": "Mujer mayor sonriendo con su nuera", "ejemplo": ["My mother-in-law is very kind.", "Mi suegra es muy amable."] },
+          { "en": "father-in-law", "es": "suegro", "imagen": "Hombre mayor conversando con su yerno", "ejemplo": ["Her father-in-law is retired.", "Su suegro está jubilado."] },
+          { "en": "sister-in-law", "es": "cuñada", "imagen": "Dos mujeres adultas platicando en la cocina", "ejemplo": ["My sister-in-law is a dentist.", "Mi cuñada es dentista."] },
+          { "en": "brother-in-law", "es": "cuñado", "imagen": "Dos hombres adultos preparando una parrillada", "ejemplo": ["His brother-in-law is funny.", "Su cuñado es gracioso."] },
+          { "en": "son-in-law", "es": "yerno", "imagen": "Novio saludando a sus suegros", "ejemplo": ["Their son-in-law is an engineer.", "Su yerno es ingeniero."] },
+          { "en": "daughter-in-law", "es": "nuera", "imagen": "Mujer joven abrazando a su suegra", "ejemplo": ["Our daughter-in-law is from Chile.", "Nuestra nuera es de Chile."] },
+          { "en": "stepfather", "es": "padrastro", "imagen": "Hombre ayudando con la tarea a su hijastra", "ejemplo": ["My stepfather is very nice.", "Mi padrastro es muy simpático."] },
+          { "en": "stepmother", "es": "madrastra", "imagen": "Mujer cocinando con su hijastro", "ejemplo": ["Her stepmother is young.", "Su madrastra es joven."] },
+          { "en": "stepbrother", "es": "hermanastro", "imagen": "Dos adolescentes jugando videojuegos", "ejemplo": ["My stepbrother is sixteen.", "Mi hermanastro tiene dieciséis años."] },
+          { "en": "stepsister", "es": "hermanastra", "imagen": "Dos adolescentes estudiando juntas", "ejemplo": ["His stepsister is at school.", "Su hermanastra está en la escuela."] }
+        ]
+      },
+      {
+        "id": "posesivos",
+        "titulo": "Los posesivos",
+        "icono": "👉",
+        "patron": ["This is my bag.", "Her name is Ana.", "Our house is small."],
+        "palabras": [
+          { "en": "my", "es": "mi, mis", "imagen": "Persona señalándose a sí misma con una bolsa en la mano", "ejemplo": ["My name is Laura.", "Me llamo Laura."] },
+          { "en": "your", "es": "tu, tus, su (de usted)", "imagen": "Persona entregándole sus llaves a otra", "ejemplo": ["Is this your phone?", "¿Este es tu teléfono?"] },
+          { "en": "his", "es": "su (de él)", "imagen": "Hombre mostrando su coche con orgullo", "ejemplo": ["His car is black.", "Su coche es negro."] },
+          { "en": "her", "es": "su (de ella)", "imagen": "Mujer mostrando su bicicleta con orgullo", "ejemplo": ["Her bike is new.", "Su bicicleta es nueva."] },
+          { "en": "its", "es": "su (de una cosa o animal)", "imagen": "Perro junto a su plato de comida", "ejemplo": ["The dog is in its house.", "El perro está en su casa."] },
+          { "en": "our", "es": "nuestro, nuestra", "imagen": "Familia frente a la puerta de su casa nueva", "ejemplo": ["Our house is new.", "Nuestra casa es nueva."] },
+          { "en": "their", "es": "su (de ellos)", "imagen": "Pareja mostrando las llaves de su coche", "ejemplo": ["Their car is blue.", "Su coche es azul."] }
+        ]
+      },
+      {
+        "id": "vida",
+        "titulo": "La vida en familia",
+        "icono": "🎂",
+        "patron": ["Today is my birthday.", "They are married.", "Her wedding is in May."],
+        "palabras": [
+          { "en": "a wedding", "es": "una boda", "imagen": "Novios saliendo de la iglesia", "ejemplo": ["My sister's wedding is in June.", "La boda de mi hermana es en junio."] },
+          { "en": "a birthday", "es": "un cumpleaños", "imagen": "Niña soplando las velas de su pastel", "ejemplo": ["My son's birthday is in May.", "El cumpleaños de mi hijo es en mayo."] },
+          { "en": "an anniversary", "es": "un aniversario", "imagen": "Pareja mayor brindando en una cena", "ejemplo": ["Today is our anniversary.", "Hoy es nuestro aniversario."] },
+          { "en": "a family dinner", "es": "una cena familiar", "imagen": "Familia cenando junta en la mesa", "ejemplo": ["Our family dinner is on Sunday.", "Nuestra cena familiar es el domingo."] },
+          { "en": "a family photo", "es": "una foto familiar", "imagen": "Familia posando para una foto", "ejemplo": ["This is my family photo.", "Esta es mi foto familiar."] },
+          { "en": "a family tree", "es": "un árbol genealógico", "imagen": "Árbol genealógico con fotos en la pared", "ejemplo": ["This is my family tree.", "Este es mi árbol genealógico."] },
+          { "en": "married", "es": "casado", "imagen": "Pareja de recién casados", "ejemplo": ["My brother is married.", "Mi hermano está casado."] },
+          { "en": "single", "es": "soltero", "imagen": "Persona joven sola y feliz", "ejemplo": ["Her cousin is single.", "Su prima es soltera."] },
+          { "en": "engaged", "es": "comprometido", "imagen": "Mujer mostrando su anillo de compromiso", "ejemplo": ["My daughter is engaged.", "Mi hija está comprometida."] },
+          { "en": "divorced", "es": "divorciado", "imagen": "Persona quitándose el anillo de bodas", "ejemplo": ["His parents are divorced.", "Sus papás están divorciados."] },
+          { "en": "widowed", "es": "viudo", "imagen": "Señora mayor mirando la foto de su esposo", "ejemplo": ["My grandmother is widowed.", "Mi abuela es viuda."] }
+        ]
+      }
+    ],
+    "ejemplos": [
+      { "en": "This is my mother.", "es": "Esta es mi mamá." },
+      { "en": "His sister is a doctor.", "es": "Su hermana es doctora." },
+      { "en": "Her brother is very tall.", "es": "Su hermano es muy alto." },
+      { "en": "Our parents are at home.", "es": "Nuestros papás están en casa." },
+      { "en": "Their children are happy.", "es": "Sus hijos están felices." },
+      { "en": "Ana's husband is from Canada.", "es": "El esposo de Ana es de Canadá." },
+      { "en": "Tom's daughter is six.", "es": "La hija de Tom tiene seis años." },
+      { "en": "My parents' house is big.", "es": "La casa de mis papás es grande." },
+      { "en": "Is she your aunt?", "es": "¿Ella es tu tía?" },
+      { "en": "What's your father's name?", "es": "¿Cómo se llama tu papá?" }
+    ],
+    "frases": [
+      { "en": "My mother's name is Elena and my father's name is Jorge.", "es": "Mi mamá se llama Elena y mi papá se llama Jorge." },
+      { "en": "My brother is married and his wife is a teacher.", "es": "Mi hermano está casado y su esposa es maestra." },
+      { "en": "Her parents are from Colombia but she is from Mexico.", "es": "Sus papás son de Colombia pero ella es de México." },
+      { "en": "Our grandparents are old but they are very happy.", "es": "Nuestros abuelos son mayores pero están muy felices." },
+      { "en": "My sister's husband is a doctor.", "es": "El esposo de mi hermana es doctor." },
+      { "en": "Their children are at school and their baby is at home.", "es": "Sus hijos están en la escuela y su bebé está en casa." },
+      { "en": "My aunt and my uncle are from Spain.", "es": "Mi tía y mi tío son de España." },
+      { "en": "Today is my grandmother's birthday.", "es": "Hoy es el cumpleaños de mi abuela." },
+      { "en": "Maria's cousin is single and her sister is engaged.", "es": "El primo de María es soltero y su hermana está comprometida." },
+      { "en": "This is our family photo and those are my cousins.", "es": "Esta es nuestra foto familiar y esos son mis primos." }
+    ],
+    "listening": [
+      { "audio": "My sister's name is Julia.", "pregunta": "¿Quién se llama Julia?", "opciones": ["La hermana", "La mamá", "La tía", "La hija"] },
+      { "audio": "Her husband is an engineer from Germany.", "pregunta": "¿De dónde es el esposo?", "opciones": ["De Alemania", "De Inglaterra", "De Francia", "De Grecia"] },
+      { "audio": "Our grandparents are at home. They are eighty.", "pregunta": "¿Cuántos años tienen los abuelos?", "opciones": ["Ochenta", "Dieciocho", "Ochenta y ocho", "Noventa"] },
+      { "audio": "Tom's daughter is a student. His son is a baby.", "pregunta": "¿Quién es el bebé?", "opciones": ["El hijo de Tom", "La hija de Tom", "Tom", "El sobrino de Tom"] },
+      { "audio": "Today is my parents' anniversary.", "pregunta": "¿Qué celebran hoy?", "opciones": ["El aniversario de sus papás", "El cumpleaños de su mamá", "Una boda", "La graduación de su hermano"] }
+    ],
+    "lectura": {
+      "titulo": "My family",
+      "texto": "Hi, my name is Carla. This is my family photo. These are my parents. My mother's name is Rosa and my father's name is Luis. They are from Mexico. My brother is Diego. His wife is Emma and she is from Canada. Their son is my nephew, Leo. He is two years old. My grandmother is here too. Her birthday is in May. Our family is small, but we are very happy.",
+      "preguntas": [
+        { "pregunta": "¿Cómo se llama el papá de Carla?", "opciones": ["Luis", "Diego", "Leo", "Jorge"] },
+        { "pregunta": "¿De dónde es Emma?", "opciones": ["De Canadá", "De México", "De España", "De Colombia"] },
+        { "pregunta": "¿Quién es Leo?", "opciones": ["El sobrino de Carla", "El hermano de Carla", "El hijo de Carla", "El primo de Carla"] },
+        { "pregunta": "¿Cuándo es el cumpleaños de la abuela?", "opciones": ["En mayo", "En marzo", "En junio", "En enero"] }
+      ]
+    },
+    "escritura": [
+      { "instruccion": "Completa con el posesivo correcto.", "pregunta": "I am Ana. ___ brother is Tom.", "respuestas": ["My"] },
+      { "instruccion": "Completa con el posesivo correcto.", "pregunta": "She is Lisa. ___ husband is a doctor.", "respuestas": ["Her"] },
+      { "instruccion": "Completa con el posesivo correcto.", "pregunta": "He is Mark. ___ wife is a nurse.", "respuestas": ["His"] },
+      { "instruccion": "Completa con el posesivo correcto.", "pregunta": "We are students. ___ teacher is kind.", "respuestas": ["Our"] },
+      { "instruccion": "Completa con el posesivo correcto.", "pregunta": "They are my friends. ___ house is big.", "respuestas": ["Their"] },
+      { "instruccion": "Escribe con 's.", "pregunta": "la hija de Paul", "respuestas": ["Paul's daughter"] },
+      { "instruccion": "Escribe con 's.", "pregunta": "el cumpleaños de mi mamá", "respuestas": ["my mother's birthday", "my mom's birthday"] },
+      { "instruccion": "Traduce al inglés.", "pregunta": "Mi hermana es maestra.", "respuestas": ["My sister is a teacher"] },
+      { "instruccion": "Traduce al inglés.", "pregunta": "La casa de mis papás es grande.", "respuestas": ["My parents' house is big", "My parents house is big"] },
+      { "instruccion": "Corrige la oración.", "pregunta": "The car of my father is red.", "respuestas": ["My father's car is red"] }
+    ],
+    "examen": [
+      { "tipo": "opcion", "pregunta": "This is Tom and this is ___ wife.", "opciones": ["his", "her", "he", "him"] },
+      { "tipo": "opcion", "pregunta": "This is Ana and this is ___ brother.", "opciones": ["her", "his", "she", "he"] },
+      { "tipo": "opcion", "pregunta": "We are in ___ house.", "opciones": ["our", "we", "us", "their's"] },
+      { "tipo": "opcion", "pregunta": "Elige la opción correcta.", "opciones": ["my mother's car", "the car of my mother's", "my mother car's", "car my mother"] },
+      { "tipo": "opcion", "pregunta": "La hermana de tu mamá es tu…", "opciones": ["aunt", "uncle", "niece", "cousin"] },
+      { "tipo": "opcion", "pregunta": "El hijo de tu hermano es tu…", "opciones": ["nephew", "niece", "cousin", "grandson"] },
+      { "tipo": "listening", "audio": "My daughter's name is Sofia. She is four.", "pregunta": "¿Cuántos años tiene la hija?", "opciones": ["Cuatro", "Catorce", "Cinco", "Cuarenta"] },
+      { "tipo": "listening", "audio": "Their son is in Canada and their daughter is in Spain.", "pregunta": "¿Dónde está la hija?", "opciones": ["En España", "En Canadá", "En México", "En Italia"] },
+      { "tipo": "escribir", "pregunta": "Escribe con 's: el coche de Ana", "respuestas": ["Ana's car"] },
+      { "tipo": "escribir", "pregunta": "Traduce: Su esposa es de Perú. (de él)", "respuestas": ["His wife is from Peru"] }
+    ]
+  },
   { "id": "a1-08", "num": 8, "titulo": "Have / have got", "contexto": "Mis pertenencias y mascotas" },
   { "id": "a1-09", "num": 9, "titulo": "Adjetivos (lugar en la oración)", "contexto": "Describir personas y cosas" },
   { "id": "a1-10", "num": 10, "titulo": "There is / there are", "contexto": "Mi casa y mi barrio" },
