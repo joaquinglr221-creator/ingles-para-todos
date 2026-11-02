@@ -2566,7 +2566,189 @@ const TEMAS_A1 = [
       { "tipo": "escribir", "pregunta": "Traduce: Tenemos un perro.", "respuestas": ["We have a dog", "We've got a dog", "We have got a dog"] }
     ]
   },
-  { "id": "a1-09", "num": 9, "titulo": "Adjetivos (lugar en la oración)", "contexto": "Describir personas y cosas" },
+  {
+    "id": "a1-09",
+    "num": 9,
+    "titulo": "Adjetivos (lugar en la oración)",
+    "contexto": "Describir personas y cosas",
+    "explicacion": {
+      "es": [
+        "Los **adjetivos** dicen cómo es una persona o una cosa: *big, old, beautiful*.",
+        "En inglés el adjetivo va **antes** de la palabra que describe, al revés que en español: *a red car* (un coche rojo).",
+        "También puede ir **después del verbo *to be***: *The car is red.*",
+        "Los adjetivos **nunca cambian**: son iguales en singular y plural, y en masculino y femenino: *a tall man, a tall woman, tall men*.",
+        "Con **very** decimos «muy»: *It's a very big house.*"
+      ],
+      "tabla": { "columnas": ["Forma", "Español", "Inglés"], "filas": [["Antes de la palabra", "un coche rojo", "a red car"], ["Después de to be", "El coche es rojo.", "The car is red."], ["Con plural", "coches rojos", "red cars"], ["Con very", "una casa muy grande", "a very big house"], ["Dos adjetivos", "una casa grande y vieja", "a big old house"]] },
+      "ojo": [
+        "El adjetivo va antes: *a **red** car* (no *a car red*).",
+        "No lleva plural: *red cars* (no *reds cars*).",
+        "No lleva *a* solo: *She's a **tall woman*** o *She's tall* (no *She's a tall*).",
+        "*A* cambia a *an* según el sonido del adjetivo: *a car*, pero ***an** old car*.",
+        "*Bored* es cómo te sientes y *boring* es lo que te aburre: *I'm bored. The movie is boring.*"
+      ],
+      "en": [
+        "Adjectives go before a noun: a red car.",
+        "They can also go after the verb to be: The car is red.",
+        "Adjectives don't change: a tall man, tall men.",
+        "Use very to make them stronger: a very big house."
+      ]
+    },
+    "vocabulario": [
+      { "en": "big", "es": "grande", "imagen": "Hombre grande", "ejemplo": ["It's a big house.", "Es una casa grande."] },
+      { "en": "small", "es": "pequeño", "imagen": "Casita muy pequeña en medio de un campo", "ejemplo": ["I have a small car.", "Tengo un coche pequeño."] },
+      { "en": "long", "es": "largo", "imagen": "Camino muy largo que se pierde en el horizonte", "ejemplo": ["It's a long road.", "Es un camino largo."] },
+      { "en": "short", "es": "corto, bajo", "imagen": "Persona bajita", "ejemplo": ["This is a short book.", "Este es un libro corto."] },
+      { "en": "new", "es": "nuevo", "imagen": "Coche nuevo y brillante recién salido de la agencia", "ejemplo": ["She has a new phone.", "Ella tiene un teléfono nuevo."] },
+      { "en": "old", "es": "viejo", "imagen": "Señora mayor", "ejemplo": ["This is an old house.", "Esta es una casa vieja."] },
+      { "en": "good", "es": "bueno", "imagen": "Estudiante feliz mostrando una calificación de 10", "ejemplo": ["He is a good student.", "Él es un buen estudiante."] },
+      { "en": "bad", "es": "malo", "imagen": "Persona disgustada oliendo comida en mal estado", "ejemplo": ["It's a bad movie.", "Es una película mala."] },
+      { "en": "fast", "es": "rápido", "imagen": "Coche deportivo a toda velocidad en la carretera", "ejemplo": ["My brother has a fast car.", "Mi hermano tiene un coche rápido."] },
+      { "en": "slow", "es": "lento", "imagen": "Caracol avanzando sobre una hoja", "ejemplo": ["The bus is very slow.", "El autobús es muy lento."] },
+      { "en": "hot", "es": "caliente", "imagen": "Persona sudando bajo el sol", "ejemplo": ["This is hot coffee.", "Este es un café caliente."] },
+      { "en": "cold", "es": "frío", "imagen": "Persona con abrigo temblando", "ejemplo": ["I have a cold drink.", "Tengo una bebida fría."] },
+      { "en": "clean", "es": "limpio", "imagen": "Cocina impecable y reluciente", "ejemplo": ["My room is clean.", "Mi cuarto está limpio."] },
+      { "en": "dirty", "es": "sucio", "imagen": "Niño con ropa llena de lodo", "ejemplo": ["These shoes are dirty.", "Estos zapatos están sucios."] },
+      { "en": "easy", "es": "fácil", "imagen": "Estudiante relajado terminando un ejercicio", "ejemplo": ["It's an easy question.", "Es una pregunta fácil."] },
+      { "en": "difficult", "es": "difícil", "imagen": "Estudiante confundido frente a un problema largo en el pizarrón", "ejemplo": ["This is a difficult exam.", "Este es un examen difícil."] }
+    ],
+    "grupos": [
+      {
+        "id": "cosas",
+        "titulo": "Cómo son las cosas",
+        "icono": "📦",
+        "patron": ["It's a heavy box.", "This bag is empty.", "The sofa is comfortable."],
+        "palabras": [
+          { "en": "expensive", "es": "caro", "imagen": "Persona sorprendida por un precio", "ejemplo": ["That is an expensive watch.", "Ese es un reloj caro."] },
+          { "en": "cheap", "es": "barato", "imagen": "Persona contenta con una prenda barata", "ejemplo": ["This is a cheap T-shirt.", "Esta es una playera barata."] },
+          { "en": "heavy", "es": "pesado", "imagen": "Persona cargando con esfuerzo una caja muy pesada", "ejemplo": ["This box is very heavy.", "Esta caja está muy pesada."] },
+          { "en": "light", "es": "ligero", "imagen": "Mano levantando una pluma blanca con dos dedos", "ejemplo": ["My new laptop is light.", "Mi laptop nueva es ligera."] },
+          { "en": "soft", "es": "suave", "imagen": "Mano acariciando una cobija muy suave", "ejemplo": ["I have a soft pillow.", "Tengo una almohada suave."] },
+          { "en": "hard", "es": "duro", "imagen": "Martillo golpeando una roca", "ejemplo": ["This bed is very hard.", "Esta cama está muy dura."] },
+          { "en": "full", "es": "lleno", "imagen": "Vaso de jugo lleno hasta el borde", "ejemplo": ["The bus is full.", "El autobús está lleno."] },
+          { "en": "empty", "es": "vacío", "imagen": "Vaso de vidrio vacío sobre una mesa", "ejemplo": ["My glass is empty.", "Mi vaso está vacío."] },
+          { "en": "wet", "es": "mojado", "imagen": "Persona empapada por la lluvia", "ejemplo": ["My shoes are wet.", "Mis zapatos están mojados."] },
+          { "en": "dry", "es": "seco", "imagen": "Desierto seco", "ejemplo": ["These clothes are dry.", "Esta ropa está seca."] },
+          { "en": "round", "es": "redondo", "imagen": "Mesa redonda de madera", "ejemplo": ["We have a round table.", "Tenemos una mesa redonda."] },
+          { "en": "square", "es": "cuadrado", "imagen": "Caja cuadrada sobre una mesa", "ejemplo": ["It's a square box.", "Es una caja cuadrada."] },
+          { "en": "comfortable", "es": "cómodo", "imagen": "Persona relajada en un sillón muy cómodo", "ejemplo": ["This is a comfortable chair.", "Esta es una silla cómoda."] }
+        ]
+      },
+      {
+        "id": "lugares",
+        "titulo": "Cómo son los lugares",
+        "icono": "🏙️",
+        "patron": ["It's a noisy street.", "This city is safe.", "The museum is interesting."],
+        "palabras": [
+          { "en": "noisy", "es": "ruidoso", "imagen": "Calle llena de coches y bocinas", "ejemplo": ["We live on a noisy street.", "Vivimos en una calle ruidosa."] },
+          { "en": "crowded", "es": "lleno de gente", "imagen": "Mucha gente en una plaza", "ejemplo": ["The market is very crowded.", "El mercado está lleno de gente."] },
+          { "en": "safe", "es": "seguro", "imagen": "Familia caminando tranquila por un barrio bonito", "ejemplo": ["This is a safe city.", "Esta es una ciudad segura."] },
+          { "en": "dangerous", "es": "peligroso", "imagen": "Cartel de peligro junto a un barranco", "ejemplo": ["That is a dangerous road.", "Ese es un camino peligroso."] },
+          { "en": "famous", "es": "famoso", "imagen": "Turistas tomando fotos frente a un monumento", "ejemplo": ["It's a famous museum.", "Es un museo famoso."] },
+          { "en": "popular", "es": "popular", "imagen": "Fila larga afuera de un restaurante", "ejemplo": ["This is a popular restaurant.", "Este es un restaurante popular."] },
+          { "en": "interesting", "es": "interesante", "imagen": "Visitantes admirando una obra en un museo", "ejemplo": ["It's an interesting place.", "Es un lugar interesante."] },
+          { "en": "boring", "es": "aburrido (que aburre)", "imagen": "Persona bostezando en una conferencia", "ejemplo": ["This is a boring town.", "Este es un pueblo aburrido."] }
+        ]
+      },
+      {
+        "id": "comida",
+        "titulo": "Cómo es la comida",
+        "icono": "🍋",
+        "patron": ["This soup is hot.", "It's a sweet cake.", "The lemon is sour."],
+        "palabras": [
+          { "en": "delicious", "es": "delicioso", "imagen": "Persona disfrutando un platillo con cara de felicidad", "ejemplo": ["It's a delicious pizza.", "Es una pizza deliciosa."] },
+          { "en": "sweet", "es": "dulce", "imagen": "Rebanada de pastel con fresas", "ejemplo": ["This is a sweet cake.", "Este es un pastel dulce."] },
+          { "en": "salty", "es": "salado", "imagen": "Papas fritas con sal", "ejemplo": ["These fries are salty.", "Estas papas están saladas."] },
+          { "en": "sour", "es": "ácido, agrio", "imagen": "Niño haciendo gesto al morder un limón", "ejemplo": ["This lemon is very sour.", "Este limón está muy agrio."] },
+          { "en": "spicy", "es": "picante", "imagen": "Persona con la boca roja comiendo chile", "ejemplo": ["It's a spicy soup.", "Es una sopa picante."] },
+          { "en": "bitter", "es": "amargo", "imagen": "Persona haciendo gesto al probar café negro", "ejemplo": ["This coffee is bitter.", "Este café está amargo."] },
+          { "en": "fresh", "es": "fresco", "imagen": "Verduras recién cosechadas con gotas de agua", "ejemplo": ["These are fresh vegetables.", "Estas son verduras frescas."] },
+          { "en": "healthy food", "es": "comida saludable", "imagen": "Plato con ensalada y frutas", "ejemplo": ["This is healthy food.", "Esta es comida saludable."] }
+        ]
+      },
+      {
+        "id": "personas",
+        "titulo": "Cómo son las personas",
+        "icono": "🧑",
+        "patron": ["He's a rich man.", "She's an elegant woman.", "They are careful drivers."],
+        "palabras": [
+          { "en": "rich", "es": "rico", "imagen": "Hombre elegante junto a una mansión", "ejemplo": ["He is a rich man.", "Él es un hombre rico."] },
+          { "en": "poor", "es": "pobre", "imagen": "Persona humilde contando unas pocas monedas", "ejemplo": ["They are a poor family.", "Son una familia pobre."] },
+          { "en": "elegant", "es": "elegante", "imagen": "Mujer con vestido de noche en una fiesta", "ejemplo": ["She is an elegant woman.", "Ella es una mujer elegante."] },
+          { "en": "tidy", "es": "ordenado", "imagen": "Niño acomodando sus juguetes en su cuarto", "ejemplo": ["My son is a tidy boy.", "Mi hijo es un niño ordenado."] },
+          { "en": "messy", "es": "desordenado", "imagen": "Cuarto con ropa tirada por todos lados", "ejemplo": ["My brother has a messy room.", "Mi hermano tiene un cuarto desordenado."] },
+          { "en": "careful", "es": "cuidadoso", "imagen": "Persona manejando con atención y ambas manos en el volante", "ejemplo": ["She is a careful driver.", "Ella es una conductora cuidadosa."] },
+          { "en": "cheerful", "es": "alegre", "imagen": "Grupo de amigos riendo y bailando", "ejemplo": ["He is a cheerful person.", "Él es una persona alegre."] },
+          { "en": "creative", "es": "creativo", "imagen": "Niña pintando un cuadro lleno de colores", "ejemplo": ["My daughter is a creative girl.", "Mi hija es una niña creativa."] }
+        ]
+      }
+    ],
+    "ejemplos": [
+      { "en": "It's a red car.", "es": "Es un coche rojo." },
+      { "en": "The house is very big.", "es": "La casa es muy grande." },
+      { "en": "She has a small dog.", "es": "Ella tiene un perro pequeño." },
+      { "en": "He is a good doctor.", "es": "Él es un buen doctor." },
+      { "en": "They are tall men.", "es": "Ellos son hombres altos." },
+      { "en": "This is an old book.", "es": "Este es un libro viejo." },
+      { "en": "My room is clean and tidy.", "es": "Mi cuarto está limpio y ordenado." },
+      { "en": "It's a very easy exercise.", "es": "Es un ejercicio muy fácil." },
+      { "en": "I have a comfortable bed.", "es": "Tengo una cama cómoda." },
+      { "en": "That is a dangerous animal.", "es": "Ese es un animal peligroso." }
+    ],
+    "frases": [
+      { "en": "My sister has a small red car and a big black dog.", "es": "Mi hermana tiene un coche rojo pequeño y un perro negro grande." },
+      { "en": "This is a very good restaurant and the food is delicious.", "es": "Este es un restaurante muy bueno y la comida es deliciosa." },
+      { "en": "It's a beautiful old house with a big garden.", "es": "Es una casa vieja y hermosa con un jardín grande." },
+      { "en": "He is a tall young man with short black hair.", "es": "Él es un hombre alto y joven con cabello negro corto." },
+      { "en": "The exam is difficult, but my teacher is very patient.", "es": "El examen es difícil, pero mi maestro es muy paciente." },
+      { "en": "This city is big and noisy, but it is very interesting.", "es": "Esta ciudad es grande y ruidosa, pero es muy interesante." },
+      { "en": "These shoes are cheap but they are very comfortable.", "es": "Estos zapatos son baratos pero son muy cómodos." },
+      { "en": "My brother has a messy room and a very old computer.", "es": "Mi hermano tiene un cuarto desordenado y una computadora muy vieja." },
+      { "en": "It's a hot day and I have a cold drink.", "es": "Es un día caluroso y tengo una bebida fría." },
+      { "en": "She is a rich woman with an expensive car.", "es": "Ella es una mujer rica con un coche caro." }
+    ],
+    "listening": [
+      { "audio": "I have a small black dog.", "pregunta": "¿Cómo es el perro?", "opciones": ["Pequeño y negro", "Grande y negro", "Pequeño y blanco", "Grande y café"] },
+      { "audio": "My new car is very fast.", "pregunta": "¿Cómo es el coche?", "opciones": ["Nuevo y rápido", "Viejo y rápido", "Nuevo y lento", "Viejo y lento"] },
+      { "audio": "This soup is hot and spicy.", "pregunta": "¿Cómo está la sopa?", "opciones": ["Caliente y picante", "Fría y dulce", "Caliente y salada", "Fría y picante"] },
+      { "audio": "It's an interesting city, but it's very noisy.", "pregunta": "¿Qué problema tiene la ciudad?", "opciones": ["Es muy ruidosa", "Es muy cara", "Es muy aburrida", "Es muy peligrosa"] },
+      { "audio": "He is a tall man with short hair.", "pregunta": "¿Cómo es el hombre?", "opciones": ["Alto, con cabello corto", "Bajo, con cabello corto", "Alto, con cabello largo", "Bajo, con cabello largo"] }
+    ],
+    "lectura": {
+      "titulo": "My new apartment",
+      "texto": "I have a new apartment. It's small but very comfortable. It's on a quiet street in a big city. The living room has a soft gray sofa and a round table. The kitchen is clean and modern. My neighbors are friendly people. The only problem is the old elevator. It's very slow! But the rent is cheap, and I'm happy here.",
+      "preguntas": [
+        { "pregunta": "¿Cómo es el departamento?", "opciones": ["Pequeño pero cómodo", "Grande y moderno", "Viejo y ruidoso", "Caro y oscuro"] },
+        { "pregunta": "¿De qué color es el sofá?", "opciones": ["Gris", "Rojo", "Azul", "Negro"] },
+        { "pregunta": "¿Cuál es el único problema?", "opciones": ["El elevador viejo y lento", "Los vecinos", "La renta cara", "La calle ruidosa"] },
+        { "pregunta": "¿Cómo es la renta?", "opciones": ["Barata", "Cara", "Muy cara", "El texto no lo dice"] }
+      ]
+    },
+    "escritura": [
+      { "instruccion": "Ordena las palabras.", "pregunta": "car / a / red / is / It", "respuestas": ["It is a red car", "It's a red car"] },
+      { "instruccion": "Ordena las palabras.", "pregunta": "big / a / have / house / We", "respuestas": ["We have a big house"] },
+      { "instruccion": "Ordena las palabras.", "pregunta": "old / She / an / has / bike", "respuestas": ["She has an old bike"] },
+      { "instruccion": "Corrige la oración.", "pregunta": "It's a car blue.", "respuestas": ["It's a blue car", "It is a blue car"] },
+      { "instruccion": "Corrige la oración.", "pregunta": "They are talls men.", "respuestas": ["They are tall men", "They're tall men"] },
+      { "instruccion": "Completa con a o an.", "pregunta": "It's ___ easy question.", "respuestas": ["an"] },
+      { "instruccion": "Completa con a o an.", "pregunta": "He is ___ good doctor.", "respuestas": ["a"] },
+      { "instruccion": "Traduce al inglés.", "pregunta": "Es una casa grande.", "respuestas": ["It's a big house", "It is a big house"] },
+      { "instruccion": "Traduce al inglés.", "pregunta": "Mi coche es nuevo.", "respuestas": ["My car is new"] },
+      { "instruccion": "Traduce al inglés.", "pregunta": "Ella es una mujer muy elegante.", "respuestas": ["She's a very elegant woman", "She is a very elegant woman"] }
+    ],
+    "examen": [
+      { "tipo": "opcion", "pregunta": "Elige la oración correcta.", "opciones": ["I have a black dog.", "I have a dog black.", "I have black a dog.", "I have a blacks dog."] },
+      { "tipo": "opcion", "pregunta": "Elige la oración correcta.", "opciones": ["They are good students.", "They are goods students.", "They are students goods.", "They are a good students."] },
+      { "tipo": "opcion", "pregunta": "It's ___ old house.", "opciones": ["an", "a", "the a", "two"] },
+      { "tipo": "opcion", "pregunta": "She is ___ tall.", "opciones": ["very", "a very", "very a", "the very"] },
+      { "tipo": "opcion", "pregunta": "El contrario de «heavy» es…", "opciones": ["light", "hard", "soft", "full"] },
+      { "tipo": "opcion", "pregunta": "The movie is ___. I'm bored.", "opciones": ["boring", "bored", "bore", "bores"] },
+      { "tipo": "listening", "audio": "My grandmother has a big old house.", "pregunta": "¿Cómo es la casa de la abuela?", "opciones": ["Grande y vieja", "Pequeña y vieja", "Grande y nueva", "Pequeña y nueva"] },
+      { "tipo": "listening", "audio": "This coffee is cold and bitter.", "pregunta": "¿Cómo está el café?", "opciones": ["Frío y amargo", "Caliente y amargo", "Frío y dulce", "Caliente y dulce"] },
+      { "tipo": "escribir", "pregunta": "Ordena: hair / She / long / has", "respuestas": ["She has long hair"] },
+      { "tipo": "escribir", "pregunta": "Traduce: Es un libro interesante.", "respuestas": ["It's an interesting book", "It is an interesting book"] }
+    ]
+  },
   { "id": "a1-10", "num": 10, "titulo": "There is / there are", "contexto": "Mi casa y mi barrio" },
   { "id": "a1-11", "num": 11, "titulo": "Preposiciones de lugar", "contexto": "¿Dónde está?" },
   { "id": "a1-12", "num": 12, "titulo": "Números, la hora y las fechas", "contexto": "Horarios, cumpleaños y calendario" },
