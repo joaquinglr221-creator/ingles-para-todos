@@ -46,5 +46,10 @@ const PORTADAS_MENU = {
  "a1-06/colores": "images/portadas/a1-06-colores.jpg",
  "a1-06/expresiones": "images/portadas/a1-06-expresiones.jpg",
  "a1-07/ejemplos": "images/temas/a1-07/02-mother.jpg",
- "a1-07/frases": "images/temas/a1-07/vida/05-a-family-photo.jpg"
+ "a1-07/frases": "images/temas/a1-07/vida/05-a-family-photo.jpg",
+ "a1-07/vocabulario": "images/portadas/a1-07-vocabulario.jpg",
+ "a1-07/extendida": "images/portadas/a1-07-extendida.jpg",
+ "a1-07/politica": "images/portadas/a1-07-politica.jpg",
+ "a1-07/posesivos": "images/portadas/a1-07-posesivos.jpg",
+ "a1-07/vida": "images/portadas/a1-07-vida.jpg"
 };
