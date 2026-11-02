@@ -39,5 +39,10 @@ const PORTADAS_MENU = {
  "a1-05/irregulares": "images/portadas/a1-05-irregulares.jpg",
  "a1-05/siempre": "images/portadas/a1-05-siempre.jpg",
  "a1-06/ejemplos": "images/temas/a1-06/accesorios/06-a-wallet.jpg",
- "a1-06/frases": "images/temas/a1-06/10-a-shopping-bag.jpg"
+ "a1-06/frases": "images/temas/a1-06/10-a-shopping-bag.jpg",
+ "a1-06/vocabulario": "images/portadas/a1-06-vocabulario.jpg",
+ "a1-06/ropa": "images/portadas/a1-06-ropa.jpg",
+ "a1-06/accesorios": "images/portadas/a1-06-accesorios.jpg",
+ "a1-06/colores": "images/portadas/a1-06-colores.jpg",
+ "a1-06/expresiones": "images/portadas/a1-06-expresiones.jpg"
 };
