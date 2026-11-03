@@ -69,5 +69,9 @@ const PORTADAS_MENU = {
  "a1-10/vocabulario": "images/portadas/a1-10-vocabulario.jpg",
  "a1-10/casa": "images/portadas/a1-10-casa.jpg",
  "a1-10/calle": "images/portadas/a1-10-calle.jpg",
- "a1-10/naturaleza": "images/portadas/a1-10-naturaleza.jpg"
+ "a1-10/naturaleza": "images/portadas/a1-10-naturaleza.jpg",
+ "a1-11/vocabulario": "images/portadas/a1-11-vocabulario.jpg",
+ "a1-11/expresiones": "images/portadas/a1-11-expresiones.jpg",
+ "a1-11/objetos": "images/portadas/a1-11-objetos.jpg",
+ "a1-11/cuarto": "images/portadas/a1-11-cuarto.jpg"
 };
