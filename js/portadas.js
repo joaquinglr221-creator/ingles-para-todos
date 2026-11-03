@@ -58,5 +58,7 @@ const PORTADAS_MENU = {
  "a1-08/mascotas": "images/portadas/a1-08-mascotas.jpg",
  "a1-08/fisico": "images/portadas/a1-08-fisico.jpg",
  "a1-08/salud": "images/portadas/a1-08-salud.jpg",
- "a1-08/expresiones": "images/portadas/a1-08-expresiones.jpg"
+ "a1-08/expresiones": "images/portadas/a1-08-expresiones.jpg",
+ "a1-09/ejemplos": "images/temas/a1-09/09-fast.jpg",
+ "a1-09/frases": "images/temas/a1-09/comida/01-delicious.jpg"
 };
