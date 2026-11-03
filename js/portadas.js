@@ -60,5 +60,10 @@ const PORTADAS_MENU = {
  "a1-08/salud": "images/portadas/a1-08-salud.jpg",
  "a1-08/expresiones": "images/portadas/a1-08-expresiones.jpg",
  "a1-09/ejemplos": "images/temas/a1-09/09-fast.jpg",
- "a1-09/frases": "images/temas/a1-09/comida/01-delicious.jpg"
+ "a1-09/frases": "images/temas/a1-09/comida/01-delicious.jpg",
+ "a1-09/vocabulario": "images/portadas/a1-09-vocabulario.jpg",
+ "a1-09/cosas": "images/portadas/a1-09-cosas.jpg",
+ "a1-09/lugares": "images/portadas/a1-09-lugares.jpg",
+ "a1-09/comida": "images/portadas/a1-09-comida.jpg",
+ "a1-09/personas": "images/portadas/a1-09-personas.jpg"
 };
