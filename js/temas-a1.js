@@ -2749,7 +2749,176 @@ const TEMAS_A1 = [
       { "tipo": "escribir", "pregunta": "Traduce: Es un libro interesante.", "respuestas": ["It's an interesting book", "It is an interesting book"] }
     ]
   },
-  { "id": "a1-10", "num": 10, "titulo": "There is / there are", "contexto": "Mi casa y mi barrio" },
+  {
+    "id": "a1-10",
+    "num": 10,
+    "titulo": "There is / there are",
+    "contexto": "Mi casa y mi barrio",
+    "explicacion": {
+      "es": [
+        "**There is** y **there are** significan **hay**. Sirven para decir qué existe en un lugar.",
+        "**There is** va con una sola cosa: *There is a park near my house.* Al hablar se dice **there's**.",
+        "**There are** va con varias cosas: *There are two schools in my neighborhood.*",
+        "En **negativo** se dice *there isn't* y *there aren't*. Para **preguntar**: *Is there a bank near here?* o *Are there any parks?* Se responde *Yes, there is / No, there isn't*."
+      ],
+      "tabla": { "columnas": ["", "Una cosa", "Varias cosas"], "filas": [["Afirmativo", "There is a bank.", "There are two banks."], ["Negativo", "There isn't a bank.", "There aren't any banks."], ["Pregunta", "Is there a bank?", "Are there any banks?"], ["Respuesta corta", "Yes, there is. / No, there isn't.", "Yes, there are. / No, there aren't."]] },
+      "ojo": [
+        "«Hay» no se dice con *have*: *There is a park* (no *It has a park* ni *Have a park*).",
+        "Con varias cosas va **are**: *There **are** three cafés* (no *There is three cafés*).",
+        "En preguntas y negativos con plural se usa **any**: *Are there **any** parks? There aren't **any** restaurants.*",
+        "Para preguntar cuántos: *How many schools are there?*",
+        "*There's* se usa solo en singular: *There's a gym* (no *There's two gyms*)."
+      ],
+      "en": [
+        "Use **there is** for one thing: There is a park near my house.",
+        "Use **there are** for two or more things: There are two schools.",
+        "Negative: there isn't, there aren't.",
+        "Questions: Is there a bank near here? Are there any cafés?"
+      ]
+    },
+    "vocabulario": [
+      { "en": "a park", "es": "un parque", "imagen": "Niños jugando en un parque", "ejemplo": ["There is a big park near my house.", "Hay un parque grande cerca de mi casa."] },
+      { "en": "a school", "es": "una escuela", "imagen": "Niños en el patio de la escuela", "ejemplo": ["There is a school on my street.", "Hay una escuela en mi calle."] },
+      { "en": "a hospital", "es": "un hospital", "imagen": "Fachada de un hospital moderno", "ejemplo": ["Is there a hospital near here?", "¿Hay un hospital cerca de aquí?"] },
+      { "en": "a supermarket", "es": "un supermercado", "imagen": "Pasillo de un supermercado con productos", "ejemplo": ["There is a supermarket on the corner.", "Hay un supermercado en la esquina."] },
+      { "en": "a pharmacy", "es": "una farmacia", "imagen": "Fachada de una farmacia con su cruz verde", "ejemplo": ["There isn't a pharmacy in my neighborhood.", "No hay una farmacia en mi barrio."] },
+      { "en": "a bank", "es": "un banco", "imagen": "Fachada de un banco con cajero automático", "ejemplo": ["There is a bank next to the park.", "Hay un banco junto al parque."] },
+      { "en": "a restaurant", "es": "un restaurante", "imagen": "Terraza de un restaurante con mesas", "ejemplo": ["There are two restaurants on this street.", "Hay dos restaurantes en esta calle."] },
+      { "en": "a church", "es": "una iglesia", "imagen": "Iglesia antigua en una plaza", "ejemplo": ["There is an old church in the center.", "Hay una iglesia antigua en el centro."] },
+      { "en": "a library", "es": "una biblioteca", "imagen": "Biblioteca con estantes llenos de libros", "ejemplo": ["Is there a library in your town?", "¿Hay una biblioteca en tu pueblo?"] },
+      { "en": "a post office", "es": "una oficina de correos", "imagen": "Persona enviando un paquete en el correo", "ejemplo": ["There is a post office near the bank.", "Hay una oficina de correos cerca del banco."] },
+      { "en": "a gas station", "es": "una gasolinera", "imagen": "Coche cargando gasolina en una gasolinera", "ejemplo": ["There's a gas station on the highway.", "Hay una gasolinera en la carretera."] },
+      { "en": "a bus stop", "es": "una parada de autobús", "imagen": "Personas esperando en una parada de autobús", "ejemplo": ["There is a bus stop in front of my house.", "Hay una parada de autobús enfrente de mi casa."] },
+      { "en": "a gym", "es": "un gimnasio", "imagen": "Personas haciendo ejercicio en un gimnasio", "ejemplo": ["There is a new gym in my neighborhood.", "Hay un gimnasio nuevo en mi barrio."] },
+      { "en": "a bakery", "es": "una panadería", "imagen": "Aparador de una panadería con pan fresco", "ejemplo": ["There's a good bakery on the corner.", "Hay una buena panadería en la esquina."] },
+      { "en": "a café", "es": "una cafetería", "imagen": "Amigos tomando café en una cafetería", "ejemplo": ["There are three cafés in the square.", "Hay tres cafeterías en la plaza."] },
+      { "en": "a movie theater", "es": "un cine", "imagen": "Personas con palomitas en la sala de un cine", "ejemplo": ["Is there a movie theater near here?", "¿Hay un cine cerca de aquí?"] }
+    ],
+    "grupos": [
+      {
+        "id": "casa",
+        "titulo": "Las partes de la casa",
+        "icono": "🏠",
+        "patron": ["There is a balcony.", "There are three bedrooms.", "Is there a garage?"],
+        "palabras": [
+          { "en": "a kitchen", "es": "una cocina", "imagen": "Cocina moderna", "ejemplo": ["There is a big kitchen in my house.", "Hay una cocina grande en mi casa."] },
+          { "en": "a dining room", "es": "un comedor", "imagen": "Comedor con una mesa larga y sillas", "ejemplo": ["There is a table in the dining room.", "Hay una mesa en el comedor."] },
+          { "en": "a hallway", "es": "un pasillo", "imagen": "Pasillo largo de una casa", "ejemplo": ["There are pictures in the hallway.", "Hay cuadros en el pasillo."] },
+          { "en": "stairs", "es": "escaleras", "imagen": "Escaleras de madera dentro de una casa", "ejemplo": ["There are stairs to the second floor.", "Hay escaleras al segundo piso."] },
+          { "en": "a balcony", "es": "un balcón", "imagen": "Balcón con plantas y dos sillas", "ejemplo": ["There is a small balcony in my apartment.", "Hay un balcón pequeño en mi departamento."] },
+          { "en": "a roof", "es": "un techo (exterior)", "imagen": "Casa con techo de tejas rojas", "ejemplo": ["There is a cat on the roof.", "Hay un gato en el techo."] },
+          { "en": "a wall", "es": "una pared", "imagen": "Pared con cuadros colgados", "ejemplo": ["There are photos on the wall.", "Hay fotos en la pared."] },
+          { "en": "a floor", "es": "un piso", "imagen": "Piso de madera brillante", "ejemplo": ["There is a rug on the floor.", "Hay un tapete en el piso."] },
+          { "en": "a basement", "es": "un sótano", "imagen": "Sótano con cajas guardadas", "ejemplo": ["There is a basement in the house.", "Hay un sótano en la casa."] },
+          { "en": "a laundry room", "es": "un cuarto de lavado", "imagen": "Lavadora y secadora en un cuarto de lavado", "ejemplo": ["There's a washing machine in the laundry room.", "Hay una lavadora en el cuarto de lavado."] },
+          { "en": "a patio", "es": "un patio", "imagen": "Patio con mesa y sombrilla", "ejemplo": ["There are chairs on the patio.", "Hay sillas en el patio."] },
+          { "en": "a garden", "es": "un jardín", "imagen": "Jardín con flores", "ejemplo": ["There are flowers in the garden.", "Hay flores en el jardín."] },
+          { "en": "a garage", "es": "una cochera", "imagen": "Cochera con un coche", "ejemplo": ["There are two cars in the garage.", "Hay dos coches en la cochera."] }
+        ]
+      },
+      {
+        "id": "calle",
+        "titulo": "En la calle",
+        "icono": "🚦",
+        "patron": ["There is a traffic light.", "There are many trees.", "Is there a bench?"],
+        "palabras": [
+          { "en": "a street", "es": "una calle", "imagen": "Calle con coches", "ejemplo": ["There are many cars on my street.", "Hay muchos coches en mi calle."] },
+          { "en": "a traffic light", "es": "un semáforo", "imagen": "Semáforo en rojo en una esquina", "ejemplo": ["There is a traffic light on the corner.", "Hay un semáforo en la esquina."] },
+          { "en": "a crosswalk", "es": "un paso peatonal", "imagen": "Personas cruzando por el paso peatonal", "ejemplo": ["There is a crosswalk in front of the school.", "Hay un paso peatonal enfrente de la escuela."] },
+          { "en": "a sidewalk", "es": "una banqueta", "imagen": "Persona caminando por la banqueta", "ejemplo": ["There are trees on the sidewalk.", "Hay árboles en la banqueta."] },
+          { "en": "a corner", "es": "una esquina", "imagen": "Esquina de dos calles con un café", "ejemplo": ["There is a café on the corner.", "Hay un café en la esquina."] },
+          { "en": "a bridge", "es": "un puente", "imagen": "Puente sobre un río en la ciudad", "ejemplo": ["There is a bridge over the river.", "Hay un puente sobre el río."] },
+          { "en": "a square", "es": "una plaza", "imagen": "Plaza con fuente y gente paseando", "ejemplo": ["There is a fountain in the square.", "Hay una fuente en la plaza."] },
+          { "en": "a parking lot", "es": "un estacionamiento", "imagen": "Estacionamiento con coches", "ejemplo": ["There is a parking lot behind the mall.", "Hay un estacionamiento detrás del centro comercial."] },
+          { "en": "a bench", "es": "una banca", "imagen": "Banca de madera en un parque", "ejemplo": ["There is a bench under the tree.", "Hay una banca debajo del árbol."] },
+          { "en": "a streetlight", "es": "un poste de luz", "imagen": "Poste de luz encendido en la calle de noche", "ejemplo": ["There are streetlights on my street.", "Hay postes de luz en mi calle."] },
+          { "en": "a tree", "es": "un árbol", "imagen": "Árbol grande y frondoso", "ejemplo": ["There is a big tree in front of my house.", "Hay un árbol grande enfrente de mi casa."] },
+          { "en": "a building", "es": "un edificio", "imagen": "Edificio de departamentos", "ejemplo": ["There are tall buildings downtown.", "Hay edificios altos en el centro."] }
+        ]
+      },
+      {
+        "id": "naturaleza",
+        "titulo": "Cerca de mi casa",
+        "icono": "🏞️",
+        "patron": ["There is a river.", "There are mountains.", "Is there a beach near here?"],
+        "palabras": [
+          { "en": "a beach", "es": "una playa", "imagen": "Playas", "ejemplo": ["There is a beautiful beach near my house.", "Hay una playa hermosa cerca de mi casa."] },
+          { "en": "a river", "es": "un río", "imagen": "Río entre árboles", "ejemplo": ["There is a river behind the park.", "Hay un río detrás del parque."] },
+          { "en": "a lake", "es": "un lago", "imagen": "Gansos junto a un lago", "ejemplo": ["There are ducks on the lake.", "Hay patos en el lago."] },
+          { "en": "a mountain", "es": "una montaña", "imagen": "Montaña nevada bajo un cielo azul", "ejemplo": ["There are big mountains near my town.", "Hay montañas grandes cerca de mi pueblo."] },
+          { "en": "a forest", "es": "un bosque", "imagen": "Bosque de pinos con luz entre los árboles", "ejemplo": ["There is a forest near the lake.", "Hay un bosque cerca del lago."] },
+          { "en": "a hill", "es": "una colina", "imagen": "Colina verde con una casa arriba", "ejemplo": ["There is a house on the hill.", "Hay una casa en la colina."] },
+          { "en": "a field", "es": "un campo", "imagen": "Ovejas en el campo", "ejemplo": ["There are sheep in the field.", "Hay ovejas en el campo."] },
+          { "en": "a farm", "es": "una granja", "imagen": "Granja con granero rojo y animales", "ejemplo": ["There are cows on the farm.", "Hay vacas en la granja."] }
+        ]
+      }
+    ],
+    "ejemplos": [
+      { "en": "There is a park near my house.", "es": "Hay un parque cerca de mi casa." },
+      { "en": "There are two schools in my neighborhood.", "es": "Hay dos escuelas en mi barrio." },
+      { "en": "There's a bakery on the corner.", "es": "Hay una panadería en la esquina." },
+      { "en": "There isn't a hospital in my town.", "es": "No hay un hospital en mi pueblo." },
+      { "en": "There aren't any restaurants on my street.", "es": "No hay restaurantes en mi calle." },
+      { "en": "Is there a bank near here? Yes, there is.", "es": "¿Hay un banco cerca de aquí? Sí." },
+      { "en": "Are there any cafés? No, there aren't.", "es": "¿Hay cafeterías? No." },
+      { "en": "There are three bedrooms in my house.", "es": "Hay tres recámaras en mi casa." },
+      { "en": "How many students are there in your class?", "es": "¿Cuántos estudiantes hay en tu clase?" },
+      { "en": "There is a beautiful beach near my town.", "es": "Hay una playa hermosa cerca de mi pueblo." }
+    ],
+    "frases": [
+      { "en": "There is a supermarket and a pharmacy on my street.", "es": "Hay un supermercado y una farmacia en mi calle." },
+      { "en": "There are a lot of trees in the park near my house.", "es": "Hay muchos árboles en el parque cerca de mi casa." },
+      { "en": "There isn't a movie theater in my neighborhood, but there is a big mall.", "es": "No hay un cine en mi barrio, pero hay un centro comercial grande." },
+      { "en": "In my house there are three bedrooms and two bathrooms.", "es": "En mi casa hay tres recámaras y dos baños." },
+      { "en": "Is there a bus stop near the school? Yes, there is.", "es": "¿Hay una parada de autobús cerca de la escuela? Sí." },
+      { "en": "There is a small balcony with plants in my apartment.", "es": "Hay un balcón pequeño con plantas en mi departamento." },
+      { "en": "There are many people in the square on Sundays.", "es": "Hay mucha gente en la plaza los domingos." },
+      { "en": "There aren't any cars on the bridge today.", "es": "Hoy no hay coches en el puente." },
+      { "en": "There is a river behind my house and there are mountains in the distance.", "es": "Hay un río detrás de mi casa y hay montañas a lo lejos." },
+      { "en": "How many cafés are there in your town?", "es": "¿Cuántas cafeterías hay en tu pueblo?" }
+    ],
+    "listening": [
+      { "audio": "There is a big park near my house.", "pregunta": "¿Qué hay cerca de su casa?", "opciones": ["Un parque grande", "Una escuela grande", "Un mercado", "Un hospital"] },
+      { "audio": "There are two pharmacies on my street.", "pregunta": "¿Cuántas farmacias hay en su calle?", "opciones": ["Dos", "Una", "Tres", "Ninguna"] },
+      { "audio": "There isn't a bank in my neighborhood.", "pregunta": "¿Qué NO hay en su barrio?", "opciones": ["Un banco", "Un parque", "Una iglesia", "Una panadería"] },
+      { "audio": "Is there a bus stop near here? Yes, there's one on the corner.", "pregunta": "¿Dónde está la parada de autobús?", "opciones": ["En la esquina", "Enfrente de la casa", "Junto al banco", "No hay parada"] },
+      { "audio": "In my house there are three bedrooms and one bathroom.", "pregunta": "¿Cuántas recámaras hay?", "opciones": ["Tres", "Una", "Dos", "Cuatro"] }
+    ],
+    "lectura": {
+      "titulo": "My neighborhood",
+      "texto": "I live in a quiet neighborhood. There is a small park in front of my house, and there are a lot of trees on my street. On the corner there is a bakery and a café. There isn't a supermarket near my house, but there is a big market on Saturdays. There are two schools and a library. There isn't a movie theater, so on weekends we go downtown.",
+      "preguntas": [
+        { "pregunta": "¿Qué hay enfrente de su casa?", "opciones": ["Un parque pequeño", "Una panadería", "Una escuela", "Un mercado"] },
+        { "pregunta": "¿Qué hay en la esquina?", "opciones": ["Una panadería y una cafetería", "Un supermercado", "Una biblioteca", "Un cine"] },
+        { "pregunta": "¿Cuándo hay un mercado grande?", "opciones": ["Los sábados", "Los domingos", "Todos los días", "Nunca"] },
+        { "pregunta": "¿Por qué van al centro los fines de semana?", "opciones": ["No hay cine en su barrio", "No hay parque", "Es más barato", "Viven en el centro"] }
+      ]
+    },
+    "escritura": [
+      { "instruccion": "Completa con There is o There are.", "pregunta": "___ a bank on my street.", "respuestas": ["There is", "There's"] },
+      { "instruccion": "Completa con There is o There are.", "pregunta": "___ two parks near my house.", "respuestas": ["There are"] },
+      { "instruccion": "Completa con There is o There are.", "pregunta": "___ a lot of cars on the street.", "respuestas": ["There are"] },
+      { "instruccion": "Escribe en negativo.", "pregunta": "There is a hospital.", "respuestas": ["There isn't a hospital", "There is not a hospital"] },
+      { "instruccion": "Escribe en negativo.", "pregunta": "There are cafés.", "respuestas": ["There aren't any cafés", "There are not any cafés", "There aren't cafés", "There are no cafés"] },
+      { "instruccion": "Convierte en pregunta.", "pregunta": "There is a gym near here.", "respuestas": ["Is there a gym near here"] },
+      { "instruccion": "Convierte en pregunta.", "pregunta": "There are restaurants on this street.", "respuestas": ["Are there any restaurants on this street", "Are there restaurants on this street"] },
+      { "instruccion": "Traduce al inglés.", "pregunta": "Hay una farmacia en la esquina.", "respuestas": ["There is a pharmacy on the corner", "There's a pharmacy on the corner"] },
+      { "instruccion": "Traduce al inglés.", "pregunta": "Hay tres recámaras en mi casa.", "respuestas": ["There are three bedrooms in my house"] },
+      { "instruccion": "Corrige la oración.", "pregunta": "There is two schools in my town.", "respuestas": ["There are two schools in my town"] }
+    ],
+    "examen": [
+      { "tipo": "opcion", "pregunta": "___ a supermarket near my house.", "opciones": ["There is", "There are", "It has", "Have"] },
+      { "tipo": "opcion", "pregunta": "___ three parks in my neighborhood.", "opciones": ["There are", "There is", "There's", "It is"] },
+      { "tipo": "opcion", "pregunta": "___ there a bank near here?", "opciones": ["Is", "Are", "Has", "Does"] },
+      { "tipo": "opcion", "pregunta": "There aren't ___ restaurants on my street.", "opciones": ["any", "a", "some", "one"] },
+      { "tipo": "opcion", "pregunta": "How many bedrooms ___ in your house?", "opciones": ["are there", "there are", "is there", "have there"] },
+      { "tipo": "opcion", "pregunta": "Are there any cafés? No, there ___.", "opciones": ["aren't", "isn't", "don't", "haven't"] },
+      { "tipo": "listening", "audio": "There are a lot of trees, but there isn't a park.", "pregunta": "¿Qué NO hay?", "opciones": ["Un parque", "Árboles", "Calles", "Casas"] },
+      { "tipo": "listening", "audio": "Is there a pharmacy near here? Yes, there's one next to the bank.", "pregunta": "¿Dónde está la farmacia?", "opciones": ["Junto al banco", "Enfrente del parque", "En la esquina", "Detrás de la escuela"] },
+      { "tipo": "escribir", "pregunta": "Escribe en negativo: There is a gym.", "respuestas": ["There isn't a gym", "There is not a gym"] },
+      { "tipo": "escribir", "pregunta": "Traduce: Hay dos escuelas en mi barrio.", "respuestas": ["There are two schools in my neighborhood", "There are two schools in my neighbourhood"] }
+    ]
+  },
   { "id": "a1-11", "num": 11, "titulo": "Preposiciones de lugar", "contexto": "¿Dónde está?" },
   { "id": "a1-12", "num": 12, "titulo": "Números, la hora y las fechas", "contexto": "Horarios, cumpleaños y calendario" },
   { "id": "a1-13", "num": 13, "titulo": "Preposiciones de tiempo (in, on, at)", "contexto": "Citas y fechas importantes" },
