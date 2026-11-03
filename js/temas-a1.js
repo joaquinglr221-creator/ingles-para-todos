@@ -3170,7 +3170,7 @@ const TEMAS_A1 = [
           { "en": "yesterday", "es": "ayer", "imagen": "Día del calendario tachado con una equis", "ejemplo": ["Yesterday was Sunday.", "Ayer fue domingo."] },
           { "en": "an hour", "es": "una hora", "imagen": "Reloj de arena con la arena cayendo", "ejemplo": ["The class is one hour long.", "La clase dura una hora."] },
           { "en": "a minute", "es": "un minuto", "imagen": "Cronómetro marcando un minuto", "ejemplo": ["Wait a minute, please.", "Espera un minuto, por favor."] },
-          { "en": "a schedule", "es": "un horario", "imagen": "Horario de clases pegado en la pared", "ejemplo": ["What's your schedule today?", "¿Cuál es tu horario hoy?"] },
+          { "en": "a schedule", "es": "un horario", "imagen": "Horario escolar en la pared con materias: Matemáticas, Inglés, Ciencias, Historia y Arte", "ejemplo": ["What's your schedule today?", "¿Cuál es tu horario hoy?"] },
           { "en": "a date", "es": "una fecha", "imagen": "Fecha en un calendario rodeada con plumón rojo", "ejemplo": ["What's the date today?", "¿Qué fecha es hoy?"] },
           { "en": "a holiday", "es": "un día festivo", "imagen": "Familia celebrando un día festivo con banderitas", "ejemplo": ["Monday is a holiday.", "El lunes es día festivo."] }
         ]
