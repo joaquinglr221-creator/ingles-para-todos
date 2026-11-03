@@ -2919,7 +2919,194 @@ const TEMAS_A1 = [
       { "tipo": "escribir", "pregunta": "Traduce: Hay dos escuelas en mi barrio.", "respuestas": ["There are two schools in my neighborhood", "There are two schools in my neighbourhood"] }
     ]
   },
-  { "id": "a1-11", "num": 11, "titulo": "Preposiciones de lugar", "contexto": "¿Dónde está?" },
+  {
+    "id": "a1-11",
+    "num": 11,
+    "titulo": "Preposiciones de lugar",
+    "contexto": "¿Dónde está?",
+    "explicacion": {
+      "es": [
+        "Las **preposiciones de lugar** dicen **dónde está** algo: *in* (dentro de), *on* (sobre), *under* (debajo de), *next to* (junto a), *between* (entre), *behind* (detrás de), *in front of* (delante de).",
+        "Se usan con **to be**: *The keys **are on** the table. The cat **is under** the bed.*",
+        "Para preguntar se usa **Where**: *Where **is** my phone? Where **are** my keys?* Se responde *It's… / They're…*",
+        "Algunas expresiones no llevan *the*: ***at** home, **at** work, **at** school, **in** bed*."
+      ],
+      "tabla": {
+        "columnas": ["Preposición", "Significa", "Ejemplo"],
+        "filas": [
+          ["in", "dentro de", "The cat is in the box."],
+          ["on", "sobre (tocando)", "The book is on the table."],
+          ["under", "debajo de", "The dog is under the bed."],
+          ["next to", "junto a", "The lamp is next to the sofa."],
+          ["between", "entre", "The bank is between the café and the pharmacy."],
+          ["behind", "detrás de", "The garden is behind the house."],
+          ["in front of", "delante de", "The car is in front of the house."],
+          ["across from", "enfrente de (al otro lado)", "The pharmacy is across from the bank."]
+        ]
+      },
+      "ojo": [
+        "*In front of* es **delante de**; para «enfrente de, al otro lado de la calle» se dice *across from*.",
+        "*On* es sobre algo, tocándolo: *on the table*. *Above* es arriba, sin tocar: *The lamp is above the table.*",
+        "Se dice *next **to***, no *next of*; y *near* va sin *of*: *near the park* (no *near of the park*).",
+        "*At home*, *at work* y *at school* van sin *the*: *I'm at home* (no *in the home*).",
+        "Para «en la calle» o «en la ciudad» se usa *in* con lugares grandes: *in Mexico, in the city*; y *on* con el autobús o el tren: *on the bus*."
+      ],
+      "en": [
+        "Prepositions of place say where something is: in, on, under, next to, between, behind, in front of.",
+        "Use them with be: The keys are on the table.",
+        "Ask with where: Where is my phone? It's in your bag.",
+        "Say at home, at work, at school (no the)."
+      ]
+    },
+    "vocabulario": [
+      { "en": "in", "es": "en, dentro de", "imagen": "Gato dentro de una caja de cartón", "ejemplo": ["The cat is in the box.", "El gato está dentro de la caja."] },
+      { "en": "on", "es": "en, sobre", "imagen": "Libro sobre una mesa de madera", "ejemplo": ["The book is on the table.", "El libro está sobre la mesa."] },
+      { "en": "under", "es": "debajo de", "imagen": "Perro acostado debajo de una mesa", "ejemplo": ["The dog is under the table.", "El perro está debajo de la mesa."] },
+      { "en": "next to", "es": "junto a, al lado de", "imagen": "Dos amigos sentados uno al lado del otro en una banca", "ejemplo": ["My house is next to the park.", "Mi casa está junto al parque."] },
+      { "en": "between", "es": "entre (dos cosas)", "imagen": "Niño sentado entre su mamá y su papá en un sofá", "ejemplo": ["The bank is between the café and the pharmacy.", "El banco está entre la cafetería y la farmacia."] },
+      { "en": "behind", "es": "detrás de", "imagen": "Niña escondida detrás de un árbol", "ejemplo": ["The garden is behind the house.", "El jardín está detrás de la casa."] },
+      { "en": "in front of", "es": "delante de, frente a", "imagen": "Persona parada delante de la puerta de una casa", "ejemplo": ["The car is in front of the house.", "El coche está delante de la casa."] },
+      { "en": "above", "es": "arriba de, encima de (sin tocar)", "imagen": "Lámpara colgando arriba de una mesa", "ejemplo": ["The clock is above the door.", "El reloj está arriba de la puerta."] },
+      { "en": "below", "es": "abajo de, por debajo de", "imagen": "Peces nadando abajo de un bote", "ejemplo": ["The kitchen is below my bedroom.", "La cocina está abajo de mi recámara."] },
+      { "en": "near", "es": "cerca de", "imagen": "Casa cerca de la playa", "ejemplo": ["The school is near my house.", "La escuela está cerca de mi casa."] },
+      { "en": "far from", "es": "lejos de", "imagen": "Casa sola en el campo, lejos de la ciudad", "ejemplo": ["The airport is far from the city.", "El aeropuerto está lejos de la ciudad."] },
+      { "en": "across from", "es": "enfrente de (al otro lado)", "imagen": "Café al otro lado de la calle, enfrente de un banco", "ejemplo": ["The pharmacy is across from the bank.", "La farmacia está enfrente del banco."] },
+      { "en": "inside", "es": "adentro", "imagen": "Niños jugando dentro de una tienda de campaña", "ejemplo": ["The children are inside.", "Los niños están adentro."] },
+      { "en": "outside", "es": "afuera", "imagen": "Perro esperando afuera de la casa junto a la puerta", "ejemplo": ["The dog is outside.", "El perro está afuera."] },
+      { "en": "on top of", "es": "encima de", "imagen": "Gato acostado encima del refrigerador", "ejemplo": ["The box is on top of the closet.", "La caja está encima del clóset."] },
+      { "en": "around", "es": "alrededor de", "imagen": "Familia sentada alrededor de una mesa", "ejemplo": ["We sit around the table.", "Nos sentamos alrededor de la mesa."] }
+    ],
+    "grupos": [
+      {
+        "id": "expresiones",
+        "titulo": "Expresiones de lugar",
+        "icono": "📍",
+        "patron": ["She's at home.", "It's on the left.", "He's upstairs."],
+        "palabras": [
+          { "en": "at home", "es": "en casa", "imagen": "En casa", "ejemplo": ["I'm at home today.", "Hoy estoy en casa."] },
+          { "en": "at work", "es": "en el trabajo", "imagen": "En el trabajo", "ejemplo": ["My dad is at work.", "Mi papá está en el trabajo."] },
+          { "en": "at school", "es": "en la escuela", "imagen": "En la escuela", "ejemplo": ["The children are at school.", "Los niños están en la escuela."] },
+          { "en": "in bed", "es": "en la cama", "imagen": "Persona leyendo un libro en la cama", "ejemplo": ["My brother is still in bed.", "Mi hermano todavía está en la cama."] },
+          { "en": "in the car", "es": "en el coche", "imagen": "Familia sentada dentro de un coche", "ejemplo": ["The keys are in the car.", "Las llaves están en el coche."] },
+          { "en": "on the bus", "es": "en el autobús", "imagen": "Pasajeros sentados dentro de un autobús", "ejemplo": ["I'm on the bus now.", "Ahora estoy en el autobús."] },
+          { "en": "on the left", "es": "a la izquierda", "imagen": "Señal con una flecha hacia la izquierda", "ejemplo": ["The bathroom is on the left.", "El baño está a la izquierda."] },
+          { "en": "on the right", "es": "a la derecha", "imagen": "Señal con una flecha hacia la derecha", "ejemplo": ["The elevator is on the right.", "El elevador está a la derecha."] },
+          { "en": "in the middle", "es": "en medio", "imagen": "Mesa con un florero en medio", "ejemplo": ["The table is in the middle of the room.", "La mesa está en medio del cuarto."] },
+          { "en": "in the corner", "es": "en la esquina (de un cuarto)", "imagen": "Planta grande en la esquina de una sala", "ejemplo": ["The TV is in the corner.", "La televisión está en la esquina."] },
+          { "en": "upstairs", "es": "arriba (en el piso de arriba)", "imagen": "Persona subiendo las escaleras de su casa", "ejemplo": ["My bedroom is upstairs.", "Mi recámara está arriba."] },
+          { "en": "downstairs", "es": "abajo (en el piso de abajo)", "imagen": "Persona bajando las escaleras de su casa", "ejemplo": ["The kitchen is downstairs.", "La cocina está abajo."] },
+          { "en": "over there", "es": "allá", "imagen": "Persona señalando algo a lo lejos", "ejemplo": ["The bus stop is over there.", "La parada de autobús está allá."] }
+        ]
+      },
+      {
+        "id": "objetos",
+        "titulo": "¿Dónde está…?",
+        "icono": "🔑",
+        "patron": ["Where are my keys?", "It's under the bed.", "They're on the table."],
+        "palabras": [
+          { "en": "keys", "es": "llaves", "imagen": "Llaves", "ejemplo": ["Where are my keys? They're on the table.", "¿Dónde están mis llaves? Están sobre la mesa."] },
+          { "en": "a phone", "es": "un teléfono", "imagen": "Teléfono", "ejemplo": ["Your phone is in your bag.", "Tu teléfono está en tu bolsa."] },
+          { "en": "eyeglasses", "es": "lentes", "imagen": "Lentes", "ejemplo": ["My glasses are on my head!", "¡Mis lentes están en mi cabeza!"] },
+          { "en": "a wallet", "es": "una cartera", "imagen": "Cartera", "ejemplo": ["The wallet is under the sofa.", "La cartera está debajo del sofá."] },
+          { "en": "a bag", "es": "una bolsa", "imagen": "Bolsa", "ejemplo": ["Your bag is behind the door.", "Tu bolsa está detrás de la puerta."] },
+          { "en": "a remote control", "es": "un control remoto", "imagen": "Control remoto", "ejemplo": ["The remote control is between the cushions.", "El control remoto está entre los cojines."] },
+          { "en": "a backpack", "es": "una mochila", "imagen": "Mochila", "ejemplo": ["My backpack is next to the desk.", "Mi mochila está junto al escritorio."] },
+          { "en": "an umbrella", "es": "un paraguas", "imagen": "Paraguas", "ejemplo": ["The umbrella is near the door.", "El paraguas está cerca de la puerta."] },
+          { "en": "a jacket", "es": "una chamarra", "imagen": "Chamarra", "ejemplo": ["Your jacket is in the closet.", "Tu chamarra está en el clóset."] },
+          { "en": "shoes", "es": "zapatos", "imagen": "Zapatos", "ejemplo": ["My shoes are under the bed.", "Mis zapatos están debajo de la cama."] },
+          { "en": "books", "es": "libros", "imagen": "Libros", "ejemplo": ["The books are on the shelf.", "Los libros están en el estante."] },
+          { "en": "a cat", "es": "un gato", "imagen": "Gato", "ejemplo": ["Where's the cat? It's on top of the TV.", "¿Dónde está el gato? Está encima de la tele."] }
+        ]
+      },
+      {
+        "id": "cuarto",
+        "titulo": "En la sala y el cuarto",
+        "icono": "🛋️",
+        "patron": ["The lamp is next to the sofa.", "The rug is under the table.", "There's a picture above the bed."],
+        "palabras": [
+          { "en": "a sofa", "es": "un sofá", "imagen": "Sofá", "ejemplo": ["The cat is on the sofa.", "El gato está en el sofá."] },
+          { "en": "a table", "es": "una mesa", "imagen": "Mesa", "ejemplo": ["The plant is on the table.", "La planta está sobre la mesa."] },
+          { "en": "a chair", "es": "una silla", "imagen": "Silla", "ejemplo": ["My bag is on the chair.", "Mi bolsa está en la silla."] },
+          { "en": "a bed", "es": "una cama", "imagen": "Cama", "ejemplo": ["There's a picture above the bed.", "Hay un cuadro arriba de la cama."] },
+          { "en": "a lamp", "es": "una lámpara", "imagen": "Lámpara", "ejemplo": ["The lamp is next to the sofa.", "La lámpara está junto al sofá."] },
+          { "en": "a bookshelf", "es": "un librero", "imagen": "Librero", "ejemplo": ["The bookshelf is behind the desk.", "El librero está detrás del escritorio."] },
+          { "en": "a desk", "es": "un escritorio", "imagen": "Escritorio", "ejemplo": ["The computer is on the desk.", "La computadora está sobre el escritorio."] },
+          { "en": "a window", "es": "una ventana", "imagen": "Ventana", "ejemplo": ["The desk is in front of the window.", "El escritorio está delante de la ventana."] },
+          { "en": "a door", "es": "una puerta", "imagen": "Puerta", "ejemplo": ["The clock is above the door.", "El reloj está arriba de la puerta."] },
+          { "en": "a rug", "es": "un tapete", "imagen": "Tapete", "ejemplo": ["The rug is under the coffee table.", "El tapete está debajo de la mesa de centro."] },
+          { "en": "a mirror", "es": "un espejo", "imagen": "Espejo", "ejemplo": ["The mirror is on the wall.", "El espejo está en la pared."] },
+          { "en": "a plant", "es": "una planta", "imagen": "Planta", "ejemplo": ["The plant is in the corner.", "La planta está en la esquina."] },
+          { "en": "a nightstand", "es": "un buró", "imagen": "Buró", "ejemplo": ["My phone is on the nightstand.", "Mi teléfono está en el buró."] },
+          { "en": "an armchair", "es": "un sillón", "imagen": "Sillón", "ejemplo": ["The armchair is between the sofa and the window.", "El sillón está entre el sofá y la ventana."] }
+        ]
+      }
+    ],
+    "ejemplos": [
+      { "en": "The cat is in the box.", "es": "El gato está dentro de la caja." },
+      { "en": "The keys are on the table.", "es": "Las llaves están sobre la mesa." },
+      { "en": "The dog is under the bed.", "es": "El perro está debajo de la cama." },
+      { "en": "My house is next to the park.", "es": "Mi casa está junto al parque." },
+      { "en": "The bank is between the café and the pharmacy.", "es": "El banco está entre la cafetería y la farmacia." },
+      { "en": "The garden is behind the house.", "es": "El jardín está detrás de la casa." },
+      { "en": "The bus stop is in front of the school.", "es": "La parada de autobús está delante de la escuela." },
+      { "en": "Where is my phone? It's in your bag.", "es": "¿Dónde está mi teléfono? Está en tu bolsa." },
+      { "en": "I'm at home and my parents are at work.", "es": "Estoy en casa y mis papás están en el trabajo." },
+      { "en": "The pharmacy is across from the bank.", "es": "La farmacia está enfrente del banco." }
+    ],
+    "frases": [
+      { "en": "My glasses are on the table next to the lamp.", "es": "Mis lentes están sobre la mesa junto a la lámpara." },
+      { "en": "The cat is sleeping under the bed in my bedroom.", "es": "El gato está durmiendo debajo de la cama en mi recámara." },
+      { "en": "There is a big tree in front of my house and a garden behind it.", "es": "Hay un árbol grande delante de mi casa y un jardín detrás." },
+      { "en": "The supermarket is between the bank and the post office.", "es": "El supermercado está entre el banco y la oficina de correos." },
+      { "en": "Where are my keys? I think they're in the car.", "es": "¿Dónde están mis llaves? Creo que están en el coche." },
+      { "en": "My bedroom is upstairs and the kitchen is downstairs.", "es": "Mi recámara está arriba y la cocina está abajo." },
+      { "en": "The bathroom is at the end of the hallway, on the left.", "es": "El baño está al final del pasillo, a la izquierda." },
+      { "en": "There is a picture above the sofa and a rug under the coffee table.", "es": "Hay un cuadro arriba del sofá y un tapete debajo de la mesa de centro." },
+      { "en": "My school is near my house, but my work is far from here.", "es": "Mi escuela está cerca de mi casa, pero mi trabajo está lejos de aquí." },
+      { "en": "The children are playing outside, around the big tree.", "es": "Los niños están jugando afuera, alrededor del árbol grande." }
+    ],
+    "listening": [
+      { "audio": "Where are my keys? They're on the table.", "pregunta": "¿Dónde están las llaves?", "opciones": ["Sobre la mesa", "Debajo de la mesa", "En la bolsa", "En el coche"] },
+      { "audio": "The cat is under the bed.", "pregunta": "¿Dónde está el gato?", "opciones": ["Debajo de la cama", "Sobre la cama", "Junto a la cama", "Detrás de la puerta"] },
+      { "audio": "The bank is between the café and the pharmacy.", "pregunta": "¿Dónde está el banco?", "opciones": ["Entre la cafetería y la farmacia", "Enfrente de la farmacia", "Detrás de la cafetería", "Lejos de la farmacia"] },
+      { "audio": "My bedroom is upstairs, next to the bathroom.", "pregunta": "¿Dónde está su recámara?", "opciones": ["Arriba, junto al baño", "Abajo, junto a la cocina", "Arriba, enfrente del baño", "Abajo, junto al baño"] },
+      { "audio": "I'm not at home. I'm on the bus.", "pregunta": "¿Dónde está la persona?", "opciones": ["En el autobús", "En casa", "En el coche", "En el trabajo"] }
+    ],
+    "lectura": {
+      "titulo": "Where is everything?",
+      "texto": "This is my living room. The sofa is in front of the window, and there is a small table in front of the sofa. The TV is in the corner, next to a big plant. There is a lamp between the sofa and the armchair. My cat loves this room. Right now she is sleeping on top of the bookshelf! My keys are always on the small table, but today they aren't there. Where are they? Oh, they're under the sofa!",
+      "preguntas": [
+        { "pregunta": "¿Dónde está el sofá?", "opciones": ["Delante de la ventana", "En la esquina", "Detrás del sillón", "Junto a la puerta"] },
+        { "pregunta": "¿Qué hay entre el sofá y el sillón?", "opciones": ["Una lámpara", "Una planta", "La televisión", "Una mesa"] },
+        { "pregunta": "¿Dónde está el gato ahora?", "opciones": ["Encima del librero", "Debajo del sofá", "En la ventana", "Sobre la mesa"] },
+        { "pregunta": "¿Dónde están las llaves hoy?", "opciones": ["Debajo del sofá", "Sobre la mesa pequeña", "En la bolsa", "Junto a la tele"] }
+      ]
+    },
+    "escritura": [
+      { "instruccion": "Completa con la preposición.", "pregunta": "The book is ___ the table. (sobre)", "respuestas": ["on"] },
+      { "instruccion": "Completa con la preposición.", "pregunta": "The dog is ___ the bed. (debajo de)", "respuestas": ["under"] },
+      { "instruccion": "Completa con la preposición.", "pregunta": "The lamp is ___ the sofa. (junto a)", "respuestas": ["next to"] },
+      { "instruccion": "Completa con la preposición.", "pregunta": "The garden is ___ the house. (detrás de)", "respuestas": ["behind"] },
+      { "instruccion": "Completa con la preposición.", "pregunta": "The bank is ___ the café and the pharmacy. (entre)", "respuestas": ["between"] },
+      { "instruccion": "Haz la pregunta con Where.", "pregunta": "(my phone)", "respuestas": ["Where is my phone", "Where's my phone"] },
+      { "instruccion": "Haz la pregunta con Where.", "pregunta": "(my keys)", "respuestas": ["Where are my keys"] },
+      { "instruccion": "Traduce al inglés.", "pregunta": "El gato está dentro de la caja.", "respuestas": ["The cat is in the box", "The cat's in the box", "The cat is inside the box"] },
+      { "instruccion": "Traduce al inglés.", "pregunta": "Estoy en casa.", "respuestas": ["I am at home", "I'm at home"] },
+      { "instruccion": "Corrige la oración.", "pregunta": "The park is next of my house.", "respuestas": ["The park is next to my house"] }
+    ],
+    "examen": [
+      { "tipo": "opcion", "pregunta": "The keys are ___ the table.", "opciones": ["on", "at", "of", "to"] },
+      { "tipo": "opcion", "pregunta": "The cat is ___ the bed. (debajo)", "opciones": ["under", "above", "on", "in front of"] },
+      { "tipo": "opcion", "pregunta": "My house is next ___ the school.", "opciones": ["to", "of", "from", "at"] },
+      { "tipo": "opcion", "pregunta": "I'm ___ home today.", "opciones": ["at", "in", "on", "to"] },
+      { "tipo": "opcion", "pregunta": "___ are my glasses? They're in your bag.", "opciones": ["Where", "What", "Who", "When"] },
+      { "tipo": "opcion", "pregunta": "The bank is ___ the café and the pharmacy.", "opciones": ["between", "behind", "under", "inside"] },
+      { "tipo": "listening", "audio": "The bathroom is downstairs, on the right.", "pregunta": "¿Dónde está el baño?", "opciones": ["Abajo, a la derecha", "Arriba, a la derecha", "Abajo, a la izquierda", "Arriba, a la izquierda"] },
+      { "tipo": "listening", "audio": "The pharmacy is across from the park.", "pregunta": "¿Dónde está la farmacia?", "opciones": ["Enfrente del parque", "Dentro del parque", "Lejos del parque", "Detrás del parque"] },
+      { "tipo": "escribir", "pregunta": "Traduce: El perro está detrás de la puerta.", "respuestas": ["The dog is behind the door", "The dog's behind the door"] },
+      { "tipo": "escribir", "pregunta": "Traduce: ¿Dónde están mis zapatos?", "respuestas": ["Where are my shoes"] }
+    ]
+  },
   { "id": "a1-12", "num": 12, "titulo": "Números, la hora y las fechas", "contexto": "Horarios, cumpleaños y calendario" },
   { "id": "a1-13", "num": 13, "titulo": "Preposiciones de tiempo (in, on, at)", "contexto": "Citas y fechas importantes" },
   { "id": "a1-14", "num": 14, "titulo": "Presente simple: afirmativo", "contexto": "La rutina diaria" },
