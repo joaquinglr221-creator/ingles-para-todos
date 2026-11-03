@@ -3107,7 +3107,177 @@ const TEMAS_A1 = [
       { "tipo": "escribir", "pregunta": "Traduce: ¿Dónde están mis zapatos?", "respuestas": ["Where are my shoes"] }
     ]
   },
-  { "id": "a1-12", "num": 12, "titulo": "Números, la hora y las fechas", "contexto": "Horarios, cumpleaños y calendario" },
+  {
+    "id": "a1-12",
+    "num": 12,
+    "titulo": "Números, la hora y las fechas",
+    "contexto": "Horarios, cumpleaños y calendario",
+    "explicacion": {
+      "es": [
+        "Para preguntar la hora se dice **What time is it?** Se responde con **It's…**: *It's three o'clock.*",
+        "Hay dos formas de decir la hora. La forma fácil son los números: *It's three fifteen* (3:15), *It's three thirty* (3:30). La forma clásica usa **past** (y) y **to** (para): *It's quarter **past** three. It's twenty **to** four.*",
+        "Con las horas se usa **at**: *The class is **at** nine.* Para la mañana se dice **a.m.** y para la tarde y la noche **p.m.**",
+        "Para las **fechas** se usan los números ordinales: se escribe *May 3* y se dice *May third* o *the third of May*. Los **años** se dicen de dos en dos: *1995* = *nineteen ninety-five*; *2026* = *twenty twenty-six*."
+      ],
+      "tabla": { "columnas": ["Hora", "Forma clásica", "Forma fácil"], "filas": [["3:00", "It's three o'clock.", "It's three."], ["3:05", "It's five past three.", "It's three oh five."], ["3:15", "It's quarter past three.", "It's three fifteen."], ["3:30", "It's half past three.", "It's three thirty."], ["3:40", "It's twenty to four.", "It's three forty."], ["3:45", "It's quarter to four.", "It's three forty-five."]] },
+      "ojo": [
+        "La hora siempre empieza con *It's*: *It's five o'clock* (no *Are the five*).",
+        "*Quarter to six* es «cuarto para las seis»: se dice **to**, no *for*.",
+        "*O'clock* solo va con horas exactas: *It's five o'clock*, pero *It's half past five* (sin *o'clock*).",
+        "En las fechas se usan ordinales: *My birthday is on March **third*** (no *March three*).",
+        "Al hablar no se usa el reloj de 24 horas: las 18:00 son *six p.m.* o *six in the evening*."
+      ],
+      "en": [
+        "Ask: What time is it? Answer: It's three o'clock.",
+        "Use past and to: It's quarter past three. It's twenty to four.",
+        "Or just numbers: It's three fifteen.",
+        "Dates use ordinal numbers: May third. Years: nineteen ninety-five."
+      ]
+    },
+    "vocabulario": [
+      { "en": "What time is it?", "es": "¿Qué hora es?", "imagen": "Persona mirando su reloj de pulsera", "ejemplo": ["What time is it? It's ten o'clock.", "¿Qué hora es? Son las diez."] },
+      { "en": "o'clock", "es": "en punto", "imagen": "Reloj marcando las tres en punto", "ejemplo": ["It's three o'clock.", "Son las tres en punto."] },
+      { "en": "half past", "es": "y media", "imagen": "Reloj marcando las cuatro y media", "ejemplo": ["It's half past four.", "Son las cuatro y media."] },
+      { "en": "quarter past", "es": "y cuarto", "imagen": "Reloj marcando las dos y cuarto", "ejemplo": ["It's quarter past two.", "Son las dos y cuarto."] },
+      { "en": "quarter to", "es": "cuarto para", "imagen": "Reloj marcando un cuarto para las seis", "ejemplo": ["It's quarter to six.", "Es cuarto para las seis."] },
+      { "en": "five past", "es": "y cinco", "imagen": "Reloj marcando las ocho y cinco", "ejemplo": ["It's five past eight.", "Son las ocho y cinco."] },
+      { "en": "twenty to", "es": "veinte para", "imagen": "Reloj marcando veinte para las once", "ejemplo": ["It's twenty to eleven.", "Son veinte para las once."] },
+      { "en": "noon", "es": "mediodía", "imagen": "Sol en lo alto sobre una ciudad a mediodía", "ejemplo": ["We have lunch at noon.", "Comemos al mediodía."] },
+      { "en": "midnight", "es": "medianoche", "imagen": "Reloj de pared a medianoche con la luna en la ventana", "ejemplo": ["The party ends at midnight.", "La fiesta termina a la medianoche."] },
+      { "en": "a.m.", "es": "de la mañana (a. m.)", "imagen": "Despertador marcando las 7:00 con el amanecer en la ventana", "ejemplo": ["I get up at 6 a.m.", "Me levanto a las 6 a. m."] },
+      { "en": "p.m.", "es": "de la tarde o de la noche (p. m.)", "imagen": "Reloj digital marcando las 9:00 de la noche", "ejemplo": ["The movie starts at 8 p.m.", "La película empieza a las 8 p. m."] },
+      { "en": "in the morning", "es": "en la mañana", "imagen": "Persona tomando café al amanecer", "ejemplo": ["I study in the morning.", "Estudio en la mañana."] },
+      { "en": "in the afternoon", "es": "en la tarde", "imagen": "Niños jugando en el parque por la tarde", "ejemplo": ["I work in the afternoon.", "Trabajo en la tarde."] },
+      { "en": "in the evening", "es": "en la noche (temprano)", "imagen": "Familia cenando al atardecer", "ejemplo": ["We watch TV in the evening.", "Vemos la tele en la noche."] },
+      { "en": "at night", "es": "en la noche", "imagen": "Ciudad iluminada de noche", "ejemplo": ["I sleep eight hours at night.", "Duermo ocho horas en la noche."] },
+      { "en": "a clock", "es": "un reloj (de pared)", "imagen": "Reloj", "ejemplo": ["The clock is on the wall.", "El reloj está en la pared."] },
+      { "en": "an alarm clock", "es": "un despertador", "imagen": "Despertador", "ejemplo": ["My alarm clock rings at half past six.", "Mi despertador suena a las seis y media."] }
+    ],
+    "grupos": [
+      {
+        "id": "calendario",
+        "titulo": "El calendario",
+        "icono": "📅",
+        "patron": ["Today is Monday.", "There are seven days in a week.", "What's the date today?"],
+        "palabras": [
+          { "en": "a calendar", "es": "un calendario", "imagen": "Calendario de pared con días marcados", "ejemplo": ["There's a calendar on the wall.", "Hay un calendario en la pared."] },
+          { "en": "a week", "es": "una semana", "imagen": "Calendario con una semana completa marcada en rojo", "ejemplo": ["There are seven days in a week.", "Hay siete días en una semana."] },
+          { "en": "a weekend", "es": "un fin de semana", "imagen": "Familia de picnic un sábado en el parque", "ejemplo": ["I visit my parents on the weekend.", "Visito a mis papás el fin de semana."] },
+          { "en": "a month", "es": "un mes", "imagen": "Hoja de calendario de un mes completo", "ejemplo": ["There are twelve months in a year.", "Hay doce meses en un año."] },
+          { "en": "a year", "es": "un año", "imagen": "Fuegos artificiales de Año Nuevo con el número del año", "ejemplo": ["There are 365 days in a year.", "Hay 365 días en un año."] },
+          { "en": "today", "es": "hoy", "imagen": "Calendario con el día de hoy rodeado en un círculo", "ejemplo": ["Today is Monday.", "Hoy es lunes."] },
+          { "en": "tomorrow", "es": "mañana", "imagen": "Hoja de calendario que se voltea al día siguiente", "ejemplo": ["Tomorrow is my birthday.", "Mañana es mi cumpleaños."] },
+          { "en": "yesterday", "es": "ayer", "imagen": "Día del calendario tachado con una equis", "ejemplo": ["Yesterday was Sunday.", "Ayer fue domingo."] },
+          { "en": "an hour", "es": "una hora", "imagen": "Reloj de arena con la arena cayendo", "ejemplo": ["The class is one hour long.", "La clase dura una hora."] },
+          { "en": "a minute", "es": "un minuto", "imagen": "Cronómetro marcando un minuto", "ejemplo": ["Wait a minute, please.", "Espera un minuto, por favor."] },
+          { "en": "a schedule", "es": "un horario", "imagen": "Horario de clases pegado en la pared", "ejemplo": ["What's your schedule today?", "¿Cuál es tu horario hoy?"] },
+          { "en": "a date", "es": "una fecha", "imagen": "Fecha en un calendario rodeada con plumón rojo", "ejemplo": ["What's the date today?", "¿Qué fecha es hoy?"] },
+          { "en": "a holiday", "es": "un día festivo", "imagen": "Familia celebrando un día festivo con banderitas", "ejemplo": ["Monday is a holiday.", "El lunes es día festivo."] }
+        ]
+      },
+      {
+        "id": "fechas",
+        "titulo": "Fechas importantes",
+        "icono": "🎉",
+        "patron": ["My birthday is on May 3rd.", "Christmas is in December.", "When is your birthday?"],
+        "palabras": [
+          { "en": "a birthday", "es": "un cumpleaños", "imagen": "Cumpleaños", "ejemplo": ["My birthday is on April 21st.", "Mi cumpleaños es el 21 de abril."] },
+          { "en": "an anniversary", "es": "un aniversario", "imagen": "Aniversario", "ejemplo": ["Our anniversary is in July.", "Nuestro aniversario es en julio."] },
+          { "en": "a wedding", "es": "una boda", "imagen": "Boda", "ejemplo": ["The wedding is on June 10th.", "La boda es el 10 de junio."] },
+          { "en": "New Year's Day", "es": "el Año Nuevo", "imagen": "Brindis con fuegos artificiales de Año Nuevo", "ejemplo": ["New Year's Day is on January 1st.", "El Año Nuevo es el 1 de enero."] },
+          { "en": "Valentine's Day", "es": "el Día de San Valentín", "imagen": "Corazones rojos y un ramo de rosas", "ejemplo": ["Valentine's Day is on February 14th.", "El Día de San Valentín es el 14 de febrero."] },
+          { "en": "Mother's Day", "es": "el Día de las Madres", "imagen": "Niño dándole flores a su mamá", "ejemplo": ["Mother's Day is in May.", "El Día de las Madres es en mayo."] },
+          { "en": "Father's Day", "es": "el Día del Padre", "imagen": "Niña abrazando a su papá con un regalo", "ejemplo": ["Father's Day is in June.", "El Día del Padre es en junio."] },
+          { "en": "Easter", "es": "la Pascua", "imagen": "Huevos de Pascua de colores en una canasta", "ejemplo": ["Easter is in March or April.", "La Pascua es en marzo o abril."] },
+          { "en": "Independence Day", "es": "el Día de la Independencia", "imagen": "Desfile con banderas y fuegos artificiales", "ejemplo": ["Independence Day in Mexico is on September 16th.", "El Día de la Independencia en México es el 16 de septiembre."] },
+          { "en": "Halloween", "es": "Halloween", "imagen": "Calabazas con caras y niños disfrazados", "ejemplo": ["Halloween is on October 31st.", "Halloween es el 31 de octubre."] },
+          { "en": "Thanksgiving", "es": "el Día de Acción de Gracias", "imagen": "Familia alrededor de una mesa con un pavo", "ejemplo": ["Thanksgiving is in November.", "El Día de Acción de Gracias es en noviembre."] },
+          { "en": "Christmas", "es": "la Navidad", "imagen": "Árbol de Navidad con regalos", "ejemplo": ["Christmas is on December 25th.", "La Navidad es el 25 de diciembre."] }
+        ]
+      },
+      {
+        "id": "numeros",
+        "titulo": "Números en la vida diaria",
+        "icono": "🔢",
+        "patron": ["My phone number is 555 0134.", "It's 45 dollars.", "I'm 34 years old."],
+        "palabras": [
+          { "en": "phone number", "es": "número de teléfono", "imagen": "Número de teléfono", "ejemplo": ["My phone number is 555 0134.", "Mi número de teléfono es 555 0134."] },
+          { "en": "address", "es": "dirección", "imagen": "Dirección", "ejemplo": ["My address is 25 Oak Street.", "Mi dirección es calle Oak número 25."] },
+          { "en": "age", "es": "edad", "imagen": "Edad", "ejemplo": ["What's your age? I'm 28.", "¿Qué edad tienes? Tengo 28."] },
+          { "en": "years old", "es": "años (de edad)", "imagen": "Años de edad", "ejemplo": ["My grandmother is 82 years old.", "Mi abuela tiene 82 años."] },
+          { "en": "a price", "es": "un precio", "imagen": "Precio", "ejemplo": ["The price is 45 dollars.", "El precio es de 45 dólares."] },
+          { "en": "money", "es": "dinero", "imagen": "Dinero", "ejemplo": ["I have 200 pesos in my wallet.", "Tengo 200 pesos en mi cartera."] },
+          { "en": "a receipt", "es": "un recibo", "imagen": "Recibo", "ejemplo": ["The total on the receipt is 18 dollars.", "El total en el recibo es de 18 dólares."] },
+          { "en": "time", "es": "tiempo, hora", "imagen": "Tiempo", "ejemplo": ["We have time. The bus is at 3:15.", "Tenemos tiempo. El autobús es a las 3:15."] }
+        ]
+      }
+    ],
+    "ejemplos": [
+      { "en": "What time is it? It's nine o'clock.", "es": "¿Qué hora es? Son las nueve." },
+      { "en": "It's half past seven.", "es": "Son las siete y media." },
+      { "en": "The class starts at quarter past eight.", "es": "La clase empieza a las ocho y cuarto." },
+      { "en": "The bank closes at 5 p.m.", "es": "El banco cierra a las 5 p. m." },
+      { "en": "What's the date today? It's May 3rd.", "es": "¿Qué fecha es hoy? Es 3 de mayo." },
+      { "en": "When is your birthday? It's on April 21st.", "es": "¿Cuándo es tu cumpleaños? Es el 21 de abril." },
+      { "en": "I was born in 1995.", "es": "Nací en 1995." },
+      { "en": "Christmas is on December 25th.", "es": "La Navidad es el 25 de diciembre." },
+      { "en": "The movie starts at seven thirty in the evening.", "es": "La película empieza a las siete y media de la noche." },
+      { "en": "My phone number is 555 0187.", "es": "Mi número de teléfono es 555 0187." }
+    ],
+    "frases": [
+      { "en": "I get up at six o'clock in the morning and go to work at seven.", "es": "Me levanto a las seis de la mañana y me voy a trabajar a las siete." },
+      { "en": "The store opens at nine a.m. and closes at eight p.m.", "es": "La tienda abre a las nueve a. m. y cierra a las ocho p. m." },
+      { "en": "My English class is on Mondays and Wednesdays from six to eight.", "es": "Mi clase de inglés es los lunes y miércoles de seis a ocho." },
+      { "en": "My mother's birthday is on the fifth of June.", "es": "El cumpleaños de mi mamá es el 5 de junio." },
+      { "en": "We have a big family dinner on Christmas Eve.", "es": "Tenemos una gran cena familiar en Nochebuena." },
+      { "en": "The train leaves at quarter to ten, so we have twenty minutes.", "es": "El tren sale a las diez menos cuarto, así que tenemos veinte minutos." },
+      { "en": "Today is Friday, the thirteenth of October.", "es": "Hoy es viernes 13 de octubre." },
+      { "en": "There are thirty days in September, April, June and November.", "es": "Septiembre, abril, junio y noviembre tienen treinta días." },
+      { "en": "Halloween is on October 31st and the children love it.", "es": "Halloween es el 31 de octubre y a los niños les encanta." },
+      { "en": "It's midnight and my brother is still awake.", "es": "Es medianoche y mi hermano sigue despierto." }
+    ],
+    "listening": [
+      { "audio": "What time is it? It's half past three.", "pregunta": "¿Qué hora es?", "opciones": ["3:30", "3:15", "2:30", "3:45"] },
+      { "audio": "It's quarter to nine.", "pregunta": "¿Qué hora es?", "opciones": ["8:45", "9:15", "9:45", "8:15"] },
+      { "audio": "My birthday is on July 4th.", "pregunta": "¿Cuándo es su cumpleaños?", "opciones": ["4 de julio", "14 de julio", "4 de junio", "24 de julio"] },
+      { "audio": "The bank opens at nine a.m. and closes at four p.m.", "pregunta": "¿A qué hora cierra el banco?", "opciones": ["A las 4 de la tarde", "A las 9 de la mañana", "A las 4 de la mañana", "A las 9 de la noche"] },
+      { "audio": "I was born in nineteen ninety-eight.", "pregunta": "¿En qué año nació?", "opciones": ["1998", "1988", "1989", "2008"] }
+    ],
+    "lectura": {
+      "titulo": "My busy Monday",
+      "texto": "My name is Laura. On Mondays my alarm clock rings at six a.m. I have breakfast at half past six and I take the bus at quarter past seven. I work from eight to four. I have lunch at noon with my coworkers. In the evening, at seven o'clock, I have an English class. Today is special: it's March 10th, my birthday! My family has a party for me at nine p.m.",
+      "preguntas": [
+        { "pregunta": "¿A qué hora suena su despertador?", "opciones": ["A las 6 a. m.", "A las 6:30", "A las 7:15", "A las 8 a. m."] },
+        { "pregunta": "¿A qué hora come con sus compañeros?", "opciones": ["Al mediodía", "A las 4", "A las 8", "A las 7"] },
+        { "pregunta": "¿Cuándo es su cumpleaños?", "opciones": ["El 10 de marzo", "El 10 de mayo", "El 3 de octubre", "El 7 de marzo"] },
+        { "pregunta": "¿A qué hora es su clase de inglés?", "opciones": ["A las 7 de la noche", "A las 9 de la noche", "A las 8 de la mañana", "Al mediodía"] }
+      ]
+    },
+    "escritura": [
+      { "instruccion": "Escribe la hora en inglés.", "pregunta": "3:00", "respuestas": ["It's three o'clock", "It is three o'clock", "It's three"] },
+      { "instruccion": "Escribe la hora en inglés.", "pregunta": "4:30", "respuestas": ["It's half past four", "It is half past four", "It's four thirty", "It is four thirty"] },
+      { "instruccion": "Escribe la hora en inglés.", "pregunta": "2:15", "respuestas": ["It's quarter past two", "It is quarter past two", "It's a quarter past two", "It's two fifteen", "It is two fifteen"] },
+      { "instruccion": "Escribe la hora en inglés.", "pregunta": "5:45", "respuestas": ["It's quarter to six", "It is quarter to six", "It's a quarter to six", "It's five forty-five", "It is five forty-five"] },
+      { "instruccion": "Haz la pregunta.", "pregunta": "¿Qué hora es?", "respuestas": ["What time is it"] },
+      { "instruccion": "Haz la pregunta.", "pregunta": "¿Qué fecha es hoy?", "respuestas": ["What's the date today", "What is the date today"] },
+      { "instruccion": "Escribe el año en palabras.", "pregunta": "1990", "respuestas": ["nineteen ninety"] },
+      { "instruccion": "Traduce al inglés.", "pregunta": "Mi cumpleaños es en mayo.", "respuestas": ["My birthday is in May"] },
+      { "instruccion": "Traduce al inglés.", "pregunta": "La clase es a las nueve.", "respuestas": ["The class is at nine", "The class is at nine o'clock", "The class is at 9"] },
+      { "instruccion": "Corrige la oración.", "pregunta": "It's quarter for six.", "respuestas": ["It's quarter to six", "It is quarter to six", "It's a quarter to six"] }
+    ],
+    "examen": [
+      { "tipo": "opcion", "pregunta": "What ___ is it? It's ten o'clock.", "opciones": ["time", "hour", "clock", "date"] },
+      { "tipo": "opcion", "pregunta": "7:30 = It's half ___ seven.", "opciones": ["past", "to", "for", "and"] },
+      { "tipo": "opcion", "pregunta": "8:45 = It's quarter ___ nine.", "opciones": ["to", "past", "for", "at"] },
+      { "tipo": "opcion", "pregunta": "The class is ___ nine o'clock.", "opciones": ["at", "in", "on", "for"] },
+      { "tipo": "opcion", "pregunta": "My birthday is on May ___.", "opciones": ["third", "three", "the three", "thirdth"] },
+      { "tipo": "opcion", "pregunta": "1985 se dice:", "opciones": ["nineteen eighty-five", "one thousand eighty-five", "nineteen eight five", "one nine eight five"] },
+      { "tipo": "listening", "audio": "The movie starts at twenty past eight.", "pregunta": "¿A qué hora empieza la película?", "opciones": ["8:20", "7:40", "8:40", "2:08"] },
+      { "tipo": "listening", "audio": "Today is Tuesday, the second of November.", "pregunta": "¿Qué fecha es hoy?", "opciones": ["Martes 2 de noviembre", "Jueves 2 de noviembre", "Martes 12 de noviembre", "Martes 2 de diciembre"] },
+      { "tipo": "escribir", "pregunta": "Escribe la hora en inglés: 6:30", "respuestas": ["It's half past six", "It is half past six", "It's six thirty", "It is six thirty"] },
+      { "tipo": "escribir", "pregunta": "Traduce: Mañana es mi cumpleaños.", "respuestas": ["Tomorrow is my birthday", "Tomorrow's my birthday"] }
+    ]
+  },
   { "id": "a1-13", "num": 13, "titulo": "Preposiciones de tiempo (in, on, at)", "contexto": "Citas y fechas importantes" },
   { "id": "a1-14", "num": 14, "titulo": "Presente simple: afirmativo", "contexto": "La rutina diaria" },
   { "id": "a1-15", "num": 15, "titulo": "Presente simple: negativo y preguntas", "contexto": "Trabajos y estudios" },
