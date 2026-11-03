@@ -73,5 +73,9 @@ const PORTADAS_MENU = {
  "a1-11/vocabulario": "images/portadas/a1-11-vocabulario.jpg",
  "a1-11/expresiones": "images/portadas/a1-11-expresiones.jpg",
  "a1-11/objetos": "images/portadas/a1-11-objetos.jpg",
- "a1-11/cuarto": "images/portadas/a1-11-cuarto.jpg"
+ "a1-11/cuarto": "images/portadas/a1-11-cuarto.jpg",
+ "a1-12/vocabulario": "images/portadas/a1-12-vocabulario.jpg",
+ "a1-12/calendario": "images/portadas/a1-12-calendario.jpg",
+ "a1-12/fechas": "images/portadas/a1-12-fechas.jpg",
+ "a1-12/numeros": "images/portadas/a1-12-numeros.jpg"
 };
