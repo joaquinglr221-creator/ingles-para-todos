@@ -65,5 +65,9 @@ const PORTADAS_MENU = {
  "a1-09/cosas": "images/portadas/a1-09-cosas.jpg",
  "a1-09/lugares": "images/portadas/a1-09-lugares.jpg",
  "a1-09/comida": "images/portadas/a1-09-comida.jpg",
- "a1-09/personas": "images/portadas/a1-09-personas.jpg"
+ "a1-09/personas": "images/portadas/a1-09-personas.jpg",
+ "a1-10/vocabulario": "images/portadas/a1-10-vocabulario.jpg",
+ "a1-10/casa": "images/portadas/a1-10-casa.jpg",
+ "a1-10/calle": "images/portadas/a1-10-calle.jpg",
+ "a1-10/naturaleza": "images/portadas/a1-10-naturaleza.jpg"
 };
