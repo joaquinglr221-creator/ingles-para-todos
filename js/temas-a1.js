@@ -3443,7 +3443,175 @@ const TEMAS_A1 = [
       { "tipo": "escribir", "pregunta": "Traduce: Vamos a la playa en verano.", "respuestas": ["We go to the beach in summer", "We go to the beach in the summer"] }
     ]
   },
-  { "id": "a1-14", "num": 14, "titulo": "Presente simple: afirmativo", "contexto": "La rutina diaria" },
+  {
+    "id": "a1-14",
+    "num": 14,
+    "titulo": "Presente simple: afirmativo",
+    "contexto": "La rutina diaria",
+    "explicacion": {
+      "es": [
+        "El **presente simple** sirve para hablar de **rutinas, hábitos y cosas que siempre son verdad**: *I get up at seven. She works in a bank.*",
+        "Con **I, you, we, they** el verbo va **igual que en el diccionario**: *I work, you work, we work, they work*.",
+        "Con **he, she, it** (una persona o cosa) el verbo lleva **-s** al final: *he works, she lives, it opens*.",
+        "Algunos verbos cambian un poco: con **-sh, -ch, -x, -ss, -o** se pone **-es** (*watches, washes, goes, does*); si terminan en consonante + **y**, la **y** cambia a **-ies** (*study → studies*). Y **have** cambia a **has**."
+      ],
+      "tabla": { "columnas": ["Sujeto", "Verbo", "Ejemplo"], "filas": [["I, you, we, they", "verbo normal", "I work. They live in Lima."], ["he, she, it", "verbo + s", "She works. He lives in Lima."], ["he, she, it (-sh, -ch, -x, -ss, -o)", "verbo + es", "He watches TV. She goes to school."], ["he, she, it (consonante + y)", "-y → -ies", "He studies. She tries."], ["he, she, it + have", "has", "She has breakfast at seven."]] },
+      "ojo": [
+        "No olvides la **-s** con he, she, it: *He work* ❌ → *He works* ✅.",
+        "*Have* con he, she, it es **has**: *She has a car*, no *She haves*.",
+        "Si antes de la *y* hay vocal, solo se agrega -s: *play → plays*, *buy → buys*.",
+        "*My mother, the teacher, Ana* = **she**; *my dad, Tom* = **he**: también llevan -s: *My mother works.*",
+        "La -s se pronuncia de tres formas: /s/ en *works*, /z/ en *plays* y /iz/ en *watches*.",
+        "Palabras útiles: *every day, every morning, on Mondays, at night, after work, before breakfast*."
+      ],
+      "en": [
+        "Use the present simple for routines and habits: I get up at seven.",
+        "With I, you, we and they, use the base verb: I work, they live.",
+        "With he, she and it, add -s: he works, she lives.",
+        "Add -es after sh, ch, x, ss and o: watches, goes. Consonant plus y changes to ies: studies. Have changes to has."
+      ]
+    },
+    "vocabulario": [
+      { "en": "wake up", "es": "despertarse", "imagen": "Persona despertando en la cama y estirando los brazos con el sol en la ventana", "ejemplo": ["I wake up at six.", "Me despierto a las seis."] },
+      { "en": "get up", "es": "levantarse", "imagen": "Persona levantándose de la cama y poniéndose las pantuflas", "ejemplo": ["She gets up at seven.", "Ella se levanta a las siete."] },
+      { "en": "take a shower", "es": "bañarse (en regadera)", "imagen": "Persona bañándose en la regadera", "ejemplo": ["He takes a shower every morning.", "Él se baña todas las mañanas."] },
+      { "en": "brush your teeth", "es": "lavarse los dientes", "imagen": "Niña lavándose los dientes frente al espejo", "ejemplo": ["I brush my teeth after breakfast.", "Me lavo los dientes después del desayuno."] },
+      { "en": "get dressed", "es": "vestirse", "imagen": "Hombre vistiéndose, abotonándose la camisa frente al clóset", "ejemplo": ["He gets dressed for work.", "Él se viste para el trabajo."] },
+      { "en": "have breakfast", "es": "desayunar", "imagen": "Familia desayunando en la mesa de la cocina", "ejemplo": ["We have breakfast at half past seven.", "Desayunamos a las siete y media."] },
+      { "en": "go to work", "es": "ir al trabajo", "imagen": "Mujer con portafolio caminando hacia una oficina en la mañana", "ejemplo": ["My mother goes to work at eight.", "Mi mamá va al trabajo a las ocho."] },
+      { "en": "go to school", "es": "ir a la escuela", "imagen": "Niños con mochila entrando a la escuela", "ejemplo": ["The kids go to school at eight.", "Los niños van a la escuela a las ocho."] },
+      { "en": "start work", "es": "empezar a trabajar", "imagen": "Mujer llegando a su escritorio y encendiendo la computadora", "ejemplo": ["She starts work at nine.", "Ella empieza a trabajar a las nueve."] },
+      { "en": "have lunch", "es": "comer (al mediodía)", "imagen": "Compañeros comiendo juntos", "ejemplo": ["We have lunch at two.", "Comemos a las dos."] },
+      { "en": "finish work", "es": "terminar de trabajar", "imagen": "Hombre apagando su computadora y saliendo de la oficina en la tarde", "ejemplo": ["He finishes work at five.", "Él termina de trabajar a las cinco."] },
+      { "en": "go home", "es": "regresar a casa", "imagen": "Persona abriendo la puerta de su casa al regresar en la tarde", "ejemplo": ["I go home at six.", "Regreso a casa a las seis."] },
+      { "en": "cook dinner", "es": "preparar la cena", "imagen": "Hombre cocinando la cena en la estufa", "ejemplo": ["My dad cooks dinner every day.", "Mi papá prepara la cena todos los días."] },
+      { "en": "have dinner", "es": "cenar", "imagen": "Familia cenando", "ejemplo": ["We have dinner at eight.", "Cenamos a las ocho."] },
+      { "en": "watch TV", "es": "ver la tele", "imagen": "Familia viendo la televisión en el sofá", "ejemplo": ["They watch TV after dinner.", "Ellos ven la tele después de cenar."] },
+      { "en": "go to bed", "es": "irse a dormir", "imagen": "Persona apagando la lámpara del buró para dormir", "ejemplo": ["I go to bed at eleven.", "Me voy a dormir a las once."] }
+    ],
+    "grupos": [
+      {
+        "id": "manana",
+        "titulo": "Por la mañana",
+        "icono": "☀️",
+        "patron": ["I wash my face", "She makes the bed", "He catches the bus"],
+        "palabras": [
+          { "en": "wash your face", "es": "lavarse la cara", "imagen": "Persona lavándose la cara en el lavabo", "ejemplo": ["I wash my face with cold water.", "Me lavo la cara con agua fría."] },
+          { "en": "comb your hair", "es": "peinarse", "imagen": "Niño peinándose frente al espejo", "ejemplo": ["He combs his hair before school.", "Él se peina antes de la escuela."] },
+          { "en": "shave", "es": "rasurarse", "imagen": "Hombre rasurándose con espuma frente al espejo", "ejemplo": ["My dad shaves every morning.", "Mi papá se rasura todas las mañanas."] },
+          { "en": "put on makeup", "es": "maquillarse", "imagen": "Mujer maquillándose frente al espejo", "ejemplo": ["She puts on makeup in the morning.", "Ella se maquilla en la mañana."] },
+          { "en": "make the bed", "es": "tender la cama", "imagen": "Persona tendiendo la cama con una almohada en la mano", "ejemplo": ["I make my bed every day.", "Tiendo mi cama todos los días."] },
+          { "en": "drink coffee", "es": "tomar café", "imagen": "Persona tomando una taza de café junto a la ventana en la mañana", "ejemplo": ["My mom drinks coffee at seven.", "Mi mamá toma café a las siete."] },
+          { "en": "read the news", "es": "leer las noticias", "imagen": "Hombre leyendo las noticias en su celular con una taza de café", "ejemplo": ["He reads the news on his phone.", "Él lee las noticias en su celular."] },
+          { "en": "catch the bus", "es": "tomar el autobús", "imagen": "Gente subiendo a un autobús en la parada", "ejemplo": ["I catch the bus at a quarter past seven.", "Tomo el autobús a las siete y cuarto."] },
+          { "en": "take the kids to school", "es": "llevar a los niños a la escuela", "imagen": "Mamá llevando de la mano a sus hijos a la escuela", "ejemplo": ["She takes the kids to school.", "Ella lleva a los niños a la escuela."] },
+          { "en": "walk the dog", "es": "pasear al perro", "imagen": "Persona paseando a su perro en el parque en la mañana", "ejemplo": ["My brother walks the dog before breakfast.", "Mi hermano pasea al perro antes del desayuno."] }
+        ]
+      },
+      {
+        "id": "tarde",
+        "titulo": "Por la tarde y la noche",
+        "icono": "🌙",
+        "patron": ["I do the dishes", "He goes to the gym", "She reads a book"],
+        "palabras": [
+          { "en": "do homework", "es": "hacer la tarea", "imagen": "Niño haciendo la tarea en su escritorio", "ejemplo": ["The kids do homework after lunch.", "Los niños hacen la tarea después de comer."] },
+          { "en": "do the dishes", "es": "lavar los trastes", "imagen": "Persona lavando los trastes en el fregadero", "ejemplo": ["I do the dishes after dinner.", "Lavo los trastes después de cenar."] },
+          { "en": "clean the house", "es": "limpiar la casa", "imagen": "Persona limpiando el piso de la casa con un trapeador", "ejemplo": ["We clean the house on Saturdays.", "Limpiamos la casa los sábados."] },
+          { "en": "do the laundry", "es": "lavar la ropa", "imagen": "Persona metiendo ropa a la lavadora", "ejemplo": ["She does the laundry on Sunday.", "Ella lava la ropa el domingo."] },
+          { "en": "go shopping", "es": "ir de compras", "imagen": "Amigas con bolsas de compras en un centro comercial", "ejemplo": ["They go shopping on the weekend.", "Ellos van de compras el fin de semana."] },
+          { "en": "go to the gym", "es": "ir al gimnasio", "imagen": "Persona corriendo en una caminadora en el gimnasio", "ejemplo": ["He goes to the gym after work.", "Él va al gimnasio después del trabajo."] },
+          { "en": "take a nap", "es": "tomar una siesta", "imagen": "Abuelo tomando una siesta en el sofá", "ejemplo": ["My grandpa takes a nap after lunch.", "Mi abuelo toma una siesta después de comer."] },
+          { "en": "call a friend", "es": "llamar a un amigo", "imagen": "Persona sonriendo mientras habla por teléfono en la tarde", "ejemplo": ["I call a friend in the evening.", "Llamo a un amigo en la noche."] },
+          { "en": "read a book", "es": "leer un libro", "imagen": "Persona leyendo un libro en la cama con la lámpara encendida", "ejemplo": ["She reads a book in bed.", "Ella lee un libro en la cama."] },
+          { "en": "check email", "es": "revisar el correo", "imagen": "Mujer revisando su correo electrónico en la laptop", "ejemplo": ["He checks his email at night.", "Él revisa su correo en la noche."] },
+          { "en": "relax", "es": "descansar, relajarse", "imagen": "Persona relajándose en el sofá con los pies arriba y audífonos", "ejemplo": ["I relax on Sunday afternoon.", "Descanso el domingo en la tarde."] }
+        ]
+      },
+      {
+        "id": "ese",
+        "titulo": "He, she, it: el verbo lleva -s",
+        "icono": "✍️",
+        "patron": ["he works", "she watches", "he studies"],
+        "palabras": [
+          { "en": "he works", "es": "él trabaja", "imagen": "Hombre trabajando en su computadora en una oficina", "ejemplo": ["He works in an office.", "Él trabaja en una oficina."] },
+          { "en": "she lives", "es": "ella vive", "imagen": "Mujer abriendo la puerta de su casa con sus llaves", "ejemplo": ["She lives near the park.", "Ella vive cerca del parque."] },
+          { "en": "he plays", "es": "él juega", "imagen": "Niño pateando un balón de fútbol en el parque", "ejemplo": ["He plays soccer on Saturdays.", "Él juega fútbol los sábados."] },
+          { "en": "she watches", "es": "ella ve, ella mira", "imagen": "Mujer viendo la tele sola en el sofá en la noche", "ejemplo": ["She watches TV after dinner.", "Ella ve la tele después de cenar."] },
+          { "en": "he washes", "es": "él lava", "imagen": "Hombre lavando su coche con una esponja", "ejemplo": ["He washes his car on Sunday.", "Él lava su coche el domingo."] },
+          { "en": "she goes", "es": "ella va", "imagen": "Niña caminando a la escuela con su mochila", "ejemplo": ["She goes to school at eight.", "Ella va a la escuela a las ocho."] },
+          { "en": "he does", "es": "él hace", "imagen": "Niño haciendo la tarea", "ejemplo": ["He does his homework in his room.", "Él hace su tarea en su cuarto."] },
+          { "en": "she studies", "es": "ella estudia", "imagen": "Joven estudiando en su escritorio de noche con una lámpara", "ejemplo": ["She studies English at night.", "Ella estudia inglés en la noche."] },
+          { "en": "he has", "es": "él tiene, él toma", "imagen": "Hombre desayunando solo con café y pan tostado", "ejemplo": ["He has breakfast at seven.", "Él desayuna a las siete."] },
+          { "en": "she fixes", "es": "ella arregla", "imagen": "Mecánica arreglando un coche en un taller", "ejemplo": ["She fixes cars.", "Ella arregla coches."] }
+        ]
+      }
+    ],
+    "ejemplos": [
+      { "en": "I get up at seven every day.", "es": "Me levanto a las siete todos los días." },
+      { "en": "She takes a shower in the morning.", "es": "Ella se baña en la mañana." },
+      { "en": "We have breakfast together.", "es": "Desayunamos juntos." },
+      { "en": "My mother goes to work at eight.", "es": "Mi mamá va al trabajo a las ocho." },
+      { "en": "The children go to school by bus.", "es": "Los niños van a la escuela en autobús.", "imagen": "Niños subiendo a un autobús escolar amarillo" },
+      { "en": "He works in a hospital.", "es": "Él trabaja en un hospital.", "imagen": "Enfermero trabajando en un hospital con su uniforme" },
+      { "en": "She watches TV after dinner.", "es": "Ella ve la tele después de cenar." },
+      { "en": "My sister studies English at night.", "es": "Mi hermana estudia inglés en la noche." },
+      { "en": "The store opens at nine.", "es": "La tienda abre a las nueve.", "imagen": "Empleado abriendo la puerta de una tienda con letrero «Open» a las nueve" },
+      { "en": "I go to bed at eleven.", "es": "Me voy a dormir a las once." }
+    ],
+    "frases": [
+      { "en": "Every morning I wake up at six, take a shower and get dressed.", "es": "Todas las mañanas me despierto a las seis, me baño y me visto." },
+      { "en": "My sister gets up early because she starts work at eight.", "es": "Mi hermana se levanta temprano porque empieza a trabajar a las ocho." },
+      { "en": "My dad makes breakfast and my mom takes the kids to school.", "es": "Mi papá prepara el desayuno y mi mamá lleva a los niños a la escuela.", "imagen": "Papá preparando el desayuno mientras mamá sale con los niños hacia la escuela" },
+      { "en": "We have lunch at two, and then I go back to work.", "es": "Comemos a las dos y luego regreso al trabajo." },
+      { "en": "He finishes work at five and goes to the gym.", "es": "Él termina de trabajar a las cinco y va al gimnasio." },
+      { "en": "After dinner, my kids do their homework and I do the dishes.", "es": "Después de cenar, mis hijos hacen la tarea y yo lavo los trastes.", "imagen": "Niños haciendo la tarea en la mesa mientras su papá lava los trastes" },
+      { "en": "On Saturdays we clean the house and do the laundry.", "es": "Los sábados limpiamos la casa y lavamos la ropa." },
+      { "en": "My grandmother drinks coffee and reads the newspaper every morning.", "es": "Mi abuela toma café y lee el periódico todas las mañanas.", "imagen": "Abuela tomando café y leyendo el periódico en la mañana" },
+      { "en": "She walks the dog in the park before she goes to work.", "es": "Ella pasea al perro en el parque antes de ir al trabajo." },
+      { "en": "At night I read a book in bed and go to sleep at eleven.", "es": "En la noche leo un libro en la cama y me duermo a las once." }
+    ],
+    "listening": [
+      { "audio": "I wake up at six thirty.", "pregunta": "¿A qué hora se despierta?", "opciones": ["A las 6:30", "A las 7:30", "A las 6:13", "A las 6:00"] },
+      { "audio": "My brother works in a bank.", "pregunta": "¿Dónde trabaja su hermano?", "opciones": ["En un banco", "En un hospital", "En una escuela", "En una tienda"] },
+      { "audio": "She has lunch at two o'clock.", "pregunta": "¿A qué hora come ella?", "opciones": ["A las dos", "A las doce", "A las diez", "A las tres"] },
+      { "audio": "We go to the gym after work.", "pregunta": "¿Cuándo van al gimnasio?", "opciones": ["Después del trabajo", "Antes del trabajo", "En la mañana", "Los domingos"] },
+      { "audio": "My dad cooks dinner and I do the dishes.", "pregunta": "¿Qué hace el que habla?", "opciones": ["Lava los trastes", "Prepara la cena", "Ve la tele", "Hace la tarea"] }
+    ],
+    "lectura": {
+      "titulo": "A day in Laura's life",
+      "texto": "Laura is a nurse. She lives in Guadalajara with her husband and her two children. She gets up at half past five every day. She takes a shower, gets dressed and drinks a cup of coffee. Her husband makes breakfast and takes the kids to school. Laura catches the bus at a quarter to seven and starts work at seven thirty. She finishes work at three. In the afternoon she helps the kids with their homework. The family has dinner at eight, and Laura goes to bed at ten. She's always tired, but she loves her job!",
+      "preguntas": [
+        { "pregunta": "¿En qué trabaja Laura?", "opciones": ["Es enfermera", "Es maestra", "Es doctora", "Es mesera"] },
+        { "pregunta": "¿Quién lleva a los niños a la escuela?", "opciones": ["Su esposo", "Laura", "Su mamá", "Nadie, van solos"] },
+        { "pregunta": "¿A qué hora termina de trabajar?", "opciones": ["A las tres", "A las siete y media", "A las ocho", "A las diez"] },
+        { "pregunta": "¿Qué hace Laura en la tarde?", "opciones": ["Ayuda a sus hijos con la tarea", "Va al gimnasio", "Toma una siesta", "Lava la ropa"] }
+      ]
+    },
+    "escritura": [
+      { "instruccion": "Escribe el verbo en presente simple.", "pregunta": "She ___ (work) in a bank.", "respuestas": ["works"] },
+      { "instruccion": "Escribe el verbo en presente simple.", "pregunta": "He ___ (watch) TV every night.", "respuestas": ["watches"] },
+      { "instruccion": "Escribe el verbo en presente simple.", "pregunta": "My mom ___ (go) to work by bus.", "respuestas": ["goes"] },
+      { "instruccion": "Escribe el verbo en presente simple.", "pregunta": "Tom ___ (study) English on Mondays.", "respuestas": ["studies"] },
+      { "instruccion": "Escribe el verbo en presente simple.", "pregunta": "She ___ (have) breakfast at seven.", "respuestas": ["has"] },
+      { "instruccion": "Escribe el verbo en presente simple.", "pregunta": "They ___ (live) in Lima.", "respuestas": ["live"] },
+      { "instruccion": "Escribe el verbo en presente simple.", "pregunta": "He ___ (do) his homework after school.", "respuestas": ["does"] },
+      { "instruccion": "Traduce al inglés.", "pregunta": "Me levanto a las siete.", "respuestas": ["I get up at seven", "I get up at 7", "I get up at seven o'clock"] },
+      { "instruccion": "Traduce al inglés.", "pregunta": "Ella se baña en la mañana.", "respuestas": ["She takes a shower in the morning", "She showers in the morning"] },
+      { "instruccion": "Corrige la oración.", "pregunta": "He go to school by bus.", "respuestas": ["He goes to school by bus"] }
+    ],
+    "examen": [
+      { "tipo": "opcion", "pregunta": "She ___ in a hospital.", "opciones": ["works", "work", "working", "is work"] },
+      { "tipo": "opcion", "pregunta": "My brother ___ TV every night.", "opciones": ["watches", "watchs", "watch", "watching"] },
+      { "tipo": "opcion", "pregunta": "I ___ breakfast at seven.", "opciones": ["have", "has", "haves", "having"] },
+      { "tipo": "opcion", "pregunta": "He ___ English at night.", "opciones": ["studies", "studys", "study", "studyes"] },
+      { "tipo": "opcion", "pregunta": "My parents ___ in Mexico City.", "opciones": ["live", "lives", "living", "is live"] },
+      { "tipo": "opcion", "pregunta": "Ana ___ to bed at ten.", "opciones": ["goes", "go", "gos", "going"] },
+      { "tipo": "listening", "audio": "He gets up at six and takes a shower.", "pregunta": "¿Qué hace después de levantarse?", "opciones": ["Se baña", "Desayuna", "Se viste", "Va al trabajo"] },
+      { "tipo": "listening", "audio": "My mom finishes work at five and cooks dinner.", "pregunta": "¿Qué hace la mamá después del trabajo?", "opciones": ["Prepara la cena", "Va al gimnasio", "Ve la tele", "Lava la ropa"] },
+      { "tipo": "escribir", "pregunta": "Traduce: Él trabaja en una oficina.", "respuestas": ["He works in an office"] },
+      { "tipo": "escribir", "pregunta": "Traduce: Nosotros cenamos a las ocho.", "respuestas": ["We have dinner at eight", "We have dinner at 8", "We have dinner at eight o'clock", "We eat dinner at eight"] }
+    ]
+  },
   { "id": "a1-15", "num": 15, "titulo": "Presente simple: negativo y preguntas", "contexto": "Trabajos y estudios" },
   { "id": "a1-16", "num": 16, "titulo": "Adverbios de frecuencia", "contexto": "Hábitos y tiempo libre" },
   { "id": "a1-17", "num": 17, "titulo": "Preguntas con Wh-", "contexto": "Conocer a alguien" },
