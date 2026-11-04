@@ -4,7 +4,7 @@
 // - Imágenes, audios y videos se guardan la primera vez que se usan y desde ahí salen del celular.
 // - Cada versión nueva borra lo guardado de la anterior; js/app.js recarga la página cuando llega.
 // Cambiar VERSION en cada publicación para renovar lo guardado.
-const VERSION = "20261104-1206-20daf65";
+const VERSION = "20261104-1215-1402214";
 const SHELL_CACHE = `app-${VERSION}`;
 const MEDIA_CACHE = `media-${VERSION}`;
 // En la computadora (versión "dev", sin publicar) no se guarda nada: siempre se ven los archivos del momento.
