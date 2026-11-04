@@ -81,5 +81,9 @@ const PORTADAS_MENU = {
  "a1-13/vocabulario": "images/portadas/a1-13-vocabulario.jpg",
  "a1-13/at": "images/portadas/a1-13-at.jpg",
  "a1-13/on": "images/portadas/a1-13-on.jpg",
- "a1-13/in": "images/portadas/a1-13-in.jpg"
+ "a1-13/in": "images/portadas/a1-13-in.jpg",
+ "a1-14/vocabulario": "images/portadas/a1-14-vocabulario.jpg",
+ "a1-14/manana": "images/portadas/a1-14-manana.jpg",
+ "a1-14/tarde": "images/portadas/a1-14-tarde.jpg",
+ "a1-14/ese": "images/portadas/a1-14-ese.jpg"
 };
