@@ -3278,7 +3278,171 @@ const TEMAS_A1 = [
       { "tipo": "escribir", "pregunta": "Traduce: Mañana es mi cumpleaños.", "respuestas": ["Tomorrow is my birthday", "Tomorrow's my birthday"] }
     ]
   },
-  { "id": "a1-13", "num": 13, "titulo": "Preposiciones de tiempo (in, on, at)", "contexto": "Citas y fechas importantes" },
+  {
+    "id": "a1-13",
+    "num": 13,
+    "titulo": "Preposiciones de tiempo (in, on, at)",
+    "contexto": "Citas y fechas importantes",
+    "explicacion": {
+      "es": [
+        "En español casi siempre decimos «a las», «el» o «en». En inglés hay tres preposiciones de tiempo: **at**, **on** e **in**.",
+        "**AT** va con la **hora exacta** y con algunos momentos: *at seven o'clock, at noon, at night, at Christmas*.",
+        "**ON** va con los **días y las fechas**: *on Monday, on May 5th, on my birthday, on the weekend*.",
+        "**IN** va con periodos más largos: **meses, años, estaciones** y **partes del día**: *in July, in 2027, in summer, in the morning*."
+      ],
+      "tabla": { "columnas": ["Preposición", "Se usa con", "Ejemplos"], "filas": [["at", "la hora y algunos momentos", "at 7:00, at noon, at night, at Christmas"], ["on", "días y fechas", "on Monday, on May 5th, on my birthday"], ["in", "meses, años, estaciones y partes del día", "in July, in 2027, in summer, in the morning"], ["(nada)", "today, tomorrow, this, next, last, every", "See you next Monday. I study every day."]] },
+      "ojo": [
+        "Se dice *in the morning*, *in the afternoon* y *in the evening*, pero ***at** night*.",
+        "Con un día más una parte del día se usa **on**: *on Monday morning, on Friday night*.",
+        "Con *today, tomorrow, yesterday, this, next, last* y *every* no va preposición: *See you next Monday* (no *on next Monday*).",
+        "Con fecha completa va **on**: *on May 5th*; con el mes solo va **in**: *in May*.",
+        "*In five minutes* es «dentro de cinco minutos»: *The bus arrives in five minutes.*"
+      ],
+      "en": [
+        "Use at with clock times: at seven o'clock, at noon, at night.",
+        "Use on with days and dates: on Monday, on May 5th.",
+        "Use in with months, years, seasons and parts of the day: in July, in 2027, in summer, in the morning.",
+        "No preposition with next, last, this, every: See you next week."
+      ]
+    },
+    "vocabulario": [
+      { "en": "an appointment", "es": "una cita", "imagen": "Cita", "ejemplo": ["I have an appointment at four o'clock.", "Tengo una cita a las cuatro."] },
+      { "en": "a doctor's appointment", "es": "una cita con el doctor", "imagen": "Paciente con el doctor", "ejemplo": ["My doctor's appointment is on Tuesday.", "Mi cita con el doctor es el martes."] },
+      { "en": "a dentist appointment", "es": "una cita con el dentista", "imagen": "Paciente con el dentista", "ejemplo": ["My dentist appointment is at 10 a.m.", "Mi cita con el dentista es a las 10 a. m."] },
+      { "en": "a meeting", "es": "una junta, una reunión", "imagen": "Junta", "ejemplo": ["The meeting is on Monday morning.", "La junta es el lunes en la mañana."] },
+      { "en": "a job interview", "es": "una entrevista de trabajo", "imagen": "Persona en una entrevista de trabajo frente a dos entrevistadores", "ejemplo": ["My job interview is at nine.", "Mi entrevista de trabajo es a las nueve."] },
+      { "en": "a class", "es": "una clase", "imagen": "Clases", "ejemplo": ["My English class is in the evening.", "Mi clase de inglés es en la noche."] },
+      { "en": "an exam", "es": "un examen", "imagen": "Examen", "ejemplo": ["The exam is on Friday.", "El examen es el viernes."] },
+      { "en": "a party", "es": "una fiesta", "imagen": "Fiesta", "ejemplo": ["The party is on Saturday night.", "La fiesta es el sábado en la noche."] },
+      { "en": "a concert", "es": "un concierto", "imagen": "Público con las manos arriba en un concierto con luces", "ejemplo": ["The concert is at 8 p.m.", "El concierto es a las 8 p. m."] },
+      { "en": "a flight", "es": "un vuelo", "imagen": "Avión despegando de la pista", "ejemplo": ["Our flight is at 6 a.m.", "Nuestro vuelo es a las 6 a. m."] },
+      { "en": "a reservation", "es": "una reservación", "imagen": "Mesero llevando a una pareja a su mesa reservada en un restaurante", "ejemplo": ["We have a reservation at seven.", "Tenemos una reservación a las siete."] },
+      { "en": "a soccer game", "es": "un partido de fútbol", "imagen": "Niños jugando un partido de fútbol en una cancha", "ejemplo": ["The soccer game is on Sunday.", "El partido de fútbol es el domingo."] },
+      { "en": "a wedding", "es": "una boda", "imagen": "Boda", "ejemplo": ["The wedding is in June.", "La boda es en junio."] },
+      { "en": "a deadline", "es": "una fecha límite", "imagen": "Calendario con un día marcado en rojo y un reloj al lado", "ejemplo": ["The deadline is on Friday at noon.", "La fecha límite es el viernes al mediodía."] },
+      { "en": "a vacation", "es": "unas vacaciones", "imagen": "Familia con maletas llegando a la playa", "ejemplo": ["Our vacation is in August.", "Nuestras vacaciones son en agosto."] },
+      { "en": "a haircut", "es": "un corte de pelo", "imagen": "Corte de pelo", "ejemplo": ["My haircut is at half past three.", "Mi corte de pelo es a las tres y media."] }
+    ],
+    "grupos": [
+      {
+        "id": "at",
+        "titulo": "AT: la hora y momentos",
+        "icono": "⏰",
+        "patron": ["at seven o'clock", "at noon", "at night"],
+        "palabras": [
+          { "en": "at seven o'clock", "es": "a las siete", "imagen": "Reloj a las siete", "ejemplo": ["I get up at seven o'clock.", "Me levanto a las siete."] },
+          { "en": "at half past three", "es": "a las tres y media", "imagen": "Reloj a las tres y media", "ejemplo": ["The class starts at half past three.", "La clase empieza a las tres y media."] },
+          { "en": "at noon", "es": "al mediodía", "imagen": "Mediodía", "ejemplo": ["We have lunch at noon.", "Comemos al mediodía."] },
+          { "en": "at midnight", "es": "a medianoche", "imagen": "Medianoche", "ejemplo": ["The party ends at midnight.", "La fiesta termina a medianoche."] },
+          { "en": "at night", "es": "en la noche", "imagen": "Noche", "ejemplo": ["I read at night.", "Leo en la noche."] },
+          { "en": "at lunchtime", "es": "a la hora de la comida", "imagen": "Compañeros de trabajo comiendo juntos a la hora de la comida", "ejemplo": ["We meet at lunchtime.", "Nos vemos a la hora de la comida."] },
+          { "en": "at the moment", "es": "en este momento", "imagen": "Persona ocupada hablando por teléfono frente a su computadora", "ejemplo": ["I'm busy at the moment.", "Estoy ocupado en este momento."] },
+          { "en": "at sunset", "es": "al atardecer", "imagen": "Pareja mirando el atardecer en la playa", "ejemplo": ["We walk on the beach at sunset.", "Caminamos en la playa al atardecer."] },
+          { "en": "at Christmas", "es": "en Navidad", "imagen": "Navidad", "ejemplo": ["We visit my grandparents at Christmas.", "Visitamos a mis abuelos en Navidad."] }
+        ]
+      },
+      {
+        "id": "on",
+        "titulo": "ON: días y fechas",
+        "icono": "📅",
+        "patron": ["on Monday", "on May 5th", "on my birthday"],
+        "palabras": [
+          { "en": "on Monday", "es": "el lunes", "imagen": "Lunes", "ejemplo": ["I have English on Monday.", "Tengo inglés el lunes."] },
+          { "en": "on Friday night", "es": "el viernes en la noche", "imagen": "Viernes", "ejemplo": ["We go out on Friday night.", "Salimos el viernes en la noche."] },
+          { "en": "on Sunday morning", "es": "el domingo en la mañana", "imagen": "Domingo", "ejemplo": ["We have breakfast together on Sunday morning.", "Desayunamos juntos el domingo en la mañana."] },
+          { "en": "on the weekend", "es": "el fin de semana", "imagen": "Fin de semana", "ejemplo": ["I see my friends on the weekend.", "Veo a mis amigos el fin de semana."] },
+          { "en": "on weekdays", "es": "entre semana", "imagen": "Gente caminando al trabajo un lunes en la mañana", "ejemplo": ["I work on weekdays.", "Trabajo entre semana."] },
+          { "en": "on May 5th", "es": "el 5 de mayo", "imagen": "Fecha", "ejemplo": ["My appointment is on May 5th.", "Mi cita es el 5 de mayo."] },
+          { "en": "on my birthday", "es": "en mi cumpleaños", "imagen": "Cumpleaños", "ejemplo": ["I eat cake on my birthday.", "Como pastel en mi cumpleaños."] },
+          { "en": "on Valentine's Day", "es": "el Día de San Valentín", "imagen": "San Valentín", "ejemplo": ["He gives her flowers on Valentine's Day.", "Él le da flores el Día de San Valentín."] },
+          { "en": "on New Year's Day", "es": "el día de Año Nuevo", "imagen": "Año Nuevo", "ejemplo": ["The stores are closed on New Year's Day.", "Las tiendas están cerradas el día de Año Nuevo."] }
+        ]
+      },
+      {
+        "id": "in",
+        "titulo": "IN: meses, años y estaciones",
+        "icono": "🗓️",
+        "patron": ["in July", "in summer", "in 2026"],
+        "palabras": [
+          { "en": "in July", "es": "en julio", "imagen": "Julio", "ejemplo": ["My vacation is in July.", "Mis vacaciones son en julio."] },
+          { "en": "in December", "es": "en diciembre", "imagen": "Diciembre", "ejemplo": ["It's cold in December.", "Hace frío en diciembre."] },
+          { "en": "in summer", "es": "en verano", "imagen": "Verano", "ejemplo": ["We go to the beach in summer.", "Vamos a la playa en verano."] },
+          { "en": "in winter", "es": "en invierno", "imagen": "Invierno", "ejemplo": ["It snows in winter.", "Nieva en invierno."] },
+          { "en": "in 2027", "es": "en 2027", "imagen": "Año", "ejemplo": ["My course ends in 2027.", "Mi curso termina en 2027."] },
+          { "en": "in the morning", "es": "en la mañana", "imagen": "Mañana", "ejemplo": ["I drink coffee in the morning.", "Tomo café en la mañana."] },
+          { "en": "in the afternoon", "es": "en la tarde", "imagen": "Tarde", "ejemplo": ["The children play in the afternoon.", "Los niños juegan en la tarde."] },
+          { "en": "in the evening", "es": "en la noche", "imagen": "Noche temprano", "ejemplo": ["We have dinner in the evening.", "Cenamos en la noche."] },
+          { "en": "in the 90s", "es": "en los noventa", "imagen": "Casetes, walkman y ropa de colores de los años noventa", "ejemplo": ["My parents met in the 90s.", "Mis papás se conocieron en los noventa."] },
+          { "en": "in five minutes", "es": "en cinco minutos", "imagen": "Minuto", "ejemplo": ["The bus arrives in five minutes.", "El autobús llega en cinco minutos."] }
+        ]
+      }
+    ],
+    "ejemplos": [
+      { "en": "I have a doctor's appointment at 10 a.m.", "es": "Tengo cita con el doctor a las 10 a. m." },
+      { "en": "The meeting is on Monday.", "es": "La junta es el lunes." },
+      { "en": "My birthday is in March.", "es": "Mi cumpleaños es en marzo." },
+      { "en": "We go to the beach in summer.", "es": "Vamos a la playa en verano." },
+      { "en": "The movie starts at eight o'clock.", "es": "La película empieza a las ocho." },
+      { "en": "I don't work on Sundays.", "es": "No trabajo los domingos." },
+      { "en": "The party is on Saturday night.", "es": "La fiesta es el sábado en la noche." },
+      { "en": "I study in the evening.", "es": "Estudio en la noche." },
+      { "en": "Our flight is at 6 a.m. on Friday.", "es": "Nuestro vuelo es el viernes a las 6 a. m." },
+      { "en": "Christmas is in December.", "es": "La Navidad es en diciembre." }
+    ],
+    "frases": [
+      { "en": "My job interview is on Thursday at half past nine in the morning.", "es": "Mi entrevista de trabajo es el jueves a las nueve y media de la mañana." },
+      { "en": "We always visit my grandparents at Christmas and in summer.", "es": "Siempre visitamos a mis abuelos en Navidad y en verano." },
+      { "en": "The concert is on Saturday, May 20th, at eight p.m.", "es": "El concierto es el sábado 20 de mayo a las ocho p. m." },
+      { "en": "I'm busy at the moment. Can I call you in five minutes?", "es": "Estoy ocupado en este momento. ¿Te llamo en cinco minutos?" },
+      { "en": "The dentist appointment is at four o'clock on Wednesday.", "es": "La cita con el dentista es el miércoles a las cuatro." },
+      { "en": "My parents got married in 1995, on a sunny day in June.", "es": "Mis papás se casaron en 1995, un día soleado de junio." },
+      { "en": "We have breakfast together on Sunday mornings.", "es": "Desayunamos juntos los domingos en la mañana." },
+      { "en": "The deadline for the project is on Friday at noon.", "es": "La fecha límite del proyecto es el viernes al mediodía." },
+      { "en": "Our vacation is in August, and we fly on the 3rd.", "es": "Nuestras vacaciones son en agosto y volamos el día 3." },
+      { "en": "The bank is closed on holidays and at night.", "es": "El banco está cerrado los días festivos y en la noche." }
+    ],
+    "listening": [
+      { "audio": "My dentist appointment is on Tuesday at three o'clock.", "pregunta": "¿Cuándo es la cita con el dentista?", "opciones": ["El martes a las 3", "El jueves a las 3", "El martes a las 2", "El martes a las 13"] },
+      { "audio": "The concert is in July.", "pregunta": "¿Cuándo es el concierto?", "opciones": ["En julio", "En junio", "El lunes", "A las siete"] },
+      { "audio": "We have a meeting at noon.", "pregunta": "¿A qué hora es la junta?", "opciones": ["Al mediodía", "A medianoche", "En la mañana", "En la noche"] },
+      { "audio": "My birthday is on October 2nd.", "pregunta": "¿Cuándo es su cumpleaños?", "opciones": ["El 2 de octubre", "El 12 de octubre", "El 2 de diciembre", "El 22 de octubre"] },
+      { "audio": "I can't talk now. I'm at work. Call me in the evening.", "pregunta": "¿Cuándo quiere que le llamen?", "opciones": ["En la noche", "Ahora", "En la mañana", "Al mediodía"] }
+    ],
+    "lectura": {
+      "titulo": "My busy week",
+      "texto": "This week is very busy for me. On Monday I have a job interview at nine in the morning. On Tuesday I have English class in the evening. My doctor's appointment is on Wednesday at half past four. On Friday night there's a concert in the park, and I have tickets! On Saturday I have a haircut at eleven. And on Sunday? On Sunday I sleep late. My vacation is in August, and I can't wait!",
+      "preguntas": [
+        { "pregunta": "¿Cuándo es la entrevista de trabajo?", "opciones": ["El lunes a las 9 a. m.", "El martes en la noche", "El miércoles a las 4:30", "El sábado a las 11"] },
+        { "pregunta": "¿Cuándo es la cita con el doctor?", "opciones": ["El miércoles a las 4:30", "El lunes a las 9", "El viernes en la noche", "El domingo"] },
+        { "pregunta": "¿Qué hace el viernes en la noche?", "opciones": ["Va a un concierto", "Tiene clase de inglés", "Se corta el pelo", "Duerme hasta tarde"] },
+        { "pregunta": "¿Cuándo son sus vacaciones?", "opciones": ["En agosto", "En julio", "El domingo", "En diciembre"] }
+      ]
+    },
+    "escritura": [
+      { "instruccion": "Completa con in, on o at.", "pregunta": "The class is ___ seven o'clock.", "respuestas": ["at"] },
+      { "instruccion": "Completa con in, on o at.", "pregunta": "My birthday is ___ June.", "respuestas": ["in"] },
+      { "instruccion": "Completa con in, on o at.", "pregunta": "The meeting is ___ Monday.", "respuestas": ["on"] },
+      { "instruccion": "Completa con in, on o at.", "pregunta": "I drink coffee ___ the morning.", "respuestas": ["in"] },
+      { "instruccion": "Completa con in, on o at.", "pregunta": "I sleep ___ night.", "respuestas": ["at"] },
+      { "instruccion": "Completa con in, on o at.", "pregunta": "The concert is ___ May 20th.", "respuestas": ["on"] },
+      { "instruccion": "Completa con in, on o at.", "pregunta": "It snows ___ winter.", "respuestas": ["in"] },
+      { "instruccion": "Traduce al inglés.", "pregunta": "Mi cita es el viernes.", "respuestas": ["My appointment is on Friday"] },
+      { "instruccion": "Traduce al inglés.", "pregunta": "La fiesta es a las nueve.", "respuestas": ["The party is at nine", "The party is at nine o'clock", "The party is at 9"] },
+      { "instruccion": "Corrige la oración.", "pregunta": "See you on next Monday.", "respuestas": ["See you next Monday"] }
+    ],
+    "examen": [
+      { "tipo": "opcion", "pregunta": "The movie starts ___ eight o'clock.", "opciones": ["at", "on", "in", "to"] },
+      { "tipo": "opcion", "pregunta": "My birthday is ___ April.", "opciones": ["in", "on", "at", "to"] },
+      { "tipo": "opcion", "pregunta": "We don't work ___ Sundays.", "opciones": ["on", "in", "at", "for"] },
+      { "tipo": "opcion", "pregunta": "I study ___ night.", "opciones": ["at", "in", "on", "the"] },
+      { "tipo": "opcion", "pregunta": "The wedding is ___ June 12th.", "opciones": ["on", "in", "at", "of"] },
+      { "tipo": "opcion", "pregunta": "See you ___ week.", "opciones": ["next", "on next", "in next", "at next"] },
+      { "tipo": "listening", "audio": "Our flight is on Friday at six in the morning.", "pregunta": "¿Cuándo es el vuelo?", "opciones": ["El viernes a las 6 a. m.", "El viernes a las 6 p. m.", "El sábado a las 6 a. m.", "El lunes a las 6 a. m."] },
+      { "tipo": "listening", "audio": "The store is closed on New Year's Day.", "pregunta": "¿Cuándo está cerrada la tienda?", "opciones": ["El día de Año Nuevo", "En Navidad", "Los domingos", "En la noche"] },
+      { "tipo": "escribir", "pregunta": "Traduce: Tengo una cita a las cuatro.", "respuestas": ["I have an appointment at four", "I have an appointment at four o'clock", "I have an appointment at 4"] },
+      { "tipo": "escribir", "pregunta": "Traduce: Vamos a la playa en verano.", "respuestas": ["We go to the beach in summer", "We go to the beach in the summer"] }
+    ]
+  },
   { "id": "a1-14", "num": 14, "titulo": "Presente simple: afirmativo", "contexto": "La rutina diaria" },
   { "id": "a1-15", "num": 15, "titulo": "Presente simple: negativo y preguntas", "contexto": "Trabajos y estudios" },
   { "id": "a1-16", "num": 16, "titulo": "Adverbios de frecuencia", "contexto": "Hábitos y tiempo libre" },
