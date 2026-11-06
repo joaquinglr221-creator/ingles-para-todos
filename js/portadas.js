@@ -85,5 +85,9 @@ const PORTADAS_MENU = {
  "a1-14/vocabulario": "images/portadas/a1-14-vocabulario.jpg",
  "a1-14/manana": "images/portadas/a1-14-manana.jpg",
  "a1-14/tarde": "images/portadas/a1-14-tarde.jpg",
- "a1-14/ese": "images/portadas/a1-14-ese.jpg"
+ "a1-14/ese": "images/portadas/a1-14-ese.jpg",
+ "a1-15/vocabulario": "images/portadas/a1-15-vocabulario.jpg",
+ "a1-15/lugares": "images/portadas/a1-15-lugares.jpg",
+ "a1-15/negativo": "images/portadas/a1-15-negativo.jpg",
+ "a1-15/preguntas": "images/portadas/a1-15-preguntas.jpg"
 };
