@@ -3781,7 +3781,177 @@ const TEMAS_A1 = [
       { "tipo": "escribir", "pregunta": "Traduce: ¿Trabajas o estudias?", "respuestas": ["Do you work or study", "Do you work or do you study"] }
     ]
   },
-  { "id": "a1-16", "num": 16, "titulo": "Adverbios de frecuencia", "contexto": "Hábitos y tiempo libre" },
+  {
+    "id": "a1-16",
+    "num": 16,
+    "titulo": "Adverbios de frecuencia",
+    "contexto": "Hábitos y tiempo libre",
+    "explicacion": {
+      "es": [
+        "Los **adverbios de frecuencia** dicen **qué tan seguido** hacemos algo: *always* (siempre), *usually* (normalmente), *often* (seguido), *sometimes* (a veces), *rarely* / *hardly ever* (rara vez, casi nunca) y *never* (nunca).",
+        "Van **antes del verbo**: *I **always** get up early. She **never** eats meat.* El verbo sigue con sus reglas: *She usually **takes** the bus.*",
+        "Con el verbo **to be** (*am, is, are*) van **después**: *I'm **always** tired. She's **never** late.*",
+        "Las expresiones como *every day, once a week, twice a week, on weekends* van normalmente **al final**: *I go to the gym twice a week.* Para preguntar: ***How often** do you…?*"
+      ],
+      "tabla": { "columnas": ["Adverbio", "Qué tanto", "Ejemplo"], "filas": [["always", "100 %", "I always drink coffee."], ["usually", "90 %", "I usually walk to work."], ["often", "70 %", "We often go to the movies."], ["sometimes", "50 %", "She sometimes plays tennis."], ["rarely / hardly ever", "10 % / 5 %", "He hardly ever cooks."], ["never", "0 %", "I never eat meat."]] },
+      "ojo": [
+        "Con *to be* el adverbio va después: *She is always happy* ✅, *She always is happy* ❌.",
+        "*Never* ya es negativo: *I never eat meat* ✅, *I don't never eat meat* ❌.",
+        "*Sometimes* también puede ir al principio: *Sometimes I walk to work.*",
+        "*Usually* se traduce mejor como «normalmente» o «por lo general».",
+        "*Once* = una vez, *twice* = dos veces; desde tres se dice *three times, four times*…",
+        "En preguntas el adverbio va después del sujeto: *Do you often eat out?*"
+      ],
+      "en": [
+        "Frequency adverbs say how often: always, usually, often, sometimes, rarely, never.",
+        "Put them before the main verb: I always get up early.",
+        "Put them after the verb to be: She is never late.",
+        "Expressions like once a week go at the end. Ask with How often: How often do you exercise?"
+      ]
+    },
+    "vocabulario": [
+      { "en": "always", "es": "siempre", "imagen": "Calendario con todos los días marcados con una palomita verde y un letrero 100 %", "ejemplo": ["I always drink coffee in the morning.", "Siempre tomo café en la mañana."] },
+      { "en": "usually", "es": "normalmente, por lo general", "imagen": "Calendario con casi todos los días marcados con palomita y un letrero 90 %", "ejemplo": ["I usually walk to work.", "Normalmente camino al trabajo."] },
+      { "en": "often", "es": "seguido, a menudo", "imagen": "Calendario con muchos días marcados con palomita y un letrero 70 %", "ejemplo": ["We often go to the movies.", "Seguido vamos al cine."] },
+      { "en": "sometimes", "es": "a veces", "imagen": "Calendario con la mitad de los días marcados con palomita y un letrero 50 %", "ejemplo": ["She sometimes plays tennis.", "Ella a veces juega tenis."] },
+      { "en": "rarely", "es": "rara vez", "imagen": "Calendario con solo dos días marcados con palomita y un letrero 10 %", "ejemplo": ["He rarely eats fast food.", "Él rara vez come comida rápida."] },
+      { "en": "hardly ever", "es": "casi nunca", "imagen": "Calendario con un solo día marcado con palomita y un letrero 5 %", "ejemplo": ["My dad hardly ever cooks.", "Mi papá casi nunca cocina."] },
+      { "en": "never", "es": "nunca", "imagen": "Calendario sin ningún día marcado, con una X roja grande y un letrero 0 %", "ejemplo": ["I never eat meat.", "Nunca como carne."] },
+      { "en": "every day", "es": "todos los días", "imagen": "Persona tachando cada día del calendario mientras toma su café", "ejemplo": ["I study English every day.", "Estudio inglés todos los días."] },
+      { "en": "every weekend", "es": "todos los fines de semana", "imagen": "Familia saliendo de paseo en coche un sábado en la mañana", "ejemplo": ["We visit my grandma every weekend.", "Visitamos a mi abuela todos los fines de semana."] },
+      { "en": "once a week", "es": "una vez a la semana", "imagen": "Calendario semanal con un solo día marcado con un círculo", "ejemplo": ["I go to the gym once a week.", "Voy al gimnasio una vez a la semana."] },
+      { "en": "twice a week", "es": "dos veces a la semana", "imagen": "Calendario semanal con dos días marcados con un círculo", "ejemplo": ["She takes yoga classes twice a week.", "Ella toma clases de yoga dos veces a la semana."] },
+      { "en": "three times a week", "es": "tres veces a la semana", "imagen": "Calendario semanal con tres días marcados y unos tenis para correr", "ejemplo": ["He runs three times a week.", "Él corre tres veces a la semana."] },
+      { "en": "once a month", "es": "una vez al mes", "imagen": "Calendario mensual con un solo día marcado con una estrella", "ejemplo": ["We eat out once a month.", "Comemos fuera una vez al mes."] },
+      { "en": "on weekends", "es": "los fines de semana", "imagen": "Amigos haciendo un picnic en el parque un fin de semana", "ejemplo": ["I sleep late on weekends.", "Los fines de semana duermo hasta tarde."] },
+      { "en": "How often?", "es": "¿Qué tan seguido?", "imagen": "Persona preguntándole a su amiga mientras sostiene un calendario", "ejemplo": ["How often do you exercise?", "¿Qué tan seguido haces ejercicio?"] },
+      { "en": "free time", "es": "tiempo libre", "imagen": "Persona descansando en una hamaca en el jardín con un libro", "ejemplo": ["What do you do in your free time?", "¿Qué haces en tu tiempo libre?"] }
+    ],
+    "grupos": [
+      {
+        "id": "pasatiempos",
+        "titulo": "Pasatiempos",
+        "icono": "🎸",
+        "patron": ["I play the guitar", "She goes swimming", "We watch movies"],
+        "palabras": [
+          { "en": "play the guitar", "es": "tocar la guitarra", "imagen": "Joven tocando la guitarra sentado en su cama", "ejemplo": ["I play the guitar every evening.", "Toco la guitarra todas las noches."] },
+          { "en": "play video games", "es": "jugar videojuegos", "imagen": "Hermanos jugando videojuegos con controles frente a la tele", "ejemplo": ["My son plays video games on weekends.", "Mi hijo juega videojuegos los fines de semana."] },
+          { "en": "play tennis", "es": "jugar tenis", "imagen": "Dos amigas jugando tenis en una cancha", "ejemplo": ["We play tennis twice a week.", "Jugamos tenis dos veces a la semana."] },
+          { "en": "go swimming", "es": "ir a nadar", "imagen": "Persona nadando en una alberca", "ejemplo": ["She goes swimming on Saturdays.", "Ella va a nadar los sábados."] },
+          { "en": "go running", "es": "salir a correr", "imagen": "Persona corriendo en el parque temprano en la mañana", "ejemplo": ["He goes running every morning.", "Él sale a correr todas las mañanas."] },
+          { "en": "go camping", "es": "ir de campamento", "imagen": "Familia junto a una tienda de campaña y una fogata en el bosque", "ejemplo": ["We go camping once a year.", "Vamos de campamento una vez al año."] },
+          { "en": "go dancing", "es": "ir a bailar", "imagen": "Parejas bailando salsa en una pista de baile", "ejemplo": ["They often go dancing on Friday night.", "Seguido van a bailar el viernes en la noche."] },
+          { "en": "ride a bike", "es": "andar en bici", "imagen": "Persona andando en bicicleta por una ciclovía", "ejemplo": ["I ride my bike to school.", "Voy a la escuela en bici."] },
+          { "en": "take photos", "es": "tomar fotos", "imagen": "Persona tomando fotos de un paisaje con su cámara", "ejemplo": ["My sister always takes photos on vacation.", "Mi hermana siempre toma fotos en vacaciones."] },
+          { "en": "paint", "es": "pintar", "imagen": "Persona pintando un cuadro en un caballete", "ejemplo": ["My grandpa paints in his free time.", "Mi abuelo pinta en su tiempo libre."] },
+          { "en": "listen to music", "es": "escuchar música", "imagen": "Joven escuchando música con audífonos y los ojos cerrados", "ejemplo": ["I listen to music on the bus.", "Escucho música en el autobús."] },
+          { "en": "watch movies", "es": "ver películas", "imagen": "Amigos viendo una película en casa con palomitas", "ejemplo": ["We watch movies on Friday night.", "Vemos películas el viernes en la noche."] }
+        ]
+      },
+      {
+        "id": "planes",
+        "titulo": "Planes para el tiempo libre",
+        "icono": "🎡",
+        "patron": ["We go to the park", "I eat out", "She stays home"],
+        "palabras": [
+          { "en": "go to the park", "es": "ir al parque", "imagen": "Familia paseando en un parque con árboles y un lago", "ejemplo": ["We go to the park on Sundays.", "Vamos al parque los domingos."] },
+          { "en": "go to the movies", "es": "ir al cine", "imagen": "Cine", "ejemplo": ["I go to the movies once a month.", "Voy al cine una vez al mes."] },
+          { "en": "go to a museum", "es": "ir a un museo", "imagen": "Personas mirando cuadros en la sala de un museo", "ejemplo": ["They sometimes go to a museum.", "A veces van a un museo."] },
+          { "en": "go to the beach", "es": "ir a la playa", "imagen": "Playa", "ejemplo": ["We go to the beach every summer.", "Vamos a la playa cada verano."] },
+          { "en": "go to a concert", "es": "ir a un concierto", "imagen": "Concierto", "ejemplo": ["She rarely goes to concerts.", "Ella rara vez va a conciertos."] },
+          { "en": "go to the zoo", "es": "ir al zoológico", "imagen": "Niños mirando a una jirafa en el zoológico", "ejemplo": ["The kids love to go to the zoo.", "A los niños les encanta ir al zoológico."] },
+          { "en": "go to an amusement park", "es": "ir a un parque de diversiones", "imagen": "Amigos gritando felices en una montaña rusa", "ejemplo": ["We go to an amusement park once a year.", "Vamos a un parque de diversiones una vez al año."] },
+          { "en": "eat out", "es": "comer fuera", "imagen": "Restaurante", "ejemplo": ["We usually eat out on Saturdays.", "Normalmente comemos fuera los sábados."] },
+          { "en": "visit friends", "es": "visitar a los amigos", "imagen": "Amigos recibiendo a otros en la puerta de su casa con abrazos", "ejemplo": ["I often visit friends on weekends.", "Seguido visito a mis amigos los fines de semana."] },
+          { "en": "stay home", "es": "quedarse en casa", "imagen": "Persona en piyama en el sofá con una cobija y una taza de chocolate", "ejemplo": ["I usually stay home on Sunday.", "Normalmente me quedo en casa el domingo."] },
+          { "en": "go for a walk", "es": "salir a caminar", "imagen": "Pareja mayor caminando de la mano por un sendero", "ejemplo": ["My parents go for a walk after dinner.", "Mis papás salen a caminar después de cenar."] }
+        ]
+      },
+      {
+        "id": "posicion",
+        "titulo": "¿Dónde va el adverbio?",
+        "icono": "📍",
+        "patron": ["I always get up early", "She is never late", "We often eat out"],
+        "palabras": [
+          { "en": "I always get up early", "es": "siempre me levanto temprano", "imagen": "Persona levantándose de la cama al amanecer con el despertador a las 6", "ejemplo": ["I always get up early on weekdays.", "Entre semana siempre me levanto temprano."] },
+          { "en": "she usually takes the bus", "es": "ella normalmente toma el autobús", "imagen": "Mujer esperando el autobús en la parada con su bolsa", "ejemplo": ["She usually takes the bus to work.", "Normalmente ella toma el autobús al trabajo."] },
+          { "en": "we often eat out", "es": "seguido comemos fuera", "imagen": "Familia comiendo en una mesa de restaurante", "ejemplo": ["We often eat out on Fridays.", "Seguido comemos fuera los viernes."] },
+          { "en": "he sometimes works late", "es": "a veces trabaja hasta tarde", "imagen": "Hombre trabajando solo en la oficina de noche", "ejemplo": ["He sometimes works late on Thursdays.", "A veces trabaja hasta tarde los jueves."] },
+          { "en": "they never watch TV", "es": "ellos nunca ven la tele", "imagen": "Familia jugando un juego de mesa junto a una tele apagada", "ejemplo": ["They never watch TV at dinner.", "Nunca ven la tele en la cena."] },
+          { "en": "I'm always tired on Mondays", "es": "siempre estoy cansado los lunes", "imagen": "Persona bostezando frente a su computadora con un calendario que dice Monday", "ejemplo": ["I'm always tired on Mondays.", "Siempre estoy cansado los lunes."] },
+          { "en": "she's never late", "es": "ella nunca llega tarde", "imagen": "Mujer llegando puntual a una junta mientras señala su reloj", "ejemplo": ["She's never late for class.", "Ella nunca llega tarde a clase."] },
+          { "en": "he's usually happy", "es": "normalmente está contento", "imagen": "Hombre sonriente saludando a sus vecinos en la mañana", "ejemplo": ["My grandpa is usually happy.", "Mi abuelo normalmente está contento."] },
+          { "en": "we're often busy", "es": "seguido estamos ocupados", "imagen": "Compañeros de trabajo apurados con papeles y teléfonos en la oficina", "ejemplo": ["We're often busy on Mondays.", "Seguido estamos ocupados los lunes."] },
+          { "en": "it's sometimes cold here", "es": "a veces hace frío aquí", "imagen": "Persona con suéter y bufanda frotándose las manos en una calle", "ejemplo": ["It's sometimes cold here in the morning.", "Aquí a veces hace frío en la mañana."] }
+        ]
+      }
+    ],
+    "ejemplos": [
+      { "en": "I always have breakfast at home.", "es": "Siempre desayuno en casa." },
+      { "en": "She usually goes to bed at ten.", "es": "Ella normalmente se duerme a las diez." },
+      { "en": "We often play video games.", "es": "Seguido jugamos videojuegos." },
+      { "en": "He sometimes goes running in the park.", "es": "A veces él sale a correr en el parque." },
+      { "en": "My mom never drinks coffee.", "es": "Mi mamá nunca toma café.", "imagen": "Mamá tomando una taza de té y diciendo que no a una taza de café" },
+      { "en": "I'm always happy on Fridays.", "es": "Siempre estoy contento los viernes.", "imagen": "Persona feliz saliendo del trabajo un viernes con un letrero «Friday»" },
+      { "en": "How often do you go to the gym?", "es": "¿Qué tan seguido vas al gimnasio?" },
+      { "en": "I go swimming twice a week.", "es": "Voy a nadar dos veces a la semana." },
+      { "en": "They hardly ever watch TV.", "es": "Casi nunca ven la tele.", "imagen": "Amigos leyendo y platicando en la sala junto a una tele apagada" },
+      { "en": "We eat out once a month.", "es": "Comemos fuera una vez al mes." }
+    ],
+    "frases": [
+      { "en": "I always get up at six, but on weekends I sleep late.", "es": "Siempre me levanto a las seis, pero los fines de semana duermo hasta tarde." },
+      { "en": "My brother usually plays soccer with his friends on Saturdays.", "es": "Mi hermano normalmente juega fútbol con sus amigos los sábados.", "imagen": "Jóvenes jugando fútbol en una cancha un sábado en la mañana" },
+      { "en": "We often go to the beach in summer, and we sometimes go camping.", "es": "Seguido vamos a la playa en verano y a veces vamos de campamento." },
+      { "en": "She's never late because she always takes the early bus.", "es": "Ella nunca llega tarde porque siempre toma el autobús temprano." },
+      { "en": "How often do you visit your grandparents? Once a month.", "es": "¿Qué tan seguido visitas a tus abuelos? Una vez al mes.", "imagen": "Nietos abrazando a sus abuelos en la puerta de su casa" },
+      { "en": "In my free time I usually read or listen to music.", "es": "En mi tiempo libre normalmente leo o escucho música." },
+      { "en": "My dad hardly ever cooks, but he always does the dishes.", "es": "Mi papá casi nunca cocina, pero siempre lava los trastes." },
+      { "en": "They go dancing every Friday night and they're always tired on Saturday.", "es": "Van a bailar cada viernes en la noche y siempre están cansados el sábado." },
+      { "en": "I rarely watch TV; I prefer to go for a walk in the park.", "es": "Rara vez veo la tele; prefiero salir a caminar al parque." },
+      { "en": "We play tennis twice a week and go to the movies once a month.", "es": "Jugamos tenis dos veces a la semana y vamos al cine una vez al mes." }
+    ],
+    "listening": [
+      { "audio": "I always walk to work.", "pregunta": "¿Qué tan seguido camina al trabajo?", "opciones": ["Siempre", "Nunca", "A veces", "Casi nunca"] },
+      { "audio": "She goes swimming three times a week.", "pregunta": "¿Cuántas veces a la semana va a nadar?", "opciones": ["Tres", "Dos", "Una", "Todos los días"] },
+      { "audio": "We never eat out on Mondays.", "pregunta": "¿Qué nunca hacen los lunes?", "opciones": ["Comer fuera", "Ir al cine", "Trabajar", "Ver la tele"] },
+      { "audio": "How often do you play the guitar? Every evening.", "pregunta": "¿Cuándo toca la guitarra?", "opciones": ["Todas las noches", "Todas las mañanas", "Los fines de semana", "Una vez al mes"] },
+      { "audio": "My dad is usually tired after work.", "pregunta": "¿Cómo está normalmente el papá después del trabajo?", "opciones": ["Cansado", "Contento", "Enojado", "Ocupado"] }
+    ],
+    "lectura": {
+      "titulo": "My free time",
+      "texto": "Hi, I'm Mateo. I work from Monday to Friday, so I don't have a lot of free time. But I always go running before work, three times a week. On weekends I usually play soccer with my friends on Saturday morning. In the afternoon we sometimes go to the movies or eat out. On Sundays I hardly ever go out. I usually stay home, read a book and listen to music. I never play video games. I think they're boring! And you? What do you do in your free time?",
+      "preguntas": [
+        { "pregunta": "¿Qué tan seguido sale a correr Mateo?", "opciones": ["Tres veces a la semana", "Todos los días", "Una vez a la semana", "Nunca"] },
+        { "pregunta": "¿Qué hace normalmente el sábado en la mañana?", "opciones": ["Juega fútbol", "Va al cine", "Lee un libro", "Trabaja"] },
+        { "pregunta": "¿Qué hace los domingos?", "opciones": ["Se queda en casa", "Juega fútbol", "Come fuera", "Sale a correr"] },
+        { "pregunta": "¿Qué nunca hace Mateo?", "opciones": ["Jugar videojuegos", "Escuchar música", "Leer", "Ir al cine"] }
+      ]
+    },
+    "escritura": [
+      { "instruccion": "Ordena la oración.", "pregunta": "always / I / early / get up", "respuestas": ["I always get up early"] },
+      { "instruccion": "Ordena la oración.", "pregunta": "is / she / late / never", "respuestas": ["She is never late", "She's never late"] },
+      { "instruccion": "Ordena la oración.", "pregunta": "usually / we / at home / have lunch", "respuestas": ["We usually have lunch at home"] },
+      { "instruccion": "Ordena la oración.", "pregunta": "often / tired / am / I", "respuestas": ["I am often tired", "I'm often tired"] },
+      { "instruccion": "Completa con la palabra en inglés.", "pregunta": "I go to the gym ___ a week. (dos veces)", "respuestas": ["twice"] },
+      { "instruccion": "Completa con la palabra en inglés.", "pregunta": "How ___ do you play tennis?", "respuestas": ["often"] },
+      { "instruccion": "Completa con la palabra en inglés.", "pregunta": "She ___ eats meat. (nunca)", "respuestas": ["never"] },
+      { "instruccion": "Traduce al inglés.", "pregunta": "A veces voy al cine.", "respuestas": ["I sometimes go to the movies", "Sometimes I go to the movies", "I sometimes go to the cinema", "Sometimes I go to the cinema"] },
+      { "instruccion": "Traduce al inglés.", "pregunta": "Él siempre está contento.", "respuestas": ["He is always happy", "He's always happy"] },
+      { "instruccion": "Corrige la oración.", "pregunta": "I don't never watch TV.", "respuestas": ["I never watch TV", "I don't ever watch TV"] }
+    ],
+    "examen": [
+      { "tipo": "opcion", "pregunta": "She ___ late. (nunca)", "opciones": ["is never", "never is", "never", "is not never"] },
+      { "tipo": "opcion", "pregunta": "I ___ coffee in the morning. (siempre)", "opciones": ["always drink", "drink always", "always drinks", "am always drink"] },
+      { "tipo": "opcion", "pregunta": "How ___ do you go swimming?", "opciones": ["often", "many", "much", "time"] },
+      { "tipo": "opcion", "pregunta": "We play tennis ___ a week. (dos veces)", "opciones": ["twice", "two", "second", "two time"] },
+      { "tipo": "opcion", "pregunta": "¿Cuál significa «casi nunca»?", "opciones": ["hardly ever", "usually", "often", "sometimes"] },
+      { "tipo": "opcion", "pregunta": "My brother ___ plays video games.", "opciones": ["usually", "usual", "use", "usually is"] },
+      { "tipo": "listening", "audio": "I go to the movies once a month.", "pregunta": "¿Qué tan seguido va al cine?", "opciones": ["Una vez al mes", "Una vez a la semana", "Dos veces al mes", "Nunca"] },
+      { "tipo": "listening", "audio": "My sister is never at home on Saturdays. She always goes dancing.", "pregunta": "¿Qué hace la hermana los sábados?", "opciones": ["Va a bailar", "Se queda en casa", "Va a nadar", "Trabaja"] },
+      { "tipo": "escribir", "pregunta": "Traduce: Normalmente me quedo en casa.", "respuestas": ["I usually stay home", "I usually stay at home"] },
+      { "tipo": "escribir", "pregunta": "Traduce: ¿Qué haces en tu tiempo libre?", "respuestas": ["What do you do in your free time"] }
+    ]
+  },
   { "id": "a1-17", "num": 17, "titulo": "Preguntas con Wh-", "contexto": "Conocer a alguien" },
   { "id": "a1-18", "num": 18, "titulo": "Pronombres de objeto (me, him, them…)", "contexto": "Amigos y familia" },
   { "id": "a1-19", "num": 19, "titulo": "Can / can't", "contexto": "Habilidades y deportes" },
