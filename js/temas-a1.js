@@ -3612,7 +3612,175 @@ const TEMAS_A1 = [
       { "tipo": "escribir", "pregunta": "Traduce: Nosotros cenamos a las ocho.", "respuestas": ["We have dinner at eight", "We have dinner at 8", "We have dinner at eight o'clock", "We eat dinner at eight"] }
     ]
   },
-  { "id": "a1-15", "num": 15, "titulo": "Presente simple: negativo y preguntas", "contexto": "Trabajos y estudios" },
+  {
+    "id": "a1-15",
+    "num": 15,
+    "titulo": "Presente simple: negativo y preguntas",
+    "contexto": "Trabajos y estudios",
+    "explicacion": {
+      "es": [
+        "Para decir que **no** en presente simple usamos **don't** (*do not*) o **doesn't** (*does not*) antes del verbo: *I don't work. She doesn't study.*",
+        "**Don't** va con **I, you, we, they**; **doesn't** va con **he, she, it**. Después de *don't* y *doesn't*, el verbo va **sin -s**: *She doesn't work* (no *doesn't works*).",
+        "Para **preguntar** se pone **Do** o **Does** al principio: *Do you work? Does he study?* Otra vez, el verbo va sin -s: *Does she live here?*",
+        "Las respuestas cortas repiten *do* o *does*: *Yes, I do. / No, I don't. Yes, she does. / No, she doesn't.* Y con palabras de pregunta: *What do you do? Where does she work?*"
+      ],
+      "tabla": { "columnas": ["Forma", "I, you, we, they", "he, she, it"], "filas": [["Afirmativo", "I work.", "She works."], ["Negativo", "I don't work.", "She doesn't work."], ["Pregunta", "Do you work?", "Does she work?"], ["Respuesta corta", "Yes, I do. / No, I don't.", "Yes, she does. / No, she doesn't."], ["Con palabra de pregunta", "Where do you work?", "Where does she work?"]] },
+      "ojo": [
+        "Con *doesn't* y *does* el verbo **pierde la -s**: *He doesn't play* ✅, *He doesn't plays* ❌.",
+        "No se dice *She don't work*: con he, she, it siempre es **doesn't**.",
+        "En las preguntas no basta con la entonación: *You work here?* ❌ → ***Do** you work here?* ✅",
+        "*What do you do?* significa «¿A qué te dedicas?»: el primer *do* es de la pregunta y el segundo es el verbo «hacer».",
+        "En la respuesta corta no se repite el verbo: *Do you study? Yes, I do* (no *Yes, I study*).",
+        "Con *have* también: *She doesn't have a job. Do you have class today?*"
+      ],
+      "en": [
+        "Use don't or doesn't before the verb to make a negative: I don't work. She doesn't study.",
+        "Use don't with I, you, we and they, and doesn't with he, she and it.",
+        "Start a question with Do or Does: Do you work? Does she study?",
+        "After don't, doesn't, do and does, the verb has no s: Does he live here? He doesn't live here."
+      ]
+    },
+    "vocabulario": [
+      { "en": "work full-time", "es": "trabajar tiempo completo", "imagen": "Persona trabajando en su escritorio con un reloj que marca de 9 a 6", "ejemplo": ["My sister works full-time.", "Mi hermana trabaja tiempo completo."] },
+      { "en": "work part-time", "es": "trabajar medio tiempo", "imagen": "Estudiante joven atendiendo en la caja de una cafetería", "ejemplo": ["I work part-time in a café.", "Trabajo medio tiempo en una cafetería."] },
+      { "en": "work from home", "es": "trabajar desde casa", "imagen": "Persona trabajando con su laptop en la mesa de su casa con un gato al lado", "ejemplo": ["My mom works from home.", "Mi mamá trabaja desde casa."] },
+      { "en": "work in an office", "es": "trabajar en una oficina", "imagen": "Compañeros trabajando en sus computadoras en una oficina moderna", "ejemplo": ["Do you work in an office?", "¿Trabajas en una oficina?"] },
+      { "en": "work outdoors", "es": "trabajar al aire libre", "imagen": "Jardinero trabajando al aire libre en un parque soleado", "ejemplo": ["He doesn't work in an office. He works outdoors.", "Él no trabaja en una oficina. Trabaja al aire libre."] },
+      { "en": "work with children", "es": "trabajar con niños", "imagen": "Maestra de kínder jugando con niños pequeños", "ejemplo": ["Does she work with children?", "¿Ella trabaja con niños?"] },
+      { "en": "wear a uniform", "es": "usar uniforme", "imagen": "Trabajadora de un supermercado con uniforme y gafete", "ejemplo": ["Do you wear a uniform at work?", "¿Usas uniforme en el trabajo?"] },
+      { "en": "earn money", "es": "ganar dinero", "imagen": "Persona contando billetes de su sueldo", "ejemplo": ["He earns good money.", "Él gana buen dinero."] },
+      { "en": "help customers", "es": "atender a los clientes", "imagen": "Vendedora amable atendiendo a un cliente en una tienda", "ejemplo": ["She helps customers in a store.", "Ella atiende a los clientes en una tienda."] },
+      { "en": "use a computer", "es": "usar una computadora", "imagen": "Persona escribiendo en el teclado de una computadora", "ejemplo": ["I don't use a computer at work.", "No uso computadora en el trabajo."] },
+      { "en": "have a day off", "es": "tener un día libre", "imagen": "Persona descansando en una hamaca con un calendario que dice «Day off»", "ejemplo": ["I have a day off on Wednesday.", "Tengo un día libre el miércoles."] },
+      { "en": "go to college", "es": "ir a la universidad", "imagen": "Jóvenes con mochilas caminando en el campus de una universidad", "ejemplo": ["My brother goes to college.", "Mi hermano va a la universidad."] },
+      { "en": "study medicine", "es": "estudiar medicina", "imagen": "Estudiantes de medicina con bata blanca revisando un esqueleto", "ejemplo": ["Does she study medicine?", "¿Ella estudia medicina?"] },
+      { "en": "take classes", "es": "tomar clases", "imagen": "Adultos tomando una clase en un salón con su maestra", "ejemplo": ["I take classes on Saturdays.", "Tomo clases los sábados."] },
+      { "en": "take notes", "es": "tomar apuntes", "imagen": "Estudiante tomando apuntes en su cuaderno durante la clase", "ejemplo": ["Do you take notes in class?", "¿Tomas apuntes en clase?"] },
+      { "en": "pass an exam", "es": "aprobar un examen", "imagen": "Estudiante feliz mostrando su examen con una A en rojo", "ejemplo": ["I don't always pass my exams.", "No siempre apruebo mis exámenes."] }
+    ],
+    "grupos": [
+      {
+        "id": "lugares",
+        "titulo": "Lugares de trabajo y estudio",
+        "icono": "🏢",
+        "patron": ["I work in an office", "She works at a factory", "He studies at a university"],
+        "palabras": [
+          { "en": "an office", "es": "una oficina", "imagen": "Oficina con escritorios, computadoras y plantas", "ejemplo": ["She works in an office downtown.", "Ella trabaja en una oficina en el centro."] },
+          { "en": "a factory", "es": "una fábrica", "imagen": "Trabajadores con casco en la línea de producción de una fábrica", "ejemplo": ["My uncle works at a factory.", "Mi tío trabaja en una fábrica."] },
+          { "en": "a university", "es": "una universidad", "imagen": "Edificio principal de una universidad con estudiantes en la entrada", "ejemplo": ["Does your daughter study at a university?", "¿Tu hija estudia en una universidad?"] },
+          { "en": "a high school", "es": "una preparatoria", "imagen": "Adolescentes con mochilas frente a una preparatoria", "ejemplo": ["They go to high school near here.", "Ellos van a la prepa cerca de aquí."] },
+          { "en": "a lab", "es": "un laboratorio", "imagen": "Científica mirando por un microscopio en un laboratorio", "ejemplo": ["He works in a lab.", "Él trabaja en un laboratorio."] },
+          { "en": "a warehouse", "es": "un almacén, una bodega", "imagen": "Almacén con estantes altos llenos de cajas y un montacargas", "ejemplo": ["They work in a warehouse at night.", "Ellos trabajan en un almacén en la noche."] },
+          { "en": "a call center", "es": "un centro de llamadas", "imagen": "Personas con diadema hablando por teléfono frente a computadoras", "ejemplo": ["I don't work at a call center.", "No trabajo en un centro de llamadas."] },
+          { "en": "a construction site", "es": "una obra", "imagen": "Trabajadores con casco y chaleco en una obra en construcción", "ejemplo": ["He works at a construction site.", "Él trabaja en una obra."] },
+          { "en": "a workshop", "es": "un taller", "imagen": "Taller de carpintería con herramientas en la pared", "ejemplo": ["My dad has a workshop at home.", "Mi papá tiene un taller en casa."] },
+          { "en": "a beauty salon", "es": "una estética", "imagen": "Estilista cortando el pelo a una clienta en una estética", "ejemplo": ["She works at a beauty salon.", "Ella trabaja en una estética."] }
+        ]
+      },
+      {
+        "id": "negativo",
+        "titulo": "Negativo: don't / doesn't",
+        "icono": "❌",
+        "patron": ["I don't work", "She doesn't study", "They don't wear a uniform"],
+        "palabras": [
+          { "en": "I don't work on weekends", "es": "no trabajo los fines de semana", "imagen": "Calendario con el sábado y el domingo tachados y una persona descansando", "ejemplo": ["I don't work on weekends. I rest.", "No trabajo los fines de semana. Descanso."] },
+          { "en": "she doesn't work here", "es": "ella no trabaja aquí", "imagen": "Mujer en una tienda negando con la cabeza ante un cliente que le pregunta", "ejemplo": ["Sorry, she doesn't work here.", "Perdón, ella no trabaja aquí."] },
+          { "en": "he doesn't wear a tie", "es": "él no usa corbata", "imagen": "Hombre en la oficina con camisa casual y sin corbata", "ejemplo": ["My boss doesn't wear a tie.", "Mi jefe no usa corbata."] },
+          { "en": "we don't have class today", "es": "no tenemos clase hoy", "imagen": "Salón de clases vacío con un letrero «No class today» en el pizarrón", "ejemplo": ["We don't have class today. It's a holiday.", "Hoy no tenemos clase. Es día festivo."] },
+          { "en": "they don't work from home", "es": "ellos no trabajan desde casa", "imagen": "Compañeros llegando juntos a la oficina en la mañana", "ejemplo": ["They don't work from home. They go to the office.", "Ellos no trabajan desde casa. Van a la oficina."] },
+          { "en": "I don't understand", "es": "no entiendo", "imagen": "Estudiante confundido rascándose la cabeza frente a su libro", "ejemplo": ["I don't understand this word.", "No entiendo esta palabra."] },
+          { "en": "he doesn't like his job", "es": "no le gusta su trabajo", "imagen": "Hombre aburrido y cansado frente a una pila de papeles en su escritorio", "ejemplo": ["He doesn't like his job. It's boring.", "No le gusta su trabajo. Es aburrido."] },
+          { "en": "she doesn't drive to work", "es": "ella no maneja al trabajo", "imagen": "Mujer yendo en bicicleta al trabajo con su casco", "ejemplo": ["She doesn't drive to work. She rides her bike.", "Ella no maneja al trabajo. Va en bicicleta."] },
+          { "en": "the store doesn't open on Sundays", "es": "la tienda no abre los domingos", "imagen": "Tienda con la cortina cerrada y un letrero «Closed on Sundays»", "ejemplo": ["The store doesn't open on Sundays.", "La tienda no abre los domingos."] },
+          { "en": "I don't know", "es": "no sé", "imagen": "Persona encogiendo los hombros con las palmas hacia arriba", "ejemplo": ["I don't know his name.", "No sé su nombre."] }
+        ]
+      },
+      {
+        "id": "preguntas",
+        "titulo": "Preguntas: do / does",
+        "icono": "❓",
+        "patron": ["Do you work?", "Does she study?", "What do you do?"],
+        "palabras": [
+          { "en": "What do you do?", "es": "¿A qué te dedicas?", "imagen": "Dos personas conociéndose y dándose la mano en una reunión", "ejemplo": ["What do you do? I'm a teacher.", "¿A qué te dedicas? Soy maestro."] },
+          { "en": "Where do you work?", "es": "¿Dónde trabajas?", "imagen": "Persona preguntando a otra mientras señala un edificio de oficinas", "ejemplo": ["Where do you work? I work in a hospital.", "¿Dónde trabajas? Trabajo en un hospital."] },
+          { "en": "Do you work or study?", "es": "¿Trabajas o estudias?", "imagen": "Joven pensando entre un portafolio y una mochila con libros", "ejemplo": ["Do you work or study? I study.", "¿Trabajas o estudias? Estudio."] },
+          { "en": "What does she do?", "es": "¿A qué se dedica ella?", "imagen": "Dos amigos hablando mientras miran a una mujer piloto", "ejemplo": ["What does she do? She's a pilot.", "¿A qué se dedica ella? Es piloto."] },
+          { "en": "Does he work here?", "es": "¿Él trabaja aquí?", "imagen": "Cliente preguntando por un empleado en el mostrador de una tienda", "ejemplo": ["Does he work here? Yes, he does.", "¿Él trabaja aquí? Sí."] },
+          { "en": "Do you like your job?", "es": "¿Te gusta tu trabajo?", "imagen": "Chef sonriendo con los brazos cruzados en su cocina", "ejemplo": ["Do you like your job? Yes, I love it!", "¿Te gusta tu trabajo? ¡Sí, me encanta!"] },
+          { "en": "What do you study?", "es": "¿Qué estudias?", "imagen": "Estudiante universitaria con libros de arquitectura y una maqueta", "ejemplo": ["What do you study? I study architecture.", "¿Qué estudias? Estudio arquitectura."] },
+          { "en": "Where does she study?", "es": "¿Dónde estudia ella?", "imagen": "Estudiante saliendo de la biblioteca de su universidad", "ejemplo": ["Where does she study? At the university.", "¿Dónde estudia ella? En la universidad."] },
+          { "en": "What time do you start work?", "es": "¿A qué hora entras a trabajar?", "imagen": "Persona llegando a la oficina y mirando su reloj de pulsera", "ejemplo": ["What time do you start work? At nine.", "¿A qué hora entras a trabajar? A las nueve."] },
+          { "en": "Yes, I do.", "es": "Sí (yo sí).", "imagen": "Persona sonriendo y asintiendo con el pulgar arriba", "ejemplo": ["Do you speak English? Yes, I do.", "¿Hablas inglés? Sí."] },
+          { "en": "No, she doesn't.", "es": "No (ella no).", "imagen": "Mujer negando amablemente con la cabeza y la mano", "ejemplo": ["Does she have a car? No, she doesn't.", "¿Ella tiene coche? No."] }
+        ]
+      }
+    ],
+    "ejemplos": [
+      { "en": "I don't work on Saturdays.", "es": "No trabajo los sábados." },
+      { "en": "She doesn't study at night.", "es": "Ella no estudia en la noche.", "imagen": "Estudiante cerrando sus libros y apagando la lámpara en la noche" },
+      { "en": "Do you work in an office?", "es": "¿Trabajas en una oficina?" },
+      { "en": "Does he wear a uniform?", "es": "¿Él usa uniforme?", "imagen": "Guardia de seguridad con su uniforme en la entrada de un edificio" },
+      { "en": "What do you do? I'm a nurse.", "es": "¿A qué te dedicas? Soy enfermera." },
+      { "en": "Where does your sister work? She works in a bank.", "es": "¿Dónde trabaja tu hermana? Trabaja en un banco." },
+      { "en": "My brother doesn't have a job.", "es": "Mi hermano no tiene trabajo." },
+      { "en": "Do they study English? Yes, they do.", "es": "¿Ellos estudian inglés? Sí.", "imagen": "Grupo de estudiantes adultos en clase de inglés levantando la mano" },
+      { "en": "The doctor doesn't work on Sundays.", "es": "El doctor no trabaja los domingos." },
+      { "en": "What time does the class start?", "es": "¿A qué hora empieza la clase?", "imagen": "Estudiantes en su salón mirando el reloj de la pared antes de la clase" }
+    ],
+    "frases": [
+      { "en": "I don't work full-time; I work part-time in a café.", "es": "No trabajo tiempo completo; trabajo medio tiempo en una cafetería." },
+      { "en": "My mom doesn't work in an office; she works from home.", "es": "Mi mamá no trabaja en una oficina; trabaja desde casa." },
+      { "en": "Do you study at the university, or do you work?", "es": "¿Estudias en la universidad o trabajas?" },
+      { "en": "What does your father do? He's an engineer.", "es": "¿A qué se dedica tu papá? Es ingeniero." },
+      { "en": "She doesn't wear a uniform at work, but her husband does.", "es": "Ella no usa uniforme en el trabajo, pero su esposo sí.", "imagen": "Mujer con ropa casual de oficina junto a su esposo vestido de policía" },
+      { "en": "Does your boss speak English? Yes, he does.", "es": "¿Tu jefe habla inglés? Sí.", "imagen": "Jefe hablando en inglés frente a su equipo en una junta" },
+      { "en": "We don't have class on Fridays, so we study at home.", "es": "No tenemos clase los viernes, así que estudiamos en casa.", "imagen": "Amigos estudiando juntos en la sala de una casa con libros" },
+      { "en": "Where do you work? I work at a factory near my house.", "es": "¿Dónde trabajas? Trabajo en una fábrica cerca de mi casa." },
+      { "en": "My brother doesn't like his job because he works at night.", "es": "A mi hermano no le gusta su trabajo porque trabaja de noche." },
+      { "en": "They don't take notes in class; they use their laptops.", "es": "No toman apuntes en clase; usan sus laptops.", "imagen": "Estudiantes en clase escribiendo en sus laptops" }
+    ],
+    "listening": [
+      { "audio": "I don't work on Mondays.", "pregunta": "¿Qué día no trabaja?", "opciones": ["El lunes", "El domingo", "El martes", "El viernes"] },
+      { "audio": "Does your sister work in a hospital? No, she doesn't. She works in a school.", "pregunta": "¿Dónde trabaja la hermana?", "opciones": ["En una escuela", "En un hospital", "En una fábrica", "En una oficina"] },
+      { "audio": "What do you do? I'm a student. I study engineering.", "pregunta": "¿Qué estudia?", "opciones": ["Ingeniería", "Medicina", "Inglés", "Arquitectura"] },
+      { "audio": "He doesn't drive to work. He takes the bus.", "pregunta": "¿Cómo va al trabajo?", "opciones": ["En autobús", "En coche", "En bicicleta", "Caminando"] },
+      { "audio": "Do you work from home? Yes, I do.", "pregunta": "¿Dónde trabaja?", "opciones": ["En su casa", "En una oficina", "En una tienda", "No trabaja"] }
+    ],
+    "lectura": {
+      "titulo": "Work and study",
+      "texto": "Hi! I'm Diego. I'm 22 and I'm a student. I study architecture at the university. I don't have classes on Fridays, so I work part-time in a coffee shop. I don't earn a lot of money, but I like my job. My girlfriend, Sofía, doesn't study. She works full-time in a bank. She doesn't wear a uniform, but she wears a suit every day. Does she like her job? Yes, she does! She loves numbers. On Sundays we don't work and we don't study. We relax!",
+      "preguntas": [
+        { "pregunta": "¿Qué estudia Diego?", "opciones": ["Arquitectura", "Medicina", "Ingeniería", "Contabilidad"] },
+        { "pregunta": "¿Qué hace Diego los viernes?", "opciones": ["Trabaja en una cafetería", "Va a clases", "Trabaja en un banco", "Descansa"] },
+        { "pregunta": "¿Dónde trabaja Sofía?", "opciones": ["En un banco", "En una cafetería", "En la universidad", "En una tienda"] },
+        { "pregunta": "¿Qué hacen los domingos?", "opciones": ["Descansan", "Trabajan", "Estudian", "Van a la universidad"] }
+      ]
+    },
+    "escritura": [
+      { "instruccion": "Completa con don't o doesn't.", "pregunta": "I ___ work on Sundays.", "respuestas": ["don't"] },
+      { "instruccion": "Completa con don't o doesn't.", "pregunta": "She ___ wear a uniform.", "respuestas": ["doesn't"] },
+      { "instruccion": "Completa con don't o doesn't.", "pregunta": "They ___ study at night.", "respuestas": ["don't"] },
+      { "instruccion": "Completa con do o does.", "pregunta": "___ you work in an office?", "respuestas": ["Do"] },
+      { "instruccion": "Completa con do o does.", "pregunta": "___ he like his job?", "respuestas": ["Does"] },
+      { "instruccion": "Completa con do o does.", "pregunta": "Where ___ your sister study?", "respuestas": ["does"] },
+      { "instruccion": "Escribe la respuesta corta.", "pregunta": "Do you speak English? Yes, ___", "respuestas": ["I do"] },
+      { "instruccion": "Traduce al inglés.", "pregunta": "¿A qué te dedicas?", "respuestas": ["What do you do", "What do you do for a living"] },
+      { "instruccion": "Traduce al inglés.", "pregunta": "Él no trabaja aquí.", "respuestas": ["He doesn't work here", "He does not work here"] },
+      { "instruccion": "Corrige la oración.", "pregunta": "She doesn't works on Mondays.", "respuestas": ["She doesn't work on Mondays", "She does not work on Mondays"] }
+    ],
+    "examen": [
+      { "tipo": "opcion", "pregunta": "He ___ work on weekends.", "opciones": ["doesn't", "don't", "isn't", "not"] },
+      { "tipo": "opcion", "pregunta": "We ___ have class today.", "opciones": ["don't", "doesn't", "aren't", "no"] },
+      { "tipo": "opcion", "pregunta": "___ she work in a hospital?", "opciones": ["Does", "Do", "Is", "Are"] },
+      { "tipo": "opcion", "pregunta": "Does your brother ___ English?", "opciones": ["study", "studies", "studying", "to study"] },
+      { "tipo": "opcion", "pregunta": "Do you like your job? Yes, I ___.", "opciones": ["do", "like", "am", "does"] },
+      { "tipo": "opcion", "pregunta": "Where ___ you work?", "opciones": ["do", "does", "are", "is"] },
+      { "tipo": "listening", "audio": "My father doesn't work in an office. He works outdoors.", "pregunta": "¿Dónde trabaja el papá?", "opciones": ["Al aire libre", "En una oficina", "En su casa", "En una fábrica"] },
+      { "tipo": "listening", "audio": "Does she study medicine? No, she doesn't. She studies law.", "pregunta": "¿Qué estudia ella?", "opciones": ["Derecho", "Medicina", "Arquitectura", "Inglés"] },
+      { "tipo": "escribir", "pregunta": "Traduce: No entiendo.", "respuestas": ["I don't understand", "I do not understand"] },
+      { "tipo": "escribir", "pregunta": "Traduce: ¿Trabajas o estudias?", "respuestas": ["Do you work or study", "Do you work or do you study"] }
+    ]
+  },
   { "id": "a1-16", "num": 16, "titulo": "Adverbios de frecuencia", "contexto": "Hábitos y tiempo libre" },
   { "id": "a1-17", "num": 17, "titulo": "Preguntas con Wh-", "contexto": "Conocer a alguien" },
   { "id": "a1-18", "num": 18, "titulo": "Pronombres de objeto (me, him, them…)", "contexto": "Amigos y familia" },
