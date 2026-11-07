@@ -402,7 +402,7 @@ video.thumb, video.pron-img { display: block; }
 @keyframes latido { 50% { transform: scale(1.08); } }
 
 /* Video de la explicación */
-.video-tema { display: block; width: 100%; aspect-ratio: 1; background: #000; border-radius: var(--radius); margin-bottom: 14px; box-shadow: var(--shadow); }
+.video-tema { display: block; width: 100%; max-height: 75vh; object-fit: contain; background: #000; border-radius: var(--radius); margin-bottom: 14px; box-shadow: var(--shadow); }
 
 /* Palabra con su oración de ejemplo */
 .line:has(.word-top) { display: block; }
