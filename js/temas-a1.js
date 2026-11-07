@@ -16,7 +16,6 @@ const TEMAS_A1 = [
     "titulo": "Verbo to be: afirmativo",
     "contexto": "Saludos y presentaciones",
     "explicacion": {
-      "video": "videos/temas/a1-01-explicacion.mp4",
       "es": [
         "El verbo **to be** significa **ser** o **estar**. En inglés es un solo verbo para las dos ideas: *I am a teacher* (soy maestro) y *I am tired* (estoy cansado).",
         "Tiene tres formas en presente: **am** (solo con *I*), **is** (con *he, she, it*) y **are** (con *you, we, they*).",
