@@ -3952,7 +3952,910 @@ const TEMAS_A1 = [
       { "tipo": "escribir", "pregunta": "Traduce: ¿Qué haces en tu tiempo libre?", "respuestas": ["What do you do in your free time"] }
     ]
   },
-  { "id": "a1-17", "num": 17, "titulo": "Preguntas con Wh-", "contexto": "Conocer a alguien" },
+  {
+    "id": "a1-17",
+    "num": 17,
+    "titulo": "Preguntas con Wh-",
+    "contexto": "Conocer a alguien",
+    "explicacion": {
+      "es": [
+        "Las **palabras de pregunta** (*Wh- words*) van **al principio** de la pregunta: *what* (qué, cuál), *where* (dónde), *who* (quién), *when* (cuándo), *why* (por qué), *how* (cómo), *which* (cuál, entre opciones).",
+        "Con el verbo **to be**: palabra de pregunta + *am / is / are* + sujeto: ***Where are** you from? **What is** your name? **How old is** she?*",
+        "Con los **demás verbos**: palabra de pregunta + ***do / does*** + sujeto + verbo: ***Where do** you live? **What does** she do?* Con *does* el verbo va sin *-s*: *Where does he **work**?*",
+        "Con *how* se forman más preguntas: ***how old*** (qué edad), ***how many*** (cuántos), ***how much*** (cuánto cuesta), ***how often*** (qué tan seguido). Y ***what time*** es «a qué hora». A *why* se contesta con ***because*** (porque)."
+      ],
+      "tabla": {
+        "columnas": [
+          "Palabra",
+          "Significa",
+          "Ejemplo"
+        ],
+        "filas": [
+          [
+            "what",
+            "qué / cuál",
+            "What's your name?"
+          ],
+          [
+            "where",
+            "dónde",
+            "Where do you live?"
+          ],
+          [
+            "who",
+            "quién",
+            "Who is your teacher?"
+          ],
+          [
+            "when",
+            "cuándo",
+            "When is your birthday?"
+          ],
+          [
+            "why",
+            "por qué",
+            "Why are you tired?"
+          ],
+          [
+            "how",
+            "cómo",
+            "How do you go to work?"
+          ],
+          [
+            "how old",
+            "qué edad",
+            "How old are you?"
+          ],
+          [
+            "what time",
+            "a qué hora",
+            "What time do you get up?"
+          ]
+        ]
+      },
+      "ojo": [
+        "*Why* (por qué) se pregunta; *because* (porque) se contesta: *Why are you happy? Because it's Friday.*",
+        "«¿Cómo te llamas?» se dice *What's your name?* ✅, no *How do you call?* ❌.",
+        "«¿Cuántos años tienes?» se dice *How old are you?* ✅, no *How many years do you have?* ❌.",
+        "Con *does* el verbo no lleva *-s*: *Where does she live?* ✅, *Where does she lives?* ❌.",
+        "No olvides *do / does*: *Where do you work?* ✅, *Where you work?* ❌.",
+        "*What* es para cualquier cosa; *which* es para elegir entre pocas opciones: *Which color do you want, red or blue?*"
+      ],
+      "en": [
+        "Question words go at the start: what, where, who, when, why, how, which.",
+        "With to be: question word, then am, is or are, then the subject. Where are you from?",
+        "With other verbs, use do or does: Where do you live? What does she do?",
+        "How old, how many and what time are useful questions. Answer why with because."
+      ]
+    },
+    "vocabulario": [
+      {
+        "en": "what",
+        "es": "qué, cuál",
+        "imagen": "Persona mirando con curiosidad una caja de regalo misteriosa con un gran signo de interrogación",
+        "ejemplo": [
+          "What is your favorite color?",
+          "¿Cuál es tu color favorito?"
+        ]
+      },
+      {
+        "en": "where",
+        "es": "dónde",
+        "imagen": "Turista con un mapa abierto mirando a su alrededor en una calle de la ciudad",
+        "ejemplo": [
+          "Where is the bathroom?",
+          "¿Dónde está el baño?"
+        ]
+      },
+      {
+        "en": "who",
+        "es": "quién",
+        "imagen": "Persona mirando por la mirilla de la puerta para ver quién toca",
+        "ejemplo": [
+          "Who is that woman?",
+          "¿Quién es esa mujer?"
+        ]
+      },
+      {
+        "en": "when",
+        "es": "cuándo",
+        "imagen": "Persona mirando un calendario en la pared con cara de duda",
+        "ejemplo": [
+          "When is the party?",
+          "¿Cuándo es la fiesta?"
+        ]
+      },
+      {
+        "en": "why",
+        "es": "por qué",
+        "imagen": "Niña preguntándole algo a su papá con cara de curiosidad",
+        "ejemplo": [
+          "Why are you sad?",
+          "¿Por qué estás triste?"
+        ]
+      },
+      {
+        "en": "how",
+        "es": "cómo",
+        "imagen": "Persona leyendo las instrucciones para armar un mueble con cara de duda",
+        "ejemplo": [
+          "How do you say «hola» in English?",
+          "¿Cómo se dice «hola» en inglés?"
+        ]
+      },
+      {
+        "en": "which",
+        "es": "cuál (entre opciones)",
+        "imagen": "Persona eligiendo entre dos playeras de colores en una tienda",
+        "ejemplo": [
+          "Which shirt do you like?",
+          "¿Cuál playera te gusta?"
+        ]
+      },
+      {
+        "en": "how old",
+        "es": "qué edad",
+        "imagen": "Pastel de cumpleaños con velas en forma de número 30",
+        "ejemplo": [
+          "How old is your brother?",
+          "¿Cuántos años tiene tu hermano?"
+        ]
+      },
+      {
+        "en": "how many",
+        "es": "cuántos",
+        "imagen": "Persona contando manzanas rojas sobre una mesa",
+        "ejemplo": [
+          "How many cousins do you have?",
+          "¿Cuántos primos tienes?"
+        ]
+      },
+      {
+        "en": "how much",
+        "es": "cuánto (cuesta)",
+        "imagen": "Clienta preguntando el precio de una blusa en una tienda de ropa",
+        "ejemplo": [
+          "How much is this bag?",
+          "¿Cuánto cuesta esta bolsa?"
+        ]
+      },
+      {
+        "en": "what time",
+        "es": "a qué hora",
+        "imagen": "Persona señalando su reloj de pulsera",
+        "ejemplo": [
+          "What time do you have lunch?",
+          "¿A qué hora comes?"
+        ]
+      },
+      {
+        "en": "because",
+        "es": "porque",
+        "imagen": "Persona con paraguas señalando la lluvia mientras explica algo a un amigo",
+        "ejemplo": [
+          "I'm tired because I work a lot.",
+          "Estoy cansado porque trabajo mucho."
+        ]
+      },
+      {
+        "en": "a question",
+        "es": "una pregunta",
+        "imagen": "Alumna levantando la mano para hacer una pregunta en clase",
+        "ejemplo": [
+          "Can I ask a question?",
+          "¿Puedo hacer una pregunta?"
+        ]
+      },
+      {
+        "en": "an answer",
+        "es": "una respuesta",
+        "imagen": "Alumno contestando con seguridad frente al pizarrón mientras la maestra sonríe",
+        "ejemplo": [
+          "That's the right answer!",
+          "¡Esa es la respuesta correcta!"
+        ]
+      },
+      {
+        "en": "meet",
+        "es": "conocer (a alguien)",
+        "imagen": "Dos personas dándose la mano y sonriendo al conocerse en una fiesta",
+        "ejemplo": [
+          "I want to meet your family.",
+          "Quiero conocer a tu familia."
+        ]
+      },
+      {
+        "en": "new friend",
+        "es": "amigo nuevo",
+        "imagen": "Dos jóvenes platicando y riendo en la cafetería de la escuela",
+        "ejemplo": [
+          "This is my new friend, Ana.",
+          "Ella es mi amiga nueva, Ana."
+        ]
+      }
+    ],
+    "grupos": [
+      {
+        "id": "conocer",
+        "titulo": "Preguntas para conocer a alguien",
+        "icono": "🙋",
+        "patron": [
+          "What's your name?",
+          "Where are you from?",
+          "Where do you live?"
+        ],
+        "palabras": [
+          {
+            "en": "What's your name?",
+            "es": "¿Cómo te llamas?",
+            "imagen": "Mujer sonriendo y extendiendo la mano a una compañera nueva en la oficina",
+            "ejemplo": [
+              "What's your name? My name is Sara.",
+              "¿Cómo te llamas? Me llamo Sara."
+            ]
+          },
+          {
+            "en": "Where are you from?",
+            "es": "¿De dónde eres?",
+            "imagen": "Dos viajeros platicando en un aeropuerto junto a un globo terráqueo",
+            "ejemplo": [
+              "Where are you from? I'm from Peru.",
+              "¿De dónde eres? Soy de Perú."
+            ]
+          },
+          {
+            "en": "Where do you live?",
+            "es": "¿Dónde vives?",
+            "imagen": "Persona señalando un edificio de departamentos a su amiga",
+            "ejemplo": [
+              "Where do you live? I live near the park.",
+              "¿Dónde vives? Vivo cerca del parque."
+            ]
+          },
+          {
+            "en": "How old are you?",
+            "es": "¿Cuántos años tienes?",
+            "imagen": "Joven soplando las velas de su pastel de cumpleaños con sus amigos",
+            "ejemplo": [
+              "How old are you? I'm twenty-eight.",
+              "¿Cuántos años tienes? Tengo veintiocho."
+            ]
+          },
+          {
+            "en": "What do you do?",
+            "es": "¿A qué te dedicas?",
+            "imagen": "Dos personas platicando en una fiesta, una con un portafolio y la otra con bata de doctora",
+            "ejemplo": [
+              "What do you do? I'm a teacher.",
+              "¿A qué te dedicas? Soy maestro."
+            ]
+          },
+          {
+            "en": "Where do you work?",
+            "es": "¿Dónde trabajas?",
+            "imagen": "Persona entrando a un edificio de oficinas con su gafete",
+            "ejemplo": [
+              "Where do you work? I work in a hotel.",
+              "¿Dónde trabajas? Trabajo en un hotel."
+            ]
+          },
+          {
+            "en": "Who do you live with?",
+            "es": "¿Con quién vives?",
+            "imagen": "Familia sonriendo en la sala de su casa",
+            "ejemplo": [
+              "Who do you live with? I live with my parents.",
+              "¿Con quién vives? Vivo con mis papás."
+            ]
+          },
+          {
+            "en": "What languages do you speak?",
+            "es": "¿Qué idiomas hablas?",
+            "imagen": "Personas de distintos países platicando alrededor de una mesa",
+            "ejemplo": [
+              "What languages do you speak? Spanish and English.",
+              "¿Qué idiomas hablas? Español e inglés."
+            ]
+          },
+          {
+            "en": "What's your phone number?",
+            "es": "¿Cuál es tu número de teléfono?",
+            "imagen": "Dos amigos intercambiando números en sus celulares",
+            "ejemplo": [
+              "What's your phone number?",
+              "¿Cuál es tu número de teléfono?"
+            ]
+          },
+          {
+            "en": "What's your email?",
+            "es": "¿Cuál es tu correo?",
+            "imagen": "Persona escribiendo en su laptop un correo electrónico",
+            "ejemplo": [
+              "What's your email?",
+              "¿Cuál es tu correo?"
+            ]
+          },
+          {
+            "en": "When is your birthday?",
+            "es": "¿Cuándo es tu cumpleaños?",
+            "imagen": "Calendario con un día marcado con globos y un pastel",
+            "ejemplo": [
+              "When is your birthday? It's in May.",
+              "¿Cuándo es tu cumpleaños? Es en mayo."
+            ]
+          },
+          {
+            "en": "What's your favorite food?",
+            "es": "¿Cuál es tu comida favorita?",
+            "imagen": "Persona feliz frente a un plato de tacos",
+            "ejemplo": [
+              "What's your favorite food? Tacos!",
+              "¿Cuál es tu comida favorita? ¡Los tacos!"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "respuestas",
+        "titulo": "Cómo responder",
+        "icono": "💬",
+        "patron": [
+          "I'm from Mexico",
+          "I live in an apartment",
+          "I'm thirty years old"
+        ],
+        "palabras": [
+          {
+            "en": "I'm from Mexico",
+            "es": "soy de México",
+            "imagen": "Persona sonriendo con una bandera de México en la mano",
+            "ejemplo": [
+              "I'm from Mexico, from Guadalajara.",
+              "Soy de México, de Guadalajara."
+            ]
+          },
+          {
+            "en": "I live in an apartment",
+            "es": "vivo en un departamento",
+            "imagen": "Mujer abriendo la puerta de su departamento con las llaves",
+            "ejemplo": [
+              "I live in an apartment downtown.",
+              "Vivo en un departamento en el centro."
+            ]
+          },
+          {
+            "en": "I live in a house",
+            "es": "vivo en una casa",
+            "imagen": "Familia frente a una casa con jardín",
+            "ejemplo": [
+              "We live in a big house.",
+              "Vivimos en una casa grande."
+            ]
+          },
+          {
+            "en": "I'm thirty years old",
+            "es": "tengo treinta años",
+            "imagen": "Hombre celebrando su cumpleaños con un pastel con el número 30",
+            "ejemplo": [
+              "I'm thirty years old.",
+              "Tengo treinta años."
+            ]
+          },
+          {
+            "en": "I work in a hospital",
+            "es": "trabajo en un hospital",
+            "imagen": "Enfermero caminando por el pasillo de un hospital",
+            "ejemplo": [
+              "My mom works in a hospital.",
+              "Mi mamá trabaja en un hospital."
+            ]
+          },
+          {
+            "en": "I speak Spanish and English",
+            "es": "hablo español e inglés",
+            "imagen": "Persona platicando por videollamada con amigos de otro país",
+            "ejemplo": [
+              "I speak Spanish and a little English.",
+              "Hablo español y un poco de inglés."
+            ]
+          },
+          {
+            "en": "I live with my parents",
+            "es": "vivo con mis papás",
+            "imagen": "Joven cenando en la mesa con su mamá y su papá",
+            "ejemplo": [
+              "I live with my parents and my sister.",
+              "Vivo con mis papás y mi hermana."
+            ]
+          },
+          {
+            "en": "I live alone",
+            "es": "vivo solo",
+            "imagen": "Persona leyendo tranquila en su pequeño departamento con su gato",
+            "ejemplo": [
+              "My grandma lives alone.",
+              "Mi abuela vive sola."
+            ]
+          },
+          {
+            "en": "my birthday is in May",
+            "es": "mi cumpleaños es en mayo",
+            "imagen": "Hoja de calendario de mayo con un día marcado con un globo",
+            "ejemplo": [
+              "My birthday is in May.",
+              "Mi cumpleaños es en mayo."
+            ]
+          },
+          {
+            "en": "because I'm hungry",
+            "es": "porque tengo hambre",
+            "imagen": "Persona sobándose la panza frente al refrigerador abierto",
+            "ejemplo": [
+              "I'm eating because I'm hungry.",
+              "Estoy comiendo porque tengo hambre."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "forma",
+        "titulo": "¿Cómo se forma la pregunta?",
+        "icono": "❓",
+        "patron": [
+          "Where is she from?",
+          "What does he do?",
+          "Where do they live?"
+        ],
+        "palabras": [
+          {
+            "en": "Where is she from?",
+            "es": "¿De dónde es ella?",
+            "imagen": "Dos amigos mirando a una muchacha nueva que llega con su maleta",
+            "ejemplo": [
+              "Where is she from? She's from Chile.",
+              "¿De dónde es ella? Es de Chile."
+            ]
+          },
+          {
+            "en": "What does he do?",
+            "es": "¿A qué se dedica él?",
+            "imagen": "Chef preparando comida en la cocina de un restaurante",
+            "ejemplo": [
+              "What does he do? He's a chef.",
+              "¿A qué se dedica él? Es chef."
+            ]
+          },
+          {
+            "en": "Where do they live?",
+            "es": "¿Dónde viven ellos?",
+            "imagen": "Pareja saludando desde el balcón de su casa",
+            "ejemplo": [
+              "Where do they live? They live in Lima.",
+              "¿Dónde viven? Viven en Lima."
+            ]
+          },
+          {
+            "en": "Who is that man?",
+            "es": "¿Quién es ese hombre?",
+            "imagen": "Dos personas señalando discretamente a un hombre de traje en una reunión",
+            "ejemplo": [
+              "Who is that man? He's my boss.",
+              "¿Quién es ese hombre? Es mi jefe."
+            ]
+          },
+          {
+            "en": "When does the class start?",
+            "es": "¿Cuándo empieza la clase?",
+            "imagen": "Alumnos entrando a un salón mientras el reloj marca las nueve",
+            "ejemplo": [
+              "When does the class start? At nine.",
+              "¿Cuándo empieza la clase? A las nueve."
+            ]
+          },
+          {
+            "en": "Why are you sad?",
+            "es": "¿Por qué estás triste?",
+            "imagen": "Amiga consolando a otra que está triste en una banca",
+            "ejemplo": [
+              "Why are you sad? Because my cat is sick.",
+              "¿Por qué estás triste? Porque mi gato está enfermo."
+            ]
+          },
+          {
+            "en": "How do you go to work?",
+            "es": "¿Cómo te vas al trabajo?",
+            "imagen": "Persona subiendo al metro con su mochila en la mañana",
+            "ejemplo": [
+              "How do you go to work? By bus.",
+              "¿Cómo te vas al trabajo? En autobús."
+            ]
+          },
+          {
+            "en": "How many brothers do you have?",
+            "es": "¿Cuántos hermanos tienes?",
+            "imagen": "Tres hermanos abrazados sonriendo para una foto",
+            "ejemplo": [
+              "How many brothers do you have? Two.",
+              "¿Cuántos hermanos tienes? Dos."
+            ]
+          },
+          {
+            "en": "What time do you get up?",
+            "es": "¿A qué hora te levantas?",
+            "imagen": "Persona apagando el despertador en la mañana",
+            "ejemplo": [
+              "What time do you get up? At six.",
+              "¿A qué hora te levantas? A las seis."
+            ]
+          },
+          {
+            "en": "Which bus do you take?",
+            "es": "¿Qué autobús tomas?",
+            "imagen": "Personas en una parada mirando dos autobuses distintos que llegan",
+            "ejemplo": [
+              "Which bus do you take? The number 5.",
+              "¿Qué autobús tomas? El número 5."
+            ]
+          }
+        ]
+      }
+    ],
+    "ejemplos": [
+      {
+        "en": "What's your name? My name is Luis.",
+        "es": "¿Cómo te llamas? Me llamo Luis."
+      },
+      {
+        "en": "Where are you from? I'm from Colombia.",
+        "es": "¿De dónde eres? Soy de Colombia."
+      },
+      {
+        "en": "How old are you? I'm twenty-five.",
+        "es": "¿Cuántos años tienes? Tengo veinticinco."
+      },
+      {
+        "en": "Where do you live? I live in an apartment.",
+        "es": "¿Dónde vives? Vivo en un departamento."
+      },
+      {
+        "en": "What does your sister do? She's a nurse.",
+        "es": "¿A qué se dedica tu hermana? Es enfermera."
+      },
+      {
+        "en": "Who is your best friend?",
+        "es": "¿Quién es tu mejor amigo?",
+        "imagen": "Dos mejores amigos riendo juntos y chocando las manos"
+      },
+      {
+        "en": "When is your birthday? It's in July.",
+        "es": "¿Cuándo es tu cumpleaños? Es en julio."
+      },
+      {
+        "en": "Why are you tired? Because I work at night.",
+        "es": "¿Por qué estás cansado? Porque trabajo de noche.",
+        "imagen": "Hombre bostezando en la mañana después de su turno de noche"
+      },
+      {
+        "en": "How many languages do you speak?",
+        "es": "¿Cuántos idiomas hablas?"
+      },
+      {
+        "en": "What time does the class start?",
+        "es": "¿A qué hora empieza la clase?"
+      }
+    ],
+    "frases": [
+      {
+        "en": "Hi! I'm Ana. What's your name?",
+        "es": "¡Hola! Soy Ana. ¿Cómo te llamas?"
+      },
+      {
+        "en": "Where are you from, and where do you live now?",
+        "es": "¿De dónde eres y dónde vives ahora?"
+      },
+      {
+        "en": "What do you do? I'm a student, and I work part-time in a café.",
+        "es": "¿A qué te dedicas? Soy estudiante y trabajo medio tiempo en un café."
+      },
+      {
+        "en": "Who do you live with? I live with my brother and our dog.",
+        "es": "¿Con quién vives? Vivo con mi hermano y nuestro perro.",
+        "imagen": "Dos hermanos en la sala de su casa jugando con su perro"
+      },
+      {
+        "en": "How old is your daughter? She's six, and she goes to school.",
+        "es": "¿Cuántos años tiene tu hija? Tiene seis y va a la escuela.",
+        "imagen": "Niña de seis años con su mochila llegando a la escuela de la mano de su mamá"
+      },
+      {
+        "en": "When is your birthday? It's on March 15th.",
+        "es": "¿Cuándo es tu cumpleaños? Es el 15 de marzo."
+      },
+      {
+        "en": "Why do you study English? Because I want to travel.",
+        "es": "¿Por qué estudias inglés? Porque quiero viajar.",
+        "imagen": "Persona estudiando inglés con un libro y una maleta lista junto a ella"
+      },
+      {
+        "en": "How do you go to school? I walk because it's near.",
+        "es": "¿Cómo te vas a la escuela? Camino porque está cerca.",
+        "imagen": "Joven caminando a la escuela con su mochila por la banqueta"
+      },
+      {
+        "en": "What's your favorite food, and what time do you have dinner?",
+        "es": "¿Cuál es tu comida favorita y a qué hora cenas?"
+      },
+      {
+        "en": "Nice to meet you! What's your phone number?",
+        "es": "¡Mucho gusto! ¿Cuál es tu número de teléfono?"
+      }
+    ],
+    "listening": [
+      {
+        "audio": "Where are you from? I'm from Argentina.",
+        "pregunta": "¿De dónde es?",
+        "opciones": [
+          "De Argentina",
+          "De México",
+          "De España",
+          "De Chile"
+        ]
+      },
+      {
+        "audio": "How old is your son? He's ten.",
+        "pregunta": "¿Cuántos años tiene el hijo?",
+        "opciones": [
+          "Diez",
+          "Dos",
+          "Doce",
+          "Veinte"
+        ]
+      },
+      {
+        "audio": "What does your father do? He's a taxi driver.",
+        "pregunta": "¿A qué se dedica el papá?",
+        "opciones": [
+          "Es taxista",
+          "Es maestro",
+          "Es doctor",
+          "Es chef"
+        ]
+      },
+      {
+        "audio": "When is your birthday? It's in December.",
+        "pregunta": "¿Cuándo es su cumpleaños?",
+        "opciones": [
+          "En diciembre",
+          "En noviembre",
+          "En marzo",
+          "En mayo"
+        ]
+      },
+      {
+        "audio": "Why are you happy? Because it's Friday!",
+        "pregunta": "¿Por qué está contento?",
+        "opciones": [
+          "Porque es viernes",
+          "Porque es su cumpleaños",
+          "Porque tiene trabajo nuevo",
+          "Porque es domingo"
+        ]
+      }
+    ],
+    "lectura": {
+      "titulo": "A new classmate",
+      "texto": "Today there is a new student in my English class. Her name is Yuki. She's from Japan, but now she lives in Mexico City with her husband. She's thirty-two years old and she works in a bank. I ask her: Why do you study English? She says: Because I travel a lot for my job. Yuki speaks Japanese, Spanish and a little English. Her favorite food is enchiladas! After class we drink a coffee together. She's very nice. Now she's my new friend.",
+      "preguntas": [
+        {
+          "pregunta": "¿De dónde es Yuki?",
+          "opciones": [
+            "De Japón",
+            "De México",
+            "De China",
+            "De Corea"
+          ]
+        },
+        {
+          "pregunta": "¿Dónde trabaja?",
+          "opciones": [
+            "En un banco",
+            "En una escuela",
+            "En un hotel",
+            "En un hospital"
+          ]
+        },
+        {
+          "pregunta": "¿Por qué estudia inglés?",
+          "opciones": [
+            "Porque viaja mucho por su trabajo",
+            "Porque vive en Estados Unidos",
+            "Porque su esposo habla inglés",
+            "Porque es maestra"
+          ]
+        },
+        {
+          "pregunta": "¿Cuál es su comida favorita?",
+          "opciones": [
+            "Las enchiladas",
+            "El sushi",
+            "Los tacos",
+            "La pizza"
+          ]
+        }
+      ]
+    },
+    "escritura": [
+      {
+        "instruccion": "Ordena la pregunta.",
+        "pregunta": "from / are / where / you",
+        "respuestas": [
+          "Where are you from"
+        ]
+      },
+      {
+        "instruccion": "Ordena la pregunta.",
+        "pregunta": "do / live / where / you",
+        "respuestas": [
+          "Where do you live"
+        ]
+      },
+      {
+        "instruccion": "Ordena la pregunta.",
+        "pregunta": "does / what / she / do",
+        "respuestas": [
+          "What does she do"
+        ]
+      },
+      {
+        "instruccion": "Ordena la pregunta.",
+        "pregunta": "old / you / how / are",
+        "respuestas": [
+          "How old are you"
+        ]
+      },
+      {
+        "instruccion": "Completa con la palabra en inglés.",
+        "pregunta": "___ is your birthday? (cuándo)",
+        "respuestas": [
+          "When"
+        ]
+      },
+      {
+        "instruccion": "Completa con la palabra en inglés.",
+        "pregunta": "___ is that man? He's my uncle. (quién)",
+        "respuestas": [
+          "Who"
+        ]
+      },
+      {
+        "instruccion": "Completa con la palabra en inglés.",
+        "pregunta": "Why are you late? ___ the bus is slow. (porque)",
+        "respuestas": [
+          "Because"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "¿Cómo te llamas?",
+        "respuestas": [
+          "What's your name",
+          "What is your name"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "¿Dónde trabajas?",
+        "respuestas": [
+          "Where do you work"
+        ]
+      },
+      {
+        "instruccion": "Corrige la pregunta.",
+        "pregunta": "Where does she lives?",
+        "respuestas": [
+          "Where does she live"
+        ]
+      }
+    ],
+    "examen": [
+      {
+        "tipo": "opcion",
+        "pregunta": "___ are you from?",
+        "opciones": [
+          "Where",
+          "Who",
+          "What time",
+          "How many"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "¿Cómo se dice «¿Cuántos años tienes?»?",
+        "opciones": [
+          "How old are you?",
+          "How many years do you have?",
+          "How old do you have?",
+          "How years are you?"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "Where ___ your brother work?",
+        "opciones": [
+          "does",
+          "do",
+          "is",
+          "are"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "What ___ your name?",
+        "opciones": [
+          "is",
+          "are",
+          "do",
+          "does"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "Why are you happy? ___ it's my birthday.",
+        "opciones": [
+          "Because",
+          "Why",
+          "When",
+          "Because of"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "___ brothers do you have? Three.",
+        "opciones": [
+          "How many",
+          "How much",
+          "How old",
+          "What time"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "What's your name? My name is Daniel.",
+        "pregunta": "¿Cómo se llama?",
+        "opciones": [
+          "Daniel",
+          "David",
+          "Diana",
+          "Dennis"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "Where do you live? I live in a small house with my grandmother.",
+        "pregunta": "¿Con quién vive?",
+        "opciones": [
+          "Con su abuela",
+          "Con sus papás",
+          "Solo",
+          "Con su hermano"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Traduce: ¿De dónde eres?",
+        "respuestas": [
+          "Where are you from"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Traduce: ¿A qué te dedicas?",
+        "respuestas": [
+          "What do you do"
+        ]
+      }
+    ]
+  },
   { "id": "a1-18", "num": 18, "titulo": "Pronombres de objeto (me, him, them…)", "contexto": "Amigos y familia" },
   { "id": "a1-19", "num": 19, "titulo": "Can / can't", "contexto": "Habilidades y deportes" },
   { "id": "a1-20", "num": 20, "titulo": "Imperativo", "contexto": "Instrucciones, recetas y señales" },

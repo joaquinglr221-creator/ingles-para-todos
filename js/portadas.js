@@ -93,5 +93,9 @@ const PORTADAS_MENU = {
  "a1-16/vocabulario": "images/portadas/a1-16-vocabulario.jpg",
  "a1-16/pasatiempos": "images/portadas/a1-16-pasatiempos.jpg",
  "a1-16/planes": "images/portadas/a1-16-planes.jpg",
- "a1-16/posicion": "images/portadas/a1-16-posicion.jpg"
+ "a1-16/posicion": "images/portadas/a1-16-posicion.jpg",
+ "a1-17/vocabulario": "images/portadas/a1-17-vocabulario.jpg",
+ "a1-17/conocer": "images/portadas/a1-17-conocer.jpg",
+ "a1-17/respuestas": "images/portadas/a1-17-respuestas.jpg",
+ "a1-17/forma": "images/portadas/a1-17-forma.jpg"
 };
