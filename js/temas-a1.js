@@ -586,6 +586,7 @@ const TEMAS_A1 = [
     "titulo": "Verbo to be: negativo y preguntas",
     "contexto": "Datos personales (nombre, edad, país)",
     "explicacion": {
+      "video": "videos/temas/a1-02-explicacion.mp4",
       "es": [
         "Para hacer una oración **negativa** se agrega **not** después de *am, is, are*: *I am not tired* (no estoy cansado), *She is not from Spain* (ella no es de España).",
         "Al hablar se usan las contracciones: **I'm not**, **isn't** (is not) y **aren't** (are not).",
