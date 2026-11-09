@@ -1075,6 +1075,7 @@ const TEMAS_A1 = [
     "titulo": "Pronombres personales (sujeto)",
     "contexto": "Personas a mi alrededor",
     "explicacion": {
+      "video": "videos/temas/a1-03-explicacion.mp4",
       "es": [
         "Los **pronombres personales** reemplazan el nombre de una persona o cosa para no repetirlo: *Maria is my friend. **She** is a doctor.*",
         "En inglés el sujeto **siempre** se dice, aunque en español lo omitamos: *Somos amigos* = **We** are friends.",
