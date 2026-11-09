@@ -100,5 +100,10 @@ const PORTADAS_MENU = {
  "a1-17/forma": "images/portadas/a1-17-forma.jpg",
  "a1-18/vocabulario": "images/portadas/a1-18-vocabulario.jpg",
  "a1-18/preposicion": "images/portadas/a1-18-preposicion.jpg",
- "a1-18/familia": "images/portadas/a1-18-familia.jpg"
+ "a1-18/familia": "images/portadas/a1-18-familia.jpg",
+ "a1-19/vocabulario": "images/portadas/a1-19-vocabulario.jpg",
+ "a1-19/habilidades": "images/portadas/a1-19-habilidades.jpg",
+ "a1-19/preguntas": "images/portadas/a1-19-preguntas.jpg",
+ "a1-19/deportes": "images/portadas/a1-19-deportes.jpg",
+ "a1-18/orden": "images/portadas/a1-18-orden.jpg"
 };
