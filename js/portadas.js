@@ -97,5 +97,8 @@ const PORTADAS_MENU = {
  "a1-17/vocabulario": "images/portadas/a1-17-vocabulario.jpg",
  "a1-17/conocer": "images/portadas/a1-17-conocer.jpg",
  "a1-17/respuestas": "images/portadas/a1-17-respuestas.jpg",
- "a1-17/forma": "images/portadas/a1-17-forma.jpg"
+ "a1-17/forma": "images/portadas/a1-17-forma.jpg",
+ "a1-18/vocabulario": "images/portadas/a1-18-vocabulario.jpg",
+ "a1-18/preposicion": "images/portadas/a1-18-preposicion.jpg",
+ "a1-18/familia": "images/portadas/a1-18-familia.jpg"
 };

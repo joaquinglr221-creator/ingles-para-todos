@@ -4856,8 +4856,1778 @@ const TEMAS_A1 = [
       }
     ]
   },
-  { "id": "a1-18", "num": 18, "titulo": "Pronombres de objeto (me, him, them…)", "contexto": "Amigos y familia" },
-  { "id": "a1-19", "num": 19, "titulo": "Can / can't", "contexto": "Habilidades y deportes" },
+  {
+    "id": "a1-18",
+    "num": 18,
+    "titulo": "Pronombres de objeto (me, him, them…)",
+    "contexto": "Amigos y familia",
+    "explicacion": {
+      "es": [
+        "Los **pronombres de sujeto** (*I, you, he, she, it, we, they*) hacen la acción y van **antes** del verbo: ***She** calls…*",
+        "Los **pronombres de objeto** (*me, you, him, her, it, us, them*) **reciben** la acción y van **después** del verbo: *She calls **me**.* (Ella **me** llama.)",
+        "En español el pronombre va antes del verbo (*te quiero*); en inglés va **después**: *I love **you**.*",
+        "También van **después de una preposición** (*with, for, to, at, about*): *Come **with me**. This gift is **for her**. Look **at them**.*"
+      ],
+      "tabla": {
+        "columnas": [
+          "Sujeto",
+          "Objeto",
+          "Ejemplo"
+        ],
+        "filas": [
+          [
+            "I",
+            "me",
+            "Call me."
+          ],
+          [
+            "you",
+            "you",
+            "I love you."
+          ],
+          [
+            "he",
+            "him",
+            "I know him."
+          ],
+          [
+            "she",
+            "her",
+            "I miss her."
+          ],
+          [
+            "it",
+            "it",
+            "I like it."
+          ],
+          [
+            "we",
+            "us",
+            "Wait for us."
+          ],
+          [
+            "they",
+            "them",
+            "I visit them."
+          ]
+        ]
+      },
+      "ojo": [
+        "Después del verbo va el pronombre de objeto: *She loves **him*** ✅, no *She loves he* ❌.",
+        "Después de una preposición también: *Come with **me*** ✅, no *Come with I* ❌.",
+        "El orden es al revés que en español: *te quiero* = *I love **you*** ✅, no *I you love* ❌.",
+        "*You* e *it* son iguales como sujeto y como objeto: *You know **it**. I know **you**.*",
+        "*Her* sirve para dos cosas: *I see **her*** (la veo) y ***her** car* (su coche, de ella).",
+        "*Them* es para personas y para cosas: *I visit my parents → I visit **them**. I like the shoes → I like **them**.*"
+      ],
+      "en": [
+        "Subject pronouns come before the verb: I, you, he, she, it, we, they.",
+        "Object pronouns come after the verb: me, you, him, her, it, us, them. She calls me.",
+        "We also use them after with, for, to and at: Come with me. This is for her.",
+        "I love you. I know him. I miss her. I visit them on Sundays."
+      ]
+    },
+    "vocabulario": [
+      {
+        "en": "Help me!",
+        "es": "¡Ayúdame!",
+        "imagen": "Persona cargando muchas cajas pidiendo ayuda a su amigo",
+        "ejemplo": [
+          "Can you help me, please?",
+          "¿Me ayudas, por favor?"
+        ]
+      },
+      {
+        "en": "I love you.",
+        "es": "te quiero, te amo",
+        "imagen": "Mamá abrazando a su hijo pequeño con mucho cariño",
+        "ejemplo": [
+          "I love you, Mom!",
+          "¡Te quiero, mamá!"
+        ]
+      },
+      {
+        "en": "Call him.",
+        "es": "llámalo (a él)",
+        "imagen": "Mujer marcando en su celular mientras ve la foto de su hermano",
+        "ejemplo": [
+          "Call him tonight.",
+          "Llámalo esta noche."
+        ]
+      },
+      {
+        "en": "Ask her.",
+        "es": "pregúntale (a ella)",
+        "imagen": "Joven señalando a su compañera para que le pregunten a ella",
+        "ejemplo": [
+          "I don't know. Ask her!",
+          "No sé. ¡Pregúntale a ella!"
+        ]
+      },
+      {
+        "en": "I like it.",
+        "es": "me gusta (eso)",
+        "imagen": "Persona probando un pastel y sonriendo con el pulgar arriba",
+        "ejemplo": [
+          "This cake is great. I like it!",
+          "Este pastel está muy rico. ¡Me gusta!"
+        ]
+      },
+      {
+        "en": "Wait for us!",
+        "es": "¡Espéranos!",
+        "imagen": "Dos amigos corriendo detrás de un amigo que ya va adelante en la calle",
+        "ejemplo": [
+          "Wait for us! We're coming!",
+          "¡Espéranos! ¡Ya vamos!"
+        ]
+      },
+      {
+        "en": "Look at them.",
+        "es": "míralos",
+        "imagen": "Abuela mirando con ternura a sus nietos que juegan en el jardín",
+        "ejemplo": [
+          "Look at them! They're so cute.",
+          "¡Míralos! Son muy lindos."
+        ]
+      },
+      {
+        "en": "visit",
+        "es": "visitar",
+        "imagen": "Familia llegando con flores a la casa de los abuelos",
+        "ejemplo": [
+          "I visit my grandparents on Sundays.",
+          "Visito a mis abuelos los domingos."
+        ]
+      },
+      {
+        "en": "call",
+        "es": "llamar (por teléfono)",
+        "imagen": "Joven hablando por teléfono con su mamá y sonriendo",
+        "ejemplo": [
+          "My sister calls me every day.",
+          "Mi hermana me llama todos los días."
+        ]
+      },
+      {
+        "en": "help",
+        "es": "ayudar",
+        "imagen": "Papá ayudando a su hija con la tarea en la mesa",
+        "ejemplo": [
+          "I help my brother with his homework.",
+          "Ayudo a mi hermano con su tarea."
+        ]
+      },
+      {
+        "en": "miss",
+        "es": "extrañar",
+        "imagen": "Persona mirando con nostalgia una foto de su familia en el celular",
+        "ejemplo": [
+          "I miss my friends.",
+          "Extraño a mis amigos."
+        ]
+      },
+      {
+        "en": "hug",
+        "es": "abrazar",
+        "imagen": "Dos amigas abrazándose felices al verse en el aeropuerto",
+        "ejemplo": [
+          "My grandma always hugs me.",
+          "Mi abuela siempre me abraza."
+        ]
+      },
+      {
+        "en": "invite",
+        "es": "invitar",
+        "imagen": "Persona entregando una invitación de cumpleaños a su amigo",
+        "ejemplo": [
+          "We invite our friends to dinner.",
+          "Invitamos a nuestros amigos a cenar."
+        ]
+      },
+      {
+        "en": "text",
+        "es": "mandar mensaje",
+        "imagen": "Joven escribiendo un mensaje en su celular con una sonrisa",
+        "ejemplo": [
+          "Text me when you get home.",
+          "Mándame un mensaje cuando llegues a casa."
+        ]
+      },
+      {
+        "en": "wait for",
+        "es": "esperar (a alguien)",
+        "imagen": "Persona esperando a su amigo afuera del cine mirando su reloj",
+        "ejemplo": [
+          "I'm waiting for my friend.",
+          "Estoy esperando a mi amigo."
+        ]
+      },
+      {
+        "en": "listen to",
+        "es": "escuchar",
+        "imagen": "Amiga escuchando con atención a otra que le cuenta algo en una banca",
+        "ejemplo": [
+          "Listen to me, please.",
+          "Escúchame, por favor."
+        ]
+      }
+    ],
+    "grupos": [
+      {
+        "id": "preposicion",
+        "titulo": "Con quién, para quién",
+        "icono": "🤝",
+        "patron": [
+          "with me",
+          "for her",
+          "with them"
+        ],
+        "palabras": [
+          {
+            "en": "with me",
+            "es": "conmigo",
+            "imagen": "Amigo invitando a otro a caminar con él por el parque",
+            "ejemplo": [
+              "Come with me!",
+              "¡Ven conmigo!"
+            ]
+          },
+          {
+            "en": "with you",
+            "es": "contigo",
+            "imagen": "Pareja de amigos sentados juntos en una banca platicando",
+            "ejemplo": [
+              "I want to go with you.",
+              "Quiero ir contigo."
+            ]
+          },
+          {
+            "en": "with him",
+            "es": "con él",
+            "imagen": "Niña caminando de la mano con su papá",
+            "ejemplo": [
+              "I go to school with him.",
+              "Voy a la escuela con él."
+            ]
+          },
+          {
+            "en": "for her",
+            "es": "para ella",
+            "imagen": "Hombre dándole un ramo de flores a su esposa",
+            "ejemplo": [
+              "These flowers are for her.",
+              "Estas flores son para ella."
+            ]
+          },
+          {
+            "en": "with us",
+            "es": "con nosotros",
+            "imagen": "Grupo de amigos invitando a otro a sentarse en su mesa",
+            "ejemplo": [
+              "Have dinner with us!",
+              "¡Cena con nosotros!"
+            ]
+          },
+          {
+            "en": "for them",
+            "es": "para ellos",
+            "imagen": "Mamá sirviendo la comida a sus hijos en la mesa",
+            "ejemplo": [
+              "I cook for them every day.",
+              "Cocino para ellos todos los días."
+            ]
+          },
+          {
+            "en": "about it",
+            "es": "de eso, sobre eso",
+            "imagen": "Dos amigos platicando seriamente de una noticia en el celular",
+            "ejemplo": [
+              "Let's talk about it.",
+              "Hablemos de eso."
+            ]
+          },
+          {
+            "en": "to me",
+            "es": "a mí",
+            "imagen": "Amigo explicándole algo a otro que escucha con atención",
+            "ejemplo": [
+              "Please talk to me.",
+              "Por favor, háblame."
+            ]
+          },
+          {
+            "en": "next to her",
+            "es": "junto a ella",
+            "imagen": "Hermano sentado junto a su hermana en el sofá",
+            "ejemplo": [
+              "I sit next to her.",
+              "Me siento junto a ella."
+            ]
+          },
+          {
+            "en": "without them",
+            "es": "sin ellos",
+            "imagen": "Persona sola en una mesa de restaurante mirando su reloj",
+            "ejemplo": [
+              "I can't start without them.",
+              "No puedo empezar sin ellos."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "familia",
+        "titulo": "Con la familia y los amigos",
+        "icono": "👨‍👩‍👧",
+        "patron": [
+          "I visit them",
+          "She calls me",
+          "We help him"
+        ],
+        "palabras": [
+          {
+            "en": "I visit them",
+            "es": "los visito",
+            "imagen": "Persona tocando la puerta de la casa de sus papás con un pastel",
+            "ejemplo": [
+              "I visit them every Sunday.",
+              "Los visito todos los domingos."
+            ]
+          },
+          {
+            "en": "She calls me",
+            "es": "ella me llama",
+            "imagen": "Mujer hablando por teléfono con su mejor amiga desde su casa",
+            "ejemplo": [
+              "She calls me every night.",
+              "Ella me llama todas las noches."
+            ]
+          },
+          {
+            "en": "We help him",
+            "es": "lo ayudamos",
+            "imagen": "Dos amigos ayudando a otro a cargar un sofá en la mudanza",
+            "ejemplo": [
+              "We help him with the boxes.",
+              "Lo ayudamos con las cajas."
+            ]
+          },
+          {
+            "en": "I miss her",
+            "es": "la extraño",
+            "imagen": "Joven mirando la foto de su abuela con cariño",
+            "ejemplo": [
+              "My grandma lives far away. I miss her.",
+              "Mi abuela vive lejos. La extraño."
+            ]
+          },
+          {
+            "en": "Grandma hugs us",
+            "es": "la abuela nos abraza",
+            "imagen": "Abuela abrazando a sus dos nietos en la puerta de su casa",
+            "ejemplo": [
+              "Grandma hugs us at the door.",
+              "La abuela nos abraza en la puerta."
+            ]
+          },
+          {
+            "en": "I text him",
+            "es": "le mando mensaje",
+            "imagen": "Joven escribiéndole un mensaje a su amigo en el autobús",
+            "ejemplo": [
+              "I text him every morning.",
+              "Le mando mensaje todas las mañanas."
+            ]
+          },
+          {
+            "en": "They invite us",
+            "es": "nos invitan",
+            "imagen": "Vecinos invitando a una pareja a pasar a su fiesta",
+            "ejemplo": [
+              "They invite us to their party.",
+              "Nos invitan a su fiesta."
+            ]
+          },
+          {
+            "en": "I listen to her",
+            "es": "la escucho",
+            "imagen": "Hijo escuchando con atención a su mamá en la cocina",
+            "ejemplo": [
+              "My mom gives good advice. I listen to her.",
+              "Mi mamá da buenos consejos. La escucho."
+            ]
+          },
+          {
+            "en": "Dad takes me to school",
+            "es": "papá me lleva a la escuela",
+            "imagen": "Papá dejando a su hija en la puerta de la escuela",
+            "ejemplo": [
+              "My dad takes me to school.",
+              "Mi papá me lleva a la escuela."
+            ]
+          },
+          {
+            "en": "I meet them",
+            "es": "me veo con ellos",
+            "imagen": "Amigos saludándose al encontrarse en una cafetería",
+            "ejemplo": [
+              "I meet them at the café on Fridays.",
+              "Me veo con ellos en el café los viernes."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "orden",
+        "titulo": "¿Dónde va el pronombre?",
+        "icono": "➡️",
+        "patron": [
+          "She knows him",
+          "He likes her",
+          "Can you help me?"
+        ],
+        "palabras": [
+          {
+            "en": "She knows him",
+            "es": "ella lo conoce",
+            "imagen": "Mujer saludando con alegría a un amigo que reconoce en la calle",
+            "ejemplo": [
+              "She knows him from school.",
+              "Ella lo conoce de la escuela."
+            ]
+          },
+          {
+            "en": "He likes her",
+            "es": "ella le gusta",
+            "imagen": "Joven mirando con una sonrisa tímida a una compañera en la biblioteca",
+            "ejemplo": [
+              "He likes her, but he's shy.",
+              "Ella le gusta, pero es tímido."
+            ]
+          },
+          {
+            "en": "We understand it",
+            "es": "lo entendemos",
+            "imagen": "Alumnos sonriendo y asintiendo frente al pizarrón",
+            "ejemplo": [
+              "The lesson is easy. We understand it.",
+              "La lección es fácil. La entendemos."
+            ]
+          },
+          {
+            "en": "Can you help me?",
+            "es": "¿me ayudas?",
+            "imagen": "Turista pidiendo ayuda a una persona en la calle con un mapa",
+            "ejemplo": [
+              "Excuse me, can you help me?",
+              "Disculpe, ¿me puede ayudar?"
+            ]
+          },
+          {
+            "en": "Give it to me",
+            "es": "dámelo",
+            "imagen": "Niño pidiéndole a su hermano el control de la tele",
+            "ejemplo": [
+              "Give it to me, please.",
+              "Dámelo, por favor."
+            ]
+          },
+          {
+            "en": "I don't know them",
+            "es": "no los conozco",
+            "imagen": "Persona mirando confundida a un grupo de desconocidos en una fiesta",
+            "ejemplo": [
+              "Who are they? I don't know them.",
+              "¿Quiénes son? No los conozco."
+            ]
+          },
+          {
+            "en": "Do you like it?",
+            "es": "¿te gusta?",
+            "imagen": "Mujer mostrando su vestido nuevo a su amiga",
+            "ejemplo": [
+              "I have a new dress. Do you like it?",
+              "Tengo un vestido nuevo. ¿Te gusta?"
+            ]
+          },
+          {
+            "en": "Tell him",
+            "es": "dile (a él)",
+            "imagen": "Amiga susurrándole algo a otra mientras señala a un muchacho",
+            "ejemplo": [
+              "Tell him the news!",
+              "¡Dile la noticia!"
+            ]
+          },
+          {
+            "en": "I love them",
+            "es": "los quiero",
+            "imagen": "Persona abrazando a sus dos perros en el sofá",
+            "ejemplo": [
+              "My dogs? I love them!",
+              "¿Mis perros? ¡Los quiero!"
+            ]
+          },
+          {
+            "en": "Look at me",
+            "es": "mírame",
+            "imagen": "Fotógrafo pidiendo a una niña que mire a la cámara",
+            "ejemplo": [
+              "Look at me and smile!",
+              "¡Mírame y sonríe!"
+            ]
+          }
+        ]
+      }
+    ],
+    "ejemplos": [
+      {
+        "en": "My sister calls me every day.",
+        "es": "Mi hermana me llama todos los días."
+      },
+      {
+        "en": "I love you, Mom!",
+        "es": "¡Te quiero, mamá!"
+      },
+      {
+        "en": "Do you know him? He's my cousin.",
+        "es": "¿Lo conoces? Es mi primo.",
+        "imagen": "Joven presentando a su primo a una amiga en una fiesta"
+      },
+      {
+        "en": "I miss my grandma. I call her every week.",
+        "es": "Extraño a mi abuela. La llamo cada semana."
+      },
+      {
+        "en": "This pizza is great. I like it!",
+        "es": "Esta pizza está muy rica. ¡Me gusta!",
+        "imagen": "Amigos comiendo pizza y uno levantando el pulgar"
+      },
+      {
+        "en": "Come with us to the park!",
+        "es": "¡Ven con nosotros al parque!"
+      },
+      {
+        "en": "My friends are great. I meet them every Friday.",
+        "es": "Mis amigos son geniales. Me veo con ellos cada viernes."
+      },
+      {
+        "en": "This present is for you.",
+        "es": "Este regalo es para ti.",
+        "imagen": "Persona dándole un regalo envuelto a su amiga"
+      },
+      {
+        "en": "Listen to me, please.",
+        "es": "Escúchame, por favor."
+      },
+      {
+        "en": "Where are the keys? I can't find them.",
+        "es": "¿Dónde están las llaves? No las encuentro.",
+        "imagen": "Persona buscando sus llaves en el sofá con cara de preocupación"
+      }
+    ],
+    "frases": [
+      {
+        "en": "My parents live in another city, so I visit them once a month.",
+        "es": "Mis papás viven en otra ciudad, así que los visito una vez al mes."
+      },
+      {
+        "en": "My best friend is Laura. I see her every day at work.",
+        "es": "Mi mejor amiga es Laura. La veo todos los días en el trabajo.",
+        "imagen": "Dos amigas trabajando juntas en la oficina y riendo"
+      },
+      {
+        "en": "My little brother has a problem with math, so I help him.",
+        "es": "Mi hermanito tiene problemas con las matemáticas, así que lo ayudo."
+      },
+      {
+        "en": "We have a new neighbor. Let's invite him to dinner!",
+        "es": "Tenemos un vecino nuevo. ¡Invitémoslo a cenar!",
+        "imagen": "Pareja tocando la puerta del vecino nuevo con un pastel"
+      },
+      {
+        "en": "My grandparents are very kind. They always give us presents.",
+        "es": "Mis abuelos son muy buenos. Siempre nos dan regalos.",
+        "imagen": "Abuelos dándoles regalos a sus nietos en Navidad"
+      },
+      {
+        "en": "I don't understand this word. Can you explain it to me?",
+        "es": "No entiendo esta palabra. ¿Me la puedes explicar?",
+        "imagen": "Alumna señalando una palabra en su libro y preguntándole a su compañero"
+      },
+      {
+        "en": "Where is Tom? I need to talk to him.",
+        "es": "¿Dónde está Tom? Necesito hablar con él.",
+        "imagen": "Persona buscando a alguien en una oficina con cara de prisa"
+      },
+      {
+        "en": "My cousins live in Canada, and I miss them a lot.",
+        "es": "Mis primos viven en Canadá y los extraño mucho.",
+        "imagen": "Persona en videollamada con sus primos que viven en otro país"
+      },
+      {
+        "en": "Text me when you get home, OK?",
+        "es": "Mándame un mensaje cuando llegues a casa, ¿sí?"
+      },
+      {
+        "en": "We love our dog, and he loves us too.",
+        "es": "Queremos a nuestro perro y él también nos quiere.",
+        "imagen": "Familia jugando con su perro en el jardín"
+      }
+    ],
+    "listening": [
+      {
+        "audio": "My sister calls me every night.",
+        "pregunta": "¿Quién lo llama todas las noches?",
+        "opciones": [
+          "Su hermana",
+          "Su mamá",
+          "Su amiga",
+          "Su abuela"
+        ]
+      },
+      {
+        "audio": "I visit my grandparents on Sundays. I love them.",
+        "pregunta": "¿Cuándo visita a sus abuelos?",
+        "opciones": [
+          "Los domingos",
+          "Los sábados",
+          "Los viernes",
+          "Todos los días"
+        ]
+      },
+      {
+        "audio": "This book is for you. Happy birthday!",
+        "pregunta": "¿Qué le regalan?",
+        "opciones": [
+          "Un libro",
+          "Una bolsa",
+          "Un pastel",
+          "Flores"
+        ]
+      },
+      {
+        "audio": "Wait for us! We're at the bus stop.",
+        "pregunta": "¿Dónde están?",
+        "opciones": [
+          "En la parada del autobús",
+          "En el parque",
+          "En la escuela",
+          "En casa"
+        ]
+      },
+      {
+        "audio": "I don't know him. Is he your brother? No, he's my cousin.",
+        "pregunta": "¿Quién es él?",
+        "opciones": [
+          "Su primo",
+          "Su hermano",
+          "Su papá",
+          "Su vecino"
+        ]
+      }
+    ],
+    "lectura": {
+      "titulo": "My big family",
+      "texto": "My name is Carla and I have a big family. My parents live in a small town, so I visit them every month. My mom always cooks for us, and my dad tells us funny stories. I have two brothers. Leo lives with me in the city. I help him with his English, and he helps me with my car. My sister Ana lives in Spain. I miss her a lot, but I call her every Sunday. My best friend is Sofía. I see her every day at work, and on Fridays she comes with me to the gym. I love them all!",
+      "preguntas": [
+        {
+          "pregunta": "¿Cada cuándo visita Carla a sus papás?",
+          "opciones": [
+            "Cada mes",
+            "Cada semana",
+            "Cada año",
+            "Todos los días"
+          ]
+        },
+        {
+          "pregunta": "¿Con qué ayuda Carla a Leo?",
+          "opciones": [
+            "Con su inglés",
+            "Con su coche",
+            "Con su trabajo",
+            "Con la comida"
+          ]
+        },
+        {
+          "pregunta": "¿Dónde vive Ana?",
+          "opciones": [
+            "En España",
+            "En la ciudad",
+            "En un pueblo",
+            "En Canadá"
+          ]
+        },
+        {
+          "pregunta": "¿Qué hace Sofía con Carla los viernes?",
+          "opciones": [
+            "Va al gimnasio",
+            "Va al cine",
+            "Cocina",
+            "Visita a sus papás"
+          ]
+        }
+      ]
+    },
+    "escritura": [
+      {
+        "instruccion": "Completa con el pronombre de objeto.",
+        "pregunta": "I love my mom. I call ___ every day. (ella)",
+        "respuestas": [
+          "her"
+        ]
+      },
+      {
+        "instruccion": "Completa con el pronombre de objeto.",
+        "pregunta": "Where is Tom? I can't see ___. (él)",
+        "respuestas": [
+          "him"
+        ]
+      },
+      {
+        "instruccion": "Completa con el pronombre de objeto.",
+        "pregunta": "My friends are here. Come and meet ___! (ellos)",
+        "respuestas": [
+          "them"
+        ]
+      },
+      {
+        "instruccion": "Completa con el pronombre de objeto.",
+        "pregunta": "Can you help ___, please? (a mí)",
+        "respuestas": [
+          "me"
+        ]
+      },
+      {
+        "instruccion": "Completa con el pronombre de objeto.",
+        "pregunta": "Wait for ___! (nosotros)",
+        "respuestas": [
+          "us"
+        ]
+      },
+      {
+        "instruccion": "Ordena la oración.",
+        "pregunta": "you / I / love",
+        "respuestas": [
+          "I love you"
+        ]
+      },
+      {
+        "instruccion": "Ordena la oración.",
+        "pregunta": "him / she / knows",
+        "respuestas": [
+          "She knows him"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "Ven conmigo.",
+        "respuestas": [
+          "Come with me"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "Los visito los domingos.",
+        "respuestas": [
+          "I visit them on Sundays"
+        ]
+      },
+      {
+        "instruccion": "Corrige la oración.",
+        "pregunta": "She loves he.",
+        "respuestas": [
+          "She loves him"
+        ]
+      }
+    ],
+    "examen": [
+      {
+        "tipo": "opcion",
+        "pregunta": "My brother is in Japan. I miss ___.",
+        "opciones": [
+          "him",
+          "he",
+          "his",
+          "them"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "This present is for ___. (ella)",
+        "opciones": [
+          "her",
+          "she",
+          "his",
+          "they"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "Come with ___! (nosotros)",
+        "opciones": [
+          "us",
+          "we",
+          "our",
+          "them"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "¿Cómo se dice «te quiero»?",
+        "opciones": [
+          "I love you.",
+          "I you love.",
+          "Me love you.",
+          "I love your."
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "I like these shoes. I want ___.",
+        "opciones": [
+          "them",
+          "it",
+          "they",
+          "him"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "Can you help ___? (a mí)",
+        "opciones": [
+          "me",
+          "I",
+          "my",
+          "mine"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "My grandma lives with us. We love her.",
+        "pregunta": "¿Con quién vive la abuela?",
+        "opciones": [
+          "Con ellos",
+          "Sola",
+          "Con su hermana",
+          "Con sus amigos"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "Text me after the class, OK?",
+        "pregunta": "¿Cuándo debe mandar el mensaje?",
+        "opciones": [
+          "Después de la clase",
+          "Antes de la clase",
+          "En la noche",
+          "Mañana"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Traduce: Lo conozco.",
+        "respuestas": [
+          "I know him"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Traduce: Escúchame.",
+        "respuestas": [
+          "Listen to me"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a1-19",
+    "num": 19,
+    "titulo": "Can / can't",
+    "contexto": "Habilidades y deportes",
+    "explicacion": {
+      "es": [
+        "**Can** significa *poder* o *saber (hacer algo)*. Es igual para **todas las personas** — nunca cambia ni lleva *-s*: *I can, she can, they can*.",
+        "Para decir que **no se puede**, se usa **can't** (o *cannot*): *I can't swim* (no sé nadar). No se necesita *do/does* con *can*.",
+        "Para hacer **preguntas**, *can* va al principio, antes del sujeto: *Can you swim? Can she drive?* Se responde corto: *Yes, I can.* / *No, I can't.*",
+        "Después de *can* / *can't* siempre va el **verbo en su forma base**, sin *to* y sin *-s*: *She can swim* ✅, *She can to swim* ❌, *She can swims* ❌."
+      ],
+      "tabla": {
+        "columnas": [
+          "Forma",
+          "Significa",
+          "Ejemplo"
+        ],
+        "filas": [
+          [
+            "I can",
+            "yo puedo / sé",
+            "I can swim."
+          ],
+          [
+            "I can't",
+            "yo no puedo / no sé",
+            "I can't cook."
+          ],
+          [
+            "Can you…?",
+            "¿puedes / sabes…?",
+            "Can you dance?"
+          ],
+          [
+            "Yes, I can.",
+            "sí, puedo / sé",
+            "Yes, I can."
+          ],
+          [
+            "No, I can't.",
+            "no, no puedo / no sé",
+            "No, I can't."
+          ]
+        ]
+      },
+      "ojo": [
+        "*Can* no cambia con *he/she/it*: *He can swim* ✅, *He cans swim* ❌.",
+        "Después de *can* el verbo va sin *to*: *I can swim* ✅, *I can to swim* ❌.",
+        "No se usa *do/does* con *can*: *Can you swim?* ✅, *Do you can swim?* ❌.",
+        "*Can* también sirve para **pedir permiso**, no solo para habilidad: *Can I use your phone?* (¿Puedo usar tu teléfono?)."
+      ],
+      "en": [
+        "Can means to be able to do something, or to know how to do it. It never changes form: I can, she can, they can.",
+        "For the negative, use can't (or cannot): I can't swim.",
+        "To ask a question, put can at the start, before the subject: Can you swim? Answer short: Yes, I can. / No, I can't.",
+        "After can or can't, always use the base verb, with no to and no -s: She can swim, not she can swims."
+      ]
+    },
+    "vocabulario": [
+      {
+        "en": "can",
+        "es": "poder, saber (hacer algo)",
+        "imagen": "Persona nadando con facilidad y una gran sonrisa en una alberca",
+        "ejemplo": [
+          "I can swim.",
+          "Yo sé nadar."
+        ]
+      },
+      {
+        "en": "can't",
+        "es": "no poder, no saber",
+        "imagen": "Persona desafinando frente a un micrófono de karaoke con cara de pena",
+        "ejemplo": [
+          "I can't sing well.",
+          "No sé cantar bien."
+        ]
+      },
+      {
+        "en": "swim",
+        "es": "nadar",
+        "imagen": "Niño nadando estilo libre en una alberca",
+        "ejemplo": [
+          "Can you swim?",
+          "¿Sabes nadar?"
+        ]
+      },
+      {
+        "en": "ride a bike",
+        "es": "andar en bicicleta",
+        "imagen": "Niña andando en bicicleta por un camino del parque",
+        "ejemplo": [
+          "She can ride a bike.",
+          "Ella sabe andar en bicicleta."
+        ]
+      },
+      {
+        "en": "play soccer",
+        "es": "jugar fútbol",
+        "imagen": "Niños jugando fútbol en una cancha",
+        "ejemplo": [
+          "He can play soccer very well.",
+          "Él sabe jugar fútbol muy bien."
+        ]
+      },
+      {
+        "en": "play tennis",
+        "es": "jugar tenis",
+        "imagen": "Persona golpeando una pelota de tenis en la cancha",
+        "ejemplo": [
+          "I can't play tennis.",
+          "No sé jugar tenis."
+        ]
+      },
+      {
+        "en": "play basketball",
+        "es": "jugar baloncesto",
+        "imagen": "Joven encestando una pelota de baloncesto",
+        "ejemplo": [
+          "Can you play basketball?",
+          "¿Sabes jugar baloncesto?"
+        ]
+      },
+      {
+        "en": "run fast",
+        "es": "correr rápido",
+        "imagen": "Corredor en una pista de atletismo a toda velocidad",
+        "ejemplo": [
+          "My brother can run fast.",
+          "Mi hermano puede correr rápido."
+        ]
+      },
+      {
+        "en": "dance",
+        "es": "bailar",
+        "imagen": "Pareja bailando salsa sonriendo en una fiesta",
+        "ejemplo": [
+          "She can dance very well.",
+          "Ella sabe bailar muy bien."
+        ]
+      },
+      {
+        "en": "sing",
+        "es": "cantar",
+        "imagen": "Persona cantando feliz con un micrófono",
+        "ejemplo": [
+          "I can't sing.",
+          "No sé cantar."
+        ]
+      },
+      {
+        "en": "cook",
+        "es": "cocinar",
+        "imagen": "Hombre cocinando pasta en un sartén en la cocina",
+        "ejemplo": [
+          "My dad can cook pasta.",
+          "Mi papá sabe cocinar pasta."
+        ]
+      },
+      {
+        "en": "drive",
+        "es": "manejar",
+        "imagen": "Persona manejando un carro sonriente en la carretera",
+        "ejemplo": [
+          "She can drive a car.",
+          "Ella sabe manejar un carro."
+        ]
+      },
+      {
+        "en": "play the guitar",
+        "es": "tocar la guitarra",
+        "imagen": "Joven tocando la guitarra sentado en su cuarto",
+        "ejemplo": [
+          "He can play the guitar.",
+          "Él sabe tocar la guitarra."
+        ]
+      },
+      {
+        "en": "climb",
+        "es": "escalar",
+        "imagen": "Persona escalando una pared de rocas con arnés",
+        "ejemplo": [
+          "Can you climb?",
+          "¿Sabes escalar?"
+        ]
+      },
+      {
+        "en": "ski",
+        "es": "esquiar",
+        "imagen": "Persona esquiando en una montaña nevada",
+        "ejemplo": [
+          "I can't ski.",
+          "No sé esquiar."
+        ]
+      },
+      {
+        "en": "a sport",
+        "es": "un deporte",
+        "imagen": "Varias pelotas deportivas juntas: fútbol, baloncesto y tenis",
+        "ejemplo": [
+          "What's your favorite sport?",
+          "¿Cuál es tu deporte favorito?"
+        ]
+      }
+    ],
+    "grupos": [
+      {
+        "id": "habilidades",
+        "titulo": "Puedo y no puedo",
+        "icono": "💪",
+        "patron": [
+          "I can swim.",
+          "He can't cook.",
+          "She can play soccer."
+        ],
+        "palabras": [
+          {
+            "en": "I can swim.",
+            "es": "Yo sé nadar.",
+            "imagen": "Persona nadando feliz en una alberca al aire libre",
+            "ejemplo": [
+              "I can swim, but I can't dive.",
+              "Yo sé nadar, pero no sé clavadismo."
+            ]
+          },
+          {
+            "en": "I can't cook.",
+            "es": "No sé cocinar.",
+            "imagen": "Persona viendo una olla quemada con cara de frustración",
+            "ejemplo": [
+              "I can't cook, so I eat out a lot.",
+              "No sé cocinar, así que como afuera mucho."
+            ]
+          },
+          {
+            "en": "He can play soccer.",
+            "es": "Él sabe jugar fútbol.",
+            "imagen": "Niño pateando un balón de fútbol en el jardín",
+            "ejemplo": [
+              "He can play soccer every weekend.",
+              "Él juega fútbol cada fin de semana."
+            ]
+          },
+          {
+            "en": "She can't drive.",
+            "es": "Ella no sabe manejar.",
+            "imagen": "Mujer joven mirando las llaves de un carro con duda",
+            "ejemplo": [
+              "She can't drive yet; she's learning.",
+              "Ella todavía no sabe manejar; está aprendiendo."
+            ]
+          },
+          {
+            "en": "We can dance salsa.",
+            "es": "Sabemos bailar salsa.",
+            "imagen": "Pareja bailando salsa en una fiesta familiar",
+            "ejemplo": [
+              "We can dance salsa and cumbia.",
+              "Sabemos bailar salsa y cumbia."
+            ]
+          },
+          {
+            "en": "They can't sing.",
+            "es": "Ellos no saben cantar.",
+            "imagen": "Grupo de amigos riéndose mientras cantan desafinado en un karaoke",
+            "ejemplo": [
+              "They can't sing, but they love karaoke.",
+              "No saben cantar, pero les encanta el karaoke."
+            ]
+          },
+          {
+            "en": "My sister can ride a bike.",
+            "es": "Mi hermana sabe andar en bici.",
+            "imagen": "Niña sonriente andando en bicicleta con casco",
+            "ejemplo": [
+              "My sister can ride a bike without help.",
+              "Mi hermana sabe andar en bici sin ayuda."
+            ]
+          },
+          {
+            "en": "My brother can't swim.",
+            "es": "Mi hermano no sabe nadar.",
+            "imagen": "Niño con flotadores mirando la alberca con nervios",
+            "ejemplo": [
+              "My brother can't swim, so he uses floaties.",
+              "Mi hermano no sabe nadar, por eso usa flotadores."
+            ]
+          },
+          {
+            "en": "I can speak a little English.",
+            "es": "Sé hablar un poco de inglés.",
+            "imagen": "Persona platicando con un turista extranjero en la calle",
+            "ejemplo": [
+              "I can speak a little English and some French.",
+              "Sé hablar un poco de inglés y algo de francés."
+            ]
+          },
+          {
+            "en": "He can't play the guitar.",
+            "es": "Él no sabe tocar la guitarra.",
+            "imagen": "Joven con una guitarra mirando unos acordes en una hoja con confusión",
+            "ejemplo": [
+              "He can't play the guitar, but he can play the drums.",
+              "No sabe tocar la guitarra, pero sabe tocar la batería."
+            ]
+          },
+          {
+            "en": "We can play basketball very well.",
+            "es": "Sabemos jugar baloncesto muy bien.",
+            "imagen": "Equipo de amigos celebrando una canasta en la cancha",
+            "ejemplo": [
+              "We can play basketball very well together.",
+              "Sabemos jugar baloncesto muy bien juntos."
+            ]
+          },
+          {
+            "en": "She can run very fast.",
+            "es": "Ella puede correr muy rápido.",
+            "imagen": "Mujer corriendo a toda velocidad en una pista",
+            "ejemplo": [
+              "She can run very fast; she wins every race.",
+              "Ella corre muy rápido; gana todas las carreras."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "preguntas",
+        "titulo": "Preguntas con can",
+        "icono": "❓",
+        "patron": [
+          "Can you swim?",
+          "Can she cook?",
+          "Can I help you?"
+        ],
+        "palabras": [
+          {
+            "en": "Can you swim?",
+            "es": "¿Sabes nadar?",
+            "imagen": "Instructor de natación preguntándole a un niño junto a la alberca",
+            "ejemplo": [
+              "Can you swim? Yes, a little.",
+              "¿Sabes nadar? Sí, un poco."
+            ]
+          },
+          {
+            "en": "Can you play tennis?",
+            "es": "¿Sabes jugar tenis?",
+            "imagen": "Dos amigos con raquetas de tenis en una cancha",
+            "ejemplo": [
+              "Can you play tennis? No, I can't.",
+              "¿Sabes jugar tenis? No, no sé."
+            ]
+          },
+          {
+            "en": "Can she cook?",
+            "es": "¿Ella sabe cocinar?",
+            "imagen": "Persona preguntando sobre una mujer que cocina en la cocina",
+            "ejemplo": [
+              "Can she cook? Yes, she's a great cook.",
+              "¿Ella sabe cocinar? Sí, cocina muy bien."
+            ]
+          },
+          {
+            "en": "Can he drive?",
+            "es": "¿Él sabe manejar?",
+            "imagen": "Persona señalando un carro y preguntando a un amigo",
+            "ejemplo": [
+              "Can he drive? Yes, he has a license.",
+              "¿Él sabe manejar? Sí, tiene licencia."
+            ]
+          },
+          {
+            "en": "Can they dance?",
+            "es": "¿Ellos saben bailar?",
+            "imagen": "Pareja observando a otras personas bailar en una fiesta",
+            "ejemplo": [
+              "Can they dance? Yes, they love dancing.",
+              "¿Ellos saben bailar? Sí, les encanta bailar."
+            ]
+          },
+          {
+            "en": "Can you speak English?",
+            "es": "¿Sabes hablar inglés?",
+            "imagen": "Turista extranjero preguntándole algo a una joven en la calle mientras ella sonríe",
+            "ejemplo": [
+              "Can you speak English? Yes, a little.",
+              "¿Sabes hablar inglés? Sí, un poco."
+            ]
+          },
+          {
+            "en": "Can your dad swim?",
+            "es": "¿Tu papá sabe nadar?",
+            "imagen": "Niño preguntando a su amigo junto a una alberca",
+            "ejemplo": [
+              "Can your dad swim? Yes, he swims every day.",
+              "¿Tu papá sabe nadar? Sí, nada todos los días."
+            ]
+          },
+          {
+            "en": "Can you play the piano?",
+            "es": "¿Sabes tocar el piano?",
+            "imagen": "Persona sentada frente a un piano con cara de duda",
+            "ejemplo": [
+              "Can you play the piano? No, but I can sing.",
+              "¿Sabes tocar el piano? No, pero sé cantar."
+            ]
+          },
+          {
+            "en": "Can we park here?",
+            "es": "¿Podemos estacionarnos aquí?",
+            "imagen": "Conductor preguntando a un guardia de seguridad junto a su carro",
+            "ejemplo": [
+              "Can we park here? No, it's not allowed.",
+              "¿Podemos estacionarnos aquí? No, no se permite."
+            ]
+          },
+          {
+            "en": "Can I help you?",
+            "es": "¿Puedo ayudarte?",
+            "imagen": "Empleado de tienda sonriendo y ofreciendo ayuda a un cliente",
+            "ejemplo": [
+              "Can I help you? Yes, please.",
+              "¿Puedo ayudarte? Sí, por favor."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "deportes",
+        "titulo": "Deportes y actividades",
+        "icono": "⚽",
+        "patron": [
+          "play volleyball",
+          "go swimming",
+          "do yoga"
+        ],
+        "palabras": [
+          {
+            "en": "play volleyball",
+            "es": "jugar voleibol",
+            "imagen": "Personas jugando voleibol en la playa",
+            "ejemplo": [
+              "We can play volleyball on the beach.",
+              "Sabemos jugar voleibol en la playa."
+            ]
+          },
+          {
+            "en": "play baseball",
+            "es": "jugar béisbol",
+            "imagen": "Niño bateando una pelota de béisbol en un campo",
+            "ejemplo": [
+              "He can play baseball very well.",
+              "Él sabe jugar béisbol muy bien."
+            ]
+          },
+          {
+            "en": "go swimming",
+            "es": "ir a nadar",
+            "imagen": "Familia entrando a una alberca juntos",
+            "ejemplo": [
+              "We can go swimming on Sundays.",
+              "Podemos ir a nadar los domingos."
+            ]
+          },
+          {
+            "en": "go running",
+            "es": "salir a correr",
+            "imagen": "Persona saliendo a correr temprano en el parque",
+            "ejemplo": [
+              "I can go running with you tomorrow.",
+              "Puedo salir a correr contigo mañana."
+            ]
+          },
+          {
+            "en": "go cycling",
+            "es": "andar en bici (salir)",
+            "imagen": "Grupo de amigos andando en bicicleta por la calle",
+            "ejemplo": [
+              "They can go cycling on the weekend.",
+              "Ellos pueden andar en bici el fin de semana."
+            ]
+          },
+          {
+            "en": "lift weights",
+            "es": "levantar pesas",
+            "imagen": "Persona levantando pesas en un gimnasio",
+            "ejemplo": [
+              "He can lift heavy weights.",
+              "Él puede levantar pesas pesadas."
+            ]
+          },
+          {
+            "en": "do yoga",
+            "es": "hacer yoga",
+            "imagen": "Mujer haciendo una postura de yoga en un parque",
+            "ejemplo": [
+              "She can do yoga very well.",
+              "Ella sabe hacer yoga muy bien."
+            ]
+          },
+          {
+            "en": "play golf",
+            "es": "jugar golf",
+            "imagen": "Hombre golpeando una pelota de golf en el campo",
+            "ejemplo": [
+              "My grandfather can still play golf.",
+              "Mi abuelo todavía puede jugar golf."
+            ]
+          },
+          {
+            "en": "box",
+            "es": "boxear",
+            "imagen": "Persona entrenando boxeo con un saco de boxeo",
+            "ejemplo": [
+              "He can box really well.",
+              "Él sabe boxear muy bien."
+            ]
+          },
+          {
+            "en": "skate",
+            "es": "patinar",
+            "imagen": "Joven patinando en patineta en un parque",
+            "ejemplo": [
+              "Can you skate? No, I can't.",
+              "¿Sabes patinar? No, no sé."
+            ]
+          }
+        ]
+      }
+    ],
+    "ejemplos": [
+      {
+        "en": "Can you swim? Yes, I can.",
+        "es": "¿Sabes nadar? Sí, sé.",
+        "imagen": "Persona levantando el pulgar dentro de una alberca"
+      },
+      {
+        "en": "Can you cook? No, I can't.",
+        "es": "¿Sabes cocinar? No, no sé.",
+          "imagen": "Joven en la cocina encogiéndose de hombros frente a una sartén, sin saber qué hacer"
+      },
+      {
+        "en": "I can play soccer, but I can't play tennis.",
+        "es": "Sé jugar fútbol, pero no sé jugar tenis."
+      },
+      {
+        "en": "She can dance very well.",
+        "es": "Ella sabe bailar muy bien."
+      },
+      {
+        "en": "My brother can't drive yet.",
+        "es": "Mi hermano todavía no sabe manejar."
+      },
+      {
+        "en": "Can your sister speak English?",
+        "es": "¿Tu hermana sabe hablar inglés?",
+          "imagen": "Muchacha estudiando inglés con audífonos y un libro mientras su hermano la mira"
+      },
+      {
+        "en": "We can play basketball on Saturdays.",
+        "es": "Podemos jugar baloncesto los sábados."
+      },
+      {
+        "en": "He can run fast, but he can't swim.",
+        "es": "Él puede correr rápido, pero no sabe nadar.",
+        "imagen": "Persona corriendo en la playa evitando entrar al agua"
+      },
+      {
+        "en": "Can I use your phone, please?",
+        "es": "¿Puedo usar tu teléfono, por favor?"
+      },
+      {
+        "en": "They can't come to the party tonight.",
+        "es": "Ellos no pueden venir a la fiesta esta noche."
+      }
+    ],
+    "frases": [
+      {
+        "en": "My sister can play the piano, but she can't sing.",
+        "es": "Mi hermana sabe tocar el piano, pero no sabe cantar."
+      },
+      {
+        "en": "Can you help me? I can't open this jar.",
+        "es": "¿Me puedes ayudar? No puedo abrir este frasco.",
+        "imagen": "Persona esforzándose por abrir un frasco en la cocina"
+      },
+      {
+        "en": "We can't go to the beach today because it's raining.",
+        "es": "No podemos ir a la playa hoy porque está lloviendo."
+      },
+      {
+        "en": "My little brother can already ride a bike without help.",
+        "es": "Mi hermanito ya sabe andar en bici sin ayuda.",
+        "imagen": "Niño pequeño andando en bicicleta solo mientras sus papás aplauden"
+      },
+      {
+        "en": "Can your dad drive a truck? Yes, he can.",
+        "es": "¿Tu papá sabe manejar un camión? Sí, sabe."
+      },
+      {
+        "en": "I can speak Spanish and a little English, but I can't speak French.",
+        "es": "Sé hablar español y un poco de inglés, pero no sé hablar francés."
+      },
+      {
+        "en": "She can't play tennis very well, but she can play volleyball.",
+        "es": "Ella no sabe jugar tenis muy bien, pero sabe jugar voleibol."
+      },
+      {
+        "en": "Can we park the car here, or can't we?",
+        "es": "¿Podemos estacionar el carro aquí, o no podemos?"
+      },
+      {
+        "en": "My grandfather can still swim every morning at eighty years old.",
+        "es": "Mi abuelo todavía puede nadar cada mañana a los ochenta años.",
+        "imagen": "Señor mayor nadando con energía en una alberca temprano en la mañana"
+      },
+      {
+        "en": "We can meet at six, but we can't stay late because we have work tomorrow.",
+        "es": "Podemos vernos a las seis, pero no podemos quedarnos tarde porque tenemos trabajo mañana."
+      }
+    ],
+    "listening": [
+      {
+        "audio": "Can you swim? Yes, I can. I swim every weekend.",
+        "pregunta": "¿Qué sabe hacer?",
+        "opciones": [
+          "Nadar",
+          "Bailar",
+          "Cocinar",
+          "Manejar"
+        ]
+      },
+      {
+        "audio": "Can your brother drive? No, he can't. He's only fifteen.",
+        "pregunta": "¿Por qué no puede manejar?",
+        "opciones": [
+          "Es muy joven",
+          "No tiene carro",
+          "No le gusta",
+          "Está ocupado"
+        ]
+      },
+      {
+        "audio": "Can you play the guitar? No, I can't, but I can play the piano.",
+        "pregunta": "¿Qué sabe tocar?",
+        "opciones": [
+          "El piano",
+          "La guitarra",
+          "El violín",
+          "La batería"
+        ]
+      },
+      {
+        "audio": "Can she cook Mexican food? Yes, she can. She makes great tacos.",
+        "pregunta": "¿Qué sabe cocinar?",
+        "opciones": [
+          "Comida mexicana",
+          "Comida italiana",
+          "Comida china",
+          "Postres"
+        ]
+      },
+      {
+        "audio": "Can we park here? No, we can't. There's a sign.",
+        "pregunta": "¿Por qué no pueden estacionarse?",
+        "opciones": [
+          "Hay un letrero que lo prohíbe",
+          "No hay espacio",
+          "Está muy lejos",
+          "Es muy caro"
+        ]
+      }
+    ],
+    "lectura": {
+      "titulo": "My cousin Pablo",
+      "texto": "My cousin Pablo is very athletic. He can play soccer, basketball and volleyball, and he can run very fast. He wants to be a professional athlete one day. But Pablo can't swim! He's a little afraid of the water. His sister Carla is very different. She can't play sports very well, but she can swim like a fish and she can also play the piano beautifully. On Saturdays, Pablo and Carla go to the park together. He plays soccer with his friends, and she reads a book under a tree. They are very different, but they are great friends.",
+      "preguntas": [
+        {
+          "pregunta": "¿Qué deportes sabe jugar Pablo?",
+          "opciones": [
+            "Fútbol, baloncesto y voleibol",
+            "Tenis y golf",
+            "Solo fútbol",
+            "Natación y atletismo"
+          ]
+        },
+        {
+          "pregunta": "¿Qué no sabe hacer Pablo?",
+          "opciones": [
+            "Nadar",
+            "Correr",
+            "Jugar fútbol",
+            "Jugar baloncesto"
+          ]
+        },
+        {
+          "pregunta": "¿Qué sabe hacer Carla muy bien?",
+          "opciones": [
+            "Nadar y tocar el piano",
+            "Jugar fútbol",
+            "Correr rápido",
+            "Jugar baloncesto"
+          ]
+        },
+        {
+          "pregunta": "¿Qué hacen los sábados en el parque?",
+          "opciones": [
+            "Él juega fútbol y ella lee un libro",
+            "Los dos nadan juntos",
+            "Los dos juegan fútbol",
+            "Ella juega fútbol y él lee"
+          ]
+        }
+      ]
+    },
+    "escritura": [
+      {
+        "instruccion": "Ordena la oración.",
+        "pregunta": "swim / I / can",
+        "respuestas": [
+          "I can swim"
+        ]
+      },
+      {
+        "instruccion": "Ordena la oración.",
+        "pregunta": "cook / can't / he",
+        "respuestas": [
+          "He can't cook"
+        ]
+      },
+      {
+        "instruccion": "Ordena la pregunta.",
+        "pregunta": "you / can / swim",
+        "respuestas": [
+          "Can you swim"
+        ]
+      },
+      {
+        "instruccion": "Ordena la pregunta.",
+        "pregunta": "she / play / can / tennis",
+        "respuestas": [
+          "Can she play tennis"
+        ]
+      },
+      {
+        "instruccion": "Completa con can o can't.",
+        "pregunta": "I ___ speak French. (no sé)",
+        "respuestas": [
+          "can't"
+        ]
+      },
+      {
+        "instruccion": "Completa con can o can't.",
+        "pregunta": "My sister ___ dance very well. (sabe)",
+        "respuestas": [
+          "can"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "¿Sabes manejar?",
+        "respuestas": [
+          "Can you drive"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "No sé cocinar.",
+        "respuestas": [
+          "I can't cook"
+        ]
+      },
+      {
+        "instruccion": "Corrige la oración.",
+        "pregunta": "She can plays basketball.",
+        "respuestas": [
+          "She can play basketball"
+        ]
+      },
+      {
+        "instruccion": "Corrige la pregunta.",
+        "pregunta": "Can you to swim?",
+        "respuestas": [
+          "Can you swim"
+        ]
+      }
+    ],
+    "examen": [
+      {
+        "tipo": "opcion",
+        "pregunta": "I ___ swim very well.",
+        "opciones": [
+          "can",
+          "cans",
+          "can's",
+          "could"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "¿Cómo se dice «No sé cocinar»?",
+        "opciones": [
+          "I can't cook",
+          "I no can cook",
+          "I can cook not",
+          "I not can cook"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "___ you play tennis?",
+        "opciones": [
+          "Can",
+          "Do",
+          "Are",
+          "Is"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "She ___ play the guitar, but she can sing.",
+        "opciones": [
+          "can't",
+          "can",
+          "doesn't",
+          "isn't"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "Can he drive? ___, he can't.",
+        "opciones": [
+          "No",
+          "Yes",
+          "Not",
+          "Don't"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "My brother ___ ride a bike.",
+        "opciones": [
+          "can",
+          "cans",
+          "is can",
+          "do can"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "Can you swim? Yes, I can swim very well.",
+        "pregunta": "¿Sabe nadar?",
+        "opciones": [
+          "Sí, muy bien",
+          "No, nada",
+          "Sí, un poco",
+          "No sabe"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "Can she play soccer? No, she can't, but she can play basketball.",
+        "pregunta": "¿Qué sabe jugar?",
+        "opciones": [
+          "Baloncesto",
+          "Fútbol",
+          "Tenis",
+          "Voleibol"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Traduce: ¿Sabes bailar?",
+        "respuestas": [
+          "Can you dance"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Traduce: No puedo ayudarte hoy.",
+        "respuestas": [
+          "I can't help you today"
+        ]
+      }
+    ]
+  },
   { "id": "a1-20", "num": 20, "titulo": "Imperativo", "contexto": "Instrucciones, recetas y señales" },
   { "id": "a1-21", "num": 21, "titulo": "Presente continuo", "contexto": "¿Qué está pasando ahora? La ropa y el clima" },
   { "id": "a1-22", "num": 22, "titulo": "Contables e incontables; some / any", "contexto": "Comida y bebida" },
