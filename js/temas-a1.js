@@ -1809,6 +1809,7 @@ const TEMAS_A1 = [
     "titulo": "Plurales regulares e irregulares",
     "contexto": "Cosas que tengo",
     "explicacion": {
+      "video": "videos/temas/a1-05-explicacion.mp4",
       "es": [
         "Para hablar de **más de una cosa**, casi siempre se agrega **-s**: *one book, two books*.",
         "Si la palabra termina en **s, ss, sh, ch, x** o a veces **o**, se agrega **-es**: *bus → buses, box → boxes, tomato → tomatoes*.",
