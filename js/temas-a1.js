@@ -1566,6 +1566,7 @@ const TEMAS_A1 = [
     "titulo": "Artículos a / an / the",
     "contexto": "Objetos de la casa y del salón de clases",
     "explicacion": {
+      "video": "videos/temas/a1-04-explicacion.mp4",
       "es": [
         "**A** y **an** significan **un** o **una**. Se usan con una sola cosa (singular) cuando no importa cuál es o la mencionamos por primera vez: *It's a book.*",
         "**A** va antes de un **sonido de consonante** (*a pen, a chair*) y **an** antes de un **sonido de vocal** (*an apple, an eraser*).",
