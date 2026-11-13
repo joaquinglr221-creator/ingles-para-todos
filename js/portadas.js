@@ -110,5 +110,6 @@ const PORTADAS_MENU = {
  "a1-20/clase": "images/portadas/a1-20-clase.jpg",
  "a1-20/receta": "images/portadas/a1-20-receta.jpg",
  "a1-20/senales": "images/portadas/a1-20-senales.jpg",
- "a1-20/lets": "images/portadas/a1-20-lets.jpg"
+ "a1-20/lets": "images/portadas/a1-20-lets.jpg",
+ "a1-20/ejemplos": "images/portadas/a1-20-ejemplos.jpg"
 };
