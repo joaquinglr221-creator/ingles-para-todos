@@ -105,5 +105,10 @@ const PORTADAS_MENU = {
  "a1-19/habilidades": "images/portadas/a1-19-habilidades.jpg",
  "a1-19/preguntas": "images/portadas/a1-19-preguntas.jpg",
  "a1-19/deportes": "images/portadas/a1-19-deportes.jpg",
- "a1-18/orden": "images/portadas/a1-18-orden.jpg"
+ "a1-18/orden": "images/portadas/a1-18-orden.jpg",
+ "a1-20/vocabulario": "images/portadas/a1-20-vocabulario.jpg",
+ "a1-20/clase": "images/portadas/a1-20-clase.jpg",
+ "a1-20/receta": "images/portadas/a1-20-receta.jpg",
+ "a1-20/senales": "images/portadas/a1-20-senales.jpg",
+ "a1-20/lets": "images/portadas/a1-20-lets.jpg"
 };
