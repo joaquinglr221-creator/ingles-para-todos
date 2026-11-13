@@ -6632,7 +6632,955 @@ const TEMAS_A1 = [
       }
     ]
   },
-  { "id": "a1-20", "num": 20, "titulo": "Imperativo", "contexto": "Instrucciones, recetas y señales" },
+  {
+    "id": "a1-20",
+    "num": 20,
+    "titulo": "Imperativo",
+    "contexto": "Instrucciones, recetas y señales",
+    "explicacion": {
+      "es": [
+        "El **imperativo** sirve para dar **instrucciones, órdenes, consejos y avisos**. Se usa el verbo en su **forma base**, **sin sujeto**: ***Open** the door. **Sit** down. **Listen**!*",
+        "Es igual para una persona o para varias: *Sit down* = siéntate / siéntese / siéntense.",
+        "Para decir que **no** se haga algo, se pone **Don't** antes del verbo: ***Don't run**. **Don't touch**. **Don't worry**.*",
+        "Para sonar **amable** se agrega **please** al principio o al final: ***Please** sit down. Close the window, **please**.* Para invitar a hacer algo juntos se usa ***Let's*** + verbo: ***Let's go**!* (¡Vamos!)"
+      ],
+      "tabla": {
+        "columnas": [
+          "Tipo",
+          "Forma",
+          "Ejemplo"
+        ],
+        "filas": [
+          [
+            "Instrucción",
+            "verbo",
+            "Open your books."
+          ],
+          [
+            "Negativo",
+            "Don't + verbo",
+            "Don't run."
+          ],
+          [
+            "Con to be",
+            "Be + adjetivo",
+            "Be careful!"
+          ],
+          [
+            "Negativo con to be",
+            "Don't be + adjetivo",
+            "Don't be late."
+          ],
+          [
+            "Amable",
+            "Please + verbo",
+            "Please sit down."
+          ],
+          [
+            "Invitación",
+            "Let's + verbo",
+            "Let's eat!"
+          ]
+        ]
+      },
+      "ojo": [
+        "El imperativo **no lleva sujeto**: *Sit down* ✅, no *You sit down* ❌ (eso sería una afirmación).",
+        "El verbo va **sin -s y sin to**: *Open the door* ✅, no *Opens the door* ni *To open the door* ❌.",
+        "El negativo es siempre ***Don't***, nunca *No*: *Don't touch* ✅, *No touch* ❌. (*No smoking* solo se usa en letreros.)",
+        "Con adjetivos se usa ***be***: *Be quiet!* ✅; en negativo, *Don't be sad* ✅.",
+        "Una orden sin *please* puede sonar brusca; con *please* suena educada: *Please close the door.*"
+      ],
+      "en": [
+        "Use the base verb, with no subject, to give instructions: Open the door. Sit down.",
+        "For the negative, use don't: Don't run. Don't worry.",
+        "Add please to be polite: Please sit down.",
+        "Use let's for suggestions: Let's go!"
+      ]
+    },
+    "vocabulario": [
+      {
+        "en": "Sit down.",
+        "es": "siéntate, siéntense",
+        "imagen": "Maestra indicando con la mano a sus alumnos que se sienten",
+        "ejemplo": [
+          "Please sit down, everybody.",
+          "Siéntense, por favor, todos."
+        ]
+      },
+      {
+        "en": "Stand up.",
+        "es": "ponte de pie, levántense",
+        "imagen": "Alumnos poniéndose de pie al mismo tiempo en un salón",
+        "ejemplo": [
+          "Stand up and come to the front.",
+          "Ponte de pie y ven al frente."
+        ]
+      },
+      {
+        "en": "Open the door.",
+        "es": "abre la puerta",
+        "imagen": "Persona abriendo la puerta de su casa con una sonrisa",
+        "ejemplo": [
+          "Open the door, please.",
+          "Abre la puerta, por favor."
+        ]
+      },
+      {
+        "en": "Close the window.",
+        "es": "cierra la ventana",
+        "imagen": "Mujer cerrando la ventana porque afuera hace viento",
+        "ejemplo": [
+          "It's cold. Close the window.",
+          "Hace frío. Cierra la ventana."
+        ]
+      },
+      {
+        "en": "Come here.",
+        "es": "ven aquí",
+        "imagen": "Mamá llamando con la mano a su hijo para que se acerque",
+        "ejemplo": [
+          "Come here, I want to show you something.",
+          "Ven aquí, quiero enseñarte algo."
+        ]
+      },
+      {
+        "en": "Wait!",
+        "es": "¡espera!",
+        "imagen": "Persona levantando la mano para que su amigo la espere en la calle",
+        "ejemplo": [
+          "Wait! I'm coming!",
+          "¡Espera! ¡Ya voy!"
+        ]
+      },
+      {
+        "en": "Listen!",
+        "es": "¡escucha!",
+        "imagen": "Persona con la mano en la oreja escuchando con atención un sonido",
+        "ejemplo": [
+          "Listen! Is that music?",
+          "¡Escucha! ¿Es música eso?"
+        ]
+      },
+      {
+        "en": "Look!",
+        "es": "¡mira!",
+        "imagen": "Niña señalando emocionada un arcoíris en el cielo",
+        "ejemplo": [
+          "Look! A rainbow!",
+          "¡Mira! ¡Un arcoíris!"
+        ]
+      },
+      {
+        "en": "Be quiet!",
+        "es": "¡silencio!",
+        "imagen": "Bibliotecaria con el dedo en los labios pidiendo silencio",
+        "ejemplo": [
+          "Be quiet, the baby is sleeping.",
+          "Silencio, el bebé está dormido."
+        ]
+      },
+      {
+        "en": "Be careful!",
+        "es": "¡ten cuidado!",
+        "imagen": "Papá advirtiendo a su hijo que baje con cuidado una escalera",
+        "ejemplo": [
+          "Be careful! The floor is wet.",
+          "¡Ten cuidado! El piso está mojado."
+        ]
+      },
+      {
+        "en": "Don't worry.",
+        "es": "no te preocupes",
+        "imagen": "Amiga tranquilizando a otra con una sonrisa",
+        "ejemplo": [
+          "Don't worry, everything is OK.",
+          "No te preocupes, todo está bien."
+        ]
+      },
+      {
+        "en": "Hurry up!",
+        "es": "¡apúrate!",
+        "imagen": "Persona en la puerta mirando el reloj y llamando a alguien que se tarda",
+        "ejemplo": [
+          "Hurry up! The bus is here!",
+          "¡Apúrate! ¡Ya llegó el autobús!"
+        ]
+      },
+      {
+        "en": "Turn left.",
+        "es": "da vuelta a la izquierda",
+        "imagen": "Conductor girando el volante a la izquierda en una esquina",
+        "ejemplo": [
+          "Turn left at the bank.",
+          "Da vuelta a la izquierda en el banco."
+        ]
+      },
+      {
+        "en": "Turn right.",
+        "es": "da vuelta a la derecha",
+        "imagen": "Ciclista señalando con el brazo que va a dar vuelta a la derecha",
+        "ejemplo": [
+          "Turn right on Main Street.",
+          "Da vuelta a la derecha en la calle principal."
+        ]
+      },
+      {
+        "en": "Go straight.",
+        "es": "sigue derecho",
+        "imagen": "Calle larga y recta con una persona caminando hacia adelante",
+        "ejemplo": [
+          "Go straight for two blocks.",
+          "Sigue derecho dos cuadras."
+        ]
+      },
+      {
+        "en": "Stop!",
+        "es": "¡alto!, ¡detente!",
+        "imagen": "Policía de tránsito levantando la mano para detener los coches",
+        "ejemplo": [
+          "Stop! The light is red.",
+          "¡Alto! El semáforo está en rojo."
+        ]
+      }
+    ],
+    "grupos": [
+      {
+        "id": "clase",
+        "titulo": "Instrucciones en clase",
+        "icono": "🏫",
+        "patron": [
+          "Open your books.",
+          "Repeat after me.",
+          "Work in pairs."
+        ],
+        "palabras": [
+          {
+            "en": "Open your books.",
+            "es": "abran sus libros",
+            "imagen": "Alumnos abriendo sus libros sobre el banco",
+            "ejemplo": [
+              "Open your books to page ten.",
+              "Abran sus libros en la página diez."
+            ]
+          },
+          {
+            "en": "Close your books.",
+            "es": "cierren sus libros",
+            "imagen": "Alumna cerrando su libro al terminar la clase",
+            "ejemplo": [
+              "Close your books, it's time for a test.",
+              "Cierren sus libros, es hora del examen."
+            ]
+          },
+          {
+            "en": "Read the text.",
+            "es": "lean el texto",
+            "imagen": "Alumno leyendo con atención un libro en su banco",
+            "ejemplo": [
+              "Read the text and answer the questions.",
+              "Lean el texto y contesten las preguntas."
+            ]
+          },
+          {
+            "en": "Write your name.",
+            "es": "escribe tu nombre",
+            "imagen": "Mano escribiendo en la parte de arriba de una hoja",
+            "ejemplo": [
+              "Write your name at the top.",
+              "Escribe tu nombre arriba."
+            ]
+          },
+          {
+            "en": "Repeat after me.",
+            "es": "repitan después de mí",
+            "imagen": "Maestro hablando y alumnos repitiendo en coro",
+            "ejemplo": [
+              "Repeat after me: good morning!",
+              "Repitan después de mí: ¡buenos días!"
+            ]
+          },
+          {
+            "en": "Work in pairs.",
+            "es": "trabajen en parejas",
+            "imagen": "Dos alumnos trabajando juntos en un mismo cuaderno",
+            "ejemplo": [
+              "Work in pairs and practice the dialogue.",
+              "Trabajen en parejas y practiquen el diálogo."
+            ]
+          },
+          {
+            "en": "Raise your hand.",
+            "es": "levanta la mano",
+            "imagen": "Alumna levantando la mano para participar",
+            "ejemplo": [
+              "Raise your hand to answer.",
+              "Levanta la mano para contestar."
+            ]
+          },
+          {
+            "en": "Look at the picture.",
+            "es": "miren la foto",
+            "imagen": "Alumnos mirando una foto grande que muestra el maestro",
+            "ejemplo": [
+              "Look at the picture. What can you see?",
+              "Miren la foto. ¿Qué ven?"
+            ]
+          },
+          {
+            "en": "Turn off your phone.",
+            "es": "apaga tu celular",
+            "imagen": "Persona apagando su celular antes de una clase",
+            "ejemplo": [
+              "Turn off your phone, please.",
+              "Apaga tu celular, por favor."
+            ]
+          },
+          {
+            "en": "Don't use your phone.",
+            "es": "no uses tu celular",
+            "imagen": "Maestra pidiendo amablemente a un alumno que guarde su celular",
+            "ejemplo": [
+              "Don't use your phone in class.",
+              "No uses tu celular en clase."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "receta",
+        "titulo": "En la cocina: una receta",
+        "icono": "🍳",
+        "patron": [
+          "Wash the vegetables.",
+          "Cut the tomatoes.",
+          "Add salt."
+        ],
+        "palabras": [
+          {
+            "en": "Wash the vegetables.",
+            "es": "lava las verduras",
+            "imagen": "Manos lavando verduras bajo el chorro de agua",
+            "ejemplo": [
+              "First, wash the vegetables.",
+              "Primero, lava las verduras."
+            ]
+          },
+          {
+            "en": "Cut the tomatoes.",
+            "es": "corta los jitomates",
+            "imagen": "Persona cortando jitomates en una tabla de cocina",
+            "ejemplo": [
+              "Cut the tomatoes into small pieces.",
+              "Corta los jitomates en trozos pequeños."
+            ]
+          },
+          {
+            "en": "Peel the potatoes.",
+            "es": "pela las papas",
+            "imagen": "Persona pelando papas en la cocina",
+            "ejemplo": [
+              "Peel the potatoes and boil them.",
+              "Pela las papas y hiérvelas."
+            ]
+          },
+          {
+            "en": "Boil the water.",
+            "es": "hierve el agua",
+            "imagen": "Olla con agua hirviendo en la estufa",
+            "ejemplo": [
+              "Boil the water for the pasta.",
+              "Hierve el agua para la pasta."
+            ]
+          },
+          {
+            "en": "Heat the pan.",
+            "es": "calienta el sartén",
+            "imagen": "Sartén calentándose en la estufa con un poco de aceite",
+            "ejemplo": [
+              "Heat the pan with a little oil.",
+              "Calienta el sartén con un poco de aceite."
+            ]
+          },
+          {
+            "en": "Add salt.",
+            "es": "agrega sal",
+            "imagen": "Mano agregando sal a una olla de sopa",
+            "ejemplo": [
+              "Add salt and pepper.",
+              "Agrega sal y pimienta."
+            ]
+          },
+          {
+            "en": "Mix the eggs.",
+            "es": "mezcla los huevos",
+            "imagen": "Persona batiendo huevos en un tazón",
+            "ejemplo": [
+              "Mix the eggs with the milk.",
+              "Mezcla los huevos con la leche."
+            ]
+          },
+          {
+            "en": "Stir the soup.",
+            "es": "revuelve la sopa",
+            "imagen": "Persona revolviendo una sopa con una cuchara de madera",
+            "ejemplo": [
+              "Stir the soup slowly.",
+              "Revuelve la sopa despacio."
+            ]
+          },
+          {
+            "en": "Put it in the oven.",
+            "es": "mételo al horno",
+            "imagen": "Persona metiendo una charola al horno",
+            "ejemplo": [
+              "Put it in the oven for twenty minutes.",
+              "Mételo al horno veinte minutos."
+            ]
+          },
+          {
+            "en": "Serve it hot.",
+            "es": "sírvelo caliente",
+            "imagen": "Plato de sopa humeante servido en la mesa",
+            "ejemplo": [
+              "Serve it hot with bread.",
+              "Sírvelo caliente con pan."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "senales",
+        "titulo": "Señales y avisos",
+        "icono": "🚸",
+        "patron": [
+          "Don't touch.",
+          "Wash your hands.",
+          "Keep off the grass."
+        ],
+        "palabras": [
+          {
+            "en": "Don't touch.",
+            "es": "no tocar",
+            "imagen": "Niño a punto de tocar una pintura en un museo y su mamá deteniéndolo con un gesto",
+            "ejemplo": [
+              "Don't touch the paintings.",
+              "No toquen las pinturas."
+            ]
+          },
+          {
+            "en": "Don't run.",
+            "es": "no corras",
+            "imagen": "Niños caminando con cuidado junto a una alberca",
+            "ejemplo": [
+              "Don't run near the pool.",
+              "No corras cerca de la alberca."
+            ]
+          },
+          {
+            "en": "Don't park here.",
+            "es": "no te estaciones aquí",
+            "imagen": "Señal de no estacionarse con un coche junto a ella, sin letras",
+            "ejemplo": [
+              "You can't park there. Don't park here.",
+              "No puedes estacionarte ahí. No te estaciones aquí."
+            ]
+          },
+          {
+            "en": "Keep off the grass.",
+            "es": "no pisar el pasto",
+            "imagen": "Pasto verde muy cuidado con una pequeña cerca en un parque",
+            "ejemplo": [
+              "Keep off the grass, please.",
+              "No pisen el pasto, por favor."
+            ]
+          },
+          {
+            "en": "Wash your hands.",
+            "es": "lávate las manos",
+            "imagen": "Persona lavándose las manos con jabón en el lavabo",
+            "ejemplo": [
+              "Wash your hands before you eat.",
+              "Lávate las manos antes de comer."
+            ]
+          },
+          {
+            "en": "Turn off the lights.",
+            "es": "apaga las luces",
+            "imagen": "Mano apagando el interruptor de la luz en una habitación",
+            "ejemplo": [
+              "Turn off the lights when you leave.",
+              "Apaga las luces cuando salgas."
+            ]
+          },
+          {
+            "en": "Push the door.",
+            "es": "empuja la puerta",
+            "imagen": "Persona empujando una puerta de vidrio para entrar",
+            "ejemplo": [
+              "Push the door to open it.",
+              "Empuja la puerta para abrirla."
+            ]
+          },
+          {
+            "en": "Pull the door.",
+            "es": "jala la puerta",
+            "imagen": "Persona jalando la manija de una puerta para abrirla",
+            "ejemplo": [
+              "Pull the door, don't push it.",
+              "Jala la puerta, no la empujes."
+            ]
+          },
+          {
+            "en": "Cross the street.",
+            "es": "cruza la calle",
+            "imagen": "Personas cruzando la calle por el paso peatonal con el semáforo en verde",
+            "ejemplo": [
+              "Cross the street at the green light.",
+              "Cruza la calle con el semáforo en verde."
+            ]
+          },
+          {
+            "en": "Fasten your seat belt.",
+            "es": "abróchate el cinturón",
+            "imagen": "Pasajero abrochándose el cinturón de seguridad en un coche",
+            "ejemplo": [
+              "Fasten your seat belt, please.",
+              "Abróchate el cinturón, por favor."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lets",
+        "titulo": "Let's… (vamos a…)",
+        "icono": "🙌",
+        "patron": [
+          "Let's go!",
+          "Let's eat.",
+          "Let's take a break."
+        ],
+        "palabras": [
+          {
+            "en": "Let's go!",
+            "es": "¡vámonos!",
+            "imagen": "Grupo de amigos saliendo de casa con mochilas, listos para un paseo",
+            "ejemplo": [
+              "Let's go! We're late!",
+              "¡Vámonos! ¡Vamos tarde!"
+            ]
+          },
+          {
+            "en": "Let's eat.",
+            "es": "vamos a comer",
+            "imagen": "Familia sentándose a la mesa para comer",
+            "ejemplo": [
+              "Dinner is ready. Let's eat!",
+              "La cena está lista. ¡A comer!"
+            ]
+          },
+          {
+            "en": "Let's dance!",
+            "es": "¡vamos a bailar!",
+            "imagen": "Pareja invitando a sus amigos a bailar en una fiesta",
+            "ejemplo": [
+              "I love this song. Let's dance!",
+              "Me encanta esta canción. ¡Vamos a bailar!"
+            ]
+          },
+          {
+            "en": "Let's take a break.",
+            "es": "tomemos un descanso",
+            "imagen": "Compañeros de trabajo tomando café en un descanso",
+            "ejemplo": [
+              "We're tired. Let's take a break.",
+              "Estamos cansados. Tomemos un descanso."
+            ]
+          },
+          {
+            "en": "Let's watch a movie.",
+            "es": "veamos una película",
+            "imagen": "Amigos en el sofá con palomitas listos para ver una película",
+            "ejemplo": [
+              "Let's watch a movie tonight.",
+              "Veamos una película esta noche."
+            ]
+          },
+          {
+            "en": "Let's take a photo!",
+            "es": "¡tomemos una foto!",
+            "imagen": "Amigos juntándose para tomarse una selfie",
+            "ejemplo": [
+              "Smile! Let's take a photo!",
+              "¡Sonrían! ¡Tomemos una foto!"
+            ]
+          }
+        ]
+      }
+    ],
+    "ejemplos": [
+      {
+        "en": "Please sit down, everybody.",
+        "es": "Siéntense, por favor, todos."
+      },
+      {
+        "en": "Open your books to page ten.",
+        "es": "Abran sus libros en la página diez."
+      },
+      {
+        "en": "Don't run near the pool.",
+        "es": "No corras cerca de la alberca."
+      },
+      {
+        "en": "Be careful! The floor is wet.",
+        "es": "¡Ten cuidado! El piso está mojado.",
+        "imagen": "Letrero amarillo de piso mojado y una persona caminando con cuidado, sin letras"
+      },
+      {
+        "en": "Turn left at the bank.",
+        "es": "Da vuelta a la izquierda en el banco."
+      },
+      {
+        "en": "Wash your hands before you eat.",
+        "es": "Lávate las manos antes de comer."
+      },
+      {
+        "en": "Don't worry, everything is OK.",
+        "es": "No te preocupes, todo está bien."
+      },
+      {
+        "en": "Let's eat! Dinner is ready.",
+        "es": "¡A comer! La cena está lista."
+      },
+      {
+        "en": "Don't be late, please.",
+        "es": "No llegues tarde, por favor.",
+        "imagen": "Persona corriendo a la escuela mirando su reloj con prisa"
+      },
+      {
+        "en": "Close the window, please. It's cold.",
+        "es": "Cierra la ventana, por favor. Hace frío."
+      }
+    ],
+    "frases": [
+      {
+        "en": "Go straight for two blocks and turn right at the park.",
+        "es": "Sigue derecho dos cuadras y da vuelta a la derecha en el parque.",
+        "imagen": "Persona dando indicaciones a un turista señalando la calle"
+      },
+      {
+        "en": "First, boil the water, then add the pasta and some salt.",
+        "es": "Primero hierve el agua, luego agrega la pasta y un poco de sal.",
+        "imagen": "Persona echando pasta a una olla con agua hirviendo"
+      },
+      {
+        "en": "Listen to the dialogue and repeat the new words.",
+        "es": "Escucha el diálogo y repite las palabras nuevas.",
+        "imagen": "Alumno con audífonos escuchando y repitiendo en voz alta"
+      },
+      {
+        "en": "Don't use your phone in class, please.",
+        "es": "No uses tu celular en clase, por favor."
+      },
+      {
+        "en": "Wash the vegetables, cut them, and put them in a bowl.",
+        "es": "Lava las verduras, córtalas y ponlas en un tazón.",
+        "imagen": "Verduras cortadas cayendo en un tazón en la cocina"
+      },
+      {
+        "en": "It's late. Turn off the TV and go to bed.",
+        "es": "Es tarde. Apaga la tele y vete a dormir.",
+        "imagen": "Mamá apagando la tele y señalando la recámara a su hijo"
+      },
+      {
+        "en": "Be quiet, please. The baby is sleeping.",
+        "es": "Silencio, por favor. El bebé está dormido."
+      },
+      {
+        "en": "Don't worry about the exam. Study and sleep well.",
+        "es": "No te preocupes por el examen. Estudia y duerme bien.",
+        "imagen": "Estudiante tranquila repasando sus apuntes en la noche"
+      },
+      {
+        "en": "It's a beautiful day. Let's go to the beach!",
+        "es": "Es un día precioso. ¡Vamos a la playa!",
+        "imagen": "Amigos llegando felices a la playa en un día soleado"
+      },
+      {
+        "en": "Fasten your seat belt and don't open the window.",
+        "es": "Abróchate el cinturón y no abras la ventana."
+      }
+    ],
+    "listening": [
+      {
+        "audio": "Open your books to page twenty.",
+        "pregunta": "¿En qué página hay que abrir el libro?",
+        "opciones": [
+          "En la página 20",
+          "En la página 12",
+          "En la página 2",
+          "En la página 30"
+        ]
+      },
+      {
+        "audio": "Turn right at the bank and go straight.",
+        "pregunta": "¿Dónde hay que dar vuelta?",
+        "opciones": [
+          "En el banco",
+          "En el parque",
+          "En la escuela",
+          "En el hospital"
+        ]
+      },
+      {
+        "audio": "Don't touch the oven. It's very hot!",
+        "pregunta": "¿Qué no hay que tocar?",
+        "opciones": [
+          "El horno",
+          "La puerta",
+          "El teléfono",
+          "La ventana"
+        ]
+      },
+      {
+        "audio": "Cut the tomatoes and add a little salt.",
+        "pregunta": "¿Qué hay que agregar?",
+        "opciones": [
+          "Sal",
+          "Azúcar",
+          "Agua",
+          "Aceite"
+        ]
+      },
+      {
+        "audio": "Hurry up! The movie starts at eight.",
+        "pregunta": "¿A qué hora empieza la película?",
+        "opciones": [
+          "A las ocho",
+          "A las siete",
+          "A las nueve",
+          "A las diez"
+        ]
+      }
+    ],
+    "lectura": {
+      "titulo": "Easy guacamole",
+      "texto": "Do you want to make guacamole? It's easy! First, wash your hands. Then cut two avocados and put them in a bowl. Mix them with a fork. Cut one small onion and one tomato, and add them to the bowl. Add some salt and a little lemon juice. Mix everything again. Don't add water! Taste it. Is it good? Serve it with tortilla chips. Don't wait too long, because guacamole gets dark. Enjoy it with your friends!",
+      "preguntas": [
+        {
+          "pregunta": "¿Qué hay que hacer primero?",
+          "opciones": [
+            "Lavarse las manos",
+            "Cortar los aguacates",
+            "Agregar sal",
+            "Mezclar todo"
+          ]
+        },
+        {
+          "pregunta": "¿Con qué se mezclan los aguacates?",
+          "opciones": [
+            "Con un tenedor",
+            "Con una cuchara",
+            "Con las manos",
+            "Con un cuchillo"
+          ]
+        },
+        {
+          "pregunta": "¿Qué NO hay que agregar?",
+          "opciones": [
+            "Agua",
+            "Sal",
+            "Limón",
+            "Jitomate"
+          ]
+        },
+        {
+          "pregunta": "¿Con qué se sirve?",
+          "opciones": [
+            "Con totopos",
+            "Con pan",
+            "Con arroz",
+            "Con sopa"
+          ]
+        }
+      ]
+    },
+    "escritura": [
+      {
+        "instruccion": "Escribe la instrucción en inglés.",
+        "pregunta": "Abre la puerta.",
+        "respuestas": [
+          "Open the door"
+        ]
+      },
+      {
+        "instruccion": "Escribe la instrucción en inglés.",
+        "pregunta": "Siéntate.",
+        "respuestas": [
+          "Sit down"
+        ]
+      },
+      {
+        "instruccion": "Escribe la instrucción en inglés.",
+        "pregunta": "No corras.",
+        "respuestas": [
+          "Don't run",
+          "Do not run"
+        ]
+      },
+      {
+        "instruccion": "Escribe la instrucción en inglés.",
+        "pregunta": "¡Ten cuidado!",
+        "respuestas": [
+          "Be careful"
+        ]
+      },
+      {
+        "instruccion": "Completa la instrucción.",
+        "pregunta": "___ worry. Everything is OK. (no)",
+        "respuestas": [
+          "Don't",
+          "Do not"
+        ]
+      },
+      {
+        "instruccion": "Completa la instrucción.",
+        "pregunta": "___ go to the park! (vamos)",
+        "respuestas": [
+          "Let's",
+          "Let us"
+        ]
+      },
+      {
+        "instruccion": "Completa la instrucción.",
+        "pregunta": "Please ___ the window. It's cold. (cerrar)",
+        "respuestas": [
+          "close"
+        ]
+      },
+      {
+        "instruccion": "Ordena la instrucción.",
+        "pregunta": "your / open / books",
+        "respuestas": [
+          "Open your books"
+        ]
+      },
+      {
+        "instruccion": "Corrige la instrucción.",
+        "pregunta": "No touch the paintings.",
+        "respuestas": [
+          "Don't touch the paintings",
+          "Do not touch the paintings"
+        ]
+      },
+      {
+        "instruccion": "Corrige la instrucción.",
+        "pregunta": "You sit down, please.",
+        "respuestas": [
+          "Sit down, please",
+          "Please sit down",
+          "Sit down please"
+        ]
+      }
+    ],
+    "examen": [
+      {
+        "tipo": "opcion",
+        "pregunta": "___ the door, please.",
+        "opciones": [
+          "Open",
+          "Opens",
+          "To open",
+          "Opening"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "¿Cómo se dice «No te preocupes»?",
+        "opciones": [
+          "Don't worry.",
+          "No worry.",
+          "You don't worry.",
+          "Not worry."
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "___ careful! The floor is wet.",
+        "opciones": [
+          "Be",
+          "Is",
+          "Are",
+          "Do"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "I'm hungry. ___ eat!",
+        "opciones": [
+          "Let's",
+          "Lets",
+          "Let",
+          "We"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "___ run near the pool.",
+        "opciones": [
+          "Don't",
+          "No",
+          "Not",
+          "Doesn't"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "¿Cuál es la forma más amable?",
+        "opciones": [
+          "Please sit down.",
+          "Sit down!",
+          "You sit down.",
+          "Sit down now."
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "Turn left at the school and stop at the red house.",
+        "pregunta": "¿Dónde hay que detenerse?",
+        "opciones": [
+          "En la casa roja",
+          "En la escuela",
+          "En el semáforo",
+          "En el banco"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "Wash the rice and boil it for twenty minutes.",
+        "pregunta": "¿Cuántos minutos hay que hervir el arroz?",
+        "opciones": [
+          "Veinte",
+          "Diez",
+          "Doce",
+          "Treinta"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Traduce: Ven aquí.",
+        "respuestas": [
+          "Come here"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Traduce: Lávate las manos.",
+        "respuestas": [
+          "Wash your hands"
+        ]
+      }
+    ]
+  },
   { "id": "a1-21", "num": 21, "titulo": "Presente continuo", "contexto": "¿Qué está pasando ahora? La ropa y el clima" },
   { "id": "a1-22", "num": 22, "titulo": "Contables e incontables; some / any", "contexto": "Comida y bebida" },
   { "id": "a1-23", "num": 23, "titulo": "Like / love / hate + -ing; would like", "contexto": "Gustos, preferencias y pedir en un restaurante" },
