@@ -535,6 +535,58 @@ const TEMAS_A1 = [
         "opciones": ["Muy simpáticos", "Muy altos", "Muy jóvenes", "Muy serios"]
       }
     ],
+    "videoListening": {
+      "titulo": "Nice to meet you!",
+      "video": "videos/listening/a1-01.mp4",
+      "subtitulos": "videos/listening/a1-01.vtt",
+      "preguntas": [
+        {
+          "pregunta": "¿De dónde es Ana?",
+          "opciones": [
+            "De México",
+            "De Chicago",
+            "De Brasil",
+            "De España"
+          ]
+        },
+        {
+          "pregunta": "¿A qué se dedica Tom?",
+          "opciones": [
+            "Es ingeniero",
+            "Es maestro",
+            "Es enfermero",
+            "Es doctor"
+          ]
+        },
+        {
+          "pregunta": "¿Por qué está cansada Ana?",
+          "opciones": [
+            "Porque trabaja de noche",
+            "Porque está enferma",
+            "Porque estudia mucho",
+            "Porque camina mucho"
+          ]
+        },
+        {
+          "pregunta": "¿Quién es Kate?",
+          "opciones": [
+            "La hermana de Tom",
+            "La esposa de Tom",
+            "La maestra de Ana",
+            "La hermana de Ana"
+          ]
+        },
+        {
+          "pregunta": "¿Qué tiempo hace afuera del café?",
+          "opciones": [
+            "Está lloviendo",
+            "Hace sol",
+            "Está nevando",
+            "Hace mucho viento"
+          ]
+        }
+      ]
+    },
     "lectura": {
       "titulo": "My new life",
       "texto": "Hello! My name is Daniel. I'm 28 years old and I'm from Colombia. I'm a nurse. This is my wife, Julia. She's from Brazil. She's a teacher. We're in Toronto now. It's a big city and we're very happy here.",

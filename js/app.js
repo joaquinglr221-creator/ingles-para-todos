@@ -528,7 +528,7 @@ function usePractica(key) {
   return practica;
 }
 
-function viewOpciones(tema, sec, preguntas) {
+function viewOpciones(tema, sec, preguntas, antes = {}) {
   const p = usePractica(`${tema.id}/${sec}`);
   const tarjetas = preguntas
     .map((q, i) => {
@@ -545,7 +545,7 @@ function viewOpciones(tema, sec, preguntas) {
           ? ""
           : `<p class="feedback ${elegida === q.opciones[0] ? "ok" : "bad"}">${elegida === q.opciones[0] ? "✓ ¡Correcto!" : `✗ La respuesta es: ${esc(q.opciones[0])}`}</p>
              ${q.audio ? `<p class="muted">Audio: “${esc(q.audio)}”</p>` : ""}`;
-      return `<div class="card">
+      return `${antes[i] || ""}<div class="card">
         ${q.audio ? `<div class="row" style="margin:0 0 10px">${speakButtons(q.audio)}</div>` : ""}
         <p class="question small">${i + 1}. ${esc(q.pregunta)}</p>
         <div class="options">${opciones}</div>
@@ -564,8 +564,26 @@ function viewOpciones(tema, sec, preguntas) {
   return tarjetas + resumen;
 }
 
+// Listening: los audios y, si el tema lo tiene, un video con una historia y sus preguntas. Los subtítulos en
+// inglés aparecen solo cuando ya se contestaron las preguntas del video.
 function viewListening(tema) {
-  return `<p class="muted" style="margin-bottom:12px">Escucha cada audio (🐢 para oírlo despacio) y elige la respuesta.</p>${viewOpciones(tema, "listening", tema.listening)}`;
+  const intro = `<p class="muted" style="margin-bottom:12px">Escucha cada audio (🐢 para oírlo despacio) y elige la respuesta.</p>`;
+  const vl = tema.videoListening;
+  if (!vl) return intro + viewOpciones(tema, "listening", tema.listening);
+  const desde = tema.listening.length;
+  const p = usePractica(`${tema.id}/listening`);
+  const listo = vl.preguntas.every((_, j) => p.resp[desde + j] != null);
+  const subs = listo && vl.subtitulos ? `<track kind="subtitles" srclang="en" label="English" src="${esc(vl.subtitulos)}" default>` : "";
+  const video = `<div class="card">
+      <h2 style="margin:0 0 6px">🎬 Video: ${esc(vl.titulo)}</h2>
+      <p class="muted" style="margin:0 0 10px">${
+        listo
+          ? "Ya contestaste. Vuelve a verlo, ahora con subtítulos en inglés, para comprobar lo que entendiste."
+          : `Mira el video (puedes verlo las veces que quieras) y contesta las ${vl.preguntas.length} preguntas. Al terminar podrás verlo con subtítulos.`
+      }</p>
+      <video class="video-tema" src="${esc(vl.video)}" poster="${esc(vl.video.replace(/\.mp4$/, ".jpg"))}" controls playsinline preload="metadata">${subs}</video>
+    </div>`;
+  return intro + viewOpciones(tema, "listening", [...tema.listening, ...vl.preguntas], { [desde]: video });
 }
 
 function viewLectura(tema) {
