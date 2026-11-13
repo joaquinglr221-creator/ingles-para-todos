@@ -83,6 +83,7 @@ const IMAGENES = {
  "Don't touch.": "images/temas/a1-20/senales/01-don-t-touch.jpg",
  "Don't use your phone in class, please.": "images/temas/a1-20/clase/10-don-t-use-your-phone.jpg",
  "Don't use your phone.": "images/temas/a1-20/clase/10-don-t-use-your-phone.jpg",
+ "Don't worry about the exam. Study and sleep well.": "images/temas/a1-20/frases/08-don-t-worry-about-the-exam-study-and-sleep-well.jpg",
  "Don't worry, everything is OK.": "images/temas/a1-20/11-don-t-worry.jpg",
  "Don't worry.": "images/temas/a1-20/11-don-t-worry.jpg",
  "E": "images/temas/a1-01/abecedario/05-e.jpg",
