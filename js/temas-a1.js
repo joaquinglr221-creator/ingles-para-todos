@@ -7633,7 +7633,878 @@ const TEMAS_A1 = [
       }
     ]
   },
-  { "id": "a1-21", "num": 21, "titulo": "Presente continuo", "contexto": "¿Qué está pasando ahora? La ropa y el clima" },
+  {
+    "id": "a1-21",
+    "num": 21,
+    "titulo": "Presente continuo",
+    "contexto": "¿Qué está pasando ahora? La ropa y el clima",
+    "explicacion": {
+      "es": [
+        "El **presente continuo** sirve para lo que está pasando **ahora mismo**, en este momento: *I**'m reading**.* (Estoy leyendo.) *It**'s raining**.* (Está lloviendo.)",
+        "Se forma con **am / is / are** + verbo con **-ing**: *I **am** work**ing**. She **is** cook**ing**. They **are** play**ing**.* Al hablar se usan las contracciones: *I'm, she's, they're*.",
+        "**Negativo:** se agrega **not**: *I'm **not** working. He **isn't** sleeping. They **aren't** listening.* **Preguntas:** el verbo *to be* va primero: ***Are** you watching TV? **Is** it raining?* — *Yes, it is. / No, it isn't.*",
+        "Con la **ropa** se usa mucho ***wear*** (llevar puesto): *She's **wearing** a red dress.* Palabras que van con este tiempo: ***now*** (ahora), ***right now*** (ahorita), ***at the moment*** (en este momento), ***Look!***, ***Listen!***"
+      ],
+      "tabla": {
+        "columnas": [
+          "Sujeto",
+          "Afirmativo",
+          "Negativo",
+          "Pregunta"
+        ],
+        "filas": [
+          [
+            "I",
+            "I'm eating.",
+            "I'm not eating.",
+            "Am I eating?"
+          ],
+          [
+            "you / we / they",
+            "They're eating.",
+            "They aren't eating.",
+            "Are they eating?"
+          ],
+          [
+            "he / she / it",
+            "She's eating.",
+            "She isn't eating.",
+            "Is she eating?"
+          ]
+        ]
+      },
+      "ojo": [
+        "No olvides el verbo *to be*: *She **is** cooking* ✅, no *She cooking* ❌.",
+        "Reglas del **-ing**: si termina en *e*, la *e* se va: *make → making, dance → dancing*. Si es corto y termina en consonante-vocal-consonante, la última letra se duplica: *run → running, swim → swimming, sit → sitting*.",
+        "Presente simple ≠ presente continuo: *I **work** in a bank* (siempre, mi trabajo) / *I'**m working** now* (en este momento).",
+        "Algunos verbos casi no se usan con *-ing*: *like, love, want, know, need*. *I **want** a coffee* ✅, no *I'm wanting a coffee* ❌.",
+        "Para el clima: ***It's raining*** (está lloviendo) y ***It's rainy*** (es lluvioso) son correctos; *It's rain* ❌."
+      ],
+      "en": [
+        "Use the present continuous for things happening now: I'm reading. It's raining.",
+        "We use am, is or are and a verb ending in -ing. She is cooking. They are playing.",
+        "Negative: I'm not working. Questions: Are you watching TV? Is it raining?",
+        "Use wear for clothes: She's wearing a red dress."
+      ]
+    },
+    "vocabulario": [
+      {
+        "en": "I'm reading.",
+        "es": "estoy leyendo",
+        "imagen": "Persona leyendo un libro en el sofá junto a la ventana",
+        "ejemplo": [
+          "I'm reading a good book.",
+          "Estoy leyendo un buen libro."
+        ]
+      },
+      {
+        "en": "She's cooking.",
+        "es": "ella está cocinando",
+        "imagen": "Mujer cocinando en una olla en la cocina de su casa",
+        "ejemplo": [
+          "She's cooking dinner for her family.",
+          "Ella está cocinando la cena para su familia."
+        ]
+      },
+      {
+        "en": "He's sleeping.",
+        "es": "él está durmiendo",
+        "imagen": "Hombre durmiendo profundamente en su cama",
+        "ejemplo": [
+          "Shh! The baby is sleeping.",
+          "¡Shh! El bebé está durmiendo."
+        ]
+      },
+      {
+        "en": "They're playing.",
+        "es": "están jugando",
+        "imagen": "Niños jugando a la pelota en el parque",
+        "ejemplo": [
+          "The kids are playing in the garden.",
+          "Los niños están jugando en el jardín."
+        ]
+      },
+      {
+        "en": "We're eating.",
+        "es": "estamos comiendo",
+        "imagen": "Familia comiendo junta en la mesa del comedor",
+        "ejemplo": [
+          "We're eating pizza right now.",
+          "Estamos comiendo pizza ahorita."
+        ]
+      },
+      {
+        "en": "He's running.",
+        "es": "él está corriendo",
+        "imagen": "Hombre corriendo en el parque por la mañana",
+        "ejemplo": [
+          "He's running in the park.",
+          "Él está corriendo en el parque."
+        ]
+      },
+      {
+        "en": "She's talking on the phone.",
+        "es": "ella está hablando por teléfono",
+        "imagen": "Mujer hablando por celular en la calle, sonriendo",
+        "ejemplo": [
+          "She's talking on the phone with her mom.",
+          "Ella está hablando por teléfono con su mamá."
+        ]
+      },
+      {
+        "en": "He's watching TV.",
+        "es": "él está viendo la tele",
+        "imagen": "Hombre viendo la tele en el sofá con el control en la mano",
+        "ejemplo": [
+          "He's watching a soccer game on TV.",
+          "Él está viendo un partido de fútbol en la tele."
+        ]
+      },
+      {
+        "en": "They're dancing.",
+        "es": "están bailando",
+        "imagen": "Pareja bailando feliz en la sala de su casa",
+        "ejemplo": [
+          "They're dancing at the party.",
+          "Están bailando en la fiesta."
+        ]
+      },
+      {
+        "en": "The baby is crying.",
+        "es": "el bebé está llorando",
+        "imagen": "Bebé llorando en los brazos de su papá",
+        "ejemplo": [
+          "The baby is crying because he's hungry.",
+          "El bebé está llorando porque tiene hambre."
+        ]
+      },
+      {
+        "en": "I'm waiting for the bus.",
+        "es": "estoy esperando el autobús",
+        "imagen": "Persona esperando en una parada de autobús con su mochila",
+        "ejemplo": [
+          "I'm waiting for the bus in the rain.",
+          "Estoy esperando el autobús bajo la lluvia."
+        ]
+      },
+      {
+        "en": "She's writing.",
+        "es": "ella está escribiendo",
+        "imagen": "Mujer escribiendo en su cuaderno en un escritorio",
+        "ejemplo": [
+          "She's writing an email.",
+          "Ella está escribiendo un correo."
+        ]
+      },
+      {
+        "en": "He's drinking coffee.",
+        "es": "él está tomando café",
+        "imagen": "Hombre tomando una taza de café en una cafetería",
+        "ejemplo": [
+          "He's drinking coffee and reading the news.",
+          "Él está tomando café y leyendo las noticias."
+        ]
+      },
+      {
+        "en": "We're walking.",
+        "es": "estamos caminando",
+        "imagen": "Dos amigos caminando juntos por una calle con árboles",
+        "ejemplo": [
+          "We're walking to the beach.",
+          "Estamos caminando a la playa."
+        ]
+      },
+      {
+        "en": "She's laughing.",
+        "es": "ella se está riendo",
+        "imagen": "Mujer riéndose a carcajadas con sus amigas",
+        "ejemplo": [
+          "She's laughing at the funny video.",
+          "Ella se está riendo del video chistoso."
+        ]
+      },
+      {
+        "en": "I'm studying.",
+        "es": "estoy estudiando",
+        "imagen": "Estudiante estudiando con sus libros en la biblioteca",
+        "ejemplo": [
+          "I'm studying for my English test.",
+          "Estoy estudiando para mi examen de inglés."
+        ]
+      }
+    ],
+    "grupos": [
+      {
+        "id": "ropa",
+        "titulo": "¿Qué lleva puesto?",
+        "icono": "👕",
+        "patron": [
+          "She's wearing a red dress.",
+          "He's wearing jeans.",
+          "I'm wearing a coat."
+        ],
+        "palabras": [
+          {
+            "en": "She's wearing a red dress.",
+            "es": "ella lleva un vestido rojo",
+            "imagen": "Mujer con un vestido rojo en una fiesta",
+            "ejemplo": [
+              "She's wearing a red dress and black shoes.",
+              "Ella lleva un vestido rojo y zapatos negros."
+            ]
+          },
+          {
+            "en": "He's wearing jeans and sneakers.",
+            "es": "él lleva jeans y tenis",
+            "imagen": "Joven con jeans y tenis blancos caminando por la calle",
+            "ejemplo": [
+              "He's wearing jeans and white sneakers.",
+              "Él lleva jeans y tenis blancos."
+            ]
+          },
+          {
+            "en": "I'm wearing a warm coat.",
+            "es": "llevo un abrigo calientito",
+            "imagen": "Persona con un abrigo grueso en una calle con frío",
+            "ejemplo": [
+              "It's cold, so I'm wearing a warm coat.",
+              "Hace frío, así que llevo un abrigo calientito."
+            ]
+          },
+          {
+            "en": "They're wearing hats.",
+            "es": "ellos llevan sombrero",
+            "imagen": "Grupo de amigos con sombreros en un día de sol",
+            "ejemplo": [
+              "They're wearing hats because it's sunny.",
+              "Llevan sombrero porque hace sol."
+            ]
+          },
+          {
+            "en": "She's wearing sunglasses.",
+            "es": "ella lleva lentes de sol",
+            "imagen": "Mujer con lentes de sol en la playa",
+            "ejemplo": [
+              "She's wearing big sunglasses at the beach.",
+              "Ella lleva unos lentes de sol grandes en la playa."
+            ]
+          },
+          {
+            "en": "He's wearing a suit and tie.",
+            "es": "él lleva traje y corbata",
+            "imagen": "Hombre con traje y corbata entrando a una oficina",
+            "ejemplo": [
+              "He's wearing a suit and tie for his interview.",
+              "Él lleva traje y corbata para su entrevista."
+            ]
+          },
+          {
+            "en": "The kids are wearing raincoats.",
+            "es": "los niños llevan impermeable",
+            "imagen": "Niños con impermeables amarillos saltando en charcos",
+            "ejemplo": [
+              "The kids are wearing raincoats and boots.",
+              "Los niños llevan impermeable y botas."
+            ]
+          },
+          {
+            "en": "I'm wearing boots.",
+            "es": "llevo botas",
+            "imagen": "Persona con botas caminando sobre la nieve",
+            "ejemplo": [
+              "I'm wearing boots because it's snowing.",
+              "Llevo botas porque está nevando."
+            ]
+          },
+          {
+            "en": "She's wearing a scarf and gloves.",
+            "es": "ella lleva bufanda y guantes",
+            "imagen": "Mujer con bufanda y guantes de lana en invierno",
+            "ejemplo": [
+              "She's wearing a scarf and gloves. It's very cold!",
+              "Ella lleva bufanda y guantes. ¡Hace mucho frío!"
+            ]
+          },
+          {
+            "en": "He isn't wearing a jacket.",
+            "es": "él no lleva chamarra",
+            "imagen": "Hombre en camiseta temblando de frío en la calle",
+            "ejemplo": [
+              "He isn't wearing a jacket, and he's cold.",
+              "Él no lleva chamarra y tiene frío."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clima",
+        "titulo": "¿Qué tiempo hace ahora?",
+        "icono": "🌦️",
+        "patron": [
+          "It's raining.",
+          "It's snowing.",
+          "The sun is shining."
+        ],
+        "palabras": [
+          {
+            "en": "It's raining.",
+            "es": "está lloviendo",
+            "imagen": "Calle de la ciudad bajo la lluvia con gente con paraguas",
+            "ejemplo": [
+              "It's raining. Take an umbrella!",
+              "Está lloviendo. ¡Lleva un paraguas!"
+            ]
+          },
+          {
+            "en": "It's snowing.",
+            "es": "está nevando",
+            "imagen": "Copos de nieve cayendo sobre un parque blanco",
+            "ejemplo": [
+              "It's snowing in the mountains.",
+              "Está nevando en las montañas."
+            ]
+          },
+          {
+            "en": "The sun is shining.",
+            "es": "el sol está brillando",
+            "imagen": "Sol brillante en un cielo azul sobre un campo verde",
+            "ejemplo": [
+              "The sun is shining. Let's go to the park!",
+              "El sol está brillando. ¡Vamos al parque!"
+            ]
+          },
+          {
+            "en": "The wind is blowing.",
+            "es": "está soplando el viento",
+            "imagen": "Árboles moviéndose con el viento y hojas volando",
+            "ejemplo": [
+              "The wind is blowing very hard today.",
+              "El viento está soplando muy fuerte hoy."
+            ]
+          },
+          {
+            "en": "It's getting cold.",
+            "es": "está empezando a hacer frío",
+            "imagen": "Persona cerrando su chamarra mientras se mete el sol",
+            "ejemplo": [
+              "It's getting cold. Let's go home.",
+              "Está empezando a hacer frío. Vámonos a casa."
+            ]
+          },
+          {
+            "en": "It's raining hard.",
+            "es": "está lloviendo fuerte",
+            "imagen": "Lluvia muy fuerte golpeando una ventana",
+            "ejemplo": [
+              "It's raining hard, so we're staying home.",
+              "Está lloviendo fuerte, así que nos quedamos en casa."
+            ]
+          },
+          {
+            "en": "It isn't raining now.",
+            "es": "ya no está lloviendo",
+            "imagen": "Calle mojada con el cielo despejándose después de la lluvia",
+            "ejemplo": [
+              "It isn't raining now. We can go out.",
+              "Ya no está lloviendo. Podemos salir."
+            ]
+          },
+          {
+            "en": "People are carrying umbrellas.",
+            "es": "la gente lleva paraguas",
+            "imagen": "Mucha gente caminando con paraguas de colores",
+            "ejemplo": [
+              "Look! People are carrying umbrellas.",
+              "¡Mira! La gente lleva paraguas."
+            ]
+          },
+          {
+            "en": "The kids are playing in the snow.",
+            "es": "los niños juegan en la nieve",
+            "imagen": "Niños haciendo un muñeco de nieve en el jardín",
+            "ejemplo": [
+              "The kids are playing in the snow.",
+              "Los niños están jugando en la nieve."
+            ]
+          },
+          {
+            "en": "We're sitting in the sun.",
+            "es": "estamos sentados al sol",
+            "imagen": "Amigos sentados al sol en el pasto de un parque",
+            "ejemplo": [
+              "We're sitting in the sun and drinking lemonade.",
+              "Estamos sentados al sol tomando limonada."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "preguntas",
+        "titulo": "Negativo y preguntas",
+        "icono": "❓",
+        "patron": [
+          "What are you doing?",
+          "I'm not working.",
+          "Is it raining?"
+        ],
+        "palabras": [
+          {
+            "en": "What are you doing?",
+            "es": "¿qué estás haciendo?",
+            "imagen": "Persona preguntándole a su amigo qué hace mientras él pinta un cuadro",
+            "ejemplo": [
+              "What are you doing? I'm painting.",
+              "¿Qué estás haciendo? Estoy pintando."
+            ]
+          },
+          {
+            "en": "I'm not working.",
+            "es": "no estoy trabajando",
+            "imagen": "Persona descansando en una hamaca con su laptop cerrada",
+            "ejemplo": [
+              "I'm not working today. I'm on vacation.",
+              "Hoy no estoy trabajando. Estoy de vacaciones."
+            ]
+          },
+          {
+            "en": "Is she sleeping?",
+            "es": "¿está durmiendo ella?",
+            "imagen": "Mamá asomándose a la recámara donde su hija duerme",
+            "ejemplo": [
+              "Is she sleeping? Yes, she is.",
+              "¿Está durmiendo? Sí."
+            ]
+          },
+          {
+            "en": "Are they coming?",
+            "es": "¿ya vienen?",
+            "imagen": "Persona en una mesa de restaurante mirando la puerta, esperando a sus amigos",
+            "ejemplo": [
+              "Are they coming? No, they aren't.",
+              "¿Ya vienen? No."
+            ]
+          },
+          {
+            "en": "What is he wearing?",
+            "es": "¿qué lleva puesto él?",
+            "imagen": "Dos amigas mirando a un hombre con ropa muy colorida",
+            "ejemplo": [
+              "What is he wearing? A funny hat!",
+              "¿Qué lleva puesto? ¡Un sombrero chistoso!"
+            ]
+          },
+          {
+            "en": "Where are you going?",
+            "es": "¿a dónde vas?",
+            "imagen": "Joven saliendo de su casa con una maleta mientras su mamá le pregunta",
+            "ejemplo": [
+              "Where are you going? To the airport.",
+              "¿A dónde vas? Al aeropuerto."
+            ]
+          },
+          {
+            "en": "He isn't listening.",
+            "es": "él no está escuchando",
+            "imagen": "Joven con audífonos sin poner atención a lo que le dicen",
+            "ejemplo": [
+              "He isn't listening to the teacher.",
+              "Él no está escuchando a la maestra."
+            ]
+          },
+          {
+            "en": "Are you having fun?",
+            "es": "¿te estás divirtiendo?",
+            "imagen": "Amigos riéndose en una feria con algodón de azúcar",
+            "ejemplo": [
+              "Are you having fun? Yes, a lot!",
+              "¿Te estás divirtiendo? ¡Sí, mucho!"
+            ]
+          },
+          {
+            "en": "Why are you laughing?",
+            "es": "¿por qué te ríes?",
+            "imagen": "Persona riéndose mientras su amigo la mira confundido",
+            "ejemplo": [
+              "Why are you laughing? Look at your face!",
+              "¿Por qué te ríes? ¡Mira tu cara!"
+            ]
+          },
+          {
+            "en": "Is it raining?",
+            "es": "¿está lloviendo?",
+            "imagen": "Persona asomándose por la ventana para ver el clima",
+            "ejemplo": [
+              "Is it raining? No, it isn't.",
+              "¿Está lloviendo? No."
+            ]
+          }
+        ]
+      }
+    ],
+    "ejemplos": [
+      {
+        "en": "Shh! The baby is sleeping.",
+        "es": "¡Shh! El bebé está durmiendo."
+      },
+      {
+        "en": "It's raining. Take an umbrella!",
+        "es": "Está lloviendo. ¡Lleva un paraguas!"
+      },
+      {
+        "en": "She's wearing a red dress and black shoes.",
+        "es": "Ella lleva un vestido rojo y zapatos negros."
+      },
+      {
+        "en": "What are you doing? I'm cooking.",
+        "es": "¿Qué estás haciendo? Estoy cocinando."
+      },
+      {
+        "en": "Look! The kids are playing in the snow.",
+        "es": "¡Mira! Los niños están jugando en la nieve."
+      },
+      {
+        "en": "I'm not watching TV. I'm studying.",
+        "es": "No estoy viendo la tele. Estoy estudiando.",
+        "imagen": "Joven estudiando en su escritorio con la tele apagada detrás"
+      },
+      {
+        "en": "Is it snowing? Yes, it is.",
+        "es": "¿Está nevando? Sí."
+      },
+      {
+        "en": "My dad is drinking coffee in the kitchen.",
+        "es": "Mi papá está tomando café en la cocina.",
+        "imagen": "Papá tomando café en la cocina por la mañana"
+      },
+      {
+        "en": "They're dancing at the party.",
+        "es": "Están bailando en la fiesta."
+      },
+      {
+        "en": "Where are you going? To the supermarket.",
+        "es": "¿A dónde vas? Al supermercado.",
+        "imagen": "Persona saliendo de casa con bolsas de compras vacías"
+      }
+    ],
+    "frases": [
+      {
+        "en": "It's cold today, so I'm wearing a coat, a scarf, and gloves.",
+        "es": "Hoy hace frío, así que llevo abrigo, bufanda y guantes."
+      },
+      {
+        "en": "Right now my mom is cooking and my sister is setting the table.",
+        "es": "Ahorita mi mamá está cocinando y mi hermana está poniendo la mesa.",
+        "imagen": "Mamá cocinando mientras su hija pone los platos en la mesa"
+      },
+      {
+        "en": "Look outside! The sun is shining and the birds are singing.",
+        "es": "¡Mira afuera! El sol está brillando y los pájaros están cantando.",
+        "imagen": "Ventana abierta con sol y pájaros cantando en un árbol"
+      },
+      {
+        "en": "I can't talk now. I'm driving to work.",
+        "es": "No puedo hablar ahora. Voy manejando al trabajo.",
+        "imagen": "Persona manejando al trabajo con el celular en el soporte, sin tocarlo"
+      },
+      {
+        "en": "We're sitting in the sun and drinking lemonade.",
+        "es": "Estamos sentados al sol tomando limonada."
+      },
+      {
+        "en": "Why are you wearing sunglasses? It's raining!",
+        "es": "¿Por qué llevas lentes de sol? ¡Está lloviendo!",
+        "imagen": "Hombre con lentes de sol bajo la lluvia y su amiga riéndose"
+      },
+      {
+        "en": "The children aren't sleeping. They're playing video games.",
+        "es": "Los niños no están durmiendo. Están jugando videojuegos.",
+        "imagen": "Niños jugando videojuegos en la noche en lugar de dormir"
+      },
+      {
+        "en": "Are you having fun at the beach? Yes, we're swimming every day!",
+        "es": "¿Se están divirtiendo en la playa? ¡Sí, nadamos todos los días!",
+        "imagen": "Familia nadando feliz en el mar"
+      },
+      {
+        "en": "It's getting dark and the wind is blowing. Let's go home.",
+        "es": "Está oscureciendo y el viento sopla. Vámonos a casa.",
+        "imagen": "Amigos caminando de regreso a casa al atardecer con viento"
+      },
+      {
+        "en": "He's wearing a suit and tie because he has an interview today.",
+        "es": "Lleva traje y corbata porque hoy tiene una entrevista."
+      }
+    ],
+    "listening": [
+      {
+        "audio": "Hi, Mom! I'm at the park. It's sunny and I'm playing soccer with my friends.",
+        "pregunta": "¿Qué está haciendo?",
+        "opciones": [
+          "Jugando fútbol",
+          "Nadando",
+          "Leyendo",
+          "Comiendo"
+        ]
+      },
+      {
+        "audio": "Look at Maria. She's wearing a green dress and white shoes.",
+        "pregunta": "¿De qué color es el vestido de María?",
+        "opciones": [
+          "Verde",
+          "Rojo",
+          "Blanco",
+          "Azul"
+        ]
+      },
+      {
+        "audio": "Take your umbrella. It's raining hard.",
+        "pregunta": "¿Qué tiempo hace?",
+        "opciones": [
+          "Está lloviendo fuerte",
+          "Está nevando",
+          "Hace sol",
+          "Hace viento"
+        ]
+      },
+      {
+        "audio": "Are you watching TV? No, I'm not. I'm doing my homework.",
+        "pregunta": "¿Qué está haciendo?",
+        "opciones": [
+          "La tarea",
+          "Viendo la tele",
+          "Durmiendo",
+          "Cocinando"
+        ]
+      },
+      {
+        "audio": "Where are you going? I'm going to the gym.",
+        "pregunta": "¿A dónde va?",
+        "opciones": [
+          "Al gimnasio",
+          "Al cine",
+          "A la escuela",
+          "Al trabajo"
+        ]
+      }
+    ],
+    "lectura": {
+      "titulo": "A message from Vancouver",
+      "texto": "Hi, Laura! I'm writing this message from a café in Vancouver. It's ten in the morning and it's raining, of course! I'm wearing my new yellow raincoat and my boots. Right now I'm drinking a hot chocolate and looking out the window. People are walking fast with their umbrellas. My friend Ben isn't here. He's working today, but tonight we're having dinner together. What are you doing right now? Is it sunny in Mexico? Send me a photo! Love, Sofia.",
+      "preguntas": [
+        {
+          "pregunta": "¿Dónde está Sofía?",
+          "opciones": [
+            "En un café de Vancouver",
+            "En su casa",
+            "En el trabajo",
+            "En México"
+          ]
+        },
+        {
+          "pregunta": "¿Qué tiempo hace?",
+          "opciones": [
+            "Está lloviendo",
+            "Hace sol",
+            "Está nevando",
+            "Hace calor"
+          ]
+        },
+        {
+          "pregunta": "¿Qué está tomando Sofía?",
+          "opciones": [
+            "Un chocolate caliente",
+            "Un café",
+            "Un té",
+            "Una limonada"
+          ]
+        },
+        {
+          "pregunta": "¿Qué está haciendo Ben?",
+          "opciones": [
+            "Está trabajando",
+            "Está cenando",
+            "Está durmiendo",
+            "Está en el café"
+          ]
+        }
+      ]
+    },
+    "escritura": [
+      {
+        "instruccion": "Completa con am, is o are.",
+        "pregunta": "She ___ cooking dinner.",
+        "respuestas": [
+          "is"
+        ]
+      },
+      {
+        "instruccion": "Completa con am, is o are.",
+        "pregunta": "They ___ playing in the park.",
+        "respuestas": [
+          "are"
+        ]
+      },
+      {
+        "instruccion": "Escribe el verbo con -ing.",
+        "pregunta": "I'm ___ a book. (read)",
+        "respuestas": [
+          "reading"
+        ]
+      },
+      {
+        "instruccion": "Escribe el verbo con -ing.",
+        "pregunta": "He's ___ in the pool. (swim)",
+        "respuestas": [
+          "swimming"
+        ]
+      },
+      {
+        "instruccion": "Escribe el verbo con -ing.",
+        "pregunta": "We're ___ a cake. (make)",
+        "respuestas": [
+          "making"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "Está lloviendo.",
+        "respuestas": [
+          "It's raining",
+          "It is raining"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "¿Qué estás haciendo?",
+        "respuestas": [
+          "What are you doing"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "Ella lleva un vestido rojo.",
+        "respuestas": [
+          "She's wearing a red dress",
+          "She is wearing a red dress"
+        ]
+      },
+      {
+        "instruccion": "Corrige la oración.",
+        "pregunta": "He sleeping now.",
+        "respuestas": [
+          "He's sleeping now",
+          "He is sleeping now"
+        ]
+      },
+      {
+        "instruccion": "Corrige la oración.",
+        "pregunta": "They are runing in the park.",
+        "respuestas": [
+          "They are running in the park",
+          "They're running in the park"
+        ]
+      }
+    ],
+    "examen": [
+      {
+        "tipo": "opcion",
+        "pregunta": "Look! It ___ snowing.",
+        "opciones": [
+          "is",
+          "are",
+          "am",
+          "does"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "We ___ watching a movie right now.",
+        "opciones": [
+          "are",
+          "is",
+          "am",
+          "do"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "¿Cuál está bien escrito?",
+        "opciones": [
+          "swimming",
+          "swiming",
+          "swimmming",
+          "swimeing"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "___ you wearing a jacket? It's cold!",
+        "opciones": [
+          "Are",
+          "Do",
+          "Is",
+          "Am"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "¿Cómo se dice «No estoy trabajando»?",
+        "opciones": [
+          "I'm not working.",
+          "I don't working.",
+          "I not working.",
+          "I'm not work."
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "Shh! The baby ___.",
+        "opciones": [
+          "is sleeping",
+          "sleeping",
+          "are sleeping",
+          "sleep"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "It's very hot today, so I'm wearing shorts and a T-shirt.",
+        "pregunta": "¿Qué lleva puesto?",
+        "opciones": [
+          "Shorts y camiseta",
+          "Un abrigo",
+          "Jeans y chamarra",
+          "Un traje"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "My brothers are in the garden. They're playing basketball.",
+        "pregunta": "¿Qué están haciendo los hermanos?",
+        "opciones": [
+          "Jugando básquetbol",
+          "Jugando fútbol",
+          "Nadando",
+          "Cocinando"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Traduce: Estoy esperando el autobús.",
+        "respuestas": [
+          "I'm waiting for the bus",
+          "I am waiting for the bus"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Traduce: ¿Está lloviendo?",
+        "respuestas": [
+          "Is it raining"
+        ]
+      }
+    ]
+  },
   { "id": "a1-22", "num": 22, "titulo": "Contables e incontables; some / any", "contexto": "Comida y bebida" },
   { "id": "a1-23", "num": 23, "titulo": "Like / love / hate + -ing; would like", "contexto": "Gustos, preferencias y pedir en un restaurante" },
   { "id": "a1-24", "num": 24, "titulo": "Was / were y conectores and, but, or, because", "contexto": "Ayer, la semana pasada y mi infancia" }
