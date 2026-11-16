@@ -3308,7 +3308,7 @@ const TEMAS_A2 = [
         "titulo": "When y while",
         "icono": "⏱️",
         "patron": [
-          "…was …ing when…",
+          "I was cooking when…",
           "While I was…",
           "When I arrived…"
         ],
