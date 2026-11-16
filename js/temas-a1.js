@@ -9383,6 +9383,1676 @@ const TEMAS_A1 = [
       }
     ]
   },
-  { "id": "a1-23", "num": 23, "titulo": "Like / love / hate + -ing; would like", "contexto": "Gustos, preferencias y pedir en un restaurante" },
-  { "id": "a1-24", "num": 24, "titulo": "Was / were y conectores and, but, or, because", "contexto": "Ayer, la semana pasada y mi infancia" }
+  {
+    "id": "a1-23",
+    "num": 23,
+    "titulo": "Like / love / hate + -ing; would like",
+    "contexto": "Gustos, preferencias y pedir en un restaurante",
+    "explicacion": {
+      "es": [
+        "Para hablar de **gustos** se usan ***like*** (gustar), ***love*** (encantar) y ***hate*** (odiar). Si después va una actividad, el verbo lleva **-ing**: *I **like** cook**ing**. She **loves** danc**ing**. I **hate** wait**ing**.*",
+        "Del más positivo al más negativo: ***love*** 😍 → ***like*** 🙂 → ***don't mind*** (no me molesta) 😐 → ***don't like*** 🙁 → ***hate*** 😠. *I **don't mind** washing the dishes.*",
+        "**Negativo y preguntas** como en el presente simple: *I **don't** like running. He **doesn't** like shopping. **Do** you like swimming? — Yes, I do. / No, I don't.* Con *he / she / it* se agrega **-s**: *She like**s**, he love**s**, it hate**s***.",
+        "***Would like*** = **quisiera / me gustaría**. Es la forma amable de **pedir u ofrecer** algo, sobre todo en un restaurante: ***I'd like** the chicken, please. **Would you like** something to drink?* Para una acción: ***I'd like to** order. **Would you like to** come?*"
+      ],
+      "tabla": {
+        "columnas": [
+          "",
+          "Gustos (siempre)",
+          "Pedir u ofrecer (ahora)"
+        ],
+        "filas": [
+          [
+            "Afirmativo",
+            "I like coffee. I like cooking.",
+            "I'd like a coffee, please."
+          ],
+          [
+            "Negativo",
+            "I don't like coffee.",
+            "I wouldn't like…"
+          ],
+          [
+            "Pregunta",
+            "Do you like coffee?",
+            "Would you like a coffee?"
+          ],
+          [
+            "Respuesta",
+            "Yes, I do. / No, I don't.",
+            "Yes, please. / No, thank you."
+          ]
+        ]
+      },
+      "ojo": [
+        "*Do you like coffee?* = ¿Te gusta el café? (en general). *Would you like a coffee?* = ¿Quieres un café? (ahorita). ¡No son lo mismo!",
+        "Después de *like, love, hate* la actividad va con **-ing**: *I like swimm**ing*** ✅, no *I like swim* ❌.",
+        "***I'd like*** es la contracción de *I would like*. En el restaurante suena mucho mejor que *I want*: *I'd like the soup* ✅ (amable), *I want the soup* (suena brusco).",
+        "Después de *would like* + verbo va ***to***: *I'd like **to** order* ✅, no *I'd like ordering* ❌.",
+        "Para aceptar una invitación: ***I'd love to!*** (¡Me encantaría!). Para rechazar con cortesía: ***No, thank you.***"
+      ],
+      "en": [
+        "We use like, love and hate to talk about what we enjoy: I like cooking. She loves dancing.",
+        "Love is very positive, hate is very negative. I don't mind washing the dishes.",
+        "Questions: Do you like swimming? Yes, I do.",
+        "Would like is a polite way to ask for something: I'd like the chicken, please. Would you like something to drink?"
+      ]
+    },
+    "vocabulario": [
+      {
+        "en": "I like cooking.",
+        "es": "me gusta cocinar",
+        "imagen": "Persona feliz cocinando verduras en un sartén en su cocina",
+        "ejemplo": [
+          "I like cooking for my friends.",
+          "Me gusta cocinar para mis amigos."
+        ]
+      },
+      {
+        "en": "I love swimming.",
+        "es": "me encanta nadar",
+        "imagen": "Persona nadando feliz en una alberca al aire libre",
+        "ejemplo": [
+          "I love swimming in the sea.",
+          "Me encanta nadar en el mar."
+        ]
+      },
+      {
+        "en": "I hate getting up early.",
+        "es": "odio levantarme temprano",
+        "imagen": "Persona apagando el despertador con cara de sueño en la cama",
+        "ejemplo": [
+          "I hate getting up early on Mondays.",
+          "Odio levantarme temprano los lunes."
+        ]
+      },
+      {
+        "en": "She likes reading.",
+        "es": "a ella le gusta leer",
+        "imagen": "Mujer leyendo un libro tranquila en una hamaca",
+        "ejemplo": [
+          "She likes reading before bed.",
+          "A ella le gusta leer antes de dormir."
+        ]
+      },
+      {
+        "en": "He loves playing soccer.",
+        "es": "a él le encanta jugar fútbol",
+        "imagen": "Joven pateando un balón de fútbol en una cancha",
+        "ejemplo": [
+          "He loves playing soccer with his friends.",
+          "A él le encanta jugar fútbol con sus amigos."
+        ]
+      },
+      {
+        "en": "I don't like shopping.",
+        "es": "no me gusta ir de compras",
+        "imagen": "Hombre aburrido cargando bolsas de compras en un centro comercial",
+        "ejemplo": [
+          "I don't like shopping on weekends.",
+          "No me gusta ir de compras los fines de semana."
+        ]
+      },
+      {
+        "en": "They love dancing.",
+        "es": "les encanta bailar",
+        "imagen": "Grupo de amigos bailando felices en una fiesta",
+        "ejemplo": [
+          "They love dancing salsa.",
+          "Les encanta bailar salsa."
+        ]
+      },
+      {
+        "en": "We love traveling.",
+        "es": "nos encanta viajar",
+        "imagen": "Pareja con mochilas mirando un paisaje de montañas",
+        "ejemplo": [
+          "We love traveling to new places.",
+          "Nos encanta viajar a lugares nuevos."
+        ]
+      },
+      {
+        "en": "He hates waiting.",
+        "es": "él odia esperar",
+        "imagen": "Hombre impaciente mirando su reloj en una fila larga",
+        "ejemplo": [
+          "He hates waiting in line.",
+          "Él odia hacer fila."
+        ]
+      },
+      {
+        "en": "I like listening to music.",
+        "es": "me gusta escuchar música",
+        "imagen": "Joven con audífonos escuchando música con los ojos cerrados",
+        "ejemplo": [
+          "I like listening to music on the bus.",
+          "Me gusta escuchar música en el autobús."
+        ]
+      },
+      {
+        "en": "She doesn't like cleaning.",
+        "es": "a ella no le gusta limpiar",
+        "imagen": "Mujer con cara de fastidio barriendo la sala",
+        "ejemplo": [
+          "She doesn't like cleaning the bathroom.",
+          "A ella no le gusta limpiar el baño."
+        ]
+      },
+      {
+        "en": "I don't mind washing the dishes.",
+        "es": "no me molesta lavar los trastes",
+        "imagen": "Hombre tranquilo lavando los trastes en el fregadero",
+        "ejemplo": [
+          "I don't mind washing the dishes after dinner.",
+          "No me molesta lavar los trastes después de la cena."
+        ]
+      },
+      {
+        "en": "My dad loves fishing.",
+        "es": "a mi papá le encanta pescar",
+        "imagen": "Papá pescando feliz en un lago al amanecer",
+        "ejemplo": [
+          "My dad loves fishing at the lake.",
+          "A mi papá le encanta pescar en el lago."
+        ]
+      },
+      {
+        "en": "The kids love drawing.",
+        "es": "a los niños les encanta dibujar",
+        "imagen": "Niños dibujando con crayones de colores en una mesa",
+        "ejemplo": [
+          "The kids love drawing animals.",
+          "A los niños les encanta dibujar animales."
+        ]
+      },
+      {
+        "en": "I hate running.",
+        "es": "odio correr",
+        "imagen": "Persona cansada y sudando, detenida mientras corre en el parque",
+        "ejemplo": [
+          "I hate running when it's hot.",
+          "Odio correr cuando hace calor."
+        ]
+      },
+      {
+        "en": "She loves taking photos.",
+        "es": "a ella le encanta tomar fotos",
+        "imagen": "Mujer tomando fotos con su cámara en un mirador",
+        "ejemplo": [
+          "She loves taking photos of flowers.",
+          "A ella le encanta tomar fotos de flores."
+        ]
+      }
+    ],
+    "grupos": [
+      {
+        "id": "restaurante",
+        "titulo": "En el restaurante",
+        "icono": "🍽️",
+        "patron": [
+          "I'd like the chicken, please.",
+          "Would you like something to drink?",
+          "Could we have the check, please?"
+        ],
+        "palabras": [
+          {
+            "en": "A table for two, please.",
+            "es": "una mesa para dos, por favor",
+            "imagen": "Pareja en la entrada de un restaurante con el mesero recibiéndolos",
+            "ejemplo": [
+              "Good evening. A table for two, please.",
+              "Buenas noches. Una mesa para dos, por favor."
+            ]
+          },
+          {
+            "en": "Can I see the menu, please?",
+            "es": "¿me da la carta, por favor?",
+            "imagen": "Mesero entregando la carta a una clienta en la mesa",
+            "ejemplo": [
+              "Excuse me, can I see the menu, please?",
+              "Disculpe, ¿me da la carta, por favor?"
+            ]
+          },
+          {
+            "en": "Are you ready to order?",
+            "es": "¿ya están listos para ordenar?",
+            "imagen": "Mesero con su libreta junto a una mesa de amigos",
+            "ejemplo": [
+              "Are you ready to order? Yes, we are.",
+              "¿Ya están listos para ordenar? Sí."
+            ]
+          },
+          {
+            "en": "What would you like?",
+            "es": "¿qué le gustaría?",
+            "imagen": "Mesera sonriendo y preguntando a un cliente que mira la carta",
+            "ejemplo": [
+              "What would you like? The fish, please.",
+              "¿Qué le gustaría? El pescado, por favor."
+            ]
+          },
+          {
+            "en": "I'd like the chicken, please.",
+            "es": "quisiera el pollo, por favor",
+            "imagen": "Plato de pollo asado con verduras servido en la mesa",
+            "ejemplo": [
+              "I'd like the chicken with rice, please.",
+              "Quisiera el pollo con arroz, por favor."
+            ]
+          },
+          {
+            "en": "Would you like something to drink?",
+            "es": "¿le gustaría algo de tomar?",
+            "imagen": "Mesero ofreciendo bebidas a una familia en la mesa",
+            "ejemplo": [
+              "Would you like something to drink? A lemonade, please.",
+              "¿Le gustaría algo de tomar? Una limonada, por favor."
+            ]
+          },
+          {
+            "en": "I'd like a glass of water.",
+            "es": "quisiera un vaso de agua",
+            "imagen": "Mesero sirviendo un vaso de agua a una clienta",
+            "ejemplo": [
+              "I'd like a glass of water, please.",
+              "Quisiera un vaso de agua, por favor."
+            ]
+          },
+          {
+            "en": "Would you like some dessert?",
+            "es": "¿le gustaría postre?",
+            "imagen": "Mesera mostrando un carrito de postres a una pareja",
+            "ejemplo": [
+              "Would you like some dessert? Yes, the chocolate cake.",
+              "¿Le gustaría postre? Sí, el pastel de chocolate."
+            ]
+          },
+          {
+            "en": "Anything else?",
+            "es": "¿algo más?",
+            "imagen": "Mesero anotando un pedido y sonriendo al cliente",
+            "ejemplo": [
+              "Anything else? No, thank you.",
+              "¿Algo más? No, gracias."
+            ]
+          },
+          {
+            "en": "It's delicious!",
+            "es": "¡está delicioso!",
+            "imagen": "Persona probando un platillo con cara de felicidad",
+            "ejemplo": [
+              "This soup is delicious!",
+              "¡Esta sopa está deliciosa!"
+            ]
+          },
+          {
+            "en": "Could we have the check, please?",
+            "es": "¿nos trae la cuenta, por favor?",
+            "imagen": "Cliente levantando la mano para pedir la cuenta al mesero",
+            "ejemplo": [
+              "Could we have the check, please?",
+              "¿Nos trae la cuenta, por favor?"
+            ]
+          },
+          {
+            "en": "Enjoy your meal!",
+            "es": "¡buen provecho!",
+            "imagen": "Mesero sirviendo los platos a una familia sonriente",
+            "ejemplo": [
+              "Here's your food. Enjoy your meal!",
+              "Aquí está su comida. ¡Buen provecho!"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "likewould",
+        "titulo": "Like o would like",
+        "icono": "🤔",
+        "patron": [
+          "Do you like coffee?",
+          "Would you like a coffee?",
+          "I'd love to!"
+        ],
+        "palabras": [
+          {
+            "en": "Do you like coffee?",
+            "es": "¿te gusta el café?",
+            "imagen": "Dos amigas platicando en una cafetería con sus tazas",
+            "ejemplo": [
+              "Do you like coffee? Yes, I love it.",
+              "¿Te gusta el café? Sí, me encanta."
+            ]
+          },
+          {
+            "en": "Would you like a coffee?",
+            "es": "¿quieres un café?",
+            "imagen": "Persona ofreciendo una taza de café a su visita en la sala",
+            "ejemplo": [
+              "Would you like a coffee? Yes, please.",
+              "¿Quieres un café? Sí, por favor."
+            ]
+          },
+          {
+            "en": "I like pizza.",
+            "es": "me gusta la pizza",
+            "imagen": "Joven comiendo una rebanada de pizza con gusto",
+            "ejemplo": [
+              "I like pizza with mushrooms.",
+              "Me gusta la pizza con champiñones."
+            ]
+          },
+          {
+            "en": "I'd like a pizza, please.",
+            "es": "quisiera una pizza, por favor",
+            "imagen": "Cliente pidiendo una pizza en el mostrador de una pizzería",
+            "ejemplo": [
+              "I'd like a big pizza, please.",
+              "Quisiera una pizza grande, por favor."
+            ]
+          },
+          {
+            "en": "What do you like doing?",
+            "es": "¿qué te gusta hacer?",
+            "imagen": "Dos amigos platicando en una banca del parque",
+            "ejemplo": [
+              "What do you like doing on weekends?",
+              "¿Qué te gusta hacer los fines de semana?"
+            ]
+          },
+          {
+            "en": "What would you like to eat?",
+            "es": "¿qué te gustaría comer?",
+            "imagen": "Pareja mirando la carta juntos en un restaurante",
+            "ejemplo": [
+              "What would you like to eat tonight?",
+              "¿Qué te gustaría comer esta noche?"
+            ]
+          },
+          {
+            "en": "Would you like to go to the movies?",
+            "es": "¿te gustaría ir al cine?",
+            "imagen": "Amigo invitando a su amiga mostrándole su celular con la cartelera",
+            "ejemplo": [
+              "Would you like to go to the movies on Friday?",
+              "¿Te gustaría ir al cine el viernes?"
+            ]
+          },
+          {
+            "en": "I'd love to!",
+            "es": "¡me encantaría!",
+            "imagen": "Mujer aceptando una invitación muy contenta",
+            "ejemplo": [
+              "Would you like to come to my party? I'd love to!",
+              "¿Te gustaría venir a mi fiesta? ¡Me encantaría!"
+            ]
+          },
+          {
+            "en": "No, thank you.",
+            "es": "no, gracias",
+            "imagen": "Persona rechazando con amabilidad un plato que le ofrecen",
+            "ejemplo": [
+              "Would you like more cake? No, thank you.",
+              "¿Quieres más pastel? No, gracias."
+            ]
+          },
+          {
+            "en": "Does he like dancing?",
+            "es": "¿a él le gusta bailar?",
+            "imagen": "Hombre sentado mirando a otros bailar en una boda",
+            "ejemplo": [
+              "Does he like dancing? No, he doesn't.",
+              "¿A él le gusta bailar? No."
+            ]
+          }
+        ]
+      }
+    ],
+    "ejemplos": [
+      {
+        "en": "I like cooking for my friends.",
+        "es": "Me gusta cocinar para mis amigos."
+      },
+      {
+        "en": "She loves dancing, but she hates singing.",
+        "es": "A ella le encanta bailar, pero odia cantar.",
+        "imagen": "Mujer bailando feliz y tapándose los oídos frente a un micrófono de karaoke"
+      },
+      {
+        "en": "Do you like swimming? Yes, I do.",
+        "es": "¿Te gusta nadar? Sí.",
+        "imagen": "Dos amigos platicando en la orilla de una alberca"
+      },
+      {
+        "en": "He doesn't like getting up early.",
+        "es": "A él no le gusta levantarse temprano.",
+        "imagen": "Hombre despeinado bostezando en la cama con el sol entrando por la ventana"
+      },
+      {
+        "en": "I'd like the chicken with rice, please.",
+        "es": "Quisiera el pollo con arroz, por favor."
+      },
+      {
+        "en": "Would you like something to drink? A lemonade, please.",
+        "es": "¿Le gustaría algo de tomar? Una limonada, por favor."
+      },
+      {
+        "en": "Would you like to come to my party? I'd love to!",
+        "es": "¿Te gustaría venir a mi fiesta? ¡Me encantaría!"
+      },
+      {
+        "en": "My dad loves fishing at the lake.",
+        "es": "A mi papá le encanta pescar en el lago."
+      },
+      {
+        "en": "We don't mind waiting. We're not in a hurry.",
+        "es": "No nos molesta esperar. No tenemos prisa.",
+        "imagen": "Pareja tranquila platicando en la sala de espera de un restaurante"
+      },
+      {
+        "en": "Excuse me, could we have the check, please?",
+        "es": "Disculpe, ¿nos trae la cuenta, por favor?"
+      }
+    ],
+    "frases": [
+      {
+        "en": "I love reading, but I don't like reading on my phone.",
+        "es": "Me encanta leer, pero no me gusta leer en el celular.",
+        "imagen": "Persona leyendo un libro de papel con el celular apagado a un lado"
+      },
+      {
+        "en": "My sister hates cleaning, so I clean the kitchen and she cooks.",
+        "es": "Mi hermana odia limpiar, así que yo limpio la cocina y ella cocina.",
+        "imagen": "Hermanos en la cocina: uno limpia la barra y la otra cocina"
+      },
+      {
+        "en": "Good evening. A table for two, please. We'd like to sit by the window.",
+        "es": "Buenas noches. Una mesa para dos, por favor. Quisiéramos sentarnos junto a la ventana.",
+        "imagen": "Pareja sentándose en una mesa junto a la ventana de un restaurante"
+      },
+      {
+        "en": "I'd like the fish with vegetables and a glass of lemonade, please.",
+        "es": "Quisiera el pescado con verduras y un vaso de limonada, por favor.",
+        "imagen": "Plato de pescado con verduras y un vaso de limonada en la mesa"
+      },
+      {
+        "en": "Would you like some dessert? Yes, the chocolate cake, please.",
+        "es": "¿Le gustaría postre? Sí, el pastel de chocolate, por favor."
+      },
+      {
+        "en": "On weekends we love playing soccer in the park with our kids.",
+        "es": "Los fines de semana nos encanta jugar fútbol en el parque con nuestros hijos.",
+        "imagen": "Papás jugando fútbol con sus hijos en el parque"
+      },
+      {
+        "en": "Do you like going to the movies? Would you like to go on Friday?",
+        "es": "¿Te gusta ir al cine? ¿Te gustaría ir el viernes?",
+        "imagen": "Dos amigos con palomitas en la entrada de un cine"
+      },
+      {
+        "en": "He doesn't mind washing the dishes, but he hates ironing.",
+        "es": "No le molesta lavar los trastes, pero odia planchar.",
+        "imagen": "Hombre planchando una camisa con cara de fastidio"
+      },
+      {
+        "en": "This soup is delicious! Can I have some more bread, please?",
+        "es": "¡Esta sopa está deliciosa! ¿Me da más pan, por favor?",
+        "imagen": "Persona disfrutando una sopa en el restaurante con una canasta de pan"
+      },
+      {
+        "en": "The kids love drawing animals, especially cats and dogs.",
+        "es": "A los niños les encanta dibujar animales, sobre todo gatos y perros.",
+        "imagen": "Niños dibujando gatos y perros con crayones"
+      }
+    ],
+    "listening": [
+      {
+        "audio": "I love swimming, but I hate running.",
+        "pregunta": "¿Qué le encanta?",
+        "opciones": [
+          "Nadar",
+          "Correr",
+          "Bailar",
+          "Cocinar"
+        ]
+      },
+      {
+        "audio": "I'd like the chicken with rice and a glass of water, please.",
+        "pregunta": "¿Qué pide para tomar?",
+        "opciones": [
+          "Agua",
+          "Limonada",
+          "Café",
+          "Jugo"
+        ]
+      },
+      {
+        "audio": "Would you like to go to the movies on Saturday? I'd love to!",
+        "pregunta": "¿Cuándo van al cine?",
+        "opciones": [
+          "El sábado",
+          "El viernes",
+          "El domingo",
+          "Hoy"
+        ]
+      },
+      {
+        "audio": "My brother doesn't like shopping. He likes playing video games.",
+        "pregunta": "¿Qué le gusta al hermano?",
+        "opciones": [
+          "Los videojuegos",
+          "Ir de compras",
+          "Cocinar",
+          "Leer"
+        ]
+      },
+      {
+        "audio": "Could we have the check, please? Of course. Here you are.",
+        "pregunta": "¿Qué piden?",
+        "opciones": [
+          "La cuenta",
+          "La carta",
+          "El postre",
+          "Una mesa"
+        ]
+      }
+    ],
+    "lectura": {
+      "titulo": "Dinner with Sofia",
+      "texto": "Daniel and Sofia are at a small Italian restaurant. It's Sofia's birthday. Daniel loves cooking, but tonight he doesn't want to cook. The waiter asks: Are you ready to order? Sofia says: Yes. I'd like the pasta with tomato sauce, please. Daniel doesn't like pasta very much, so he says: I'd like the fish with vegetables. Would you like something to drink? the waiter asks. Two glasses of lemonade, please. Sofia loves dancing, and there is music in the restaurant. After dinner, the waiter asks: Would you like some dessert? Sofia smiles: I'd love a piece of chocolate cake! Then Daniel asks for the check, and they go dancing.",
+      "preguntas": [
+        {
+          "pregunta": "¿Por qué van al restaurante?",
+          "opciones": [
+            "Es el cumpleaños de Sofía",
+            "Daniel no sabe cocinar",
+            "Es su aniversario",
+            "No hay comida en casa"
+          ]
+        },
+        {
+          "pregunta": "¿Qué pide Daniel?",
+          "opciones": [
+            "Pescado con verduras",
+            "Pasta con salsa de jitomate",
+            "Pollo con arroz",
+            "Una pizza"
+          ]
+        },
+        {
+          "pregunta": "¿Qué toman?",
+          "opciones": [
+            "Limonada",
+            "Agua",
+            "Vino",
+            "Café"
+          ]
+        },
+        {
+          "pregunta": "¿Qué hacen después de la cena?",
+          "opciones": [
+            "Van a bailar",
+            "Van al cine",
+            "Regresan a casa",
+            "Van a cocinar"
+          ]
+        }
+      ]
+    },
+    "escritura": [
+      {
+        "instruccion": "Completa con el verbo en -ing.",
+        "pregunta": "I love ___ (swim).",
+        "respuestas": [
+          "swimming"
+        ]
+      },
+      {
+        "instruccion": "Completa con el verbo en -ing.",
+        "pregunta": "She hates ___ (wait).",
+        "respuestas": [
+          "waiting"
+        ]
+      },
+      {
+        "instruccion": "Completa con el verbo en -ing.",
+        "pregunta": "We like ___ (dance).",
+        "respuestas": [
+          "dancing"
+        ]
+      },
+      {
+        "instruccion": "Completa con like o likes.",
+        "pregunta": "My mom ___ cooking.",
+        "respuestas": [
+          "likes"
+        ]
+      },
+      {
+        "instruccion": "Completa con don't o doesn't.",
+        "pregunta": "He ___ like shopping.",
+        "respuestas": [
+          "doesn't",
+          "does not"
+        ]
+      },
+      {
+        "instruccion": "Completa con like o would like.",
+        "pregunta": "I ___ a glass of water, please.",
+        "respuestas": [
+          "would like",
+          "'d like"
+        ]
+      },
+      {
+        "instruccion": "Completa la pregunta.",
+        "pregunta": "___ you like something to drink?",
+        "respuestas": [
+          "Would"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "Me encanta leer.",
+        "respuestas": [
+          "I love reading",
+          "I love to read"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "Quisiera el pollo, por favor.",
+        "respuestas": [
+          "I'd like the chicken, please",
+          "I would like the chicken, please",
+          "I'd like the chicken please",
+          "I would like the chicken please"
+        ]
+      },
+      {
+        "instruccion": "Corrige la oración.",
+        "pregunta": "I like swim.",
+        "respuestas": [
+          "I like swimming",
+          "I like to swim"
+        ]
+      }
+    ],
+    "examen": [
+      {
+        "tipo": "opcion",
+        "pregunta": "I love ___ to music.",
+        "opciones": [
+          "listening",
+          "listen",
+          "listens",
+          "to listening"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "She ___ dancing.",
+        "opciones": [
+          "likes",
+          "like",
+          "liking",
+          "is like"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "___ you like cooking? Yes, I do.",
+        "opciones": [
+          "Do",
+          "Would",
+          "Are",
+          "Does"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "En un restaurante, lo más amable es decir:",
+        "opciones": [
+          "I'd like the soup, please.",
+          "I want the soup.",
+          "Give me the soup.",
+          "I like the soup."
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "Would you like to come to my party?",
+        "opciones": [
+          "I'd love to!",
+          "Yes, I do.",
+          "I like parties.",
+          "No, I don't."
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "¿Cómo se pide la cuenta?",
+        "opciones": [
+          "Could we have the check, please?",
+          "Can I see the menu, please?",
+          "A table for two, please.",
+          "Enjoy your meal!"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "Do you like fishing? No, I don't. I hate it, but I love camping.",
+        "pregunta": "¿Qué le encanta?",
+        "opciones": [
+          "Acampar",
+          "Pescar",
+          "Nadar",
+          "Correr"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "Would you like some dessert? Yes, I'd like the ice cream, please.",
+        "pregunta": "¿Qué postre pide?",
+        "opciones": [
+          "Helado",
+          "Pastel",
+          "Fruta",
+          "Galletas"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Traduce: ¿Te gusta bailar?",
+        "respuestas": [
+          "Do you like dancing",
+          "Do you like to dance"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Traduce: ¿Quieres un café? (ofreciendo)",
+        "respuestas": [
+          "Would you like a coffee",
+          "Would you like some coffee"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a1-24",
+    "num": 24,
+    "titulo": "Was / were y conectores and, but, or, because",
+    "contexto": "Ayer, la semana pasada y mi infancia",
+    "explicacion": {
+      "es": [
+        "***Was*** y ***were*** son el **pasado del verbo *to be*** (*am / is / are*). Sirven para decir cómo **era** o **estaba** algo, o dónde **estaba** alguien: *I **was** tired yesterday.* (Estaba cansado ayer.) *We **were** at home.* (Estábamos en casa.)",
+        "***Was*** va con ***I, he, she, it***. ***Were*** va con ***you, we, they***: *She **was** happy. They **were** at the beach.*",
+        "**Negativo:** ***wasn't*** (*was not*) y ***weren't*** (*were not*): *It **wasn't** cold. You **weren't** at school.* **Preguntas:** el verbo va primero: ***Was** it fun? — Yes, it was. **Were** you at home? — No, I wasn't.*",
+        "**Conectores** para unir ideas: ***and*** (y) suma, ***but*** (pero) contrasta, ***or*** (o) da opciones y ***because*** (porque) da la razón: *I was tired **because** I worked a lot. The movie was long **but** good.*"
+      ],
+      "tabla": {
+        "columnas": [
+          "Sujeto",
+          "Afirmativo",
+          "Negativo",
+          "Pregunta"
+        ],
+        "filas": [
+          [
+            "I",
+            "I was tired.",
+            "I wasn't tired.",
+            "Was I late?"
+          ],
+          [
+            "he / she / it",
+            "She was at home.",
+            "She wasn't at home.",
+            "Was she at home?"
+          ],
+          [
+            "you / we / they",
+            "They were happy.",
+            "They weren't happy.",
+            "Were they happy?"
+          ]
+        ]
+      },
+      "ojo": [
+        "*I **was*** ✅, no *I were* ❌. *They **were*** ✅, no *They was* ❌.",
+        "*Yesterday, last week, last year, two days ago* son palabras de pasado: ***Yesterday** I **was** at work.* No *Yesterday I am at work* ❌.",
+        "Para la infancia: ***When I was a child**…* (Cuando era niño/niña…). *I was born in 1990* = Nací en 1990 (siempre con *was*).",
+        "***Because*** (porque) da la razón; para preguntar se usa ***Why?*** (¿por qué?): *Why were you late? **Because** the bus was late.*",
+        "En español *estaba* y *era* son distintos, pero en inglés los dos son ***was***: *It **was** cold* (hacía frío) / *He **was** a teacher* (era maestro)."
+      ],
+      "en": [
+        "Was and were are the past of the verb to be: I was tired yesterday. We were at home.",
+        "Use was with I, he, she and it. Use were with you, we and they.",
+        "Negative: It wasn't cold. Questions: Was it fun? Yes, it was.",
+        "Connectors: and, but, or, because. I was tired because I worked a lot."
+      ]
+    },
+    "vocabulario": [
+      {
+        "en": "I was tired.",
+        "es": "estaba cansado",
+        "imagen": "Persona agotada recostada en el sofá después del trabajo",
+        "ejemplo": [
+          "I was tired after work yesterday.",
+          "Ayer estaba cansado después del trabajo."
+        ]
+      },
+      {
+        "en": "She was happy.",
+        "es": "ella estaba feliz",
+        "imagen": "Mujer sonriendo con un ramo de flores en la mano",
+        "ejemplo": [
+          "She was happy on her birthday.",
+          "Ella estaba feliz en su cumpleaños."
+        ]
+      },
+      {
+        "en": "They were at the beach.",
+        "es": "estaban en la playa",
+        "imagen": "Familia jugando en la arena de la playa",
+        "ejemplo": [
+          "They were at the beach last weekend.",
+          "Estaban en la playa el fin de semana pasado."
+        ]
+      },
+      {
+        "en": "It was cold.",
+        "es": "hacía frío",
+        "imagen": "Persona abrigada caminando por una calle con nieve",
+        "ejemplo": [
+          "It was very cold last night.",
+          "Anoche hacía mucho frío."
+        ]
+      },
+      {
+        "en": "It was hot.",
+        "es": "hacía calor",
+        "imagen": "Persona sudando bajo el sol con un abanico",
+        "ejemplo": [
+          "It was hot in the summer.",
+          "Hacía calor en el verano."
+        ]
+      },
+      {
+        "en": "We were at home.",
+        "es": "estábamos en casa",
+        "imagen": "Familia viendo una película en la sala de su casa",
+        "ejemplo": [
+          "We were at home all day.",
+          "Estuvimos en casa todo el día."
+        ]
+      },
+      {
+        "en": "He was sick.",
+        "es": "él estaba enfermo",
+        "imagen": "Hombre en la cama con un termómetro y un pañuelo",
+        "ejemplo": [
+          "He was sick last week.",
+          "Él estuvo enfermo la semana pasada."
+        ]
+      },
+      {
+        "en": "The movie was boring.",
+        "es": "la película era aburrida",
+        "imagen": "Persona bostezando en el cine con palomitas",
+        "ejemplo": [
+          "The movie was boring and very long.",
+          "La película era aburrida y muy larga."
+        ]
+      },
+      {
+        "en": "The party was fun.",
+        "es": "la fiesta estuvo divertida",
+        "imagen": "Amigos riendo y bailando en una fiesta con globos",
+        "ejemplo": [
+          "The party was fun. We danced all night.",
+          "La fiesta estuvo divertida. Bailamos toda la noche."
+        ]
+      },
+      {
+        "en": "I was late.",
+        "es": "llegué tarde",
+        "imagen": "Persona corriendo con prisa mirando su reloj",
+        "ejemplo": [
+          "I was late for work because of the traffic.",
+          "Llegué tarde al trabajo por el tráfico."
+        ]
+      },
+      {
+        "en": "The food was delicious.",
+        "es": "la comida estaba deliciosa",
+        "imagen": "Familia disfrutando una comida casera en la mesa",
+        "ejemplo": [
+          "The food was delicious at Grandma's house.",
+          "La comida estaba deliciosa en casa de la abuela."
+        ]
+      },
+      {
+        "en": "You were right.",
+        "es": "tenías razón",
+        "imagen": "Amigo levantando el pulgar a su amiga, reconociendo que ella tenía razón",
+        "ejemplo": [
+          "You were right. The store was closed.",
+          "Tenías razón. La tienda estaba cerrada."
+        ]
+      },
+      {
+        "en": "The store was closed.",
+        "es": "la tienda estaba cerrada",
+        "imagen": "Persona frente a una tienda con la cortina abajo, de noche",
+        "ejemplo": [
+          "The store was closed on Sunday.",
+          "La tienda estaba cerrada el domingo."
+        ]
+      },
+      {
+        "en": "I wasn't hungry.",
+        "es": "no tenía hambre",
+        "imagen": "Persona empujando suavemente un plato de comida",
+        "ejemplo": [
+          "I wasn't hungry, so I didn't eat.",
+          "No tenía hambre, así que no comí."
+        ]
+      },
+      {
+        "en": "The kids were tired.",
+        "es": "los niños estaban cansados",
+        "imagen": "Niños dormidos en el asiento trasero del carro",
+        "ejemplo": [
+          "The kids were tired after the trip.",
+          "Los niños estaban cansados después del viaje."
+        ]
+      },
+      {
+        "en": "The weather was beautiful.",
+        "es": "el clima estaba hermoso",
+        "imagen": "Parque soleado con cielo azul y gente paseando",
+        "ejemplo": [
+          "The weather was beautiful on Saturday.",
+          "El clima estuvo hermoso el sábado."
+        ]
+      }
+    ],
+    "grupos": [
+      {
+        "id": "cuando",
+        "titulo": "¿Cuándo? Palabras de pasado",
+        "icono": "📅",
+        "patron": [
+          "yesterday",
+          "last week",
+          "two days ago"
+        ],
+        "palabras": [
+          {
+            "en": "yesterday",
+            "es": "ayer",
+            "imagen": "Hoja de calendario del día anterior tachada",
+            "ejemplo": [
+              "I was at the dentist yesterday.",
+              "Ayer estuve en el dentista."
+            ]
+          },
+          {
+            "en": "last night",
+            "es": "anoche",
+            "imagen": "Ciudad iluminada de noche con la luna",
+            "ejemplo": [
+              "Where were you last night?",
+              "¿Dónde estabas anoche?"
+            ]
+          },
+          {
+            "en": "last week",
+            "es": "la semana pasada",
+            "imagen": "Calendario semanal con los días anteriores marcados",
+            "ejemplo": [
+              "We were on vacation last week.",
+              "La semana pasada estuvimos de vacaciones."
+            ]
+          },
+          {
+            "en": "last weekend",
+            "es": "el fin de semana pasado",
+            "imagen": "Amigos en un día de campo el sábado",
+            "ejemplo": [
+              "Last weekend was great.",
+              "El fin de semana pasado estuvo genial."
+            ]
+          },
+          {
+            "en": "last month",
+            "es": "el mes pasado",
+            "imagen": "Calendario mensual volteado a la hoja anterior",
+            "ejemplo": [
+              "I was in Mexico City last month.",
+              "El mes pasado estuve en la Ciudad de México."
+            ]
+          },
+          {
+            "en": "last year",
+            "es": "el año pasado",
+            "imagen": "Familia mirando fotos de un viaje del año anterior",
+            "ejemplo": [
+              "Last year I was a student.",
+              "El año pasado era estudiante."
+            ]
+          },
+          {
+            "en": "two days ago",
+            "es": "hace dos días",
+            "imagen": "Persona recordando algo mientras mira su calendario",
+            "ejemplo": [
+              "I was sick two days ago.",
+              "Hace dos días estaba enfermo."
+            ]
+          },
+          {
+            "en": "this morning",
+            "es": "esta mañana",
+            "imagen": "Amanecer con una taza de café en la ventana",
+            "ejemplo": [
+              "I was very busy this morning.",
+              "Esta mañana estuve muy ocupado."
+            ]
+          },
+          {
+            "en": "in 2010",
+            "es": "en 2010",
+            "imagen": "Foto vieja de una familia joven sobre una mesa",
+            "ejemplo": [
+              "I was in high school in 2010.",
+              "En 2010 estaba en la prepa."
+            ]
+          },
+          {
+            "en": "on Monday",
+            "es": "el lunes",
+            "imagen": "Persona entrando a la oficina un lunes por la mañana",
+            "ejemplo": [
+              "The bank was closed on Monday.",
+              "El banco estaba cerrado el lunes."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "infancia",
+        "titulo": "Cuando era niño",
+        "icono": "🧸",
+        "patron": [
+          "When I was a child…",
+          "I was born in…",
+          "My first teacher was…"
+        ],
+        "palabras": [
+          {
+            "en": "When I was a child",
+            "es": "cuando era niño",
+            "imagen": "Niño jugando con un carrito de juguete en el piso",
+            "ejemplo": [
+              "When I was a child, I was very shy.",
+              "Cuando era niño, era muy tímido."
+            ]
+          },
+          {
+            "en": "I was born in 1990.",
+            "es": "nací en 1990",
+            "imagen": "Bebé recién nacido en brazos de su mamá en el hospital",
+            "ejemplo": [
+              "I was born in 1990 in Guadalajara.",
+              "Nací en 1990 en Guadalajara."
+            ]
+          },
+          {
+            "en": "My first teacher was nice.",
+            "es": "mi primera maestra era amable",
+            "imagen": "Maestra sonriendo con niños pequeños en un salón",
+            "ejemplo": [
+              "My first teacher was very nice.",
+              "Mi primera maestra era muy amable."
+            ]
+          },
+          {
+            "en": "My favorite toy was a ball.",
+            "es": "mi juguete favorito era una pelota",
+            "imagen": "Niño pequeño abrazando una pelota roja",
+            "ejemplo": [
+              "My favorite toy was a red ball.",
+              "Mi juguete favorito era una pelota roja."
+            ]
+          },
+          {
+            "en": "I was a good student.",
+            "es": "era buen estudiante",
+            "imagen": "Niño levantando la mano en clase con entusiasmo",
+            "ejemplo": [
+              "I was a good student in elementary school.",
+              "Era buen estudiante en la primaria."
+            ]
+          },
+          {
+            "en": "We were very poor.",
+            "es": "éramos muy pobres",
+            "imagen": "Familia sencilla comiendo junta en una casa humilde",
+            "ejemplo": [
+              "We were very poor, but we were happy.",
+              "Éramos muy pobres, pero éramos felices."
+            ]
+          },
+          {
+            "en": "My grandparents were farmers.",
+            "es": "mis abuelos eran campesinos",
+            "imagen": "Abuelos trabajando en su campo de maíz",
+            "ejemplo": [
+              "My grandparents were farmers in a small town.",
+              "Mis abuelos eran campesinos en un pueblo pequeño."
+            ]
+          },
+          {
+            "en": "Our house was small.",
+            "es": "nuestra casa era pequeña",
+            "imagen": "Casa pequeña de colores en un pueblo",
+            "ejemplo": [
+              "Our house was small but beautiful.",
+              "Nuestra casa era pequeña pero bonita."
+            ]
+          },
+          {
+            "en": "I wasn't afraid of dogs.",
+            "es": "no les tenía miedo a los perros",
+            "imagen": "Niña acariciando a un perro grande y feliz",
+            "ejemplo": [
+              "I wasn't afraid of dogs. I loved them!",
+              "No les tenía miedo a los perros. ¡Me encantaban!"
+            ]
+          },
+          {
+            "en": "My best friend was Carlos.",
+            "es": "mi mejor amigo era Carlos",
+            "imagen": "Dos niños riendo juntos en un columpio",
+            "ejemplo": [
+              "My best friend was Carlos. We were always together.",
+              "Mi mejor amigo era Carlos. Siempre estábamos juntos."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "conectores",
+        "titulo": "And, but, or, because",
+        "icono": "🔗",
+        "patron": [
+          "…and…",
+          "…but…",
+          "…because…"
+        ],
+        "palabras": [
+          {
+            "en": "tired and hungry",
+            "es": "cansado y con hambre",
+            "imagen": "Persona agotada abriendo el refrigerador en la noche",
+            "ejemplo": [
+              "I was tired and hungry after the trip.",
+              "Estaba cansado y con hambre después del viaje."
+            ]
+          },
+          {
+            "en": "small but cozy",
+            "es": "pequeño pero acogedor",
+            "imagen": "Sala pequeña y cálida con una lámpara y cojines",
+            "ejemplo": [
+              "Our apartment was small but cozy.",
+              "Nuestro departamento era pequeño pero acogedor."
+            ]
+          },
+          {
+            "en": "tea or coffee?",
+            "es": "¿té o café?",
+            "imagen": "Mano señalando una taza de té y una taza de café",
+            "ejemplo": [
+              "Tea or coffee? Coffee, please.",
+              "¿Té o café? Café, por favor."
+            ]
+          },
+          {
+            "en": "because it was raining",
+            "es": "porque estaba lloviendo",
+            "imagen": "Persona mirando la lluvia por la ventana de su casa",
+            "ejemplo": [
+              "We were at home because it was raining.",
+              "Estábamos en casa porque estaba lloviendo."
+            ]
+          },
+          {
+            "en": "It was cheap and good.",
+            "es": "era barato y bueno",
+            "imagen": "Persona contenta pagando poco en un puesto de tacos",
+            "ejemplo": [
+              "The restaurant was cheap and good.",
+              "El restaurante era barato y bueno."
+            ]
+          },
+          {
+            "en": "I was tired, but happy.",
+            "es": "estaba cansado, pero feliz",
+            "imagen": "Corredor sonriendo agotado en la meta de una carrera",
+            "ejemplo": [
+              "I was tired, but happy after the race.",
+              "Estaba cansado, pero feliz después de la carrera."
+            ]
+          },
+          {
+            "en": "Was it Saturday or Sunday?",
+            "es": "¿fue sábado o domingo?",
+            "imagen": "Persona confundida mirando un calendario",
+            "ejemplo": [
+              "Was the party on Saturday or Sunday?",
+              "¿La fiesta fue el sábado o el domingo?"
+            ]
+          },
+          {
+            "en": "Why were you late?",
+            "es": "¿por qué llegaste tarde?",
+            "imagen": "Jefa preguntando a un empleado que llega con prisa a la oficina",
+            "ejemplo": [
+              "Why were you late? Because the bus was late.",
+              "¿Por qué llegaste tarde? Porque el autobús se retrasó."
+            ]
+          },
+          {
+            "en": "because I was sick",
+            "es": "porque estaba enfermo",
+            "imagen": "Persona en cama con una taza de té y pañuelos",
+            "ejemplo": [
+              "I wasn't at school because I was sick.",
+              "No fui a la escuela porque estaba enfermo."
+            ]
+          },
+          {
+            "en": "It was hot, so we were at the pool.",
+            "es": "hacía calor, así que estábamos en la alberca",
+            "imagen": "Familia refrescándose en una alberca en un día soleado",
+            "ejemplo": [
+              "It was hot, so we were at the pool all day.",
+              "Hacía calor, así que estuvimos en la alberca todo el día."
+            ]
+          }
+        ]
+      }
+    ],
+    "ejemplos": [
+      {
+        "en": "I was tired after work yesterday.",
+        "es": "Ayer estaba cansado después del trabajo."
+      },
+      {
+        "en": "Where were you last night? I was at home.",
+        "es": "¿Dónde estabas anoche? Estaba en casa.",
+        "imagen": "Persona contestando una llamada en su casa de noche"
+      },
+      {
+        "en": "The party was fun, but the music was very loud.",
+        "es": "La fiesta estuvo divertida, pero la música estaba muy fuerte.",
+        "imagen": "Fiesta con amigos bailando y una persona tapándose los oídos junto a la bocina"
+      },
+      {
+        "en": "Was it cold in New York? Yes, it was.",
+        "es": "¿Hacía frío en Nueva York? Sí.",
+        "imagen": "Turistas abrigados caminando por una calle de Nueva York con nieve"
+      },
+      {
+        "en": "We weren't at school because it was a holiday.",
+        "es": "No estábamos en la escuela porque era día festivo.",
+        "imagen": "Niños jugando en el parque en un día festivo"
+      },
+      {
+        "en": "When I was a child, I was very shy.",
+        "es": "Cuando era niño, era muy tímido."
+      },
+      {
+        "en": "My grandparents were farmers in a small town.",
+        "es": "Mis abuelos eran campesinos en un pueblo pequeño."
+      },
+      {
+        "en": "The store was closed on Sunday.",
+        "es": "La tienda estaba cerrada el domingo.",
+        "imagen": "Persona frente a una tienda cerrada un domingo por la mañana"
+      },
+      {
+        "en": "Was the movie good or bad?",
+        "es": "¿La película estuvo buena o mala?",
+        "imagen": "Dos amigos platicando a la salida del cine"
+      },
+      {
+        "en": "Why were you late? Because the bus was late.",
+        "es": "¿Por qué llegaste tarde? Porque el autobús se retrasó."
+      }
+    ],
+    "frases": [
+      {
+        "en": "Last weekend we were at the beach. The weather was beautiful and the water was warm.",
+        "es": "El fin de semana pasado estuvimos en la playa. El clima estaba hermoso y el agua estaba tibia.",
+        "imagen": "Familia nadando en el mar en un día soleado"
+      },
+      {
+        "en": "I wasn't at work yesterday because I was sick.",
+        "es": "Ayer no fui al trabajo porque estaba enfermo.",
+        "imagen": "Persona enferma en el sofá con una cobija y té"
+      },
+      {
+        "en": "When I was a child, my best friend was Carlos. We were always together.",
+        "es": "Cuando era niño, mi mejor amigo era Carlos. Siempre estábamos juntos.",
+        "imagen": "Dos niños caminando juntos a la escuela con sus mochilas"
+      },
+      {
+        "en": "The restaurant was small, but the food was delicious.",
+        "es": "El restaurante era pequeño, pero la comida estaba deliciosa.",
+        "imagen": "Restaurante pequeño con clientes disfrutando sus platillos"
+      },
+      {
+        "en": "Were you at the concert on Friday or on Saturday?",
+        "es": "¿Estuviste en el concierto el viernes o el sábado?",
+        "imagen": "Público con las manos arriba en un concierto al aire libre"
+      },
+      {
+        "en": "My grandmother was a teacher and my grandfather was a doctor.",
+        "es": "Mi abuela era maestra y mi abuelo era doctor.",
+        "imagen": "Foto antigua de una maestra y un doctor jóvenes, sobre un mueble"
+      },
+      {
+        "en": "It was very hot, so we were at the pool all afternoon.",
+        "es": "Hacía mucho calor, así que estuvimos en la alberca toda la tarde."
+      },
+      {
+        "en": "The test was difficult, but I was ready because I studied a lot.",
+        "es": "El examen estuvo difícil, pero estaba preparado porque estudié mucho.",
+        "imagen": "Estudiante tranquilo contestando un examen en el salón"
+      },
+      {
+        "en": "Our house was small, but we were very happy there.",
+        "es": "Nuestra casa era pequeña, pero éramos muy felices ahí.",
+        "imagen": "Familia feliz frente a una casa pequeña de colores"
+      },
+      {
+        "en": "Last year I was in Cancun with my family. It was an amazing trip.",
+        "es": "El año pasado estuve en Cancún con mi familia. Fue un viaje increíble.",
+        "imagen": "Familia tomándose una selfie en una playa de mar turquesa"
+      }
+    ],
+    "listening": [
+      {
+        "audio": "I was at the movies last night. The movie was very funny.",
+        "pregunta": "¿Dónde estaba anoche?",
+        "opciones": [
+          "En el cine",
+          "En casa",
+          "En el trabajo",
+          "En un restaurante"
+        ]
+      },
+      {
+        "audio": "We weren't at the park because it was raining.",
+        "pregunta": "¿Por qué no fueron al parque?",
+        "opciones": [
+          "Porque llovía",
+          "Porque hacía calor",
+          "Porque estaban enfermos",
+          "Porque era tarde"
+        ]
+      },
+      {
+        "audio": "When I was a child, my favorite food was pizza.",
+        "pregunta": "¿Cuál era su comida favorita?",
+        "opciones": [
+          "La pizza",
+          "Los tacos",
+          "La sopa",
+          "El pollo"
+        ]
+      },
+      {
+        "audio": "The trip was expensive, but the beach was beautiful.",
+        "pregunta": "¿Cómo era la playa?",
+        "opciones": [
+          "Hermosa",
+          "Cara",
+          "Fea",
+          "Pequeña"
+        ]
+      },
+      {
+        "audio": "Was your trip on Monday or Tuesday? It was on Tuesday.",
+        "pregunta": "¿Qué día fue el viaje?",
+        "opciones": [
+          "Martes",
+          "Lunes",
+          "Miércoles",
+          "Jueves"
+        ]
+      }
+    ],
+    "lectura": {
+      "titulo": "My grandfather's town",
+      "texto": "My grandfather, Ramón, was born in 1950 in a small town in the mountains. His family was poor, but they were happy. Their house was small and it was made of wood. His father was a farmer and his mother was a cook in a little restaurant. There were six children in the family, and Ramón was the oldest. The school was far, so the children were always tired in the morning. Ramón's favorite teacher was Miss Rosa, because she was kind and very patient. In the winter it was very cold, but the town was beautiful. Today Ramón lives in the city, but he says: Those were the best years of my life.",
+      "preguntas": [
+        {
+          "pregunta": "¿Dónde nació Ramón?",
+          "opciones": [
+            "En un pueblo en las montañas",
+            "En la ciudad",
+            "En la playa",
+            "En otro país"
+          ]
+        },
+        {
+          "pregunta": "¿Qué era la mamá de Ramón?",
+          "opciones": [
+            "Cocinera",
+            "Maestra",
+            "Campesina",
+            "Doctora"
+          ]
+        },
+        {
+          "pregunta": "¿Por qué los niños estaban cansados en la mañana?",
+          "opciones": [
+            "Porque la escuela estaba lejos",
+            "Porque hacía frío",
+            "Porque trabajaban",
+            "Porque no dormían"
+          ]
+        },
+        {
+          "pregunta": "¿Por qué le gustaba Miss Rosa?",
+          "opciones": [
+            "Porque era amable y paciente",
+            "Porque era su tía",
+            "Porque era divertida",
+            "Porque no dejaba tarea"
+          ]
+        }
+      ]
+    },
+    "escritura": [
+      {
+        "instruccion": "Completa con was o were.",
+        "pregunta": "I ___ tired yesterday.",
+        "respuestas": [
+          "was"
+        ]
+      },
+      {
+        "instruccion": "Completa con was o were.",
+        "pregunta": "They ___ at the beach.",
+        "respuestas": [
+          "were"
+        ]
+      },
+      {
+        "instruccion": "Completa con was o were.",
+        "pregunta": "The movie ___ boring.",
+        "respuestas": [
+          "was"
+        ]
+      },
+      {
+        "instruccion": "Completa con wasn't o weren't.",
+        "pregunta": "We ___ at home last night.",
+        "respuestas": [
+          "weren't",
+          "were not"
+        ]
+      },
+      {
+        "instruccion": "Completa la pregunta.",
+        "pregunta": "___ it cold yesterday?",
+        "respuestas": [
+          "Was"
+        ]
+      },
+      {
+        "instruccion": "Completa con and, but, or o because.",
+        "pregunta": "I was at home ___ I was sick.",
+        "respuestas": [
+          "because"
+        ]
+      },
+      {
+        "instruccion": "Completa con and, but, or o because.",
+        "pregunta": "The house was old, ___ it was clean.",
+        "respuestas": [
+          "but"
+        ]
+      },
+      {
+        "instruccion": "Completa con and, but, or o because.",
+        "pregunta": "Was it Monday ___ Tuesday?",
+        "respuestas": [
+          "or"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "Cuando era niño, era tímido.",
+        "respuestas": [
+          "When I was a child, I was shy",
+          "When I was a child I was shy",
+          "When I was a kid, I was shy",
+          "When I was a kid I was shy"
+        ]
+      },
+      {
+        "instruccion": "Corrige la oración.",
+        "pregunta": "They was at school.",
+        "respuestas": [
+          "They were at school"
+        ]
+      }
+    ],
+    "examen": [
+      {
+        "tipo": "opcion",
+        "pregunta": "She ___ at work yesterday.",
+        "opciones": [
+          "was",
+          "were",
+          "is",
+          "are"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "We ___ very happy last year.",
+        "opciones": [
+          "were",
+          "was",
+          "are",
+          "be"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "___ you at the party? Yes, I was.",
+        "opciones": [
+          "Were",
+          "Was",
+          "Are",
+          "Did"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "It ___ cold. It was hot.",
+        "opciones": [
+          "wasn't",
+          "weren't",
+          "isn't",
+          "didn't"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "I was late ___ the traffic was terrible.",
+        "opciones": [
+          "because",
+          "but",
+          "or",
+          "and"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "¿Cuál es una palabra de pasado?",
+        "opciones": [
+          "last week",
+          "tomorrow",
+          "next year",
+          "now"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "Where were you yesterday? I was at my sister's house.",
+        "pregunta": "¿Dónde estaba ayer?",
+        "opciones": [
+          "En casa de su hermana",
+          "En su casa",
+          "En el trabajo",
+          "En la escuela"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "The trip was long, but it was very fun.",
+        "pregunta": "¿Cómo fue el viaje?",
+        "opciones": [
+          "Largo pero divertido",
+          "Corto y divertido",
+          "Largo y aburrido",
+          "Corto pero aburrido"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Traduce: Estaba cansado.",
+        "respuestas": [
+          "I was tired"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Traduce: ¿Dónde estabas anoche?",
+        "respuestas": [
+          "Where were you last night"
+        ]
+      }
+    ]
+  }
 ];
