@@ -138,5 +138,11 @@ const PORTADAS_MENU = {
  "a1-21/clima": "images/portadas/a1-21-clima.jpg",
  "a1-21/preguntas": "images/portadas/a1-21-preguntas.jpg",
  "a1-21/ejemplos": "images/portadas/a1-21-ejemplos.jpg",
- "a1-21/frases": "images/portadas/a1-21-frases.jpg"
+ "a1-21/frases": "images/portadas/a1-21-frases.jpg",
+ "a1-22/vocabulario": "images/portadas/a1-22-vocabulario.jpg",
+ "a1-22/cantidades": "images/portadas/a1-22-cantidades.jpg",
+ "a1-22/someany": "images/portadas/a1-22-someany.jpg",
+ "a1-22/cuanto": "images/portadas/a1-22-cuanto.jpg",
+ "a1-22/ejemplos": "images/portadas/a1-22-ejemplos.jpg",
+ "a1-22/frases": "images/portadas/a1-22-frases.jpg"
 };

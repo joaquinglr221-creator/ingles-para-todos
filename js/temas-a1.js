@@ -8505,7 +8505,884 @@ const TEMAS_A1 = [
       }
     ]
   },
-  { "id": "a1-22", "num": 22, "titulo": "Contables e incontables; some / any", "contexto": "Comida y bebida" },
+  {
+    "id": "a1-22",
+    "num": 22,
+    "titulo": "Contables e incontables; some / any",
+    "contexto": "Comida y bebida",
+    "explicacion": {
+      "es": [
+        "Los sustantivos **contables** se pueden contar: *one apple, two apples; an egg, three eggs*. Llevan *a / an* en singular y *-s* en plural.",
+        "Los **incontables** no se cuentan uno por uno: *water, milk, rice, bread, sugar, cheese, coffee*. **No** llevan *a / an* ni *-s*: *some water* (no *a water*, no *waters*).",
+        "Para contar algo incontable se usa un **envase o una medida**: ***a glass of** milk, **a cup of** coffee, **a bottle of** water, **a piece of** cake, **a slice of** bread, **a kilo of** rice*.",
+        "**Some** (algo de, unos) se usa en oraciones **afirmativas**: *There's **some** milk. I have **some** apples.* **Any** se usa en **negativas y preguntas**: *There isn't **any** bread. Are there **any** eggs?* Para cantidades: ***How many** apples?* (contables) y ***How much** water?* (incontables)."
+      ],
+      "tabla": {
+        "columnas": [
+          "",
+          "Contables",
+          "Incontables"
+        ],
+        "filas": [
+          [
+            "Ejemplos",
+            "an apple, two eggs, three bananas",
+            "water, milk, rice, bread"
+          ],
+          [
+            "Afirmativo",
+            "There are some eggs.",
+            "There's some milk."
+          ],
+          [
+            "Negativo",
+            "There aren't any eggs.",
+            "There isn't any milk."
+          ],
+          [
+            "Pregunta",
+            "Are there any eggs?",
+            "Is there any milk?"
+          ],
+          [
+            "¿Cuánto(s)?",
+            "How many eggs?",
+            "How much milk?"
+          ]
+        ]
+      },
+      "ojo": [
+        "Los incontables van con el verbo en **singular**: *The water **is** cold* ✅, no *The water are cold* ❌.",
+        "No se dice *a bread* ni *breads*: *some bread* o *a slice of bread* ✅.",
+        "*Some* en afirmativo, *any* en negativo: *I don't have **any** money* ✅, no *I don't have some money* ❌.",
+        "Para **ofrecer o pedir** algo se usa *some* aunque sea pregunta: *Do you want **some** coffee? Can I have **some** water?*",
+        "*Fruit* y *food* casi siempre son incontables: *I eat a lot of fruit* ✅, no *a lot of fruits* ❌ (en general)."
+      ],
+      "en": [
+        "Countable nouns can be counted: one apple, two apples.",
+        "Uncountable nouns can't be counted: water, milk, rice, bread.",
+        "Use some in positive sentences: There's some milk.",
+        "Use any in negatives and questions: There isn't any bread. Are there any eggs?"
+      ]
+    },
+    "vocabulario": [
+      {
+        "en": "water",
+        "es": "agua",
+        "imagen": "Vaso de agua fresca con hielo sobre una mesa",
+        "ejemplo": [
+          "Can I have some water, please?",
+          "¿Me da un poco de agua, por favor?"
+        ]
+      },
+      {
+        "en": "milk",
+        "es": "leche",
+        "imagen": "Vaso de leche junto a una botella de leche en la cocina",
+        "ejemplo": [
+          "There's some milk in the fridge.",
+          "Hay leche en el refrigerador."
+        ]
+      },
+      {
+        "en": "bread",
+        "es": "pan",
+        "imagen": "Pan recién horneado sobre una tabla de madera",
+        "ejemplo": [
+          "I buy fresh bread every morning.",
+          "Compro pan fresco todas las mañanas."
+        ]
+      },
+      {
+        "en": "rice",
+        "es": "arroz",
+        "imagen": "Plato de arroz blanco humeante",
+        "ejemplo": [
+          "We eat rice with chicken.",
+          "Comemos arroz con pollo."
+        ]
+      },
+      {
+        "en": "coffee",
+        "es": "café",
+        "imagen": "Taza de café caliente con espuma",
+        "ejemplo": [
+          "I drink coffee in the morning.",
+          "Tomo café en la mañana."
+        ]
+      },
+      {
+        "en": "cheese",
+        "es": "queso",
+        "imagen": "Trozos de queso amarillo sobre una tabla",
+        "ejemplo": [
+          "Do you want some cheese on your pasta?",
+          "¿Quieres queso en tu pasta?"
+        ]
+      },
+      {
+        "en": "sugar",
+        "es": "azúcar",
+        "imagen": "Azucarera con una cucharita y cubitos de azúcar",
+        "ejemplo": [
+          "I don't take sugar in my tea.",
+          "No le pongo azúcar a mi té."
+        ]
+      },
+      {
+        "en": "meat",
+        "es": "carne",
+        "imagen": "Carne cruda en el mostrador de una carnicería",
+        "ejemplo": [
+          "My brother doesn't eat meat.",
+          "Mi hermano no come carne."
+        ]
+      },
+      {
+        "en": "an apple",
+        "es": "una manzana",
+        "imagen": "Manzana roja brillante sobre la mesa",
+        "ejemplo": [
+          "I eat an apple every day.",
+          "Me como una manzana todos los días."
+        ]
+      },
+      {
+        "en": "an egg",
+        "es": "un huevo",
+        "imagen": "Huevo blanco en un pequeño plato",
+        "ejemplo": [
+          "I have an egg for breakfast.",
+          "Desayuno un huevo."
+        ]
+      },
+      {
+        "en": "a banana",
+        "es": "un plátano",
+        "imagen": "Plátano amarillo sobre una mesa de cocina",
+        "ejemplo": [
+          "She's eating a banana.",
+          "Ella se está comiendo un plátano."
+        ]
+      },
+      {
+        "en": "carrots",
+        "es": "zanahorias",
+        "imagen": "Manojo de zanahorias frescas con sus hojas",
+        "ejemplo": [
+          "Rabbits love carrots.",
+          "A los conejos les encantan las zanahorias."
+        ]
+      },
+      {
+        "en": "cookies",
+        "es": "galletas",
+        "imagen": "Plato de galletas con chispas de chocolate",
+        "ejemplo": [
+          "There are some cookies on the plate.",
+          "Hay unas galletas en el plato."
+        ]
+      },
+      {
+        "en": "juice",
+        "es": "jugo",
+        "imagen": "Vaso de jugo de naranja con naranjas al lado",
+        "ejemplo": [
+          "I'd like an orange juice.",
+          "Quisiera un jugo de naranja."
+        ]
+      },
+      {
+        "en": "butter",
+        "es": "mantequilla",
+        "imagen": "Mantequilla untada en un pan tostado",
+        "ejemplo": [
+          "Put some butter on the bread.",
+          "Ponle mantequilla al pan."
+        ]
+      },
+      {
+        "en": "onions",
+        "es": "cebollas",
+        "imagen": "Cebollas blancas y moradas en una canasta",
+        "ejemplo": [
+          "We need two onions for the soup.",
+          "Necesitamos dos cebollas para la sopa."
+        ]
+      }
+    ],
+    "grupos": [
+      {
+        "id": "cantidades",
+        "titulo": "Cantidades: a cup of, a bottle of…",
+        "icono": "🥛",
+        "patron": [
+          "a cup of coffee",
+          "a glass of milk",
+          "a bottle of water"
+        ],
+        "palabras": [
+          {
+            "en": "a cup of coffee",
+            "es": "una taza de café",
+            "imagen": "Taza de café sobre un plato en una cafetería",
+            "ejemplo": [
+              "Can I have a cup of coffee, please?",
+              "¿Me da una taza de café, por favor?"
+            ]
+          },
+          {
+            "en": "a glass of milk",
+            "es": "un vaso de leche",
+            "imagen": "Vaso de leche junto a unas galletas",
+            "ejemplo": [
+              "I drink a glass of milk before bed.",
+              "Me tomo un vaso de leche antes de dormir."
+            ]
+          },
+          {
+            "en": "a bottle of water",
+            "es": "una botella de agua",
+            "imagen": "Botella de agua fría sobre una mesa",
+            "ejemplo": [
+              "I always carry a bottle of water.",
+              "Siempre llevo una botella de agua."
+            ]
+          },
+          {
+            "en": "a piece of cake",
+            "es": "un pedazo de pastel",
+            "imagen": "Pedazo de pastel de chocolate en un plato",
+            "ejemplo": [
+              "Do you want a piece of cake?",
+              "¿Quieres un pedazo de pastel?"
+            ]
+          },
+          {
+            "en": "a slice of bread",
+            "es": "una rebanada de pan",
+            "imagen": "Rebanada de pan en una tabla con un cuchillo de mantequilla",
+            "ejemplo": [
+              "I eat a slice of bread with butter.",
+              "Me como una rebanada de pan con mantequilla."
+            ]
+          },
+          {
+            "en": "a bag of rice",
+            "es": "una bolsa de arroz",
+            "imagen": "Bolsa de arroz en el estante del supermercado",
+            "ejemplo": [
+              "Buy a bag of rice, please.",
+              "Compra una bolsa de arroz, por favor."
+            ]
+          },
+          {
+            "en": "a kilo of tomatoes",
+            "es": "un kilo de jitomates",
+            "imagen": "Jitomates sobre una báscula en el mercado",
+            "ejemplo": [
+              "I need a kilo of tomatoes.",
+              "Necesito un kilo de jitomates."
+            ]
+          },
+          {
+            "en": "a can of soda",
+            "es": "una lata de refresco",
+            "imagen": "Lata de refresco fría con gotas de agua",
+            "ejemplo": [
+              "He's drinking a can of soda.",
+              "Él se está tomando una lata de refresco."
+            ]
+          },
+          {
+            "en": "a box of cereal",
+            "es": "una caja de cereal",
+            "imagen": "Caja de cereal junto a un tazón con leche",
+            "ejemplo": [
+              "There's a box of cereal in the kitchen.",
+              "Hay una caja de cereal en la cocina."
+            ]
+          },
+          {
+            "en": "a carton of eggs",
+            "es": "un cartón de huevos",
+            "imagen": "Cartón de huevos abierto con doce huevos",
+            "ejemplo": [
+              "We need a carton of eggs.",
+              "Necesitamos un cartón de huevos."
+            ]
+          },
+          {
+            "en": "a bowl of soup",
+            "es": "un plato de sopa",
+            "imagen": "Plato hondo de sopa caliente con una cuchara",
+            "ejemplo": [
+              "I'd like a bowl of soup.",
+              "Quisiera un plato de sopa."
+            ]
+          },
+          {
+            "en": "a jar of honey",
+            "es": "un frasco de miel",
+            "imagen": "Frasco de miel dorada con una cuchara de madera",
+            "ejemplo": [
+              "There's a jar of honey on the table.",
+              "Hay un frasco de miel en la mesa."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "someany",
+        "titulo": "Some y any",
+        "icono": "🛒",
+        "patron": [
+          "There's some milk.",
+          "There isn't any bread.",
+          "Are there any eggs?"
+        ],
+        "palabras": [
+          {
+            "en": "There's some milk in the fridge.",
+            "es": "hay leche en el refrigerador",
+            "imagen": "Refrigerador abierto con una botella de leche",
+            "ejemplo": [
+              "There's some milk in the fridge, but there isn't any juice.",
+              "Hay leche en el refrigerador, pero no hay jugo."
+            ]
+          },
+          {
+            "en": "There isn't any sugar.",
+            "es": "no hay azúcar",
+            "imagen": "Azucarera vacía y una persona mirándola con cara de sorpresa",
+            "ejemplo": [
+              "There isn't any sugar. Can you buy some?",
+              "No hay azúcar. ¿Puedes comprar?"
+            ]
+          },
+          {
+            "en": "Are there any apples?",
+            "es": "¿hay manzanas?",
+            "imagen": "Persona buscando en el frutero de la cocina",
+            "ejemplo": [
+              "Are there any apples? Yes, there are some.",
+              "¿Hay manzanas? Sí, hay algunas."
+            ]
+          },
+          {
+            "en": "We have some eggs.",
+            "es": "tenemos unos huevos",
+            "imagen": "Unos huevos en un tazón sobre la mesa de la cocina",
+            "ejemplo": [
+              "We have some eggs. Let's make an omelet.",
+              "Tenemos unos huevos. Hagamos un omelet."
+            ]
+          },
+          {
+            "en": "We don't have any rice.",
+            "es": "no tenemos arroz",
+            "imagen": "Frasco de arroz vacío en la alacena",
+            "ejemplo": [
+              "We don't have any rice for dinner.",
+              "No tenemos arroz para la cena."
+            ]
+          },
+          {
+            "en": "Is there any coffee?",
+            "es": "¿hay café?",
+            "imagen": "Persona sosteniendo la cafetera vacía con cara de sueño",
+            "ejemplo": [
+              "Is there any coffee? No, there isn't.",
+              "¿Hay café? No."
+            ]
+          },
+          {
+            "en": "There are some cookies.",
+            "es": "hay unas galletas",
+            "imagen": "Plato con unas galletas sobre la mesa",
+            "ejemplo": [
+              "There are some cookies for you.",
+              "Hay unas galletas para ti."
+            ]
+          },
+          {
+            "en": "I need some tomatoes.",
+            "es": "necesito unos jitomates",
+            "imagen": "Persona eligiendo jitomates en el mercado",
+            "ejemplo": [
+              "I need some tomatoes for the salad.",
+              "Necesito unos jitomates para la ensalada."
+            ]
+          },
+          {
+            "en": "Do you have any onions?",
+            "es": "¿tiene cebollas?",
+            "imagen": "Cliente preguntando al vendedor en un puesto de verduras",
+            "ejemplo": [
+              "Do you have any onions?",
+              "¿Tiene cebollas?"
+            ]
+          },
+          {
+            "en": "There aren't any bananas.",
+            "es": "no hay plátanos",
+            "imagen": "Frutero con manzanas y naranjas, pero sin plátanos",
+            "ejemplo": [
+              "There aren't any bananas today.",
+              "Hoy no hay plátanos."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cuanto",
+        "titulo": "How much / How many",
+        "icono": "🔢",
+        "patron": [
+          "How many eggs?",
+          "How much water?",
+          "a lot of fruit"
+        ],
+        "palabras": [
+          {
+            "en": "How many eggs?",
+            "es": "¿cuántos huevos?",
+            "imagen": "Persona contando huevos en un cartón",
+            "ejemplo": [
+              "How many eggs do you need? Three.",
+              "¿Cuántos huevos necesitas? Tres."
+            ]
+          },
+          {
+            "en": "How much water?",
+            "es": "¿cuánta agua?",
+            "imagen": "Persona llenando una jarra de agua en la cocina",
+            "ejemplo": [
+              "How much water do you drink a day?",
+              "¿Cuánta agua tomas al día?"
+            ]
+          },
+          {
+            "en": "How many apples are there?",
+            "es": "¿cuántas manzanas hay?",
+            "imagen": "Niña contando manzanas en un frutero",
+            "ejemplo": [
+              "How many apples are there? Five.",
+              "¿Cuántas manzanas hay? Cinco."
+            ]
+          },
+          {
+            "en": "How much milk is there?",
+            "es": "¿cuánta leche hay?",
+            "imagen": "Persona revisando cuánta leche queda en la botella",
+            "ejemplo": [
+              "How much milk is there? Only a little.",
+              "¿Cuánta leche hay? Solo un poco."
+            ]
+          },
+          {
+            "en": "How much is it?",
+            "es": "¿cuánto cuesta?",
+            "imagen": "Cliente preguntando el precio en la caja del supermercado",
+            "ejemplo": [
+              "How much is it? Five dollars.",
+              "¿Cuánto cuesta? Cinco dólares."
+            ]
+          },
+          {
+            "en": "a lot of fruit",
+            "es": "mucha fruta",
+            "imagen": "Mesa llena de frutas de colores en un mercado",
+            "ejemplo": [
+              "I eat a lot of fruit.",
+              "Como mucha fruta."
+            ]
+          },
+          {
+            "en": "a little sugar",
+            "es": "un poco de azúcar",
+            "imagen": "Cucharita con un poco de azúcar sobre una taza de té",
+            "ejemplo": [
+              "I take a little sugar in my tea.",
+              "Le pongo un poco de azúcar a mi té."
+            ]
+          },
+          {
+            "en": "a few cookies",
+            "es": "unas pocas galletas",
+            "imagen": "Plato con tres galletas",
+            "ejemplo": [
+              "There are a few cookies left.",
+              "Quedan unas pocas galletas."
+            ]
+          }
+        ]
+      }
+    ],
+    "ejemplos": [
+      {
+        "en": "Can I have some water, please?",
+        "es": "¿Me da un poco de agua, por favor?"
+      },
+      {
+        "en": "There isn't any sugar. Can you buy some?",
+        "es": "No hay azúcar. ¿Puedes comprar?"
+      },
+      {
+        "en": "Are there any eggs in the fridge?",
+        "es": "¿Hay huevos en el refrigerador?",
+        "imagen": "Persona abriendo el refrigerador y mirando los huevos"
+      },
+      {
+        "en": "I'd like a cup of coffee, please.",
+        "es": "Quisiera una taza de café, por favor."
+      },
+      {
+        "en": "We need some bread and a bottle of milk.",
+        "es": "Necesitamos pan y una botella de leche.",
+        "imagen": "Lista del súper en la puerta del refrigerador con pan y leche dibujados, sin letras"
+      },
+      {
+        "en": "How many apples do you want? Six, please.",
+        "es": "¿Cuántas manzanas quiere? Seis, por favor."
+      },
+      {
+        "en": "How much water do you drink a day?",
+        "es": "¿Cuánta agua tomas al día?"
+      },
+      {
+        "en": "My brother doesn't eat meat.",
+        "es": "Mi hermano no come carne."
+      },
+      {
+        "en": "There are some cookies on the plate.",
+        "es": "Hay unas galletas en el plato."
+      },
+      {
+        "en": "Do you want some cheese on your pasta?",
+        "es": "¿Quieres queso en tu pasta?",
+        "imagen": "Persona poniendo queso rallado sobre un plato de pasta"
+      }
+    ],
+    "frases": [
+      {
+        "en": "There's some milk in the fridge, but there isn't any juice.",
+        "es": "Hay leche en el refrigerador, pero no hay jugo."
+      },
+      {
+        "en": "For breakfast I have a glass of milk, an egg, and a slice of bread.",
+        "es": "En el desayuno tomo un vaso de leche, un huevo y una rebanada de pan.",
+        "imagen": "Desayuno en la mesa con un vaso de leche, un huevo y pan tostado"
+      },
+      {
+        "en": "We don't have any rice, so let's make pasta tonight.",
+        "es": "No tenemos arroz, así que hagamos pasta esta noche.",
+        "imagen": "Pareja cocinando pasta juntos en la cocina"
+      },
+      {
+        "en": "Can you buy a kilo of tomatoes and some onions, please?",
+        "es": "¿Puedes comprar un kilo de jitomates y unas cebollas, por favor?",
+        "imagen": "Persona comprando jitomates y cebollas en un puesto del mercado"
+      },
+      {
+        "en": "How much is a bottle of water? It's one dollar.",
+        "es": "¿Cuánto cuesta una botella de agua? Un dólar.",
+        "imagen": "Cliente pagando una botella de agua en una tiendita"
+      },
+      {
+        "en": "I eat a lot of fruit, but I don't eat any candy.",
+        "es": "Como mucha fruta, pero no como dulces.",
+        "imagen": "Persona comiendo fruta y rechazando un plato de dulces"
+      },
+      {
+        "en": "Is there any coffee? I'm very tired this morning.",
+        "es": "¿Hay café? Estoy muy cansado esta mañana."
+      },
+      {
+        "en": "There are some cookies on the table. Do you want a few?",
+        "es": "Hay unas galletas en la mesa. ¿Quieres unas pocas?",
+        "imagen": "Persona ofreciendo galletas a su amigo en la cocina"
+      },
+      {
+        "en": "My grandma makes a delicious bowl of soup every Sunday.",
+        "es": "Mi abuela hace un plato de sopa delicioso cada domingo.",
+        "imagen": "Abuela sirviendo sopa caliente a su familia"
+      },
+      {
+        "en": "How many eggs do we need for the cake? We need four.",
+        "es": "¿Cuántos huevos necesitamos para el pastel? Necesitamos cuatro.",
+        "imagen": "Mamá e hija rompiendo huevos para hacer un pastel"
+      }
+    ],
+    "listening": [
+      {
+        "audio": "There's some milk in the fridge, but there isn't any bread.",
+        "pregunta": "¿Qué NO hay?",
+        "opciones": [
+          "Pan",
+          "Leche",
+          "Huevos",
+          "Agua"
+        ]
+      },
+      {
+        "audio": "Can I have a cup of tea and a piece of chocolate cake, please?",
+        "pregunta": "¿Qué pide?",
+        "opciones": [
+          "Té y pastel",
+          "Café y pastel",
+          "Té y galletas",
+          "Agua y pan"
+        ]
+      },
+      {
+        "audio": "We need a kilo of rice and six eggs.",
+        "pregunta": "¿Cuántos huevos necesitan?",
+        "opciones": [
+          "Seis",
+          "Dos",
+          "Diez",
+          "Doce"
+        ]
+      },
+      {
+        "audio": "How much is the cheese? It's four dollars.",
+        "pregunta": "¿Cuánto cuesta el queso?",
+        "opciones": [
+          "Cuatro dólares",
+          "Dos dólares",
+          "Catorce dólares",
+          "Cuarenta dólares"
+        ]
+      },
+      {
+        "audio": "I don't drink coffee. I drink a lot of water.",
+        "pregunta": "¿Qué toma mucho?",
+        "opciones": [
+          "Agua",
+          "Café",
+          "Jugo",
+          "Leche"
+        ]
+      }
+    ],
+    "lectura": {
+      "titulo": "The shopping list",
+      "texto": "It's Saturday morning and Pedro is in the kitchen with his wife, Rosa. They are making a shopping list. There's some milk in the fridge, but there isn't any juice. There are some apples, but there aren't any bananas. Rosa wants to make a cake for her mother's birthday, so they need a bag of sugar, some butter, and a carton of eggs. Pedro wants a lot of fruit and a big bottle of orange juice. They don't need any rice, because there are two bags in the cupboard. At the supermarket, Pedro asks: How much is the cake? Rosa laughs: We aren't buying a cake. I'm making it!",
+      "preguntas": [
+        {
+          "pregunta": "¿Qué NO hay en el refrigerador?",
+          "opciones": [
+            "Jugo",
+            "Leche",
+            "Manzanas",
+            "Mantequilla"
+          ]
+        },
+        {
+          "pregunta": "¿Para quién es el pastel?",
+          "opciones": [
+            "Para la mamá de Rosa",
+            "Para Pedro",
+            "Para la hermana de Rosa",
+            "Para un amigo"
+          ]
+        },
+        {
+          "pregunta": "¿Por qué no necesitan arroz?",
+          "opciones": [
+            "Porque hay dos bolsas en la alacena",
+            "Porque no les gusta",
+            "Porque es caro",
+            "Porque no hay en el súper"
+          ]
+        },
+        {
+          "pregunta": "¿Quién va a hacer el pastel?",
+          "opciones": [
+            "Rosa",
+            "Pedro",
+            "La mamá de Rosa",
+            "La pastelería"
+          ]
+        }
+      ]
+    },
+    "escritura": [
+      {
+        "instruccion": "Completa con a, an o some.",
+        "pregunta": "I eat ___ apple every day.",
+        "respuestas": [
+          "an"
+        ]
+      },
+      {
+        "instruccion": "Completa con a, an o some.",
+        "pregunta": "Can I have ___ water, please?",
+        "respuestas": [
+          "some"
+        ]
+      },
+      {
+        "instruccion": "Completa con some o any.",
+        "pregunta": "There isn't ___ bread.",
+        "respuestas": [
+          "any"
+        ]
+      },
+      {
+        "instruccion": "Completa con some o any.",
+        "pregunta": "There are ___ cookies on the table.",
+        "respuestas": [
+          "some"
+        ]
+      },
+      {
+        "instruccion": "Completa con some o any.",
+        "pregunta": "Are there ___ eggs?",
+        "respuestas": [
+          "any"
+        ]
+      },
+      {
+        "instruccion": "Completa con much o many.",
+        "pregunta": "How ___ water do you drink?",
+        "respuestas": [
+          "much"
+        ]
+      },
+      {
+        "instruccion": "Completa con much o many.",
+        "pregunta": "How ___ bananas do you want?",
+        "respuestas": [
+          "many"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "una taza de café",
+        "respuestas": [
+          "a cup of coffee"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "No hay azúcar.",
+        "respuestas": [
+          "There isn't any sugar",
+          "There is no sugar",
+          "There's no sugar"
+        ]
+      },
+      {
+        "instruccion": "Corrige la oración.",
+        "pregunta": "I want a bread.",
+        "respuestas": [
+          "I want some bread",
+          "I want a slice of bread",
+          "I want a piece of bread"
+        ]
+      }
+    ],
+    "examen": [
+      {
+        "tipo": "opcion",
+        "pregunta": "There's ___ milk in the fridge.",
+        "opciones": [
+          "some",
+          "any",
+          "a",
+          "many"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "We don't have ___ eggs.",
+        "opciones": [
+          "any",
+          "some",
+          "a",
+          "much"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "How ___ apples do you want?",
+        "opciones": [
+          "many",
+          "much",
+          "any",
+          "some"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "How ___ sugar do you take?",
+        "opciones": [
+          "much",
+          "many",
+          "any",
+          "a"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "¿Cuál es incontable?",
+        "opciones": [
+          "rice",
+          "egg",
+          "apple",
+          "banana"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "I'd like a ___ of coffee.",
+        "opciones": [
+          "cup",
+          "bottle",
+          "slice",
+          "kilo"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "Is there any juice? No, there isn't, but there's some water.",
+        "pregunta": "¿Qué hay para tomar?",
+        "opciones": [
+          "Agua",
+          "Jugo",
+          "Leche",
+          "Café"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "I need two kilos of potatoes and a bag of onions.",
+        "pregunta": "¿Cuántos kilos de papas necesita?",
+        "opciones": [
+          "Dos",
+          "Uno",
+          "Tres",
+          "Cuatro"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Traduce: ¿Hay huevos?",
+        "respuestas": [
+          "Are there any eggs"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Traduce: un vaso de leche",
+        "respuestas": [
+          "a glass of milk"
+        ]
+      }
+    ]
+  },
   { "id": "a1-23", "num": 23, "titulo": "Like / love / hate + -ing; would like", "contexto": "Gustos, preferencias y pedir en un restaurante" },
   { "id": "a1-24", "num": 24, "titulo": "Was / were y conectores and, but, or, because", "contexto": "Ayer, la semana pasada y mi infancia" }
 ];
