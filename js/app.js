@@ -328,6 +328,9 @@ const TEMAS = {
   A1: typeof TEMAS_A1 !== "undefined" ? TEMAS_A1 : [],
   A2: typeof TEMAS_A2 !== "undefined" ? TEMAS_A2 : [],
   B1: typeof TEMAS_B1 !== "undefined" ? TEMAS_B1 : [],
+  B2: typeof TEMAS_B2 !== "undefined" ? TEMAS_B2 : [],
+  C1: typeof TEMAS_C1 !== "undefined" ? TEMAS_C1 : [],
+  C2: typeof TEMAS_C2 !== "undefined" ? TEMAS_C2 : [],
 };
 const findTema = (id) => Object.values(TEMAS).flat().find((t) => t.id === id);
 const nivelDe = (tema) => Object.keys(TEMAS).find((k) => TEMAS[k].includes(tema));

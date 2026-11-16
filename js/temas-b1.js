@@ -7373,9 +7373,9 @@ const TEMAS_B1 = [
         "titulo": "Un proceso paso a paso",
         "icono": "🏭",
         "patron": [
-          "First, … is…",
-          "Then, … are…",
-          "Finally, … is…"
+          "First, the cacao is harvested.",
+          "Then, the beans are roasted.",
+          "Finally, the chocolate is packed."
         ],
         "palabras": [
           {
@@ -14512,9 +14512,9 @@ const TEMAS_B1 = [
         "titulo": "Reacciones",
         "icono": "😮",
         "patron": [
-          "How…!",
-          "What a…!",
-          "That's so…!"
+          "How amazing!",
+          "What a surprise!",
+          "That's so cool!"
         ],
         "palabras": [
           {
