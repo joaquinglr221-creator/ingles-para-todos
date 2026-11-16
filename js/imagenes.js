@@ -805,6 +805,7 @@ const IMAGENES = {
  "a bottle of water": "images/temas/a1-22/cantidades/03-a-bottle-of-water.jpg",
  "a bowl": "images/temas/a1-04/cocina/14-a-bowl.jpg",
  "a bowl of soup": "images/temas/a1-22/cantidades/11-a-bowl-of-soup.jpg",
+ "a box of cereal": "images/temas/a1-22/cantidades/09-a-box-of-cereal.jpg",
  "a bracelet": "images/temas/a1-06/accesorios/05-a-bracelet.jpg",
  "a bridge": "images/temas/a1-10/calle/06-a-bridge.jpg",
  "a building": "images/temas/a1-08/06-an-apartment.jpg",
