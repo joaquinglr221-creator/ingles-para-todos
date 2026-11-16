@@ -1466,7 +1466,7 @@ const TEMAS_C1 = [
         "Con *It was* la persona puede ir con ***who*** o ***that***; las cosas, lugares y momentos con ***that***.",
         "Con *What*… el verbo *be* va en **singular** aunque siga un plural: ***What I need is** two weeks off.*",
         "Si después de *What … do* va un verbo, se usa el **infinitivo sin to** o *to*: ***What I did was (to) call** the police.*",
-        "Las cleft sentences son útiles para **corregir** a alguien: *No, **it wasn't** Pedro who called, **it was** Luis.*",
+        "Las cleft sentences son útiles para **corregir** a alguien: *No, **it wasn't** Pedro who called, **it was** Carlos.*",
         "En español es igual: «**Fue** Ana **quien**…», «**Lo que** necesito **es**…»."
       ],
       "en": [
@@ -1652,12 +1652,12 @@ const TEMAS_C1 = [
             ]
           },
           {
-            "en": "It wasn't Pedro, it was Luis.",
-            "es": "no fue Pedro, fue Luis",
+            "en": "It wasn't Pedro, it was Carlos.",
+            "es": "no fue Pedro, fue Carlos",
             "imagen": "Dos hombres parecidos, uno señalado",
             "ejemplo": [
-              "It wasn't Pedro who called, it was Luis.",
-              "No fue Pedro quien llamó, fue Luis."
+              "It wasn't Pedro who called, it was Carlos.",
+              "No fue Pedro quien llamó, fue Carlos."
             ]
           },
           {
