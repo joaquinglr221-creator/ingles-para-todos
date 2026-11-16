@@ -324,7 +324,10 @@ function viewExam() {
 }
 
 // ---------- Temas ----------
-const TEMAS = { A1: typeof TEMAS_A1 !== "undefined" ? TEMAS_A1 : [] };
+const TEMAS = {
+  A1: typeof TEMAS_A1 !== "undefined" ? TEMAS_A1 : [],
+  A2: typeof TEMAS_A2 !== "undefined" ? TEMAS_A2 : [],
+};
 const findTema = (id) => Object.values(TEMAS).flat().find((t) => t.id === id);
 const nivelDe = (tema) => Object.keys(TEMAS).find((k) => TEMAS[k].includes(tema));
 const tieneContenido = (t) => !!t.explicacion;
