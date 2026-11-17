@@ -22,12 +22,12 @@ const store = {
 // ---------- Niveles (docs/plan-de-estudios.md) ----------
 // "color" y "color2" forman el degradado de cada nivel en las tarjetas y encabezados.
 const NIVELES = [
-  { code: "A1", nombre: "Principiante", temas: 24, desc: "Presentarte, hablar de tu familia, tu casa y tu rutina.", color: "#10b981", color2: "#059669" },
-  { code: "A2", nombre: "Básico", temas: 24, desc: "Contar lo que hiciste, hacer planes y comparar.", color: "#06b6d4", color2: "#0891b2" },
-  { code: "B1", nombre: "Intermedio", temas: 28, desc: "Experiencias, opiniones, condicionales y voz pasiva.", color: "#3b82f6", color2: "#2563eb" },
-  { code: "B2", nombre: "Intermedio alto", temas: 28, desc: "Argumentar, matizar y hablar con naturalidad.", color: "#6366f1", color2: "#4f46e5" },
-  { code: "C1", nombre: "Avanzado", temas: 20, desc: "Inglés formal, académico y profesional.", color: "#8b5cf6", color2: "#7c3aed" },
-  { code: "C2", nombre: "Dominio", temas: 14, desc: "Estilo, matices y lectura crítica.", color: "#ec4899", color2: "#db2777" },
+  { code: "A1", nombre: "Principiante", temas: 25, desc: "Presentarte, hablar de tu familia, tu casa y tu rutina.", color: "#10b981", color2: "#059669" },
+  { code: "A2", nombre: "Básico", temas: 25, desc: "Contar lo que hiciste, hacer planes y comparar.", color: "#06b6d4", color2: "#0891b2" },
+  { code: "B1", nombre: "Intermedio", temas: 29, desc: "Experiencias, opiniones, condicionales y voz pasiva.", color: "#3b82f6", color2: "#2563eb" },
+  { code: "B2", nombre: "Intermedio alto", temas: 29, desc: "Argumentar, matizar y hablar con naturalidad.", color: "#6366f1", color2: "#4f46e5" },
+  { code: "C1", nombre: "Avanzado", temas: 21, desc: "Inglés formal, académico y profesional.", color: "#8b5cf6", color2: "#7c3aed" },
+  { code: "C2", nombre: "Dominio", temas: 15, desc: "Estilo, matices y lectura crítica.", color: "#ec4899", color2: "#db2777" },
 ];
 const colorNivel = (n) => `--lv:${n.color};--lv2:${n.color2}`;
 

@@ -9933,5 +9933,709 @@ const TEMAS_C2 = [
         ]
       }
     ]
+  },
+  {
+    "id": "c2-15",
+    "num": 15,
+    "titulo": "Verbos frasales de nivel nativo (chip in, mull over, stave off…)",
+    "contexto": "Matices, humor y estilo",
+    "explicacion": {
+      "es": [
+        "En C2 aprendes los verbos frasales que usan los **nativos cultos**: en novelas, columnas de opinión, podcasts y conversaciones con humor. Muchos son **muy expresivos**: ***splash out*** (derrochar en un gusto), ***nod off*** (cabecear de sueño), ***while away*** *the hours* (pasar el rato sin prisa).",
+        "Varios tienen un **matiz de actitud**: ***fob off*** (despachar a alguien con una excusa), ***palm off*** (encajar algo malo), ***wriggle out of*** (zafarse de una obligación), ***egg on*** (incitar). Úsalos para mostrar **tu opinión** sobre lo que pasa.",
+        "Otros vienen del **mundo profesional y periodístico**: ***hammer out*** *a deal* (negociar con esfuerzo), ***root out*** *corruption* (erradicar), ***rein in*** *spending* (frenar el gasto), ***stave off*** *a crisis* (evitar), ***bear out*** *a theory* (confirmar).",
+        "El secreto en este nivel es el **registro**: ***chip in*** y ***rake in*** son coloquiales; ***bear out*** y ***stave off*** suenan cultos. Un hablante C2 elige el que mejor encaja con **su público**."
+      ],
+      "tabla": {
+        "columnas": [
+          "Verbo frasal",
+          "Significado",
+          "Registro"
+        ],
+        "filas": [
+          [
+            "chip in",
+            "cooperar con dinero",
+            "coloquial"
+          ],
+          [
+            "splash out",
+            "darse un gusto caro",
+            "coloquial"
+          ],
+          [
+            "mull over",
+            "darle vueltas a algo",
+            "neutro"
+          ],
+          [
+            "hammer out",
+            "negociar a fondo",
+            "periodístico"
+          ],
+          [
+            "stave off",
+            "evitar, contener",
+            "culto"
+          ],
+          [
+            "bear out",
+            "confirmar",
+            "culto"
+          ]
+        ]
+      },
+      "ojo": [
+        "***Dawn on*** tiene como sujeto **la idea**, no la persona: *It **dawned on** me that I'd left my keys.* (Caí en la cuenta…)",
+        "***Tide over*** = sacar de apuros por un tiempo: *Can you lend me 500 pesos to **tide me over** until payday?*",
+        "***Rattle off*** = recitar de corrido: *She **rattled off** the names of all the presidents.*",
+        "***Toy with*** *an idea* = considerar algo sin decidirse.",
+        "***Zero in on*** = concentrarse en algo concreto, como si apuntaras."
+      ],
+      "en": [
+        "We all chipped in to buy her a present.",
+        "Let me mull it over for a few days.",
+        "It suddenly dawned on me that I had forgotten her birthday.",
+        "The results bear out our original theory."
+      ]
+    },
+    "vocabulario": [
+      {
+        "en": "bear out",
+        "es": "confirmar",
+        "imagen": "Científico comparando dos gráficas iguales",
+        "ejemplo": [
+          "The data bear out our theory.",
+          "Los datos confirman nuestra teoría."
+        ]
+      },
+      {
+        "en": "chip in",
+        "es": "cooperar",
+        "imagen": "Amigos juntando billetes en una mesa",
+        "ejemplo": [
+          "We all chipped in to buy her a present.",
+          "Todos cooperamos para comprarle un regalo."
+        ]
+      },
+      {
+        "en": "churn out",
+        "es": "producir en serie",
+        "imagen": "Fábrica produciendo muchas cajas",
+        "ejemplo": [
+          "That studio churns out a new film every month.",
+          "Ese estudio saca una película nueva cada mes."
+        ]
+      },
+      {
+        "en": "conjure up",
+        "es": "evocar",
+        "imagen": "Persona oliendo pan recién hecho con nostalgia",
+        "ejemplo": [
+          "The smell of bread conjures up memories of my childhood.",
+          "El olor a pan me trae recuerdos de mi infancia."
+        ]
+      },
+      {
+        "en": "dawn on",
+        "es": "caer en la cuenta",
+        "imagen": "Persona dándose una palmada en la frente",
+        "ejemplo": [
+          "It dawned on me that I'd left the stove on.",
+          "Caí en la cuenta de que había dejado la estufa prendida."
+        ]
+      },
+      {
+        "en": "egg on",
+        "es": "incitar",
+        "imagen": "Amigos animando a otro a saltar al agua",
+        "ejemplo": [
+          "His friends egged him on to jump into the lake.",
+          "Sus amigos lo incitaron a saltar al lago."
+        ]
+      },
+      {
+        "en": "fob off",
+        "es": "despachar con excusas",
+        "imagen": "Empleado dando una excusa a un cliente molesto",
+        "ejemplo": [
+          "Don't let them fob you off with excuses.",
+          "No dejes que te despachen con excusas."
+        ]
+      },
+      {
+        "en": "gear up for",
+        "es": "prepararse para",
+        "imagen": "Equipo preparándose antes de un evento",
+        "ejemplo": [
+          "The city is gearing up for the festival.",
+          "La ciudad se está preparando para el festival."
+        ]
+      },
+      {
+        "en": "hammer out",
+        "es": "negociar a fondo",
+        "imagen": "Negociadores con documentos en una mesa larga",
+        "ejemplo": [
+          "They hammered out an agreement after ten hours.",
+          "Negociaron un acuerdo después de diez horas."
+        ]
+      },
+      {
+        "en": "hold out for",
+        "es": "aguantar hasta conseguir",
+        "imagen": "Persona rechazando una oferta baja",
+        "ejemplo": [
+          "She's holding out for a better offer.",
+          "Está aguantando hasta conseguir una mejor oferta."
+        ]
+      },
+      {
+        "en": "lash out",
+        "es": "arremeter",
+        "imagen": "Persona gritando enojada",
+        "ejemplo": [
+          "He lashed out at his colleagues.",
+          "Arremetió contra sus compañeros."
+        ]
+      },
+      {
+        "en": "muddle through",
+        "es": "arreglárselas como se pueda",
+        "imagen": "Persona cocinando con una receta confusa",
+        "ejemplo": [
+          "We didn't have a plan, but we muddled through.",
+          "No teníamos plan, pero salimos adelante como pudimos."
+        ]
+      },
+      {
+        "en": "nod off",
+        "es": "cabecear, dormirse",
+        "imagen": "Persona dormitando frente a la tele",
+        "ejemplo": [
+          "I nodded off during the movie.",
+          "Me quedé dormido durante la película."
+        ]
+      },
+      {
+        "en": "pore over",
+        "es": "estudiar a fondo",
+        "imagen": "Persona leyendo un mapa antiguo con lupa",
+        "ejemplo": [
+          "She pored over the old documents for hours.",
+          "Estudió los documentos antiguos durante horas."
+        ]
+      },
+      {
+        "en": "rake in",
+        "es": "ganar a montones",
+        "imagen": "Caja registradora llena de billetes",
+        "ejemplo": [
+          "That restaurant rakes in a fortune.",
+          "Ese restaurante gana una fortuna."
+        ]
+      },
+      {
+        "en": "rattle off",
+        "es": "recitar de corrido",
+        "imagen": "Niño recitando una lista rápidamente",
+        "ejemplo": [
+          "She rattled off the names of all the capitals.",
+          "Recitó de corrido los nombres de todas las capitales."
+        ]
+      },
+      {
+        "en": "rein in",
+        "es": "frenar, controlar",
+        "imagen": "Jinete jalando las riendas de un caballo",
+        "ejemplo": [
+          "The government must rein in spending.",
+          "El gobierno debe frenar el gasto."
+        ]
+      },
+      {
+        "en": "root out",
+        "es": "erradicar",
+        "imagen": "Jardinero arrancando hierbas de raíz",
+        "ejemplo": [
+          "We need to root out corruption.",
+          "Tenemos que erradicar la corrupción."
+        ]
+      },
+      {
+        "en": "scrape by",
+        "es": "sobrevivir con lo justo",
+        "imagen": "Persona contando monedas en la cocina",
+        "ejemplo": [
+          "They scrape by on one salary.",
+          "Sobreviven con lo justo con un solo sueldo."
+        ]
+      },
+      {
+        "en": "shrug off",
+        "es": "no darle importancia",
+        "imagen": "Persona encogiéndose de hombros",
+        "ejemplo": [
+          "He shrugged off the criticism.",
+          "No le dio importancia a la crítica."
+        ]
+      },
+      {
+        "en": "simmer down",
+        "es": "calmarse",
+        "imagen": "Olla dejando de hervir",
+        "ejemplo": [
+          "Simmer down, everyone!",
+          "¡Cálmense todos!"
+        ]
+      },
+      {
+        "en": "splash out",
+        "es": "darse un gusto caro",
+        "imagen": "Persona saliendo de una tienda con bolsas de lujo",
+        "ejemplo": [
+          "We splashed out on a fancy dinner.",
+          "Nos dimos el lujo de una cena elegante."
+        ]
+      },
+      {
+        "en": "stave off",
+        "es": "evitar, contener",
+        "imagen": "Persona tomando vitamina C con gripa en el ambiente",
+        "ejemplo": [
+          "I drink orange juice to stave off colds.",
+          "Tomo jugo de naranja para evitar resfriados."
+        ]
+      },
+      {
+        "en": "tide over",
+        "es": "sacar de apuros",
+        "imagen": "Amigo prestando dinero a otro",
+        "ejemplo": [
+          "This money will tide us over until payday.",
+          "Este dinero nos sacará de apuros hasta el día de pago."
+        ]
+      },
+      {
+        "en": "toy with",
+        "es": "considerar sin decidir",
+        "imagen": "Persona mirando folletos de viaje pensativa",
+        "ejemplo": [
+          "I'm toying with the idea of moving abroad.",
+          "Estoy considerando la idea de irme a vivir al extranjero."
+        ]
+      },
+      {
+        "en": "while away",
+        "es": "pasar el tiempo sin prisa",
+        "imagen": "Persona en una hamaca leyendo",
+        "ejemplo": [
+          "We whiled away the afternoon at the beach.",
+          "Pasamos la tarde sin prisa en la playa."
+        ]
+      },
+      {
+        "en": "whip up",
+        "es": "preparar rápido",
+        "imagen": "Persona cocinando rápido en una cocina",
+        "ejemplo": [
+          "I'll whip up something for dinner.",
+          "Voy a preparar algo rápido para cenar."
+        ]
+      },
+      {
+        "en": "wriggle out of",
+        "es": "zafarse de",
+        "imagen": "Persona escabulléndose de una reunión",
+        "ejemplo": [
+          "He always wriggles out of doing the dishes.",
+          "Siempre se zafa de lavar los platos."
+        ]
+      },
+      {
+        "en": "zero in on",
+        "es": "concentrarse en",
+        "imagen": "Lupa sobre un punto de un mapa",
+        "ejemplo": [
+          "The investigators zeroed in on the main suspect.",
+          "Los investigadores se concentraron en el sospechoso principal."
+        ]
+      },
+      {
+        "en": "mull over",
+        "es": "darle vueltas",
+        "imagen": "Persona pensando con una taza de café",
+        "ejemplo": [
+          "Let me mull it over for a few days.",
+          "Déjame pensarlo unos días."
+        ]
+      }
+    ],
+    "ejemplos": [
+      {
+        "en": "We all chipped in to buy her a present.",
+        "es": "Todos cooperamos para comprarle un regalo."
+      },
+      {
+        "en": "It dawned on me that I'd left the stove on.",
+        "es": "Caí en la cuenta de que había dejado la estufa prendida."
+      },
+      {
+        "en": "They hammered out an agreement after ten hours.",
+        "es": "Negociaron un acuerdo después de diez horas."
+      },
+      {
+        "en": "I nodded off during the movie.",
+        "es": "Me quedé dormido durante la película."
+      },
+      {
+        "en": "The government must rein in spending.",
+        "es": "El gobierno debe frenar el gasto."
+      },
+      {
+        "en": "He shrugged off the criticism.",
+        "es": "No le dio importancia a la crítica."
+      },
+      {
+        "en": "We splashed out on a fancy dinner.",
+        "es": "Nos dimos el lujo de una cena elegante."
+      },
+      {
+        "en": "This money will tide us over until payday.",
+        "es": "Este dinero nos sacará de apuros hasta el día de pago."
+      },
+      {
+        "en": "I'm toying with the idea of moving abroad.",
+        "es": "Estoy considerando la idea de irme a vivir al extranjero."
+      },
+      {
+        "en": "Let me mull it over for a few days.",
+        "es": "Déjame pensarlo unos días."
+      }
+    ],
+    "frases": [
+      {
+        "en": "The latest research appears to bear out what traditional healers had claimed for centuries.",
+        "es": "La investigación más reciente parece confirmar lo que los curanderos tradicionales afirmaban desde hace siglos.",
+        "imagen": "Hierbas medicinales en un mercado tradicional"
+      },
+      {
+        "en": "For our teacher's retirement, everyone chipped in and we bought her a trip to Chiapas.",
+        "es": "Para la jubilación de nuestra maestra, todos cooperamos y le compramos un viaje a Chiapas.",
+        "imagen": "Cascadas turquesa en la selva de Chiapas"
+      },
+      {
+        "en": "The smell of copal always conjures up images of Day of the Dead altars.",
+        "es": "El olor a copal siempre evoca imágenes de altares de Día de Muertos.",
+        "imagen": "Altar de Día de Muertos con velas y flores de cempasúchil"
+      },
+      {
+        "en": "It took me a whole week before it finally dawned on me that he had been joking.",
+        "es": "Me tomó toda una semana caer en la cuenta de que había estado bromeando.",
+        "imagen": "Persona riéndose sola frente a su celular"
+      },
+      {
+        "en": "When I complained about the faulty laptop, the store tried to fob me off with a discount coupon.",
+        "es": "Cuando me quejé de la laptop defectuosa, la tienda intentó despacharme con un cupón de descuento.",
+        "imagen": "Cliente molesto en el mostrador de una tienda"
+      },
+      {
+        "en": "Under pressure, he lashed out at the journalists instead of answering their questions.",
+        "es": "Bajo presión, arremetió contra los periodistas en lugar de responder sus preguntas.",
+        "imagen": "Conferencia de prensa tensa"
+      },
+      {
+        "en": "During the pandemic, many small businesses barely scraped by.",
+        "es": "Durante la pandemia, muchos negocios pequeños apenas sobrevivieron.",
+        "imagen": "Pequeña tienda de barrio con pocos clientes"
+      },
+      {
+        "en": "The central bank raised interest rates in an attempt to stave off inflation.",
+        "es": "El banco central subió las tasas de interés para intentar contener la inflación.",
+        "imagen": "Edificio de un banco central"
+      },
+      {
+        "en": "We whiled away the rainy afternoon playing board games and drinking hot chocolate.",
+        "es": "Pasamos la tarde lluviosa jugando juegos de mesa y tomando chocolate caliente.",
+        "imagen": "Familia jugando un juego de mesa junto a la ventana"
+      },
+      {
+        "en": "Don't worry about dinner; I can whip up some quesadillas in ten minutes.",
+        "es": "No te preocupes por la cena; puedo preparar unas quesadillas en diez minutos.",
+        "imagen": "Quesadillas en un comal"
+      }
+    ],
+    "listening": [
+      {
+        "audio": "Everyone chipped in fifty pesos for the gift.",
+        "pregunta": "¿Qué hicieron todos?",
+        "opciones": [
+          "Cooperaron para el regalo",
+          "Compraron cada uno un regalo",
+          "Pidieron dinero prestado",
+          "Devolvieron el regalo"
+        ]
+      },
+      {
+        "audio": "I nodded off in the middle of the lecture. How embarrassing!",
+        "pregunta": "¿Qué le pasó?",
+        "opciones": [
+          "Se quedó dormido",
+          "Llegó tarde",
+          "Se le cayó algo",
+          "Habló en voz alta"
+        ]
+      },
+      {
+        "audio": "We splashed out on a five-star dinner for our anniversary.",
+        "pregunta": "¿Qué hicieron en su aniversario?",
+        "opciones": [
+          "Se dieron una cena de lujo",
+          "Se quedaron en casa",
+          "Viajaron",
+          "Ahorraron"
+        ]
+      },
+      {
+        "audio": "It suddenly dawned on me that the shop was closed on Mondays.",
+        "pregunta": "¿De qué se dio cuenta?",
+        "opciones": [
+          "La tienda cierra los lunes",
+          "Era su cumpleaños",
+          "Había perdido la cartera",
+          "Llovía"
+        ]
+      },
+      {
+        "audio": "I'm toying with the idea of learning Japanese.",
+        "pregunta": "¿Qué está considerando?",
+        "opciones": [
+          "Aprender japonés",
+          "Viajar a Japón",
+          "Dejar de estudiar",
+          "Cambiar de trabajo"
+        ]
+      }
+    ],
+    "lectura": {
+      "titulo": "The art of doing nothing",
+      "texto": "My grandfather had a rare talent: he could while away an entire afternoon on the porch, watching the clouds and saying almost nothing. As a teenager, I found this infuriating. I was always gearing up for the next exam, the next project, the next goal. When he suggested I slow down, I shrugged it off. Years later, working in a busy office, I was barely scraping by on four hours of sleep. One evening, I nodded off at my desk and woke up at midnight, alone in the building. It finally dawned on me that I was exhausted, and that no amount of coffee could stave off the burnout that was coming. I started to mull over my grandfather's habits. That summer, I toyed with the idea of taking a sabbatical, and eventually I did it. I didn't splash out on an exotic trip; I simply went back to his old house in the mountains. I spent the mornings poring over his books and the afternoons on the porch. The experience bore out what he had always said: sometimes, doing nothing is the most productive thing you can do.",
+      "preguntas": [
+        {
+          "pregunta": "¿Qué talento tenía el abuelo?",
+          "opciones": [
+            "Pasar la tarde sin prisa sin hacer nada",
+            "Trabajar muchas horas",
+            "Cocinar",
+            "Escribir libros"
+          ]
+        },
+        {
+          "pregunta": "¿Qué le pasó al narrador una noche en la oficina?",
+          "opciones": [
+            "Se quedó dormido en su escritorio",
+            "Lo despidieron",
+            "Se fue la luz",
+            "Ganó un premio"
+          ]
+        },
+        {
+          "pregunta": "¿Adónde fue en su año sabático?",
+          "opciones": [
+            "A la casa de su abuelo en las montañas",
+            "A un viaje exótico",
+            "A otra ciudad a trabajar",
+            "A la playa"
+          ]
+        },
+        {
+          "pregunta": "¿Qué confirmó la experiencia?",
+          "opciones": [
+            "Que a veces no hacer nada es lo más productivo",
+            "Que hay que trabajar más",
+            "Que el café ayuda",
+            "Que las montañas son aburridas"
+          ]
+        }
+      ]
+    },
+    "escritura": [
+      {
+        "instruccion": "Completa.",
+        "pregunta": "We all chipped ___ for the party.",
+        "respuestas": [
+          "in"
+        ]
+      },
+      {
+        "instruccion": "Completa.",
+        "pregunta": "It suddenly dawned ___ me that I was wrong.",
+        "respuestas": [
+          "on"
+        ]
+      },
+      {
+        "instruccion": "Completa.",
+        "pregunta": "I nodded ___ in front of the TV.",
+        "respuestas": [
+          "off"
+        ]
+      },
+      {
+        "instruccion": "Completa.",
+        "pregunta": "He always wriggles out ___ his responsibilities.",
+        "respuestas": [
+          "of"
+        ]
+      },
+      {
+        "instruccion": "Completa.",
+        "pregunta": "They hammered ___ a deal.",
+        "respuestas": [
+          "out"
+        ]
+      },
+      {
+        "instruccion": "Completa.",
+        "pregunta": "We splashed ___ on a new sofa.",
+        "respuestas": [
+          "out"
+        ]
+      },
+      {
+        "instruccion": "Completa.",
+        "pregunta": "The police zeroed in ___ the suspect.",
+        "respuestas": [
+          "on"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "Déjame pensarlo.",
+        "respuestas": [
+          "Let me mull it over",
+          "Let me think it over",
+          "Let me think about it"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "No le dio importancia.",
+        "respuestas": [
+          "He shrugged it off",
+          "She shrugged it off"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "Voy a preparar algo rápido.",
+        "respuestas": [
+          "I'll whip something up",
+          "I'll whip up something",
+          "I will whip something up",
+          "I will whip up something"
+        ]
+      }
+    ],
+    "examen": [
+      {
+        "tipo": "opcion",
+        "pregunta": "The results ___ out our hypothesis.",
+        "opciones": [
+          "bear",
+          "rake",
+          "chip",
+          "fob"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "It ___ on me that I had forgotten my passport.",
+        "opciones": [
+          "dawned",
+          "nodded",
+          "toyed",
+          "whipped"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "They ___ by on very little money.",
+        "opciones": [
+          "scrape",
+          "splash",
+          "rake",
+          "churn"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "The government needs to ___ in public spending.",
+        "opciones": [
+          "rein",
+          "chip",
+          "nod",
+          "rake"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "«Fob someone off» significa:",
+        "opciones": [
+          "Despachar a alguien con excusas",
+          "Despedir a alguien",
+          "Invitar a alguien",
+          "Ayudar a alguien"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "«Splash out» significa:",
+        "opciones": [
+          "Darse un gusto caro",
+          "Salpicar",
+          "Nadar",
+          "Ahorrar"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "We whiled away the afternoon in a café by the sea.",
+        "pregunta": "¿Cómo pasaron la tarde?",
+        "opciones": [
+          "Sin prisa en un café",
+          "Trabajando",
+          "Nadando",
+          "Corriendo"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "Her friends egged her on to sing at the party.",
+        "pregunta": "¿Qué hicieron sus amigos?",
+        "opciones": [
+          "La animaron a cantar",
+          "Cantaron con ella",
+          "No la dejaron cantar",
+          "Se fueron"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Traduce: todos cooperamos",
+        "respuestas": [
+          "We all chipped in",
+          "Everyone chipped in"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Traduce: me quedé dormido",
+        "respuestas": [
+          "I nodded off",
+          "I fell asleep"
+        ]
+      }
+    ]
   }
 ];

@@ -20086,5 +20086,710 @@ const TEMAS_B1 = [
         ]
       }
     ]
+  },
+  {
+    "id": "b1-29",
+    "num": 29,
+    "titulo": "Verbos frasales para conversar (come up with, put off, turn out…)",
+    "contexto": "Planes, problemas y relaciones",
+    "explicacion": {
+      "es": [
+        "En B1 los verbos frasales se vuelven **más idiomáticos**: el significado ya no se adivina por sus partes. ***Put off*** no es «poner fuera», sino **posponer**. ***Turn out*** no es «voltear afuera», sino **resultar**.",
+        "Muchos sustituyen a una palabra más formal: ***put off*** = *postpone*, ***find out*** = *discover*, ***call off*** = *cancel*, ***put up with*** = *tolerate*. En una conversación, el verbo frasal suena **mucho más natural**.",
+        "Hay verbos frasales **de tres palabras** muy comunes: ***come up with*** (ocurrírsele una idea), ***cut down on*** (reducir), ***keep up with*** (seguir el ritmo), ***put up with*** (aguantar), ***look down on*** (menospreciar).",
+        "Algunos tienen **varios significados**: ***make up*** = inventar (*He made up an excuse*) o reconciliarse (*They argued, but they made up*). ***Take up*** = empezar un pasatiempo u ocupar espacio. El contexto te dice cuál es."
+      ],
+      "tabla": {
+        "columnas": [
+          "Verbo frasal",
+          "Significado",
+          "Equivalente formal"
+        ],
+        "filas": [
+          [
+            "put off",
+            "posponer",
+            "postpone"
+          ],
+          [
+            "call off",
+            "cancelar",
+            "cancel"
+          ],
+          [
+            "come up with",
+            "ocurrírsele, idear",
+            "think of"
+          ],
+          [
+            "put up with",
+            "aguantar, soportar",
+            "tolerate"
+          ],
+          [
+            "turn down",
+            "rechazar",
+            "reject"
+          ],
+          [
+            "figure out",
+            "descifrar, entender",
+            "understand"
+          ]
+        ]
+      },
+      "ojo": [
+        "***Turn out*** + adjetivo o *to be*: *The party **turned out** great.* *He **turned out to be** my cousin.*",
+        "***End up*** + -ing o lugar: *We **ended up** eating pizza.* (Terminamos comiendo pizza.)",
+        "***Run into*** = encontrarte a alguien por casualidad. *I **ran into** my teacher at the supermarket.*",
+        "***Take after*** = parecerse a un familiar: *She **takes after** her mother.*",
+        "***Pass away*** es la forma **delicada** de decir *die* (fallecer)."
+      ],
+      "en": [
+        "The meeting was put off until next week.",
+        "She came up with a great idea.",
+        "I can't put up with this noise anymore.",
+        "The party turned out to be a lot of fun."
+      ]
+    },
+    "vocabulario": [
+      {
+        "en": "set up",
+        "es": "montar, crear",
+        "imagen": "Personas montando un puesto en un mercado",
+        "ejemplo": [
+          "She set up her own business.",
+          "Ella creó su propio negocio."
+        ]
+      },
+      {
+        "en": "show up",
+        "es": "aparecer, llegar",
+        "imagen": "Persona llegando tarde a una reunión",
+        "ejemplo": [
+          "He didn't show up to the meeting.",
+          "No se presentó a la junta."
+        ]
+      },
+      {
+        "en": "call off",
+        "es": "cancelar",
+        "imagen": "Cancha de fútbol vacía bajo la lluvia",
+        "ejemplo": [
+          "They called off the match because of the rain.",
+          "Cancelaron el partido por la lluvia."
+        ]
+      },
+      {
+        "en": "put off",
+        "es": "posponer",
+        "imagen": "Calendario con una fecha tachada",
+        "ejemplo": [
+          "Don't put off your homework.",
+          "No pospongas tu tarea."
+        ]
+      },
+      {
+        "en": "bring up",
+        "es": "mencionar un tema, criar",
+        "imagen": "Persona levantando la mano en una reunión",
+        "ejemplo": [
+          "Don't bring up politics at dinner.",
+          "No saques el tema de la política en la cena."
+        ]
+      },
+      {
+        "en": "come up with",
+        "es": "ocurrírsele",
+        "imagen": "Persona con una idea y un foco encendido",
+        "ejemplo": [
+          "She came up with a great idea.",
+          "Se le ocurrió una gran idea."
+        ]
+      },
+      {
+        "en": "cut down on",
+        "es": "reducir",
+        "imagen": "Persona apartando un plato de pan dulce",
+        "ejemplo": [
+          "I'm trying to cut down on sugar.",
+          "Estoy tratando de comer menos azúcar."
+        ]
+      },
+      {
+        "en": "figure out",
+        "es": "descifrar, entender",
+        "imagen": "Persona armando un rompecabezas",
+        "ejemplo": [
+          "I can't figure out this problem.",
+          "No logro entender este problema."
+        ]
+      },
+      {
+        "en": "get over",
+        "es": "superar",
+        "imagen": "Persona sonriendo después de estar triste",
+        "ejemplo": [
+          "It took her months to get over the breakup.",
+          "Le tomó meses superar la ruptura."
+        ]
+      },
+      {
+        "en": "go through",
+        "es": "pasar por algo difícil",
+        "imagen": "Amigo consolando a otro",
+        "ejemplo": [
+          "He's going through a hard time.",
+          "Está pasando por un momento difícil."
+        ]
+      },
+      {
+        "en": "keep up with",
+        "es": "seguir el ritmo",
+        "imagen": "Ciclista intentando alcanzar al grupo",
+        "ejemplo": [
+          "I can't keep up with you. You walk too fast!",
+          "No puedo seguirte el paso. ¡Caminas muy rápido!"
+        ]
+      },
+      {
+        "en": "let down",
+        "es": "decepcionar",
+        "imagen": "Niño triste esperando en la ventana",
+        "ejemplo": [
+          "Don't let me down.",
+          "No me decepciones."
+        ]
+      },
+      {
+        "en": "make up",
+        "es": "inventar, reconciliarse",
+        "imagen": "Dos amigos dándose la mano tras una pelea",
+        "ejemplo": [
+          "They argued, but they made up.",
+          "Se pelearon, pero se reconciliaron."
+        ]
+      },
+      {
+        "en": "point out",
+        "es": "señalar",
+        "imagen": "Maestra señalando un error en el pizarrón",
+        "ejemplo": [
+          "She pointed out my mistake.",
+          "Me señaló mi error."
+        ]
+      },
+      {
+        "en": "put up with",
+        "es": "aguantar",
+        "imagen": "Persona tapándose los oídos por el ruido",
+        "ejemplo": [
+          "I can't put up with this noise.",
+          "No aguanto este ruido."
+        ]
+      },
+      {
+        "en": "run into",
+        "es": "toparse con alguien",
+        "imagen": "Dos amigos sorprendidos en el súper",
+        "ejemplo": [
+          "I ran into my teacher at the supermarket.",
+          "Me topé con mi maestra en el súper."
+        ]
+      },
+      {
+        "en": "take after",
+        "es": "parecerse a un familiar",
+        "imagen": "Madre e hija muy parecidas",
+        "ejemplo": [
+          "She takes after her mother.",
+          "Se parece a su mamá."
+        ]
+      },
+      {
+        "en": "take up",
+        "es": "empezar un pasatiempo",
+        "imagen": "Persona empezando clases de guitarra",
+        "ejemplo": [
+          "I took up yoga last year.",
+          "Empecé yoga el año pasado."
+        ]
+      },
+      {
+        "en": "turn down",
+        "es": "rechazar",
+        "imagen": "Persona rechazando una oferta con la mano",
+        "ejemplo": [
+          "She turned down the job offer.",
+          "Rechazó la oferta de trabajo."
+        ]
+      },
+      {
+        "en": "turn out",
+        "es": "resultar",
+        "imagen": "Fiesta animada con globos",
+        "ejemplo": [
+          "The party turned out great.",
+          "La fiesta resultó genial."
+        ]
+      },
+      {
+        "en": "catch up",
+        "es": "ponerse al día",
+        "imagen": "Amigas platicando en un café",
+        "ejemplo": [
+          "Let's meet for coffee and catch up.",
+          "Veámonos para tomar un café y ponernos al día."
+        ]
+      },
+      {
+        "en": "come across",
+        "es": "encontrar por casualidad",
+        "imagen": "Persona encontrando una foto vieja en una caja",
+        "ejemplo": [
+          "I came across an old photo of my parents.",
+          "Me encontré una foto vieja de mis papás."
+        ]
+      },
+      {
+        "en": "end up",
+        "es": "terminar, acabar",
+        "imagen": "Amigos comiendo pizza a medianoche",
+        "ejemplo": [
+          "We ended up eating pizza at midnight.",
+          "Terminamos comiendo pizza a medianoche."
+        ]
+      },
+      {
+        "en": "get by",
+        "es": "arreglárselas",
+        "imagen": "Persona contando monedas",
+        "ejemplo": [
+          "I get by with a little English.",
+          "Me las arreglo con un poco de inglés."
+        ]
+      },
+      {
+        "en": "give in",
+        "es": "ceder",
+        "imagen": "Papá cediendo y comprando un helado",
+        "ejemplo": [
+          "Finally, my dad gave in and bought me a dog.",
+          "Al final, mi papá cedió y me compró un perro."
+        ]
+      },
+      {
+        "en": "pass away",
+        "es": "fallecer",
+        "imagen": "Flores blancas junto a una vela",
+        "ejemplo": [
+          "His grandfather passed away last year.",
+          "Su abuelo falleció el año pasado."
+        ]
+      },
+      {
+        "en": "put out",
+        "es": "apagar fuego",
+        "imagen": "Bombero apagando un incendio",
+        "ejemplo": [
+          "The firefighters put out the fire.",
+          "Los bomberos apagaron el incendio."
+        ]
+      },
+      {
+        "en": "drop off",
+        "es": "dejar a alguien",
+        "imagen": "Mamá dejando a su hijo en la escuela",
+        "ejemplo": [
+          "I drop off my kids at school at eight.",
+          "Dejo a mis hijos en la escuela a las ocho."
+        ]
+      },
+      {
+        "en": "fall out",
+        "es": "pelearse",
+        "imagen": "Dos amigos dándose la espalda",
+        "ejemplo": [
+          "They fell out over money.",
+          "Se pelearon por dinero."
+        ]
+      },
+      {
+        "en": "look down on",
+        "es": "menospreciar",
+        "imagen": "Persona mirando con desprecio",
+        "ejemplo": [
+          "Don't look down on people with less money.",
+          "No menosprecies a la gente con menos dinero."
+        ]
+      }
+    ],
+    "ejemplos": [
+      {
+        "en": "They called off the match because of the rain.",
+        "es": "Cancelaron el partido por la lluvia."
+      },
+      {
+        "en": "She came up with a great idea.",
+        "es": "Se le ocurrió una gran idea."
+      },
+      {
+        "en": "I'm trying to cut down on sugar.",
+        "es": "Estoy tratando de comer menos azúcar."
+      },
+      {
+        "en": "It took her months to get over the breakup.",
+        "es": "Le tomó meses superar la ruptura."
+      },
+      {
+        "en": "I can't put up with this noise.",
+        "es": "No aguanto este ruido."
+      },
+      {
+        "en": "I ran into my teacher at the supermarket.",
+        "es": "Me topé con mi maestra en el súper."
+      },
+      {
+        "en": "She takes after her mother.",
+        "es": "Se parece a su mamá."
+      },
+      {
+        "en": "She turned down the job offer.",
+        "es": "Rechazó la oferta de trabajo."
+      },
+      {
+        "en": "We ended up eating pizza at midnight.",
+        "es": "Terminamos comiendo pizza a medianoche."
+      },
+      {
+        "en": "The firefighters put out the fire.",
+        "es": "Los bomberos apagaron el incendio."
+      }
+    ],
+    "frases": [
+      {
+        "en": "We had to put off the wedding because of the storm.",
+        "es": "Tuvimos que posponer la boda por la tormenta.",
+        "imagen": "Jardín de boda vacío bajo la lluvia"
+      },
+      {
+        "en": "My cousin set up a small coffee shop in Oaxaca, and it's doing really well.",
+        "es": "Mi primo puso una cafetería pequeña en Oaxaca y le va muy bien.",
+        "imagen": "Cafetería pequeña con clientes"
+      },
+      {
+        "en": "I invited twenty people, but only five showed up.",
+        "es": "Invité a veinte personas, pero solo llegaron cinco.",
+        "imagen": "Fiesta con pocas personas y muchas sillas vacías"
+      },
+      {
+        "en": "It took me a while to figure out how the new phone works.",
+        "es": "Me tardé un rato en entender cómo funciona el teléfono nuevo.",
+        "imagen": "Persona confundida con un celular nuevo"
+      },
+      {
+        "en": "Nobody wanted to bring up the problem during the meeting.",
+        "es": "Nadie quería sacar el tema del problema durante la junta.",
+        "imagen": "Sala de juntas con caras serias"
+      },
+      {
+        "en": "I was going to stay home, but I ended up going to the concert.",
+        "es": "Iba a quedarme en casa, pero terminé yendo al concierto.",
+        "imagen": "Público en un concierto al aire libre"
+      },
+      {
+        "en": "The movie turned out to be much better than I expected.",
+        "es": "La película resultó ser mucho mejor de lo que esperaba.",
+        "imagen": "Público sonriendo en un cine"
+      },
+      {
+        "en": "When I moved to Canada, I got by with very basic English.",
+        "es": "Cuando me mudé a Canadá, me las arreglé con un inglés muy básico.",
+        "imagen": "Persona preguntando direcciones en una calle nevada"
+      },
+      {
+        "en": "My brothers fell out years ago, but they finally made up last Christmas.",
+        "es": "Mis hermanos se pelearon hace años, pero por fin se reconciliaron la Navidad pasada.",
+        "imagen": "Dos hermanos abrazándose junto a un árbol de Navidad"
+      },
+      {
+        "en": "I came across this recipe in my grandmother's notebook.",
+        "es": "Encontré esta receta en el cuaderno de mi abuela.",
+        "imagen": "Cuaderno viejo de recetas escrito a mano"
+      }
+    ],
+    "listening": [
+      {
+        "audio": "The concert was called off because the singer was sick.",
+        "pregunta": "¿Por qué cancelaron el concierto?",
+        "opciones": [
+          "El cantante estaba enfermo",
+          "Llovió",
+          "No vendieron boletos",
+          "Hubo un accidente"
+        ]
+      },
+      {
+        "audio": "I ran into my ex at the airport. It was so awkward!",
+        "pregunta": "¿A quién se encontró?",
+        "opciones": [
+          "A su ex",
+          "A su jefe",
+          "A su maestra",
+          "A su mamá"
+        ]
+      },
+      {
+        "audio": "He takes after his father. They're both very funny.",
+        "pregunta": "¿A quién se parece?",
+        "opciones": [
+          "A su papá",
+          "A su mamá",
+          "A su hermano",
+          "A su abuelo"
+        ]
+      },
+      {
+        "audio": "I'm trying to cut down on coffee. I only have one cup a day now.",
+        "pregunta": "¿Qué intenta reducir?",
+        "opciones": [
+          "El café",
+          "El azúcar",
+          "El pan",
+          "El refresco"
+        ]
+      },
+      {
+        "audio": "She turned down the offer because the salary was too low.",
+        "pregunta": "¿Por qué rechazó la oferta?",
+        "opciones": [
+          "El sueldo era bajo",
+          "Estaba lejos",
+          "No le gustó el jefe",
+          "Ya tenía trabajo"
+        ]
+      }
+    ],
+    "lectura": {
+      "titulo": "Starting a business",
+      "texto": "Two years ago, Mariana was working in an office and feeling bored. One day, she came up with an idea: she wanted to set up a small bakery selling traditional Mexican bread with modern flavors. At first, her family wasn't sure. Her father kept bringing up the risks, and she almost gave in and kept her office job. But she didn't. She put off the opening twice because she couldn't figure out how to get a loan. Finally, she found a partner, an old classmate she ran into at a café. The first months were hard. Some days only a few customers showed up, and she went through moments of real doubt. She had to cut down on her own expenses and got by on very little money. But things turned out well. Today, the bakery has three employees, and people line up every morning for her famous chocolate conchas. Mariana says her biggest lesson was simple: don't let fear let you down.",
+      "preguntas": [
+        {
+          "pregunta": "¿Qué idea se le ocurrió a Mariana?",
+          "opciones": [
+            "Poner una panadería",
+            "Abrir un restaurante",
+            "Cambiar de oficina",
+            "Estudiar cocina"
+          ]
+        },
+        {
+          "pregunta": "¿Por qué pospuso la apertura?",
+          "opciones": [
+            "No sabía cómo conseguir un préstamo",
+            "Estaba enferma",
+            "No tenía local",
+            "Su familia se negó"
+          ]
+        },
+        {
+          "pregunta": "¿Dónde conoció a su socio?",
+          "opciones": [
+            "Se topó con un excompañero en un café",
+            "En el banco",
+            "En internet",
+            "En su oficina"
+          ]
+        },
+        {
+          "pregunta": "¿Cómo le va hoy a la panadería?",
+          "opciones": [
+            "Muy bien, con tres empleados",
+            "Cerró",
+            "Mal",
+            "Está en venta"
+          ]
+        }
+      ]
+    },
+    "escritura": [
+      {
+        "instruccion": "Completa.",
+        "pregunta": "They called ___ the party.",
+        "respuestas": [
+          "off"
+        ]
+      },
+      {
+        "instruccion": "Completa.",
+        "pregunta": "She came up ___ a brilliant plan.",
+        "respuestas": [
+          "with"
+        ]
+      },
+      {
+        "instruccion": "Completa.",
+        "pregunta": "I can't put up ___ his attitude.",
+        "respuestas": [
+          "with"
+        ]
+      },
+      {
+        "instruccion": "Completa.",
+        "pregunta": "I ran ___ an old friend yesterday.",
+        "respuestas": [
+          "into"
+        ]
+      },
+      {
+        "instruccion": "Completa.",
+        "pregunta": "The trip turned ___ to be amazing.",
+        "respuestas": [
+          "out"
+        ]
+      },
+      {
+        "instruccion": "Completa.",
+        "pregunta": "We ended ___ staying at home.",
+        "respuestas": [
+          "up"
+        ]
+      },
+      {
+        "instruccion": "Escribe el verbo frasal (posponer).",
+        "pregunta": "We had to ___ the meeting. (put…)",
+        "respuestas": [
+          "put off"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "Se parece a su papá.",
+        "respuestas": [
+          "He takes after his father",
+          "She takes after her father",
+          "He takes after his dad",
+          "She takes after her dad"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "No me decepciones.",
+        "respuestas": [
+          "Don't let me down",
+          "Do not let me down"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "Rechazó la oferta.",
+        "respuestas": [
+          "She turned down the offer",
+          "He turned down the offer",
+          "She turned the offer down",
+          "He turned the offer down"
+        ]
+      }
+    ],
+    "examen": [
+      {
+        "tipo": "opcion",
+        "pregunta": "The game was ___ off because of the storm.",
+        "opciones": [
+          "called",
+          "put",
+          "turned",
+          "set"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "I'm trying to cut down ___ sugar.",
+        "opciones": [
+          "on",
+          "with",
+          "of",
+          "for"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "It took him a year to get ___ the accident.",
+        "opciones": [
+          "over",
+          "up",
+          "by",
+          "off"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "We ended up ___ a taxi.",
+        "opciones": [
+          "taking",
+          "take",
+          "to take",
+          "took"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "«Show up» significa:",
+        "opciones": [
+          "Aparecer, llegar",
+          "Presumir",
+          "Subir",
+          "Mostrar una foto"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "«Pass away» es una forma delicada de decir:",
+        "opciones": [
+          "Fallecer",
+          "Aprobar",
+          "Pasar de largo",
+          "Desmayarse"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "Let's meet on Friday and catch up. I have so much to tell you!",
+        "pregunta": "¿Para qué quieren verse?",
+        "opciones": [
+          "Para ponerse al día",
+          "Para trabajar",
+          "Para estudiar",
+          "Para comprar algo"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "I came across your old letters while I was cleaning.",
+        "pregunta": "¿Qué encontró?",
+        "opciones": [
+          "Cartas viejas",
+          "Fotos",
+          "Dinero",
+          "Ropa"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Traduce: no aguanto este calor",
+        "respuestas": [
+          "I can't put up with this heat",
+          "I cannot put up with this heat",
+          "I can't stand this heat"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Traduce: se me ocurrió una idea",
+        "respuestas": [
+          "I came up with an idea"
+        ]
+      }
+    ]
   }
 ];

@@ -14157,5 +14157,709 @@ const TEMAS_C1 = [
         ]
       }
     ]
+  },
+  {
+    "id": "c1-21",
+    "num": 21,
+    "titulo": "Verbos frasales avanzados (account for, iron out, weigh up…)",
+    "contexto": "Trabajo, noticias y debates",
+    "explicacion": {
+      "es": [
+        "En C1 los verbos frasales te permiten **sonar natural en contextos profesionales y en las noticias**. Muchos tienen un tono **más formal** de lo que crees: ***account for*** (explicar, representar), ***draw up*** (redactar), ***phase out*** (eliminar gradualmente).",
+        "Son frecuentes en **titulares y reportajes**: *Minister **steps down** after scandal* (renuncia), *Government **cracks down on** tax evasion* (toma medidas duras), *Deal **falls through*** (se viene abajo).",
+        "En las **reuniones de trabajo** se oyen sin parar: ***iron out*** *the details* (limar detalles), ***weigh up*** *the options* (sopesar), ***touch on*** *a topic* (mencionar brevemente), ***rope in*** *a colleague* (involucrar a alguien).",
+        "Fíjate en los que expresan **actitud**: ***play down*** (minimizar), ***gloss over*** (pasar por alto a propósito), ***single out*** (señalar a alguien en particular), ***come across as*** (dar la impresión de ser)."
+      ],
+      "tabla": {
+        "columnas": [
+          "Verbo frasal",
+          "Significado",
+          "Ejemplo"
+        ],
+        "filas": [
+          [
+            "account for",
+            "explicar; representar",
+            "Exports account for 30% of GDP."
+          ],
+          [
+            "iron out",
+            "limar, resolver",
+            "We need to iron out the details."
+          ],
+          [
+            "weigh up",
+            "sopesar",
+            "Weigh up the pros and cons."
+          ],
+          [
+            "fall through",
+            "venirse abajo",
+            "The deal fell through."
+          ],
+          [
+            "step down",
+            "renunciar a un cargo",
+            "The CEO stepped down."
+          ],
+          [
+            "play down",
+            "minimizar",
+            "He played down the problem."
+          ]
+        ]
+      },
+      "ojo": [
+        "***Account for*** tiene dos usos: *How do you **account for** the delay?* (explicar) y *Women **account for** 60% of students* (representar).",
+        "***Get round to*** + -ing = encontrar por fin el tiempo para: *I never **got round to** calling her.*",
+        "***Stem from*** = derivarse de, tener su origen en: *The problem **stems from** poor planning.*",
+        "***Pan out*** = salir, resultar (casi siempre en negativo o pregunta): *Let's see how things **pan out**.*",
+        "***Take in*** también significa **engañar**: *Don't be **taken in** by fake offers.*"
+      ],
+      "en": [
+        "Exports account for thirty percent of the economy.",
+        "We still need to iron out a few details.",
+        "The minister stepped down after the scandal.",
+        "The problem stems from poor communication."
+      ]
+    },
+    "vocabulario": [
+      {
+        "en": "account for",
+        "es": "explicar, representar",
+        "imagen": "Gráfica de pastel en una presentación",
+        "ejemplo": [
+          "Tourism accounts for a large part of the economy.",
+          "El turismo representa gran parte de la economía."
+        ]
+      },
+      {
+        "en": "bring down",
+        "es": "derrocar, bajar",
+        "imagen": "Gráfica de precios bajando",
+        "ejemplo": [
+          "The new policy brought down inflation.",
+          "La nueva política bajó la inflación."
+        ]
+      },
+      {
+        "en": "brush up on",
+        "es": "repasar",
+        "imagen": "Persona repasando apuntes antes de un viaje",
+        "ejemplo": [
+          "I need to brush up on my French before the trip.",
+          "Necesito repasar mi francés antes del viaje."
+        ]
+      },
+      {
+        "en": "come across as",
+        "es": "dar la impresión de",
+        "imagen": "Persona seria en una entrevista",
+        "ejemplo": [
+          "He comes across as arrogant, but he's actually shy.",
+          "Parece arrogante, pero en realidad es tímido."
+        ]
+      },
+      {
+        "en": "come up against",
+        "es": "enfrentarse a",
+        "imagen": "Persona frente a una pared enorme",
+        "ejemplo": [
+          "We came up against many obstacles.",
+          "Nos enfrentamos a muchos obstáculos."
+        ]
+      },
+      {
+        "en": "crack down on",
+        "es": "tomar medidas duras contra",
+        "imagen": "Policías en un operativo",
+        "ejemplo": [
+          "The city is cracking down on illegal parking.",
+          "La ciudad está tomando medidas duras contra el estacionamiento ilegal."
+        ]
+      },
+      {
+        "en": "draw up",
+        "es": "redactar",
+        "imagen": "Abogado redactando un contrato",
+        "ejemplo": [
+          "The lawyer drew up the contract.",
+          "El abogado redactó el contrato."
+        ]
+      },
+      {
+        "en": "drop out",
+        "es": "abandonar los estudios",
+        "imagen": "Estudiante saliendo de la universidad con su mochila",
+        "ejemplo": [
+          "She dropped out of college to start a business.",
+          "Dejó la universidad para empezar un negocio."
+        ]
+      },
+      {
+        "en": "fall through",
+        "es": "venirse abajo",
+        "imagen": "Apretón de manos interrumpido",
+        "ejemplo": [
+          "The deal fell through at the last minute.",
+          "El trato se vino abajo en el último momento."
+        ]
+      },
+      {
+        "en": "get round to",
+        "es": "encontrar tiempo para",
+        "imagen": "Lista de pendientes larga en el refrigerador",
+        "ejemplo": [
+          "I never got round to fixing the door.",
+          "Nunca encontré tiempo para arreglar la puerta."
+        ]
+      },
+      {
+        "en": "iron out",
+        "es": "limar, resolver",
+        "imagen": "Equipo revisando un documento con marcas",
+        "ejemplo": [
+          "We need to iron out a few details.",
+          "Tenemos que limar algunos detalles."
+        ]
+      },
+      {
+        "en": "jump at",
+        "es": "aprovechar sin dudar",
+        "imagen": "Persona aceptando emocionada una oferta",
+        "ejemplo": [
+          "She jumped at the chance to work abroad.",
+          "Aprovechó sin dudar la oportunidad de trabajar en el extranjero."
+        ]
+      },
+      {
+        "en": "opt out",
+        "es": "decidir no participar",
+        "imagen": "Persona marcando una casilla de no participar",
+        "ejemplo": [
+          "You can opt out of the program at any time.",
+          "Puedes salirte del programa en cualquier momento."
+        ]
+      },
+      {
+        "en": "pan out",
+        "es": "resultar, salir",
+        "imagen": "Persona mirando el horizonte con incertidumbre",
+        "ejemplo": [
+          "Let's see how things pan out.",
+          "Veamos cómo salen las cosas."
+        ]
+      },
+      {
+        "en": "phase out",
+        "es": "eliminar gradualmente",
+        "imagen": "Bolsas de plástico tachadas en un súper",
+        "ejemplo": [
+          "Plastic bags are being phased out.",
+          "Las bolsas de plástico se están eliminando poco a poco."
+        ]
+      },
+      {
+        "en": "play down",
+        "es": "minimizar",
+        "imagen": "Político sonriendo ante los periodistas",
+        "ejemplo": [
+          "The company played down the problem.",
+          "La empresa minimizó el problema."
+        ]
+      },
+      {
+        "en": "rope in",
+        "es": "involucrar, convencer",
+        "imagen": "Amigos jalando a otro para ayudar con una mudanza",
+        "ejemplo": [
+          "I got roped into organizing the party.",
+          "Me convencieron de organizar la fiesta."
+        ]
+      },
+      {
+        "en": "sail through",
+        "es": "pasar con facilidad",
+        "imagen": "Estudiante sonriendo con un examen aprobado",
+        "ejemplo": [
+          "She sailed through her final exams.",
+          "Pasó sus exámenes finales sin problema."
+        ]
+      },
+      {
+        "en": "scale back",
+        "es": "reducir",
+        "imagen": "Obra de construcción a medio terminar",
+        "ejemplo": [
+          "They scaled back the project because of the budget.",
+          "Redujeron el proyecto por el presupuesto."
+        ]
+      },
+      {
+        "en": "set out",
+        "es": "proponerse, exponer",
+        "imagen": "Persona escribiendo metas en una libreta",
+        "ejemplo": [
+          "She set out to write a novel in a year.",
+          "Se propuso escribir una novela en un año."
+        ]
+      },
+      {
+        "en": "single out",
+        "es": "señalar, destacar a alguien",
+        "imagen": "Maestra señalando a un alumno",
+        "ejemplo": [
+          "The teacher singled him out for praise.",
+          "La maestra lo destacó con elogios."
+        ]
+      },
+      {
+        "en": "step down",
+        "es": "renunciar a un cargo",
+        "imagen": "Directivo dando un discurso de despedida",
+        "ejemplo": [
+          "The director stepped down after ten years.",
+          "El director renunció después de diez años."
+        ]
+      },
+      {
+        "en": "stem from",
+        "es": "derivarse de",
+        "imagen": "Raíces de un árbol",
+        "ejemplo": [
+          "The problem stems from poor planning.",
+          "El problema se deriva de una mala planeación."
+        ]
+      },
+      {
+        "en": "take in",
+        "es": "engañar; asimilar",
+        "imagen": "Persona revisando una oferta sospechosa en internet",
+        "ejemplo": [
+          "Don't be taken in by fake offers.",
+          "No te dejes engañar por ofertas falsas."
+        ]
+      },
+      {
+        "en": "touch on",
+        "es": "mencionar brevemente",
+        "imagen": "Conferencista señalando una diapositiva",
+        "ejemplo": [
+          "The speaker touched on climate change.",
+          "El conferencista mencionó brevemente el cambio climático."
+        ]
+      },
+      {
+        "en": "weigh up",
+        "es": "sopesar",
+        "imagen": "Balanza con pros y contras",
+        "ejemplo": [
+          "Weigh up the pros and cons before deciding.",
+          "Sopesa los pros y los contras antes de decidir."
+        ]
+      },
+      {
+        "en": "wind down",
+        "es": "relajarse; ir terminando",
+        "imagen": "Persona leyendo con un té por la noche",
+        "ejemplo": [
+          "I read a book to wind down before bed.",
+          "Leo un libro para relajarme antes de dormir."
+        ]
+      },
+      {
+        "en": "write off",
+        "es": "dar por perdido",
+        "imagen": "Carro destrozado en un depósito",
+        "ejemplo": [
+          "The car was written off after the accident.",
+          "El carro se declaró pérdida total después del accidente."
+        ]
+      },
+      {
+        "en": "bank on",
+        "es": "contar con",
+        "imagen": "Persona confiada mirando su plan",
+        "ejemplo": [
+          "Don't bank on getting a bonus this year.",
+          "No cuentes con recibir un bono este año."
+        ]
+      },
+      {
+        "en": "gloss over",
+        "es": "pasar por alto",
+        "imagen": "Persona tapando un error con la mano",
+        "ejemplo": [
+          "The report glosses over the main problems.",
+          "El informe pasa por alto los problemas principales."
+        ]
+      }
+    ],
+    "ejemplos": [
+      {
+        "en": "Tourism accounts for a large part of the economy.",
+        "es": "El turismo representa gran parte de la economía."
+      },
+      {
+        "en": "I need to brush up on my French before the trip.",
+        "es": "Necesito repasar mi francés antes del viaje."
+      },
+      {
+        "en": "The deal fell through at the last minute.",
+        "es": "El trato se vino abajo en el último momento."
+      },
+      {
+        "en": "I never got round to fixing the door.",
+        "es": "Nunca encontré tiempo para arreglar la puerta."
+      },
+      {
+        "en": "We need to iron out a few details.",
+        "es": "Tenemos que limar algunos detalles."
+      },
+      {
+        "en": "She jumped at the chance to work abroad.",
+        "es": "Aprovechó sin dudar la oportunidad de trabajar en el extranjero."
+      },
+      {
+        "en": "Plastic bags are being phased out.",
+        "es": "Las bolsas de plástico se están eliminando poco a poco."
+      },
+      {
+        "en": "The director stepped down after ten years.",
+        "es": "El director renunció después de diez años."
+      },
+      {
+        "en": "The problem stems from poor planning.",
+        "es": "El problema se deriva de una mala planeación."
+      },
+      {
+        "en": "Weigh up the pros and cons before deciding.",
+        "es": "Sopesa los pros y los contras antes de decidir."
+      }
+    ],
+    "frases": [
+      {
+        "en": "Remittances from the United States account for a significant share of Mexico's income.",
+        "es": "Las remesas de Estados Unidos representan una parte importante de los ingresos de México.",
+        "imagen": "Persona enviando dinero en una ventanilla"
+      },
+      {
+        "en": "The government has promised to crack down on companies that pollute rivers.",
+        "es": "El gobierno prometió tomar medidas duras contra las empresas que contaminan los ríos.",
+        "imagen": "Río contaminado junto a una fábrica"
+      },
+      {
+        "en": "After weighing up all the options, we decided to move to Querétaro.",
+        "es": "Después de sopesar todas las opciones, decidimos mudarnos a Querétaro.",
+        "imagen": "Familia con cajas de mudanza frente a una casa nueva"
+      },
+      {
+        "en": "The negotiations nearly fell through, but both sides managed to iron out their differences.",
+        "es": "Las negociaciones casi se vienen abajo, pero ambas partes lograron limar sus diferencias.",
+        "imagen": "Dos equipos de negocios estrechándose la mano"
+      },
+      {
+        "en": "He comes across as very confident, but he admits he gets nervous before every presentation.",
+        "es": "Da la impresión de tener mucha confianza, pero admite que se pone nervioso antes de cada presentación.",
+        "imagen": "Hombre preparándose detrás de un escenario"
+      },
+      {
+        "en": "Many car manufacturers plan to phase out gasoline engines over the next decade.",
+        "es": "Muchos fabricantes de autos planean eliminar poco a poco los motores de gasolina en la próxima década.",
+        "imagen": "Carro eléctrico cargándose en una estación"
+      },
+      {
+        "en": "The spokesperson tried to play down the seriousness of the data leak.",
+        "es": "El vocero intentó minimizar la gravedad de la filtración de datos.",
+        "imagen": "Vocero frente a micrófonos de prensa"
+      },
+      {
+        "en": "I keep meaning to brush up on my statistics, but I never get round to it.",
+        "es": "Siempre quiero repasar mi estadística, pero nunca encuentro tiempo.",
+        "imagen": "Libro de estadística cerrado sobre un escritorio"
+      },
+      {
+        "en": "Thousands of people were taken in by the fake investment scheme.",
+        "es": "Miles de personas cayeron en el esquema de inversión falso.",
+        "imagen": "Persona preocupada mirando su estado de cuenta"
+      },
+      {
+        "en": "I usually go for a walk in the evening to wind down after work.",
+        "es": "Normalmente salgo a caminar en la tarde para relajarme después del trabajo.",
+        "imagen": "Persona caminando en un parque al atardecer"
+      }
+    ],
+    "listening": [
+      {
+        "audio": "The deal fell through because the bank refused the loan.",
+        "pregunta": "¿Por qué se cayó el trato?",
+        "opciones": [
+          "El banco negó el préstamo",
+          "El cliente se arrepintió",
+          "Hubo un error legal",
+          "Subieron los precios"
+        ]
+      },
+      {
+        "audio": "Young people account for almost half of the city's population.",
+        "pregunta": "¿Qué representan los jóvenes?",
+        "opciones": [
+          "Casi la mitad de la población",
+          "Una minoría",
+          "La cuarta parte",
+          "Toda la población"
+        ]
+      },
+      {
+        "audio": "The minister stepped down after the report was published.",
+        "pregunta": "¿Qué hizo el ministro?",
+        "opciones": [
+          "Renunció",
+          "Publicó un informe",
+          "Ganó una elección",
+          "Dio un discurso"
+        ]
+      },
+      {
+        "audio": "I'd jump at the chance to live in Japan for a year.",
+        "pregunta": "¿Qué opina de vivir en Japón?",
+        "opciones": [
+          "Lo aprovecharía sin dudar",
+          "No le interesa",
+          "Le da miedo",
+          "Ya vivió ahí"
+        ]
+      },
+      {
+        "audio": "Most of our problems stem from a lack of communication.",
+        "pregunta": "¿De dónde vienen los problemas?",
+        "opciones": [
+          "De la falta de comunicación",
+          "Del dinero",
+          "Del clima",
+          "Del jefe"
+        ]
+      }
+    ],
+    "lectura": {
+      "titulo": "Why the merger failed",
+      "texto": "When two of the country's largest supermarket chains announced their merger, analysts expected it to transform the industry. Eighteen months later, the deal fell through, and both companies are trying to play down the damage. So what went wrong? According to insiders, the problems stemmed from the very beginning. The lawyers who drew up the agreement glossed over key questions, such as which brand would survive and who would lead the new company. When the two boards finally sat down to iron out these issues, they came up against deep cultural differences. One company was known for cutting costs; the other had always invested heavily in its staff. Then, the competition authority began to crack down on large mergers, and regulators singled out this deal for a detailed investigation. Shareholders, who had banked on quick profits, started to lose patience. In the end, the chairman of the larger chain stepped down, and the project was written off. Experts say the lesson is simple: weigh up the human factor as carefully as the numbers.",
+      "preguntas": [
+        {
+          "pregunta": "¿Qué pasó con la fusión?",
+          "opciones": [
+            "Se vino abajo",
+            "Fue un éxito",
+            "Sigue en proceso",
+            "La aprobaron sin cambios"
+          ]
+        },
+        {
+          "pregunta": "¿Qué pasaron por alto los abogados?",
+          "opciones": [
+            "Preguntas clave como quién dirigiría",
+            "Los precios",
+            "Los empleados",
+            "La publicidad"
+          ]
+        },
+        {
+          "pregunta": "¿Qué diferencia había entre las empresas?",
+          "opciones": [
+            "Una recortaba costos y la otra invertía en su personal",
+            "Una era extranjera",
+            "Una vendía en línea",
+            "Ninguna"
+          ]
+        },
+        {
+          "pregunta": "¿Cuál es la lección según los expertos?",
+          "opciones": [
+            "Sopesar el factor humano tanto como los números",
+            "No fusionarse nunca",
+            "Contratar más abogados",
+            "Bajar los precios"
+          ]
+        }
+      ]
+    },
+    "escritura": [
+      {
+        "instruccion": "Completa.",
+        "pregunta": "Exports account ___ 40% of sales.",
+        "respuestas": [
+          "for"
+        ]
+      },
+      {
+        "instruccion": "Completa.",
+        "pregunta": "We need to iron ___ the details.",
+        "respuestas": [
+          "out"
+        ]
+      },
+      {
+        "instruccion": "Completa.",
+        "pregunta": "The deal fell ___ at the last minute.",
+        "respuestas": [
+          "through"
+        ]
+      },
+      {
+        "instruccion": "Completa.",
+        "pregunta": "The problem stems ___ a lack of funding.",
+        "respuestas": [
+          "from"
+        ]
+      },
+      {
+        "instruccion": "Completa.",
+        "pregunta": "The police are cracking down ___ street racing.",
+        "respuestas": [
+          "on"
+        ]
+      },
+      {
+        "instruccion": "Completa.",
+        "pregunta": "I need to brush up ___ my German.",
+        "respuestas": [
+          "on"
+        ]
+      },
+      {
+        "instruccion": "Completa.",
+        "pregunta": "The CEO stepped ___ after the scandal.",
+        "respuestas": [
+          "down"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "Sopesa las opciones.",
+        "respuestas": [
+          "Weigh up the options",
+          "Weigh the options up"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "Dejó la universidad.",
+        "respuestas": [
+          "She dropped out of college",
+          "He dropped out of college",
+          "She dropped out of university",
+          "He dropped out of university"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "Veamos cómo salen las cosas.",
+        "respuestas": [
+          "Let's see how things pan out",
+          "Let's see how it pans out"
+        ]
+      }
+    ],
+    "examen": [
+      {
+        "tipo": "opcion",
+        "pregunta": "How do you account ___ the missing money?",
+        "opciones": [
+          "for",
+          "to",
+          "with",
+          "on"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "Plastic straws are being ___ out.",
+        "opciones": [
+          "phased",
+          "dropped",
+          "ironed",
+          "written"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "She ___ at the opportunity to study abroad.",
+        "opciones": [
+          "jumped",
+          "banked",
+          "touched",
+          "glossed"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "I never got round ___ calling him.",
+        "opciones": [
+          "to",
+          "for",
+          "on",
+          "at"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "«Play down» significa:",
+        "opciones": [
+          "Minimizar",
+          "Tocar más bajo",
+          "Perder un partido",
+          "Bajar de nivel"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "«He comes across as rude» significa:",
+        "opciones": [
+          "Da la impresión de ser grosero",
+          "Se topó con alguien grosero",
+          "Cruzó grosero",
+          "Es grosero siempre"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "The speaker only touched on the economy and spent most of the time on education.",
+        "pregunta": "¿Qué tema mencionó solo brevemente?",
+        "opciones": [
+          "La economía",
+          "La educación",
+          "La salud",
+          "El deporte"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "I usually take a bath to wind down after a long day.",
+        "pregunta": "¿Para qué se baña?",
+        "opciones": [
+          "Para relajarse",
+          "Para despertarse",
+          "Para ir a una fiesta",
+          "Porque tiene calor"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Traduce: el abogado redactó el contrato",
+        "respuestas": [
+          "The lawyer drew up the contract",
+          "The lawyer drew the contract up"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Traduce: no cuentes con eso",
+        "respuestas": [
+          "Don't bank on it",
+          "Don't bank on that",
+          "Do not bank on it"
+        ]
+      }
+    ]
   }
 ];

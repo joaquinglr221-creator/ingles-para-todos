@@ -19906,5 +19906,708 @@ const TEMAS_B2 = [
         ]
       }
     ]
+  },
+  {
+    "id": "b2-29",
+    "num": 29,
+    "titulo": "Verbos frasales para el trabajo y la vida (carry out, rule out, stand out…)",
+    "contexto": "Trabajo, decisiones y relaciones",
+    "explicacion": {
+      "es": [
+        "En B2 necesitas verbos frasales para hablar con **precisión** del trabajo, los proyectos y las relaciones. Muchos aparecen en noticias, reuniones y series: ***carry out*** (llevar a cabo), ***rule out*** (descartar), ***take over*** (tomar el control).",
+        "Algunos pertenecen a un **registro neutro o incluso formal**: ***carry out*** *a study*, ***bring about*** *change*, ***put forward*** *a proposal*. Otros son **muy coloquiales**: ***pull off*** (lograr algo difícil), ***get away with*** (salirse con la suya).",
+        "Fíjate en los que **cambian de significado** según el contexto: ***make out*** = distinguir algo (*I couldn't make out the sign*) o besuquearse (informal). ***Go off*** = sonar una alarma, explotar o echarse a perder la comida.",
+        "Para sonar natural, **combínalos con sus sustantivos típicos**: *carry out **research***, *rule out **a possibility***, *live up to **expectations***, *take on **responsibility***, *sort out **a problem***."
+      ],
+      "tabla": {
+        "columnas": [
+          "Verbo frasal",
+          "Significado",
+          "Combinación típica"
+        ],
+        "filas": [
+          [
+            "carry out",
+            "llevar a cabo",
+            "carry out a study"
+          ],
+          [
+            "rule out",
+            "descartar",
+            "rule out a possibility"
+          ],
+          [
+            "live up to",
+            "estar a la altura",
+            "live up to expectations"
+          ],
+          [
+            "take on",
+            "asumir",
+            "take on more work"
+          ],
+          [
+            "sort out",
+            "resolver",
+            "sort out a problem"
+          ],
+          [
+            "fall behind",
+            "atrasarse",
+            "fall behind with payments"
+          ]
+        ]
+      },
+      "ojo": [
+        "***Break up*** = terminar una relación. ***Break into*** = meterse a robar: *Someone **broke into** our car.*",
+        "***Come down with*** + enfermedad: *I think I'm **coming down with** a cold.*",
+        "***Get away with*** = salirse con la suya: *He cheated and **got away with** it.*",
+        "***Look up to*** = admirar (≠ *look down on*, menospreciar).",
+        "***Hold on!*** = ¡Espera! (al teléfono: *Hold on a second*)."
+      ],
+      "en": [
+        "The company carried out a survey among its customers.",
+        "The doctors have ruled out a serious illness.",
+        "The movie didn't live up to my expectations.",
+        "Someone broke into our neighbor's house last night."
+      ]
+    },
+    "vocabulario": [
+      {
+        "en": "break up",
+        "es": "terminar una relación",
+        "imagen": "Pareja separándose en una banca",
+        "ejemplo": [
+          "They broke up after five years.",
+          "Terminaron después de cinco años."
+        ]
+      },
+      {
+        "en": "bring about",
+        "es": "provocar, causar",
+        "imagen": "Manifestación pacífica con pancartas",
+        "ejemplo": [
+          "The new law brought about many changes.",
+          "La nueva ley provocó muchos cambios."
+        ]
+      },
+      {
+        "en": "carry out",
+        "es": "llevar a cabo",
+        "imagen": "Investigadores trabajando en un laboratorio",
+        "ejemplo": [
+          "They carried out a survey of a thousand people.",
+          "Llevaron a cabo una encuesta a mil personas."
+        ]
+      },
+      {
+        "en": "come down with",
+        "es": "enfermarse de",
+        "imagen": "Persona con gripa y un pañuelo",
+        "ejemplo": [
+          "I think I'm coming down with the flu.",
+          "Creo que me está dando gripa."
+        ]
+      },
+      {
+        "en": "count on",
+        "es": "contar con",
+        "imagen": "Amigo poniendo la mano en el hombro de otro",
+        "ejemplo": [
+          "You can always count on me.",
+          "Siempre puedes contar conmigo."
+        ]
+      },
+      {
+        "en": "do without",
+        "es": "arreglárselas sin",
+        "imagen": "Persona en el campo sin señal de celular",
+        "ejemplo": [
+          "I can't do without coffee in the morning.",
+          "No puedo vivir sin café en la mañana."
+        ]
+      },
+      {
+        "en": "fall apart",
+        "es": "desmoronarse",
+        "imagen": "Silla vieja rompiéndose",
+        "ejemplo": [
+          "My old shoes are falling apart.",
+          "Mis zapatos viejos se están deshaciendo."
+        ]
+      },
+      {
+        "en": "get across",
+        "es": "transmitir una idea",
+        "imagen": "Maestra explicando con gráficas",
+        "ejemplo": [
+          "It's hard to get my message across in English.",
+          "Me cuesta transmitir mi mensaje en inglés."
+        ]
+      },
+      {
+        "en": "get away with",
+        "es": "salirse con la suya",
+        "imagen": "Niño sonriendo tras comerse un pastel a escondidas",
+        "ejemplo": [
+          "He cheated on the exam and got away with it.",
+          "Hizo trampa en el examen y se salió con la suya."
+        ]
+      },
+      {
+        "en": "go off",
+        "es": "sonar una alarma",
+        "imagen": "Despertador sonando en una mesa",
+        "ejemplo": [
+          "My alarm didn't go off this morning.",
+          "Mi alarma no sonó esta mañana."
+        ]
+      },
+      {
+        "en": "hold on",
+        "es": "esperar",
+        "imagen": "Persona al teléfono levantando un dedo",
+        "ejemplo": [
+          "Hold on a second, please.",
+          "Espera un segundo, por favor."
+        ]
+      },
+      {
+        "en": "kick off",
+        "es": "empezar",
+        "imagen": "Partido de fútbol empezando",
+        "ejemplo": [
+          "The festival kicks off on Friday.",
+          "El festival arranca el viernes."
+        ]
+      },
+      {
+        "en": "live up to",
+        "es": "estar a la altura",
+        "imagen": "Persona decepcionada saliendo del cine",
+        "ejemplo": [
+          "The movie didn't live up to the hype.",
+          "La película no estuvo a la altura de tanta publicidad."
+        ]
+      },
+      {
+        "en": "look up to",
+        "es": "admirar",
+        "imagen": "Niño mirando con admiración a su hermano mayor",
+        "ejemplo": [
+          "I've always looked up to my older sister.",
+          "Siempre he admirado a mi hermana mayor."
+        ]
+      },
+      {
+        "en": "make out",
+        "es": "distinguir, entender",
+        "imagen": "Persona entrecerrando los ojos ante un letrero lejano",
+        "ejemplo": [
+          "I can't make out what the sign says.",
+          "No alcanzo a ver qué dice el letrero."
+        ]
+      },
+      {
+        "en": "miss out",
+        "es": "perderse algo bueno",
+        "imagen": "Persona viendo fotos de una fiesta en su celular",
+        "ejemplo": [
+          "Come with us! Don't miss out!",
+          "¡Vente con nosotros! ¡No te lo pierdas!"
+        ]
+      },
+      {
+        "en": "pull off",
+        "es": "lograr algo difícil",
+        "imagen": "Equipo celebrando un triunfo inesperado",
+        "ejemplo": [
+          "Nobody believed it, but they pulled it off.",
+          "Nadie lo creía, pero lo lograron."
+        ]
+      },
+      {
+        "en": "put forward",
+        "es": "proponer",
+        "imagen": "Persona presentando una propuesta en una junta",
+        "ejemplo": [
+          "She put forward a new plan.",
+          "Propuso un plan nuevo."
+        ]
+      },
+      {
+        "en": "rule out",
+        "es": "descartar",
+        "imagen": "Doctor revisando una radiografía",
+        "ejemplo": [
+          "The doctor ruled out a fracture.",
+          "El doctor descartó una fractura."
+        ]
+      },
+      {
+        "en": "sort out",
+        "es": "resolver, arreglar",
+        "imagen": "Persona organizando papeles en un escritorio",
+        "ejemplo": [
+          "Don't worry, we'll sort it out.",
+          "No te preocupes, lo vamos a arreglar."
+        ]
+      },
+      {
+        "en": "stand out",
+        "es": "destacar",
+        "imagen": "Flor roja en un campo de flores blancas",
+        "ejemplo": [
+          "Her work really stands out.",
+          "Su trabajo realmente destaca."
+        ]
+      },
+      {
+        "en": "stick to",
+        "es": "apegarse a",
+        "imagen": "Persona siguiendo una dieta con un plato saludable",
+        "ejemplo": [
+          "Try to stick to the plan.",
+          "Trata de apegarte al plan."
+        ]
+      },
+      {
+        "en": "take on",
+        "es": "asumir, contratar",
+        "imagen": "Gerente dando la bienvenida a nuevos empleados",
+        "ejemplo": [
+          "The company is taking on new staff.",
+          "La empresa está contratando personal."
+        ]
+      },
+      {
+        "en": "take over",
+        "es": "tomar el control",
+        "imagen": "Persona tomando el volante del carro",
+        "ejemplo": [
+          "A big company took over the factory.",
+          "Una empresa grande tomó el control de la fábrica."
+        ]
+      },
+      {
+        "en": "think over",
+        "es": "pensarlo bien",
+        "imagen": "Persona pensativa mirando por la ventana",
+        "ejemplo": [
+          "Let me think it over.",
+          "Déjame pensarlo."
+        ]
+      },
+      {
+        "en": "wear out",
+        "es": "gastar, agotar",
+        "imagen": "Tenis muy gastados",
+        "ejemplo": [
+          "Running every day wears out your shoes.",
+          "Correr todos los días desgasta tus tenis."
+        ]
+      },
+      {
+        "en": "back up",
+        "es": "respaldar",
+        "imagen": "Disco duro conectado a una laptop",
+        "ejemplo": [
+          "Always back up your files.",
+          "Siempre respalda tus archivos."
+        ]
+      },
+      {
+        "en": "break into",
+        "es": "meterse a robar",
+        "imagen": "Ventana de un carro rota",
+        "ejemplo": [
+          "Someone broke into my car last night.",
+          "Alguien se metió a mi carro anoche."
+        ]
+      },
+      {
+        "en": "fall behind",
+        "es": "atrasarse",
+        "imagen": "Corredor quedándose atrás en una carrera",
+        "ejemplo": [
+          "I fell behind with my studies when I was sick.",
+          "Me atrasé en mis estudios cuando estuve enfermo."
+        ]
+      },
+      {
+        "en": "give away",
+        "es": "regalar, revelar",
+        "imagen": "Persona regalando ropa en una caja",
+        "ejemplo": [
+          "She gave away all her old clothes.",
+          "Regaló toda su ropa vieja."
+        ]
+      }
+    ],
+    "ejemplos": [
+      {
+        "en": "They broke up after five years.",
+        "es": "Terminaron después de cinco años."
+      },
+      {
+        "en": "They carried out a survey of a thousand people.",
+        "es": "Llevaron a cabo una encuesta a mil personas."
+      },
+      {
+        "en": "I think I'm coming down with the flu.",
+        "es": "Creo que me está dando gripa."
+      },
+      {
+        "en": "You can always count on me.",
+        "es": "Siempre puedes contar conmigo."
+      },
+      {
+        "en": "He cheated on the exam and got away with it.",
+        "es": "Hizo trampa en el examen y se salió con la suya."
+      },
+      {
+        "en": "The movie didn't live up to the hype.",
+        "es": "La película no estuvo a la altura de tanta publicidad."
+      },
+      {
+        "en": "The doctor ruled out a fracture.",
+        "es": "El doctor descartó una fractura."
+      },
+      {
+        "en": "Don't worry, we'll sort it out.",
+        "es": "No te preocupes, lo vamos a arreglar."
+      },
+      {
+        "en": "Let me think it over.",
+        "es": "Déjame pensarlo."
+      },
+      {
+        "en": "Someone broke into my car last night.",
+        "es": "Alguien se metió a mi carro anoche."
+      }
+    ],
+    "frases": [
+      {
+        "en": "The government carried out a study on air pollution in Mexico City.",
+        "es": "El gobierno llevó a cabo un estudio sobre la contaminación del aire en la Ciudad de México.",
+        "imagen": "Ciudad con smog vista desde lo alto"
+      },
+      {
+        "en": "The police haven't ruled out the possibility that it was an accident.",
+        "es": "La policía no ha descartado la posibilidad de que haya sido un accidente.",
+        "imagen": "Patrulla de policía en una calle de noche"
+      },
+      {
+        "en": "After the merger, the new manager took over the whole department.",
+        "es": "Después de la fusión, el nuevo gerente tomó el control de todo el departamento.",
+        "imagen": "Gerente nuevo presentándose a su equipo"
+      },
+      {
+        "en": "I've fallen behind with my rent, and I need to sort it out soon.",
+        "es": "Me atrasé con la renta y necesito arreglarlo pronto.",
+        "imagen": "Persona revisando recibos en la mesa de la cocina"
+      },
+      {
+        "en": "Our team pulled off an incredible victory in the last minute.",
+        "es": "Nuestro equipo logró una victoria increíble en el último minuto.",
+        "imagen": "Jugadores celebrando un gol"
+      },
+      {
+        "en": "If you don't come to the trip, you'll miss out on a great experience.",
+        "es": "Si no vienes al viaje, te vas a perder una gran experiencia.",
+        "imagen": "Grupo de amigos en la cima de una montaña"
+      },
+      {
+        "en": "She really stands out in meetings because she always puts forward new ideas.",
+        "es": "Ella destaca en las juntas porque siempre propone ideas nuevas.",
+        "imagen": "Mujer exponiendo en una sala de juntas"
+      },
+      {
+        "en": "I can't do without my phone; I use it for everything.",
+        "es": "No puedo arreglármelas sin mi celular; lo uso para todo.",
+        "imagen": "Persona usando su celular en el metro"
+      },
+      {
+        "en": "The fire alarm went off in the middle of the night, and everybody ran outside.",
+        "es": "La alarma de incendios sonó a media noche y todos salieron corriendo.",
+        "imagen": "Vecinos en pijama afuera de un edificio"
+      },
+      {
+        "en": "My grandfather is the person I've always looked up to.",
+        "es": "Mi abuelo es la persona a la que siempre he admirado.",
+        "imagen": "Abuelo y nieto pescando en un lago"
+      }
+    ],
+    "listening": [
+      {
+        "audio": "They broke up last month, but they're still friends.",
+        "pregunta": "¿Qué pasó el mes pasado?",
+        "opciones": [
+          "Terminaron",
+          "Se casaron",
+          "Se conocieron",
+          "Se mudaron"
+        ]
+      },
+      {
+        "audio": "The hospital carried out more than two hundred operations last week.",
+        "pregunta": "¿Qué hizo el hospital?",
+        "opciones": [
+          "Realizó muchas operaciones",
+          "Cerró",
+          "Contrató doctores",
+          "Compró equipo"
+        ]
+      },
+      {
+        "audio": "Hold on, I'll check if she's in her office.",
+        "pregunta": "¿Qué le pide?",
+        "opciones": [
+          "Que espere",
+          "Que cuelgue",
+          "Que llame después",
+          "Que deje un mensaje"
+        ]
+      },
+      {
+        "audio": "I think I'm coming down with something. I feel terrible.",
+        "pregunta": "¿Cómo se siente?",
+        "opciones": [
+          "Se está enfermando",
+          "Muy bien",
+          "Cansado del trabajo",
+          "Con hambre"
+        ]
+      },
+      {
+        "audio": "Let me think it over and I'll give you an answer tomorrow.",
+        "pregunta": "¿Cuándo dará la respuesta?",
+        "opciones": [
+          "Mañana",
+          "Hoy",
+          "La próxima semana",
+          "Nunca"
+        ]
+      }
+    ],
+    "lectura": {
+      "titulo": "The new project",
+      "texto": "When Diego's company took on a big new client, his boss asked him to lead the project. Diego had always looked up to her, and he didn't want to let her down, so he accepted immediately. The first weeks were chaotic. The team fell behind schedule because two people came down with the flu, and the client kept changing its mind. Diego realized he had to stick to a clear plan. He sat down with the team, sorted out the priorities and ruled out any new requests until the first version was ready. He also put forward an idea to the client: weekly video calls to get their message across more clearly. At first, nobody thought they could pull it off in time. But the team worked hard, backed each other up, and delivered the project two days early. The client said the result lived up to all their expectations. Diego says the experience taught him that you can't do without good communication.",
+      "preguntas": [
+        {
+          "pregunta": "¿Por qué aceptó Diego el proyecto de inmediato?",
+          "opciones": [
+            "No quería decepcionar a su jefa",
+            "Quería un aumento",
+            "Nadie más quería",
+            "Le obligaron"
+          ]
+        },
+        {
+          "pregunta": "¿Por qué se atrasó el equipo?",
+          "opciones": [
+            "Dos personas se enfermaron",
+            "Se fue la luz",
+            "Perdieron archivos",
+            "Renunció alguien"
+          ]
+        },
+        {
+          "pregunta": "¿Qué propuso Diego al cliente?",
+          "opciones": [
+            "Videollamadas semanales",
+            "Más dinero",
+            "Un equipo nuevo",
+            "Cancelar el proyecto"
+          ]
+        },
+        {
+          "pregunta": "¿Cómo terminó el proyecto?",
+          "opciones": [
+            "Lo entregaron dos días antes",
+            "Lo cancelaron",
+            "Llegó tarde",
+            "Lo hizo otra empresa"
+          ]
+        }
+      ]
+    },
+    "escritura": [
+      {
+        "instruccion": "Completa.",
+        "pregunta": "They carried ___ an investigation.",
+        "respuestas": [
+          "out"
+        ]
+      },
+      {
+        "instruccion": "Completa.",
+        "pregunta": "The doctor ruled ___ any serious problem.",
+        "respuestas": [
+          "out"
+        ]
+      },
+      {
+        "instruccion": "Completa.",
+        "pregunta": "You can count ___ me.",
+        "respuestas": [
+          "on"
+        ]
+      },
+      {
+        "instruccion": "Completa.",
+        "pregunta": "He always gets away ___ everything!",
+        "respuestas": [
+          "with"
+        ]
+      },
+      {
+        "instruccion": "Completa.",
+        "pregunta": "The restaurant didn't live up ___ our expectations.",
+        "respuestas": [
+          "to"
+        ]
+      },
+      {
+        "instruccion": "Completa.",
+        "pregunta": "I've always looked up ___ my mother.",
+        "respuestas": [
+          "to"
+        ]
+      },
+      {
+        "instruccion": "Completa.",
+        "pregunta": "Someone broke ___ the office last night.",
+        "respuestas": [
+          "into"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "Déjame pensarlo.",
+        "respuestas": [
+          "Let me think it over",
+          "Let me think about it"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "Terminaron el año pasado.",
+        "respuestas": [
+          "They broke up last year"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "No te lo pierdas.",
+        "respuestas": [
+          "Don't miss out",
+          "Don't miss it",
+          "Do not miss out"
+        ]
+      }
+    ],
+    "examen": [
+      {
+        "tipo": "opcion",
+        "pregunta": "The firefighters have ___ out a gas leak.",
+        "opciones": [
+          "ruled",
+          "carried",
+          "sorted",
+          "pulled"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "A large company took ___ the small business.",
+        "opciones": [
+          "over",
+          "on",
+          "off",
+          "up"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "I'm coming down ___ a cold.",
+        "opciones": [
+          "with",
+          "on",
+          "from",
+          "of"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "My alarm didn't go ___ this morning.",
+        "opciones": [
+          "off",
+          "on",
+          "out",
+          "up"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "«Pull off» significa:",
+        "opciones": [
+          "Lograr algo difícil",
+          "Jalar",
+          "Quitarse ropa",
+          "Estacionarse"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "«Stand out» significa:",
+        "opciones": [
+          "Destacar",
+          "Pararse afuera",
+          "Esperar",
+          "Salirse"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "We need to sort out this problem before the client arrives.",
+        "pregunta": "¿Qué necesitan hacer?",
+        "opciones": [
+          "Resolver un problema",
+          "Limpiar la oficina",
+          "Comprar algo",
+          "Llamar al cliente"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "The festival kicks off with a parade on Saturday morning.",
+        "pregunta": "¿Cómo empieza el festival?",
+        "opciones": [
+          "Con un desfile",
+          "Con un concierto",
+          "Con fuegos artificiales",
+          "Con una comida"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Traduce: siempre respalda tus archivos",
+        "respuestas": [
+          "Always back up your files",
+          "Always back your files up"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Traduce: me atrasé con el trabajo",
+        "respuestas": [
+          "I fell behind with work",
+          "I fell behind with my work",
+          "I fell behind at work",
+          "I fell behind on my work"
+        ]
+      }
+    ]
   }
 ];

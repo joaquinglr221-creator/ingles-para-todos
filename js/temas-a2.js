@@ -17378,5 +17378,705 @@ const TEMAS_A2 = [
         ]
       }
     ]
+  },
+  {
+    "id": "a2-25",
+    "num": 25,
+    "titulo": "Verbos frasales de todos los días (find out, give up, look after…)",
+    "contexto": "Viajes, compras y vida diaria",
+    "explicacion": {
+      "es": [
+        "En A2 aprendes verbos frasales que se oyen **en cualquier conversación**: en viajes, en tiendas, con amigos. Recuerda: verbo + partícula = **significado nuevo**. *Give* = dar, pero ***give up*** = rendirse o dejar un hábito.",
+        "Algunos tienen **tres palabras**: ***look forward to*** (tener ganas de), ***run out of*** (quedarse sin), ***get along with*** (llevarse bien con). Después de *look forward to* va un sustantivo o **-ing**: *I'm looking forward **to seeing** you.*",
+        "Muchos verbos frasales **se pueden separar** con un objeto: *Try **on** the shoes* = *Try the shoes **on***. Con pronombre, **siempre** en medio: *Try **them** on* ✅ (no *Try on them* ❌).",
+        "Otros **no se separan nunca**: ***look after*** *the baby*, ***get along with*** *my sister*. Un buen truco: apréndelos siempre con su ejemplo completo."
+      ],
+      "tabla": {
+        "columnas": [
+          "Verbo frasal",
+          "Significado",
+          "Ejemplo"
+        ],
+        "filas": [
+          [
+            "find out",
+            "averiguar, enterarse",
+            "I found out the truth."
+          ],
+          [
+            "give up",
+            "rendirse, dejar",
+            "He gave up smoking."
+          ],
+          [
+            "look after",
+            "cuidar",
+            "She looks after her grandma."
+          ],
+          [
+            "run out of",
+            "quedarse sin",
+            "We ran out of milk."
+          ],
+          [
+            "try on",
+            "probarse",
+            "Can I try it on?"
+          ],
+          [
+            "look forward to",
+            "tener ganas de",
+            "I'm looking forward to the trip."
+          ]
+        ]
+      },
+      "ojo": [
+        "***Check in*** = registrarse (en el aeropuerto). ***Check out*** = salir y pagar, o «echarle un ojo»: *Check out this video!*",
+        "***Work out*** = hacer ejercicio. *I work out three times a week.*",
+        "***Throw away*** = tirar a la basura. ***Put away*** = guardar en su lugar.",
+        "***Hang out*** = pasar el rato con amigos. ***Hang up*** = colgar el teléfono.",
+        "***Sleep in*** = quedarse dormido a propósito, levantarse tarde. ***Stay up*** = desvelarse."
+      ],
+      "en": [
+        "I found out that the museum is free on Sundays.",
+        "My dad gave up smoking last year.",
+        "We ran out of milk, so I went to the store.",
+        "I'm looking forward to the holidays."
+      ]
+    },
+    "vocabulario": [
+      {
+        "en": "find out",
+        "es": "averiguar, enterarse",
+        "imagen": "Persona leyendo una noticia sorprendida",
+        "ejemplo": [
+          "I found out the museum is free on Sundays.",
+          "Me enteré de que el museo es gratis los domingos."
+        ]
+      },
+      {
+        "en": "give back",
+        "es": "devolver",
+        "imagen": "Niña devolviendo un libro a su amiga",
+        "ejemplo": [
+          "Can you give back my pen?",
+          "¿Me devuelves mi pluma?"
+        ]
+      },
+      {
+        "en": "give up",
+        "es": "rendirse, dejar",
+        "imagen": "Persona rompiendo un cigarro",
+        "ejemplo": [
+          "My dad gave up smoking last year.",
+          "Mi papá dejó de fumar el año pasado."
+        ]
+      },
+      {
+        "en": "grow up",
+        "es": "crecer",
+        "imagen": "Fotos de un niño y del mismo adulto",
+        "ejemplo": [
+          "I grew up in a small town.",
+          "Crecí en un pueblo pequeño."
+        ]
+      },
+      {
+        "en": "look after",
+        "es": "cuidar",
+        "imagen": "Abuela cuidando a un bebé",
+        "ejemplo": [
+          "She looks after her little brother.",
+          "Ella cuida a su hermanito."
+        ]
+      },
+      {
+        "en": "look forward to",
+        "es": "tener ganas de",
+        "imagen": "Persona emocionada mirando un calendario",
+        "ejemplo": [
+          "I'm looking forward to the holidays.",
+          "Tengo muchas ganas de que lleguen las vacaciones."
+        ]
+      },
+      {
+        "en": "check in",
+        "es": "registrarse",
+        "imagen": "Pasajera en el mostrador del aeropuerto",
+        "ejemplo": [
+          "We checked in two hours before the flight.",
+          "Documentamos dos horas antes del vuelo."
+        ]
+      },
+      {
+        "en": "check out",
+        "es": "echar un ojo",
+        "imagen": "Amigos viendo un video en el celular",
+        "ejemplo": [
+          "Check out this video!",
+          "¡Mira este video!"
+        ]
+      },
+      {
+        "en": "fill in",
+        "es": "llenar un formulario",
+        "imagen": "Persona llenando un formulario",
+        "ejemplo": [
+          "Please fill in this form.",
+          "Por favor, llena este formulario."
+        ]
+      },
+      {
+        "en": "try on",
+        "es": "probarse",
+        "imagen": "Persona probándose una camisa en una tienda",
+        "ejemplo": [
+          "Can I try on these jeans?",
+          "¿Me puedo probar estos jeans?"
+        ]
+      },
+      {
+        "en": "run out of",
+        "es": "quedarse sin",
+        "imagen": "Refrigerador vacío sin leche",
+        "ejemplo": [
+          "We ran out of milk.",
+          "Se nos acabó la leche."
+        ]
+      },
+      {
+        "en": "get back",
+        "es": "regresar, volver",
+        "imagen": "Familia regresando de vacaciones con maletas",
+        "ejemplo": [
+          "We got back from Cancún yesterday.",
+          "Regresamos de Cancún ayer."
+        ]
+      },
+      {
+        "en": "go on",
+        "es": "continuar",
+        "imagen": "Maestra animando a una alumna a seguir",
+        "ejemplo": [
+          "Go on, tell me more!",
+          "¡Sigue, cuéntame más!"
+        ]
+      },
+      {
+        "en": "carry on",
+        "es": "seguir",
+        "imagen": "Corredor siguiendo a pesar del cansancio",
+        "ejemplo": [
+          "Carry on, you're almost there!",
+          "¡Sigue, ya casi llegas!"
+        ]
+      },
+      {
+        "en": "throw away",
+        "es": "tirar a la basura",
+        "imagen": "Persona tirando una botella al bote de basura",
+        "ejemplo": [
+          "Don't throw away the bottles.",
+          "No tires las botellas."
+        ]
+      },
+      {
+        "en": "put away",
+        "es": "guardar",
+        "imagen": "Niño guardando sus juguetes en una caja",
+        "ejemplo": [
+          "Put away your toys, please.",
+          "Guarda tus juguetes, por favor."
+        ]
+      },
+      {
+        "en": "take out",
+        "es": "sacar",
+        "imagen": "Persona sacando la basura",
+        "ejemplo": [
+          "Can you take out the trash?",
+          "¿Puedes sacar la basura?"
+        ]
+      },
+      {
+        "en": "turn around",
+        "es": "voltearse, darse la vuelta",
+        "imagen": "Persona volteando hacia atrás en la calle",
+        "ejemplo": [
+          "Turn around and smile!",
+          "¡Voltea y sonríe!"
+        ]
+      },
+      {
+        "en": "break down",
+        "es": "descomponerse",
+        "imagen": "Carro descompuesto en la carretera",
+        "ejemplo": [
+          "Our car broke down on the highway.",
+          "Se nos descompuso el carro en la carretera."
+        ]
+      },
+      {
+        "en": "look up",
+        "es": "buscar información",
+        "imagen": "Persona buscando una palabra en el diccionario",
+        "ejemplo": [
+          "Look up the word in the dictionary.",
+          "Busca la palabra en el diccionario."
+        ]
+      },
+      {
+        "en": "get along with",
+        "es": "llevarse bien con",
+        "imagen": "Dos hermanas riendo juntas",
+        "ejemplo": [
+          "I get along with my sister.",
+          "Me llevo bien con mi hermana."
+        ]
+      },
+      {
+        "en": "hang out",
+        "es": "pasar el rato",
+        "imagen": "Amigos platicando en un parque",
+        "ejemplo": [
+          "We hang out at the mall on Saturdays.",
+          "Pasamos el rato en la plaza los sábados."
+        ]
+      },
+      {
+        "en": "hang up",
+        "es": "colgar el teléfono",
+        "imagen": "Persona colgando el teléfono enojada",
+        "ejemplo": [
+          "Don't hang up! I want to talk to you.",
+          "¡No cuelgues! Quiero hablar contigo."
+        ]
+      },
+      {
+        "en": "dress up",
+        "es": "arreglarse, disfrazarse",
+        "imagen": "Niños disfrazados para una fiesta",
+        "ejemplo": [
+          "The kids dressed up as pirates.",
+          "Los niños se disfrazaron de piratas."
+        ]
+      },
+      {
+        "en": "go up",
+        "es": "subir",
+        "imagen": "Gráfica con una flecha hacia arriba",
+        "ejemplo": [
+          "Prices went up again.",
+          "Los precios subieron otra vez."
+        ]
+      },
+      {
+        "en": "go down",
+        "es": "bajar",
+        "imagen": "Termómetro bajando en invierno",
+        "ejemplo": [
+          "The temperature goes down at night.",
+          "La temperatura baja en la noche."
+        ]
+      },
+      {
+        "en": "pay back",
+        "es": "pagar lo que debes",
+        "imagen": "Persona devolviendo dinero a un amigo",
+        "ejemplo": [
+          "I'll pay you back tomorrow.",
+          "Mañana te pago."
+        ]
+      },
+      {
+        "en": "work out",
+        "es": "hacer ejercicio",
+        "imagen": "Persona haciendo ejercicio en el gimnasio",
+        "ejemplo": [
+          "I work out three times a week.",
+          "Hago ejercicio tres veces por semana."
+        ]
+      },
+      {
+        "en": "sleep in",
+        "es": "levantarse tarde",
+        "imagen": "Persona durmiendo con el sol entrando por la ventana",
+        "ejemplo": [
+          "I sleep in on Sundays.",
+          "Los domingos me levanto tarde."
+        ]
+      },
+      {
+        "en": "stay up",
+        "es": "desvelarse",
+        "imagen": "Persona viendo una película de madrugada",
+        "ejemplo": [
+          "We stayed up until two in the morning.",
+          "Nos desvelamos hasta las dos de la mañana."
+        ]
+      }
+    ],
+    "ejemplos": [
+      {
+        "en": "I found out the museum is free on Sundays.",
+        "es": "Me enteré de que el museo es gratis los domingos."
+      },
+      {
+        "en": "My dad gave up smoking last year.",
+        "es": "Mi papá dejó de fumar el año pasado."
+      },
+      {
+        "en": "She looks after her little brother.",
+        "es": "Ella cuida a su hermanito."
+      },
+      {
+        "en": "I'm looking forward to the holidays.",
+        "es": "Tengo muchas ganas de que lleguen las vacaciones."
+      },
+      {
+        "en": "Can I try on these jeans?",
+        "es": "¿Me puedo probar estos jeans?"
+      },
+      {
+        "en": "We ran out of milk.",
+        "es": "Se nos acabó la leche."
+      },
+      {
+        "en": "Our car broke down on the highway.",
+        "es": "Se nos descompuso el carro en la carretera."
+      },
+      {
+        "en": "I get along with my sister.",
+        "es": "Me llevo bien con mi hermana."
+      },
+      {
+        "en": "I'll pay you back tomorrow.",
+        "es": "Mañana te pago."
+      },
+      {
+        "en": "We stayed up until two in the morning.",
+        "es": "Nos desvelamos hasta las dos de la mañana."
+      }
+    ],
+    "frases": [
+      {
+        "en": "I grew up in Puebla, but now I live in Monterrey.",
+        "es": "Crecí en Puebla, pero ahora vivo en Monterrey.",
+        "imagen": "Calle colorida de Puebla"
+      },
+      {
+        "en": "When we got to the airport, we checked in and had a coffee.",
+        "es": "Cuando llegamos al aeropuerto, documentamos y tomamos un café.",
+        "imagen": "Pasajeros con maletas en un aeropuerto"
+      },
+      {
+        "en": "I tried on three dresses, but I didn't buy any.",
+        "es": "Me probé tres vestidos, pero no compré ninguno.",
+        "imagen": "Persona frente al espejo de un probador"
+      },
+      {
+        "en": "We ran out of gas in the middle of the desert.",
+        "es": "Se nos acabó la gasolina en medio del desierto.",
+        "imagen": "Carro detenido en una carretera del desierto"
+      },
+      {
+        "en": "Could you look after my dog while I'm on vacation?",
+        "es": "¿Podrías cuidar a mi perro mientras estoy de vacaciones?",
+        "imagen": "Perro sentado junto a una maleta"
+      },
+      {
+        "en": "I'm really looking forward to seeing you next week.",
+        "es": "Tengo muchas ganas de verte la próxima semana.",
+        "imagen": "Dos amigos abrazándose en una estación"
+      },
+      {
+        "en": "Don't throw away those boxes. We can use them for the move.",
+        "es": "No tires esas cajas. Las podemos usar para la mudanza.",
+        "imagen": "Cajas de cartón en una sala"
+      },
+      {
+        "en": "If you don't know a word, look it up on your phone.",
+        "es": "Si no sabes una palabra, búscala en tu celular.",
+        "imagen": "Persona buscando algo en su celular"
+      },
+      {
+        "en": "On Saturdays I sleep in, and then I hang out with my friends.",
+        "es": "Los sábados me levanto tarde y luego paso el rato con mis amigos.",
+        "imagen": "Amigos tomando café en una terraza"
+      },
+      {
+        "en": "Please fill in your name and address, and give back the pen.",
+        "es": "Por favor, escribe tu nombre y dirección y devuelve la pluma.",
+        "imagen": "Formulario y pluma sobre un mostrador"
+      }
+    ],
+    "listening": [
+      {
+        "audio": "I gave up coffee last month.",
+        "pregunta": "¿Qué dejó?",
+        "opciones": [
+          "El café",
+          "El azúcar",
+          "El cigarro",
+          "El refresco"
+        ]
+      },
+      {
+        "audio": "My grandmother looks after my kids on Mondays.",
+        "pregunta": "¿Qué hace la abuela los lunes?",
+        "opciones": [
+          "Cuida a los niños",
+          "Cocina",
+          "Trabaja",
+          "Va al doctor"
+        ]
+      },
+      {
+        "audio": "We ran out of bread, so I'm going to the bakery.",
+        "pregunta": "¿Qué se acabó?",
+        "opciones": [
+          "El pan",
+          "La leche",
+          "El café",
+          "Los huevos"
+        ]
+      },
+      {
+        "audio": "Can I try on these shoes in a size eight?",
+        "pregunta": "¿Qué quiere hacer?",
+        "opciones": [
+          "Probarse zapatos",
+          "Comprar una camisa",
+          "Devolver zapatos",
+          "Pagar"
+        ]
+      },
+      {
+        "audio": "I stayed up late, so I'm very tired today.",
+        "pregunta": "¿Por qué está cansado?",
+        "opciones": [
+          "Se desveló",
+          "Hizo ejercicio",
+          "Trabajó mucho",
+          "Está enfermo"
+        ]
+      }
+    ],
+    "lectura": {
+      "titulo": "A trip to Guanajuato",
+      "texto": "Last month, my friend Pablo and I went to Guanajuato for a long weekend. We were really looking forward to the trip. On Friday morning, we checked in at the bus station and left at eight. Halfway there, the bus broke down, and we waited for two hours on the side of the road. Pablo didn't give up; he looked up the history of the city on his phone and told me everything. When we finally arrived, we found out that there was a music festival in the main square. That night we hung out with some students and stayed up until three. On Saturday we slept in, of course. In the afternoon, I tried on a beautiful leather jacket at the market, but it was too expensive. On Sunday, we ran out of money, so we ate tacos for lunch and dinner. We got back home on Sunday night, tired but very happy.",
+      "preguntas": [
+        {
+          "pregunta": "¿Qué pasó en el camino?",
+          "opciones": [
+            "Se descompuso el camión",
+            "Se perdieron",
+            "Llovió mucho",
+            "Perdieron el camión"
+          ]
+        },
+        {
+          "pregunta": "¿Qué descubrieron al llegar?",
+          "opciones": [
+            "Que había un festival de música",
+            "Que el museo estaba cerrado",
+            "Que no había lugar",
+            "Que llovía"
+          ]
+        },
+        {
+          "pregunta": "¿Por qué no compró la chamarra?",
+          "opciones": [
+            "Era muy cara",
+            "Era muy chica",
+            "No le gustó",
+            "No había"
+          ]
+        },
+        {
+          "pregunta": "¿Por qué comieron tacos el domingo?",
+          "opciones": [
+            "Se quedaron sin dinero",
+            "Les encantan",
+            "No había restaurantes",
+            "Era lo único abierto"
+          ]
+        }
+      ]
+    },
+    "escritura": [
+      {
+        "instruccion": "Completa.",
+        "pregunta": "My grandfather gave ___ smoking.",
+        "respuestas": [
+          "up"
+        ]
+      },
+      {
+        "instruccion": "Completa.",
+        "pregunta": "We ran out ___ sugar.",
+        "respuestas": [
+          "of"
+        ]
+      },
+      {
+        "instruccion": "Completa.",
+        "pregunta": "I'm looking forward ___ the party.",
+        "respuestas": [
+          "to"
+        ]
+      },
+      {
+        "instruccion": "Completa.",
+        "pregunta": "Can I try ___ this shirt?",
+        "respuestas": [
+          "on"
+        ]
+      },
+      {
+        "instruccion": "Completa.",
+        "pregunta": "Who looks ___ your kids when you work?",
+        "respuestas": [
+          "after"
+        ]
+      },
+      {
+        "instruccion": "Completa.",
+        "pregunta": "I get along ___ my neighbors.",
+        "respuestas": [
+          "with"
+        ]
+      },
+      {
+        "instruccion": "Ordena con pronombre.",
+        "pregunta": "These shoes are nice. Can I try ___? (them / on)",
+        "respuestas": [
+          "them on"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "Crecí en Veracruz.",
+        "respuestas": [
+          "I grew up in Veracruz"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "Hago ejercicio todos los días.",
+        "respuestas": [
+          "I work out every day"
+        ]
+      },
+      {
+        "instruccion": "Corrige la oración.",
+        "pregunta": "Please throw away it.",
+        "respuestas": [
+          "Please throw it away"
+        ]
+      }
+    ],
+    "examen": [
+      {
+        "tipo": "opcion",
+        "pregunta": "I ___ out that the store was closed.",
+        "opciones": [
+          "found",
+          "looked",
+          "gave",
+          "took"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "We ran out ___ milk.",
+        "opciones": [
+          "of",
+          "from",
+          "with",
+          "to"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "I'm looking forward to ___ you.",
+        "opciones": [
+          "seeing",
+          "see",
+          "saw",
+          "seen"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "These jeans are nice. Can I try ___?",
+        "opciones": [
+          "them on",
+          "on them",
+          "on",
+          "it on them"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "«Break down» (un carro) significa:",
+        "opciones": [
+          "Descomponerse",
+          "Acelerar",
+          "Estacionarse",
+          "Lavarse"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "«Hang out» significa:",
+        "opciones": [
+          "Pasar el rato",
+          "Colgar el teléfono",
+          "Salir corriendo",
+          "Tender la ropa"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "I work out at the gym every morning.",
+        "pregunta": "¿Qué hace cada mañana?",
+        "opciones": [
+          "Hace ejercicio",
+          "Trabaja",
+          "Desayuna",
+          "Duerme"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "Prices went up again this month.",
+        "pregunta": "¿Qué pasó con los precios?",
+        "opciones": [
+          "Subieron",
+          "Bajaron",
+          "No cambiaron",
+          "Desaparecieron"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Traduce: me llevo bien con él",
+        "respuestas": [
+          "I get along with him",
+          "I get on with him"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Traduce: guarda tus cosas",
+        "respuestas": [
+          "Put away your things",
+          "Put your things away",
+          "put your stuff away",
+          "put away your stuff"
+        ]
+      }
+    ]
   }
 ];

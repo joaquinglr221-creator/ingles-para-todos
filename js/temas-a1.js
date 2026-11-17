@@ -11054,5 +11054,708 @@ const TEMAS_A1 = [
         ]
       }
     ]
+  },
+  {
+    "id": "a1-25",
+    "num": 25,
+    "titulo": "Verbos frasales básicos (get up, turn on, look for…)",
+    "contexto": "La rutina y la casa",
+    "explicacion": {
+      "es": [
+        "Un **verbo frasal** (*phrasal verb*) es un verbo + una palabra pequeña como ***up, down, on, off, in, out, back***. Juntas tienen **un significado nuevo**: *get* = conseguir, pero ***get up*** = levantarse.",
+        "Se usan **muchísimo** en el inglés de todos los días. Un nativo casi nunca dice *I will extinguish the light*; dice ***I'll turn off the light.***",
+        "Muchos van en **parejas de opuestos**: ***turn on / turn off*** (prender / apagar), ***put on / take off*** (ponerse / quitarse), ***get on / get off*** (subirse / bajarse), ***sit down / stand up*** (sentarse / pararse).",
+        "Aprende cada verbo frasal **como una palabra completa**, con un ejemplo. Escúchalo, repítelo y úsalo en tu rutina: *I **wake up** at seven, I **get up**, I **put on** my clothes…*"
+      ],
+      "tabla": {
+        "columnas": [
+          "Verbo frasal",
+          "Significado",
+          "Ejemplo"
+        ],
+        "filas": [
+          [
+            "get up",
+            "levantarse",
+            "I get up at seven."
+          ],
+          [
+            "turn on / turn off",
+            "prender / apagar",
+            "Turn off the TV."
+          ],
+          [
+            "put on / take off",
+            "ponerse / quitarse",
+            "Put on your jacket."
+          ],
+          [
+            "sit down / stand up",
+            "sentarse / pararse",
+            "Please sit down."
+          ],
+          [
+            "look for",
+            "buscar",
+            "I'm looking for my keys."
+          ],
+          [
+            "come back",
+            "regresar",
+            "Come back soon!"
+          ]
+        ]
+      },
+      "ojo": [
+        "***Wake up*** = despertarse (abrir los ojos). ***Get up*** = levantarse (salir de la cama).",
+        "***Look at*** = mirar. ***Look for*** = buscar. *I'm **looking for** my phone.*",
+        "Con objeto puedes decir ***Turn on the TV*** o ***Turn the TV on***. Con *it* siempre va en medio: ***Turn it on.***",
+        "***Come on!*** sirve para animar (¡Ándale! ¡Vamos!).",
+        "***Eat out*** = comer fuera de casa, en un restaurante."
+      ],
+      "en": [
+        "I wake up at six, and I get up at six thirty.",
+        "Please turn off the lights.",
+        "Put on your jacket. It's cold.",
+        "I'm looking for my keys."
+      ]
+    },
+    "vocabulario": [
+      {
+        "en": "get up",
+        "es": "levantarse",
+        "imagen": "Persona saliendo de la cama por la mañana",
+        "ejemplo": [
+          "I get up at seven every day.",
+          "Me levanto a las siete todos los días."
+        ]
+      },
+      {
+        "en": "wake up",
+        "es": "despertarse",
+        "imagen": "Persona abriendo los ojos con el despertador sonando",
+        "ejemplo": [
+          "I wake up early on Mondays.",
+          "Me despierto temprano los lunes."
+        ]
+      },
+      {
+        "en": "sit down",
+        "es": "sentarse",
+        "imagen": "Persona sentándose en una silla",
+        "ejemplo": [
+          "Please sit down.",
+          "Por favor, siéntate."
+        ]
+      },
+      {
+        "en": "stand up",
+        "es": "pararse, ponerse de pie",
+        "imagen": "Estudiantes poniéndose de pie en un salón",
+        "ejemplo": [
+          "Stand up, please.",
+          "Pónganse de pie, por favor."
+        ]
+      },
+      {
+        "en": "lie down",
+        "es": "acostarse",
+        "imagen": "Persona acostándose en el sofá",
+        "ejemplo": [
+          "I'm tired. I want to lie down.",
+          "Estoy cansado. Quiero acostarme."
+        ]
+      },
+      {
+        "en": "come in",
+        "es": "pasar, entrar",
+        "imagen": "Persona abriendo la puerta e invitando a pasar",
+        "ejemplo": [
+          "Come in, please!",
+          "¡Pasa, por favor!"
+        ]
+      },
+      {
+        "en": "go out",
+        "es": "salir",
+        "imagen": "Amigos saliendo de casa de noche",
+        "ejemplo": [
+          "We go out on Fridays.",
+          "Salimos los viernes."
+        ]
+      },
+      {
+        "en": "come back",
+        "es": "regresar",
+        "imagen": "Persona regresando a casa con bolsas",
+        "ejemplo": [
+          "Come back soon!",
+          "¡Regresa pronto!"
+        ]
+      },
+      {
+        "en": "go back",
+        "es": "volver, regresar",
+        "imagen": "Persona caminando de regreso por una calle",
+        "ejemplo": [
+          "I go back home at six.",
+          "Vuelvo a casa a las seis."
+        ]
+      },
+      {
+        "en": "go away",
+        "es": "irse",
+        "imagen": "Perro alejándose por un camino",
+        "ejemplo": [
+          "Go away, please!",
+          "¡Vete, por favor!"
+        ]
+      },
+      {
+        "en": "turn on",
+        "es": "prender, encender",
+        "imagen": "Mano encendiendo un interruptor de luz",
+        "ejemplo": [
+          "Turn on the light, please.",
+          "Prende la luz, por favor."
+        ]
+      },
+      {
+        "en": "turn off",
+        "es": "apagar",
+        "imagen": "Mano apagando la televisión con el control",
+        "ejemplo": [
+          "Turn off the TV.",
+          "Apaga la televisión."
+        ]
+      },
+      {
+        "en": "turn up",
+        "es": "subir el volumen",
+        "imagen": "Mano subiendo el volumen de una bocina",
+        "ejemplo": [
+          "Turn up the music!",
+          "¡Súbele a la música!"
+        ]
+      },
+      {
+        "en": "put down",
+        "es": "dejar, soltar",
+        "imagen": "Persona dejando el celular sobre la mesa",
+        "ejemplo": [
+          "Put down your phone, please.",
+          "Deja tu celular, por favor."
+        ]
+      },
+      {
+        "en": "put on",
+        "es": "ponerse ropa",
+        "imagen": "Niño poniéndose una chamarra",
+        "ejemplo": [
+          "Put on your jacket. It's cold.",
+          "Ponte la chamarra. Hace frío."
+        ]
+      },
+      {
+        "en": "take off",
+        "es": "quitarse ropa",
+        "imagen": "Persona quitándose los zapatos en la entrada",
+        "ejemplo": [
+          "Take off your shoes, please.",
+          "Quítate los zapatos, por favor."
+        ]
+      },
+      {
+        "en": "look at",
+        "es": "mirar",
+        "imagen": "Persona mirando una foto",
+        "ejemplo": [
+          "Look at this photo!",
+          "¡Mira esta foto!"
+        ]
+      },
+      {
+        "en": "look for",
+        "es": "buscar",
+        "imagen": "Persona buscando sus llaves en el sofá",
+        "ejemplo": [
+          "I'm looking for my keys.",
+          "Estoy buscando mis llaves."
+        ]
+      },
+      {
+        "en": "listen to",
+        "es": "escuchar",
+        "imagen": "Joven escuchando música con audífonos",
+        "ejemplo": [
+          "I listen to music every day.",
+          "Escucho música todos los días."
+        ]
+      },
+      {
+        "en": "wait for",
+        "es": "esperar a",
+        "imagen": "Persona esperando el camión en la parada",
+        "ejemplo": [
+          "I'm waiting for the bus.",
+          "Estoy esperando el camión."
+        ]
+      },
+      {
+        "en": "pick up",
+        "es": "recoger, levantar",
+        "imagen": "Persona recogiendo un papel del piso",
+        "ejemplo": [
+          "Pick up your toys, please.",
+          "Recoge tus juguetes, por favor."
+        ]
+      },
+      {
+        "en": "get on",
+        "es": "subirse",
+        "imagen": "Personas subiendo a un camión",
+        "ejemplo": [
+          "We get on the bus here.",
+          "Nos subimos al camión aquí."
+        ]
+      },
+      {
+        "en": "get off",
+        "es": "bajarse",
+        "imagen": "Persona bajando del metro",
+        "ejemplo": [
+          "Get off at the next stop.",
+          "Bájate en la siguiente parada."
+        ]
+      },
+      {
+        "en": "come on",
+        "es": "ándale, vamos",
+        "imagen": "Amigo animando a otro con la mano",
+        "ejemplo": [
+          "Come on! We're late!",
+          "¡Ándale! ¡Vamos tarde!"
+        ]
+      },
+      {
+        "en": "hurry up",
+        "es": "apurarse",
+        "imagen": "Mamá apurando a un niño con la mochila",
+        "ejemplo": [
+          "Hurry up! The bus is here.",
+          "¡Apúrate! Ya llegó el camión."
+        ]
+      },
+      {
+        "en": "slow down",
+        "es": "ir más despacio",
+        "imagen": "Letrero de bajar la velocidad en una calle",
+        "ejemplo": [
+          "Slow down, please!",
+          "¡Más despacio, por favor!"
+        ]
+      },
+      {
+        "en": "write down",
+        "es": "anotar",
+        "imagen": "Persona escribiendo en una libreta",
+        "ejemplo": [
+          "Write down my phone number.",
+          "Anota mi número de teléfono."
+        ]
+      },
+      {
+        "en": "clean up",
+        "es": "limpiar, recoger",
+        "imagen": "Familia limpiando la sala",
+        "ejemplo": [
+          "Let's clean up the kitchen.",
+          "Vamos a limpiar la cocina."
+        ]
+      },
+      {
+        "en": "eat out",
+        "es": "comer fuera",
+        "imagen": "Familia comiendo en un restaurante",
+        "ejemplo": [
+          "We eat out on Sundays.",
+          "Comemos fuera los domingos."
+        ]
+      },
+      {
+        "en": "call back",
+        "es": "devolver la llamada",
+        "imagen": "Persona hablando por teléfono sonriendo",
+        "ejemplo": [
+          "I'm busy. I'll call you back.",
+          "Estoy ocupado. Te regreso la llamada."
+        ]
+      }
+    ],
+    "ejemplos": [
+      {
+        "en": "I get up at seven every day.",
+        "es": "Me levanto a las siete todos los días."
+      },
+      {
+        "en": "Please sit down.",
+        "es": "Por favor, siéntate."
+      },
+      {
+        "en": "Come in, please!",
+        "es": "¡Pasa, por favor!"
+      },
+      {
+        "en": "Turn off the TV.",
+        "es": "Apaga la televisión."
+      },
+      {
+        "en": "Put on your jacket. It's cold.",
+        "es": "Ponte la chamarra. Hace frío."
+      },
+      {
+        "en": "I'm looking for my keys.",
+        "es": "Estoy buscando mis llaves."
+      },
+      {
+        "en": "I'm waiting for the bus.",
+        "es": "Estoy esperando el camión."
+      },
+      {
+        "en": "Hurry up! The bus is here.",
+        "es": "¡Apúrate! Ya llegó el camión."
+      },
+      {
+        "en": "Write down my phone number.",
+        "es": "Anota mi número de teléfono."
+      },
+      {
+        "en": "I'm busy. I'll call you back.",
+        "es": "Estoy ocupado. Te regreso la llamada."
+      }
+    ],
+    "frases": [
+      {
+        "en": "I wake up at six, but I get up at six thirty.",
+        "es": "Me despierto a las seis, pero me levanto a las seis y media.",
+        "imagen": "Persona estirándose en la cama al amanecer"
+      },
+      {
+        "en": "When I come back home, I take off my shoes.",
+        "es": "Cuando regreso a casa, me quito los zapatos.",
+        "imagen": "Zapatos junto a la puerta de una casa"
+      },
+      {
+        "en": "Can you turn on the light? I can't see.",
+        "es": "¿Puedes prender la luz? No veo.",
+        "imagen": "Cuarto oscuro con una lámpara"
+      },
+      {
+        "en": "We get on the bus at eight and get off at the park.",
+        "es": "Nos subimos al camión a las ocho y nos bajamos en el parque.",
+        "imagen": "Camión urbano en una parada frente a un parque"
+      },
+      {
+        "en": "Look at the sky! It's beautiful.",
+        "es": "¡Mira el cielo! Está hermoso.",
+        "imagen": "Cielo naranja al atardecer"
+      },
+      {
+        "en": "My children clean up their room on Saturdays.",
+        "es": "Mis hijos recogen su cuarto los sábados.",
+        "imagen": "Niños ordenando juguetes en su cuarto"
+      },
+      {
+        "en": "Come on, let's go out tonight!",
+        "es": "¡Ándale, salgamos esta noche!",
+        "imagen": "Amigos riendo en una calle iluminada"
+      },
+      {
+        "en": "Put down your phone and eat your dinner, please.",
+        "es": "Deja tu celular y cómete tu cena, por favor.",
+        "imagen": "Familia cenando con un celular sobre la mesa"
+      },
+      {
+        "en": "I listen to the radio in the car.",
+        "es": "Escucho el radio en el carro.",
+        "imagen": "Radio de un carro encendido"
+      },
+      {
+        "en": "Sit down and wait for the doctor, please.",
+        "es": "Siéntese y espere al doctor, por favor.",
+        "imagen": "Sala de espera de un consultorio"
+      }
+    ],
+    "listening": [
+      {
+        "audio": "I get up at six every morning.",
+        "pregunta": "¿A qué hora se levanta?",
+        "opciones": [
+          "A las seis",
+          "A las siete",
+          "A las ocho",
+          "A las cinco"
+        ]
+      },
+      {
+        "audio": "Please turn off your phones.",
+        "pregunta": "¿Qué piden?",
+        "opciones": [
+          "Apagar los teléfonos",
+          "Prender los teléfonos",
+          "Comprar teléfonos",
+          "Llamar por teléfono"
+        ]
+      },
+      {
+        "audio": "Put on your coat. It's very cold.",
+        "pregunta": "¿Qué debe hacer?",
+        "opciones": [
+          "Ponerse el abrigo",
+          "Quitarse el abrigo",
+          "Comprar un abrigo",
+          "Lavar el abrigo"
+        ]
+      },
+      {
+        "audio": "I'm looking for my glasses.",
+        "pregunta": "¿Qué busca?",
+        "opciones": [
+          "Sus lentes",
+          "Sus llaves",
+          "Su teléfono",
+          "Su bolsa"
+        ]
+      },
+      {
+        "audio": "Get off the bus at the hospital.",
+        "pregunta": "¿Dónde se baja?",
+        "opciones": [
+          "En el hospital",
+          "En la escuela",
+          "En el parque",
+          "En el mercado"
+        ]
+      }
+    ],
+    "lectura": {
+      "titulo": "My Monday morning",
+      "texto": "My name is Sofía. On Mondays, I wake up at six, but I get up at six fifteen. I turn on the radio and listen to the news. Then I put on my clothes and have breakfast with my family. At seven, my son can't find his shoes. We look for them everywhere. Hurry up! I say. Finally, we find them under the sofa. We go out at seven thirty and wait for the bus. We get on the bus at the corner and get off near his school. After work, I come back home at five. I take off my shoes, sit down and relax. In the evening, we clean up the kitchen together. On Sundays, we eat out at a small restaurant near our house.",
+      "preguntas": [
+        {
+          "pregunta": "¿A qué hora se despierta Sofía?",
+          "opciones": [
+            "A las seis",
+            "A las seis y cuarto",
+            "A las siete",
+            "A las cinco"
+          ]
+        },
+        {
+          "pregunta": "¿Qué busca la familia?",
+          "opciones": [
+            "Los zapatos del hijo",
+            "Las llaves",
+            "El radio",
+            "La mochila"
+          ]
+        },
+        {
+          "pregunta": "¿Dónde se bajan del camión?",
+          "opciones": [
+            "Cerca de la escuela",
+            "En el trabajo",
+            "En el parque",
+            "En el centro"
+          ]
+        },
+        {
+          "pregunta": "¿Qué hacen los domingos?",
+          "opciones": [
+            "Comen fuera",
+            "Limpian la casa",
+            "Trabajan",
+            "Van al cine"
+          ]
+        }
+      ]
+    },
+    "escritura": [
+      {
+        "instruccion": "Completa con up o down.",
+        "pregunta": "Please sit ___.",
+        "respuestas": [
+          "down"
+        ]
+      },
+      {
+        "instruccion": "Completa con on u off.",
+        "pregunta": "It's dark. Turn ___ the light.",
+        "respuestas": [
+          "on"
+        ]
+      },
+      {
+        "instruccion": "Completa con on u off.",
+        "pregunta": "Take ___ your shoes, please.",
+        "respuestas": [
+          "off"
+        ]
+      },
+      {
+        "instruccion": "Completa con at o for.",
+        "pregunta": "I'm looking ___ my phone.",
+        "respuestas": [
+          "for"
+        ]
+      },
+      {
+        "instruccion": "Completa con at o for.",
+        "pregunta": "Look ___ the cat!",
+        "respuestas": [
+          "at"
+        ]
+      },
+      {
+        "instruccion": "Completa.",
+        "pregunta": "I'm waiting ___ the bus.",
+        "respuestas": [
+          "for"
+        ]
+      },
+      {
+        "instruccion": "Completa.",
+        "pregunta": "Hurry ___! We're late.",
+        "respuestas": [
+          "up"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "Me levanto a las siete.",
+        "respuestas": [
+          "I get up at seven",
+          "I get up at 7"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "Ponte la chamarra.",
+        "respuestas": [
+          "Put on your jacket",
+          "Put your jacket on"
+        ]
+      },
+      {
+        "instruccion": "Traduce al inglés.",
+        "pregunta": "Apaga la televisión.",
+        "respuestas": [
+          "Turn off the TV",
+          "Turn the TV off",
+          "Turn off the television",
+          "Turn the television off"
+        ]
+      }
+    ],
+    "examen": [
+      {
+        "tipo": "opcion",
+        "pregunta": "I ___ up at seven.",
+        "opciones": [
+          "get",
+          "go",
+          "put",
+          "turn"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "It's cold. Put ___ your jacket.",
+        "opciones": [
+          "on",
+          "off",
+          "up",
+          "down"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "Turn ___ the TV. I want to sleep.",
+        "opciones": [
+          "off",
+          "on",
+          "up",
+          "in"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "I'm looking ___ my keys.",
+        "opciones": [
+          "for",
+          "at",
+          "to",
+          "on"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "«Come back» significa:",
+        "opciones": [
+          "Regresar",
+          "Salir",
+          "Pasar",
+          "Sentarse"
+        ]
+      },
+      {
+        "tipo": "opcion",
+        "pregunta": "«Write down» significa:",
+        "opciones": [
+          "Anotar",
+          "Leer",
+          "Borrar",
+          "Sentarse"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "Come in and sit down, please.",
+        "pregunta": "¿Qué le dicen?",
+        "opciones": [
+          "Que pase y se siente",
+          "Que se vaya",
+          "Que se levante",
+          "Que espere afuera"
+        ]
+      },
+      {
+        "tipo": "listening",
+        "audio": "We eat out every Friday.",
+        "pregunta": "¿Qué hacen los viernes?",
+        "opciones": [
+          "Comen fuera",
+          "Cocinan en casa",
+          "Limpian",
+          "Salen a correr"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Traduce: siéntate",
+        "respuestas": [
+          "sit down",
+          "Sit down, please",
+          "Please sit down"
+        ]
+      },
+      {
+        "tipo": "escribir",
+        "pregunta": "Traduce: apúrate",
+        "respuestas": [
+          "hurry up"
+        ]
+      }
+    ]
   }
 ];
