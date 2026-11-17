@@ -82,7 +82,7 @@ function speak(text, slow = false) {
   if ("speechSynthesis" in window) speechSynthesis.cancel();
   const key = audioKey(text);
   if (RECORDED[key]) {
-    currentAudio = new Audio(`audio/${RECORDED[key]}/${key}.m4a`);
+    currentAudio = new Audio(mediaUrl(`audio/${RECORDED[key]}/${key}.m4a`));
     currentAudio.playbackRate = slow ? 0.7 : 1;
     // Si falla (mala señal, o el celular no deja sonar audio mientras corre un clip), se pausan los
     // clips y se reintenta la grabación antes de recurrir a la voz del celular.
@@ -445,7 +445,7 @@ function viewExplicacion(tema) {
     <tbody>${x.tabla.filas.map((f) => `<tr>${f.map((c) => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody>
   </table></div>`;
   const video = x.video
-    ? `<video class="video-tema" src="${esc(x.video)}" poster="${esc(x.video.replace(/\.mp4$/, ".jpg"))}" controls playsinline preload="none"></video>`
+    ? `<video class="video-tema" src="${esc(mediaUrl(x.video))}" poster="${esc(mediaUrl(poster(x.video)))}" controls playsinline preload="none"></video>`
     : "";
   return `
     ${video}
@@ -466,12 +466,12 @@ const esClip = (src) => /\.mp4$/i.test(src);
 const poster = (src) => src.replace(/\.mp4$/i, ".jpg");
 const media = (src, attrs = "") =>
   esClip(src)
-    ? `<video src="${esc(src)}" poster="${esc(poster(src))}" autoplay muted loop playsinline preload="metadata" ${attrs}></video>`
-    : `<img src="${esc(src)}" alt="" loading="lazy" ${attrs}>`;
+    ? `<video src="${esc(mediaUrl(src))}" poster="${esc(mediaUrl(poster(src)))}" autoplay muted loop playsinline preload="metadata" ${attrs}></video>`
+    : `<img src="${esc(mediaUrl(src))}" alt="" loading="lazy" ${attrs}>`;
 const miniatura = (src, attrs = "") =>
   esClip(src)
-    ? `<span class="thumb-clip" ${attrs}><img class="thumb" src="${esc(poster(src))}" alt="" loading="lazy"><span class="play">▶</span></span>`
-    : `<img class="thumb" src="${esc(src)}" alt="" loading="lazy" ${attrs}>`;
+    ? `<span class="thumb-clip" ${attrs}><img class="thumb" src="${esc(mediaUrl(poster(src)))}" alt="" loading="lazy"><span class="play">▶</span></span>`
+    : `<img class="thumb" src="${esc(mediaUrl(src))}" alt="" loading="lazy" ${attrs}>`;
 
 // Listas de vocabulario del tema; cada una es un recuadro del menú y se abre en su propia pantalla.
 function vocabListas(tema) {
@@ -490,7 +490,7 @@ const recuadros = (tema, items, ruta) => {
     .map((l) => {
       const foto = PORTADAS[`${tema.id}/${l.id === "principal" ? "vocabulario" : l.id}`];
       return `<a class="tile${foto ? " con-foto" : ""}" href="#/tema/${tema.id}/${ruta}/${l.id}">
-      ${foto ? `<img class="tile-foto" src="${esc(foto)}" alt="" loading="lazy">` : `<span class="tile-icon">${l.icono}</span>`}
+      ${foto ? `<img class="tile-foto" src="${esc(mediaUrl(foto))}" alt="" loading="lazy">` : `<span class="tile-icon">${l.icono}</span>`}
       <strong>${esc(l.titulo)}</strong>
       <span class="tile-note">${l.lista.length}</span>
     </a>`;
@@ -580,7 +580,7 @@ function viewListening(tema) {
   const desde = tema.listening.length;
   const p = usePractica(`${tema.id}/listening`);
   const listo = vl.preguntas.every((_, j) => p.resp[desde + j] != null);
-  const subs = listo && vl.subtitulos ? `<track kind="subtitles" srclang="en" label="English" src="${esc(vl.subtitulos)}" default>` : "";
+  const subs = listo && vl.subtitulos ? `<track kind="subtitles" srclang="en" label="English" src="${esc(mediaUrl(vl.subtitulos))}" default>` : "";
   const video = `<div class="card">
       <h2 style="margin:0 0 6px">🎬 Video: ${esc(vl.titulo)}</h2>
       <p class="muted" style="margin:0 0 10px">${
@@ -588,7 +588,7 @@ function viewListening(tema) {
           ? "Ya contestaste. Vuelve a verlo, ahora con subtítulos en inglés, para comprobar lo que entendiste."
           : `Mira el video (puedes verlo las veces que quieras) y contesta las ${vl.preguntas.length} preguntas. Al terminar podrás verlo con subtítulos.`
       }</p>
-      <video class="video-tema" src="${esc(vl.video)}" poster="${esc(vl.video.replace(/\.mp4$/, ".jpg"))}" controls playsinline preload="metadata">${subs}</video>
+      <video class="video-tema" src="${esc(mediaUrl(vl.video))}" poster="${esc(mediaUrl(poster(vl.video)))}" crossorigin="anonymous" controls playsinline preload="metadata">${subs}</video>
     </div>`;
   return intro + viewOpciones(tema, "listening", [...tema.listening, ...vl.preguntas], { [desde]: video });
 }

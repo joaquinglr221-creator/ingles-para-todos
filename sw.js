@@ -4,16 +4,19 @@
 // - Imágenes, audios y videos se guardan la primera vez que se usan y desde ahí salen del celular.
 // - Cada versión nueva borra lo guardado de la anterior; js/app.js recarga la página cuando llega.
 // Cambiar VERSION en cada publicación para renovar lo guardado.
-const VERSION = "20261116-1805-1ff74620";
+importScripts("js/medios.js"); // MEDIA_URL: dónde están audios, imágenes y videos (Cloudflare R2)
+const VERSION = "20261116-2007-e3b3e9aa";
 const SHELL_CACHE = `app-${VERSION}`;
 const MEDIA_CACHE = `media-${VERSION}`;
 // En la computadora (versión "dev", sin publicar) no se guarda nada: siempre se ven los archivos del momento.
 const DEV = VERSION === "dev";
+const MEDIA_ORIGIN = MEDIA_URL ? new URL(MEDIA_URL).origin : self.location.origin;
 const SHELL = [
   "./",
   "index.html",
   "manifest.webmanifest",
   "css/styles.css",
+  "js/medios.js",
   "js/ubicacion.js",
   "js/temas-a1.js",
   "js/temas-a2.js",
@@ -51,7 +54,7 @@ self.addEventListener("activate", (e) => {
 self.addEventListener("fetch", (e) => {
   const req = e.request;
   const url = new URL(req.url);
-  if (req.method !== "GET" || url.origin !== location.origin) return;
+  if (req.method !== "GET" || (url.origin !== location.origin && url.origin !== MEDIA_ORIGIN)) return;
   if (DEV) return e.respondWith(fetch(req, { cache: "no-store" }));
   if (/\/(audio|images|videos)\//.test(url.pathname)) e.respondWith(media(req));
   else e.respondWith(shell(req));
@@ -77,7 +80,8 @@ async function media(req) {
       res = await fetch(key, { cache: "no-cache" }); // una imagen reemplazada con el mismo nombre llega nueva
       if (res.ok) await cache.put(key, res.clone());
     } catch {
-      return Response.error();
+      // Sin señal, o R2 sin permiso CORS: se pide tal cual, sin guardarlo.
+      return fetch(req).catch(() => Response.error());
     }
   }
   return req.headers.has("range") ? partial(req, res) : res;
