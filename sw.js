@@ -5,7 +5,7 @@
 // - Cada versión nueva borra lo guardado de la anterior; js/app.js recarga la página cuando llega.
 // Cambiar VERSION en cada publicación para renovar lo guardado.
 importScripts("js/medios.js"); // MEDIA_URL: dónde están audios, imágenes y videos (Cloudflare R2)
-const VERSION = "20261123-0956-49cddffd";
+const VERSION = "20261123-1010-d8a1890e";
 const SHELL_CACHE = `app-${VERSION}`;
 const MEDIA_CACHE = `media-${VERSION}`;
 // En la computadora (versión "dev", sin publicar) no se guarda nada: siempre se ven los archivos del momento.
