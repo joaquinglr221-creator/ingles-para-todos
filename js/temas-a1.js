@@ -1119,7 +1119,59 @@ const TEMAS_A1 = [
           "Are you from Mexico"
         ]
       }
-    ]
+    ],
+    "videoListening": {
+      "titulo": "Are you from Italy?",
+      "video": "videos/listening/a1-02.mp4",
+      "subtitulos": "videos/listening/a1-02.vtt",
+      "preguntas": [
+        {
+          "pregunta": "¿De dónde es Marco?",
+          "opciones": [
+            "De Argentina",
+            "De Italia",
+            "De Colombia",
+            "De Estados Unidos"
+          ]
+        },
+        {
+          "pregunta": "¿Cuántos años tiene Marco?",
+          "opciones": [
+            "34",
+            "24",
+            "43",
+            "30"
+          ]
+        },
+        {
+          "pregunta": "¿Marco está casado?",
+          "opciones": [
+            "No, es soltero",
+            "Sí, con Lina",
+            "Sí, con Grace",
+            "No lo dice"
+          ]
+        },
+        {
+          "pregunta": "¿Quién es Lina?",
+          "opciones": [
+            "Su amiga",
+            "Su esposa",
+            "Su hermana",
+            "La recepcionista"
+          ]
+        },
+        {
+          "pregunta": "¿Qué clase toman?",
+          "opciones": [
+            "Natación",
+            "Yoga",
+            "Fútbol",
+            "Baile"
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "a1-03",
